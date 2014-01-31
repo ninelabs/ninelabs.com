@@ -1,0 +1,89 @@
+// styles.scss
+
+@import '../bower_components/bootstrap-sass/vendor/assets/stylesheets/bootstrap.scss';
+
+@font-face {
+  font-family: 'alpin';
+  src: url("/fonts/CgAlpinGothicNo3.eot");
+  src: url("/fonts/CgAlpinGothicNo3.eot?#iefix") format("embedded-opentype"),
+  url("/fonts/CgAlpinGothicNo3.woff") format("woff"),
+  url("/fonts/CgAlpinGothicNo3.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+$footerheight: 60px;
+
+html,body {
+  height: 100%;
+}
+
+body {
+  background: #000 url('/img/wood.jpg') 0 0 repeat fixed;
+}
+
+#wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto (-$footerheight);
+  padding: 0 0 $footerheight;
+}
+
+#wrap > .container {
+  padding: $footerheight 15px 0;
+}
+
+.navbar a {
+  font-family: 'alpin','helvetica neue',helvetica,sans-serif;
+  font-size: 24px;
+}
+
+.page-header h1 span {
+  color:$brand-primary;
+}
+
+#masthead {
+  background-image: url(/img/desk.jpg);
+  background-position: center bottom;
+  backgroud-repeat: no-repeat;
+  background-size: 100%;
+  color: #000;
+  padding: 100px;
+  p {
+    font-size:2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(255,255,255,.4);
+  }
+}
+
+#team .row {
+  &>div {
+    min-height: 210px;
+  }
+  img {
+    float: left;
+    margin-right: 20px;
+  }
+  .caption{
+    h3 {
+      margin: 0;
+    }
+    p {
+      font-size: .9em;
+    }
+    a {
+      font-size: .85em;
+    }
+  }
+}
+
+footer {
+  background-color: #111;
+  color:#666;
+  font-size:13px;
+  height: $footerheight;
+  &> .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

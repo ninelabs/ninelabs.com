@@ -1,0 +1,5 @@
+name: Nine Labs
+markdown: redcarpet
+pygments: true
+
+permalink: /blog/:title.html
