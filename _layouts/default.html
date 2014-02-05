@@ -14,65 +14,126 @@
   <link rel='canonical' href='http://ninelabs.com/'>
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="stylesheet" href="/css/styles.css?v=2">
-  <!-- <script type="text/javascript" src="http://use.typekit.com/gdv6slf.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script> -->
+  <script type="text/javascript" src="http://use.typekit.com/gdv6slf.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar">
+
   <div id="wrap">
 
-   <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="/">NINE LABS</a>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <a href="#awesome"><img id="brand" src="/img/solo-brand-mark.png" width="47"></a>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#awesome">NINE LABS</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#services">What We Do</a></li>
+            <li><a href="#process">How We Do It</a></li>
+            <li><a href="#team">The Team</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li{% if page.url == '/process/index.html' %} class="active"{% endif %}><a href="/process/">Process</a></li>
-          <li{% if page.url == '/services/index.html' %} class="active"{% endif %}><a href="/services/">Services</a></li>
-          <li{% if page.url == '/team/index.html' %} class="active"{% endif %}><a href="/team/">Team</a></li>
-          <li{% if page.url == '/blog/index.html' %} class="active"{% endif %}><a href="/blog/">Blog</a></li>
-        </ul>
+    </nav>
+    <div id="awesome"></div>
+
+
+    <!-- page content -->
+
+    {{ content }}
+
+    <!-- / page content -->
+
+    <section id="contact" class="has-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Let&rsquo;s set a date.</h2>
+            <p class="lead">We love a good challenge. We love great ideas even more. Drop us a line if you have either one. We&rsquo;d love to talk about it.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+            <form action="https://ninelabs.wufoo.com/forms/q7x3a1/#public" id="form3" name="form3" class="form-horizontal" autocomplete="off" enctype="multipart/form-data" method="post" novalidate>
+              <div class="form-group">
+                <label class="col-sm-3" id="title1" for="Field1">Your Name:</label>
+                <div class="col-sm-6">
+                  <input id="Field1" name="Field1" type="text" class="form-control" value="" maxlength="255" tabindex="1" onkeyup="" required placeholder="Your Name">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-3" id="title2" for="Field2">Email Address:</label>
+                <div class="col-sm-6">
+                  <input id="Field2" name="Field2" type="email" spellcheck="false" class="form-control" value="" maxlength="255" tabindex="2" placeholder="Email Address">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-3" id="title6" for="Field6">Phone Number:</label>
+                <div class="col-sm-6">
+                  <input id="Field6" name="Field6" type="tel" class="form-control" value="" maxlength="255" tabindex="2" placeholder="Phone Number">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-3" id="title4" for="Field4">Subject:</label>
+                <div class="col-sm-6">
+                  <input id="Field4" name="Field4" type="text" class="form-control" value="" maxlength="255" tabindex="3" onkeyup="" required placeholder="Subject">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-3" id="title3" for="Field3">Message:</label>
+                <div class="col-sm-6">
+                  <textarea id="Field3" name="Field3"  class="form-control" spellcheck="true" rows="5" cols="50" tabindex="4" required placeholder="What's on your mind?"></textarea>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-6">
+                 <input id="saveForm" name="saveForm" class="btn btn-primary" type="submit" value="Send Message">
+               </div>
+             </div>
+           </form>
+         </div>
+         <div class="col-md-4">
+          <img src="/img/map.png" class="img-thumbnail">
+          <p><b>Nine Labs</b>
+            <span class="address">
+              <span class="street-address">1736 Defoor Place</span><br>
+              <span class="locality">Atlanta</span>, <abbr title="Georgia" class="region">GA</abbr> <span class="postal-code">30318</span><br>
+            </span>
+          </p>
+          <p><a href="tel:+16785616463">+1.678.561.NINE</a> / <a href="http://twitter.com/ninelabs">Twitter</a> / <a href="http://www.facebook.com/nine-labs-llc">Facebook</a> </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+</div> <!-- /wrap -->
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <p class="text-muted">&copy 2014 Nine Labs. All Rights Reserved.</p>
       </div>
     </div>
   </div>
-
-  <!-- page content -->
-
-  {{ content }}
-
-  <!-- / page content -->
-
-  <div class="container">
-    <hr>
-    <section id="contact">
-      <h2>Let&rsquo;s set a date.</h2>
-      <form role="form">
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-        </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-    </section>
-  </div>
-</div>
-<footer>
-  <div class="container">
-    <p class="text-muted">&copy 2014 Nine Labs. All Rights Reserved.</p>
-  </div>
 </footer>
 
-<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src="/bower_components/bootstrap-sass/vendor/assets/javascripts/bootstrap.js"></script>
-</body>
-</html>
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+  <!-- Image Credits:
+        Conversation: Alejandro Escamilla (http://alejandroescamilla.com/)
+        Bricks: Martin Wessely (http://wesse.ly/)
+        Desktop: Vadim Sherbakov (http://madebyvadim.com/)
+      -->
+
+    </body>
+    </html>
