@@ -1,0 +1,204 @@
+// styles.scss
+
+@import '../bower_components/bootstrap-sass/vendor/assets/stylesheets/bootstrap.scss','responsive';
+
+
+// local variables
+$footerheight: 60px;
+
+html,body {
+  height: 100%;
+}
+
+body {
+  background: #111;
+}
+
+#wrap {
+  color:#fff;
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto (-$footerheight);
+  padding: 0 0 $footerheight;
+  text-shadow: 1px 1px 1px #000;
+  &> .container {
+   padding: $footerheight 15px 0;
+ }
+}
+
+///////////////////////////////////////////////////////////////////////
+// NAV
+.navbar {
+  background-image: url(/img/bg-grain-dark.jpg);
+  border-bottom: 3px solid $brand-primary;
+  border-top: 3px solid #000;
+  &>.container .navbar-brand {
+    font-family: 'alpin','helvetica neue',helvetica,sans-serif;
+    font-size: 2em;
+    margin-left: 40px;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    img {
+      vertical-align: baseline;
+    }
+    @include breakpoint(phone){
+      margin-left: 60px;
+    }
+  }
+  #brand {
+    position:absolute;
+    top:5px;
+    z-index: 9000;
+  }
+}
+
+
+///////////////////////////////////////////////////////////////////////
+// GLOBAL SECTION STYLES
+section {
+  padding: 5em 0;
+  &.quote {
+    background-color: #aaa;
+    background-image: url(/img/bg-grain-dark.jpg);
+    background-repeat: repeat;
+    border-color: #000;
+    border-style: solid;
+    border-width: 2px 0;
+    padding:3em 0;
+    @include breakpoint(phone) {
+      .row div:first-child .media {
+        margin-bottom: 2em;
+      }
+    }
+  }
+  &.has-bg {
+    h2 {
+      font-family: 'alpin','helvetica neue',helvetica,sans-serif;
+      font-size: 3em;
+      text-transform: uppercase;
+    }
+  }
+}
+
+///////////////////////////////////////////////////////////////////////
+// HOME
+#home {
+  background-image: url(/img/bg-conversation-blue.jpg);
+  background-position: 100% 50%;
+  padding: 6em 0;
+  background-size: 100%;
+  @include breakpoint(desktop) {
+    background-position: center 70%;
+
+    margin-top: 55px;
+  }
+
+  h1 {
+    font-family: 'alpin','helvetica neue',helvetica,sans-serif;
+    font-size: 3.25em;
+    margin:0;
+    text-transform: uppercase;
+    span {
+      color: $brand-primary;
+    }
+    @include breakpoint(phone) {
+      font-size: 2em;
+      line-height: 1.15em;
+      margin-bottom:1.5em;
+    }
+  }
+  p {
+    font-size:1.75em;
+    @include breakpoint(phone){
+      font-size:1.25em;
+    }
+  }
+}
+.cta {
+  border-top: 1px solid $brand-primary;
+  margin-top: 2em;
+  padding-top:2em;
+  p {
+    font-size: 1.5em;
+  }
+}
+
+///////////////////////////////////////////////////////////////////////
+// SERVICES
+#services {
+  background-image: url(/img/bg-bricks-blue.jpg);
+  padding-bottom: 3em;
+  h3 .glyphicon {
+    color: $brand-primary;
+    font-size: .7em;
+  }
+}
+
+///////////////////////////////////////////////////////////////////////
+// PROCESS
+#process {
+  background-image: url(/img/bg-process-blue.jpg);
+  .process_outline {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    @include breakpoint(tablet) {
+      text-align: center;
+    }
+    span {
+      color: $brand-primary;
+      font-weight: normal;
+    }
+  }
+}
+
+///////////////////////////////////////////////////////////////////////
+// TEAM
+#team {
+  background-image: url(/img/bg-team-blue.jpg);
+  .row {
+    &>div {
+      min-height: 210px;
+    }
+    img {
+      float: left;
+      margin-right: 20px;
+    }
+    .caption{
+      h3 {
+        margin: 0;
+      }
+      p {
+        font-size: .9em;
+      }
+      a {
+        font-size: .85em;
+      }
+    }
+  }
+}
+
+///////////////////////////////////////////////////////////////////////
+// CONTACT
+#contact {
+  background-image: url(/img/bg-contact-blue.jpg);
+  background-position: center bottom;
+  .address {
+    display: block;
+  }
+  label {
+    display: none;
+  }
+}
+
+///////////////////////////////////////////////////////////////////////
+// FOOTER
+footer {
+  background-color: #111;
+  border-top: 1px solid $brand-primary;
+  color:#666;
+  font-size:13px;
+  height: $footerheight;
+  margin:0;
+  padding:2em 0 3em;
+}
