@@ -5,6 +5,8 @@
 
 // local variables
 $footerheight: 60px;
+$container-border: 1px solid transparentize($brand-primary, .5);
+
 
 html,body {
   height: 100%;
@@ -30,7 +32,7 @@ body {
 // NAV
 .navbar {
   background-image: url(/img/bg-grain-dark.jpg);
-  border-bottom: 1px solid rgba(81, 180, 246, .5);
+  border-bottom: $container-border;
   border-top: 3px solid #000;
   &>.container .navbar-brand {
     font-family: 'alpin','helvetica neue',helvetica,sans-serif;
@@ -141,15 +143,20 @@ section {
   background-image: url(/img/bg-process-blue.jpg);
   background-size: 100%;
   .process_outline {
-    font-size: 2.5em;
-    font-weight: bold;
-    margin-bottom: 1em;
-    @include breakpoint(tablet) {
+    margin: 1em 0;
+    div {
       text-align: center;
-    }
-    span {
-      color: $brand-primary;
-      font-weight: normal;
+      .glyphicon {
+        color: $brand-primary;
+        font-size: 6em;
+      }
+      h3 {
+        font-size: 2.5em;
+        font-weight: bold;
+      }
+      p {
+
+      }
     }
   }
 }
@@ -158,6 +165,9 @@ section {
 // TEAM
 #team {
   background-image: url(/img/bg-team-blue.jpg);
+  .the-huddle {
+    margin-top:3em;
+  }
   .row {
     &>div {
       min-height: 210px;
@@ -196,11 +206,11 @@ section {
 ///////////////////////////////////////////////////////////////////////
 // FOOTER
 footer {
-  background-color: #111;
-  border-top: 1px solid $brand-primary;
-  color:#666;
-  font-size:13px;
+  background-image: url(/img/bg-grain-dark.jpg);
+  border-top: $container-border;
+  color: #666;
+  font-size: 13px;
   height: $footerheight;
-  margin:0;
-  padding:2em 0 3em;
+  margin: 0;
+  padding: 2em 0 3em;
 }
