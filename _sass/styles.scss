@@ -30,12 +30,12 @@ body {
 // NAV
 .navbar {
   background-image: url(/img/bg-grain-dark.jpg);
-  border-bottom: 3px solid $brand-primary;
+  border-bottom: 1px solid rgba(81, 180, 246, .5);
   border-top: 3px solid #000;
   &>.container .navbar-brand {
     font-family: 'alpin','helvetica neue',helvetica,sans-serif;
     font-size: 2em;
-    margin-left: 40px;
+    margin-left: 45px;
     padding-bottom: 0;
     text-transform: uppercase;
     img {
@@ -48,6 +48,7 @@ body {
   #brand {
     position:absolute;
     top:5px;
+    width:47px;
     z-index: 9000;
   }
 }
