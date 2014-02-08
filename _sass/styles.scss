@@ -102,7 +102,7 @@ section {
     margin:0;
     text-transform: uppercase;
     span {
-      color: $brand-primary;
+      color: $brand-secondary;
     }
     @include breakpoint(phone) {
       font-size: 2em;
@@ -132,7 +132,7 @@ section {
   background-image: url(/img/bg-bricks-blue.jpg);
   padding-bottom: 3em;
   h3 .glyphicon {
-    color: $brand-primary;
+    color: $brand-secondary;
     font-size: .7em;
   }
 }
