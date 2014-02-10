@@ -86,7 +86,7 @@ section {
 ///////////////////////////////////////////////////////////////////////
 // HOME
 #home {
-  background-image: url(/img/bg-conversation-blue.jpg);
+  background-image: url(/img/bg-conversation.jpg);
   background-position: 100% 50%;
   padding: 6em 0;
   background-size: 100%;
@@ -129,7 +129,7 @@ section {
 ///////////////////////////////////////////////////////////////////////
 // SERVICES
 #services {
-  background-image: url(/img/bg-bricks-blue.jpg);
+  background-image: url(/img/bg-bricks.jpg);
   padding-bottom: 3em;
   h3 .glyphicon {
     color: $brand-secondary;
@@ -140,7 +140,7 @@ section {
 ///////////////////////////////////////////////////////////////////////
 // PROCESS
 #process {
-  background-image: url(/img/bg-process-blue.jpg);
+  background-image: url(/img/bg-process.jpg);
   background-size: 100%;
   .process_outline {
     margin: 1em 0;
@@ -164,27 +164,59 @@ section {
 ///////////////////////////////////////////////////////////////////////
 // TEAM
 #team {
-  background-image: url(/img/bg-team-blue.jpg);
+  background-image: url(/img/bg-team.jpg);
+  background-size: 100%;
   .the-huddle {
-    margin-top:3em;
-  }
-  .row {
-    &>div {
-      min-height: 210px;
-    }
-    img {
-      float: left;
-      margin-right: 20px;
-    }
-    .caption{
-      h3 {
-        margin: 0;
+    @include make-row();
+    margin-top: 3em;
+    .member {
+      @include make-md-column(6);
+      @include breakpoint(phone) {
+        margin-bottom: 1.5em;
       }
-      p {
-        font-size: .9em;
+      min-height: 220px;
+      .meta {
+        @include make-md-column(3);
+        @include make-md-column-offset(1);
+        @include breakpoint(large) {
+          text-align: center;
+        }
+        img {
+          width: 50%;
+          @include breakpoint(large) {
+            width: 100%;
+          }
+        }
+        a {
+          color: rgba(255,255,255,.3);
+          font-size: 1.25em;
+          text-decoration: none;
+          text-indent: -999em;
+          text-shadow:none;
+          &:hover {
+            color: rgba(255,255,255,.7);
+            text-decoration: none;
+          }
+        }
       }
-      a {
-        font-size: .85em;
+      .caption{
+        @include make-md-column(8);
+        h3 {
+          margin: 0;
+        }
+        p {
+          color: rgba(255,255,255,.8);
+          font-size: .9em;
+          margin: 0;
+        }
+        .label {
+          background-color: darken($brand-primary, 50%);
+          color: #aaa;
+          display: inline-block;
+          font-size: .7em;
+          font-weight: normal;
+          text-shadow: none;
+        }
       }
     }
   }
@@ -193,7 +225,7 @@ section {
 ///////////////////////////////////////////////////////////////////////
 // CONTACT
 #contact {
-  background-image: url(/img/bg-contact-blue.jpg);
+  background-image: url(/img/bg-contact.jpg);
   background-position: center bottom;
   .address {
     display: block;

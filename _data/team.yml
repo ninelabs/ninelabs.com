@@ -1,0 +1,166 @@
+- name: J Cornelius
+  name-tokenized: j-cornelius
+  role: Founder &amp; President
+  skills:
+    - User Experience
+    - Information Architecture
+    - Digital Strategy
+    - Web Analytics
+    - Business Strategy
+    - Process Improvement
+    - Solution Architecture
+    - Digital Marketing
+    - Usability
+    - Interaction Design
+  twitter: jc
+  linkedin: http://linkedin.com/in/jcornelius
+
+- name: Moses Ngone
+  name-tokenized: moses-ngone
+  role: Development Engineering
+  skills:
+    - PHP
+    - Ruby
+    - JavaScript
+    - Bower
+    - MongoDB
+    - jQuery
+    - Mobile Applications
+    - CSS
+    - MVC
+    - Web Applications
+    - PhoneGap
+  twitter: mospired
+  linkedin: http://linkedin.com/in/mosesngone
+
+- name: Jessica Cherok
+  name-tokenized: jessica-cherok
+  role: Project Management
+  skills:
+    - Project Planning
+    - Nonprofits
+    - Public Speaking
+    - Social Media
+    - Data Analysis
+    - Social Networking
+    - Privacy Law
+    - Strategic Communications
+    - Public Relations
+    - Instructional Design
+    - Data Privacy
+    - Compliance
+  twitter: wonderpondering
+  linkedin: http://www.linkedin.com/in/jcherok/
+
+- name: Courtney Robb
+  name-tokenized: courtney-robb
+  role: Creative Writing &amp; Client Services
+  skills:
+    - Social Media
+    - Marketing Strategy
+    - Market Research
+    - Public Relations
+    - Merchandising
+    - Copywriting
+    - Event Management
+  twitter: Courtney_Robb_
+  linkedin: http://linkedin.com/pub/courtney-robb/58/6b6/3b7
+
+- name: Evan Volgas
+  name-tokenized: evan-volgas
+  role: Data Analysis &amp; Visualization
+  twitter: evanvolgas
+  linkedin: http://www.linkedin.com/in/evanvolgas
+  skills:
+    - Data Analytics
+    - JavaScript
+    - Angular
+    - jQuery
+    - D3.js
+    - Visualization
+    - Statistics
+    - SAS
+    - Data Mining
+    - MySQL
+    - Mathematical Modeling
+    - d3.js
+    - Data Visualization
+    - Business Analytics
+    - T-SQL
+    - PHP
+    - Ubuntu
+    - Linux
+
+
+- name: Justin Cook
+  name-tokenized: justin-cook
+  role: Front-End Development
+  twitter:
+  linkedin:
+  skills:
+    - User Experience
+    - Graphic Design
+    - User Interface Design
+    - Usability
+    - HTML 5
+    - SEO
+    - Information Architecture
+    - CSS3
+    - WordPress
+    - Web Development
+    - jQuery
+    - Wordpress
+    - SMO
+
+
+
+- name: Jason Ottinger
+  name-tokenized: jason-ottinger
+  role: Visual Design &amp; Branding
+  twitter: jottin
+  linkedin: http://www.linkedin.com/pub/jason-ottinger/7/357/413
+  skills:
+    - Branding
+    - Graphic Design
+    - Identity Design
+    - Typography
+    - Art Direction
+    - Corporate Branding
+    - User Interface Design
+
+- name: Jason Elgin
+  name-tokenized: jason-elgin
+  role: Front-End Development
+  twitter: jrelgin
+  linkedin: http://www.linkedin.com/in/jrelgin
+  skills:
+    - HTML 5
+    - CSS 3
+    - Web Development
+    - User Interface Design
+    - WordPress
+    - Typography
+    - Illustration
+    - User Experience Design
+    - Graphic Design
+    - PHP
+    - jQuery
+
+- name: Doc Waller
+  name-tokenized: doc-waller
+  role: Inspiration Architecture
+  twitter: docwaller
+  linkedin: http://www.linkedin.com/in/thedocwaller
+  skills:
+    - Creative Writing
+    - Entrepreneurship
+    - Media Relations
+    - Entertainment
+    - Film &amp; Theatre
+    - Public Speaking
+    - Social Media Marketing
+    - Film Production
+    - Screenwriting
+    - New Media
+    - Video
+    - Documentaries
