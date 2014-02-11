@@ -84,6 +84,12 @@ section {
   }
 }
 
+.quote .media-object {
+  @extend .img-circle;
+  @extend .pull-left;
+  width:90px;
+}
+
 ///////////////////////////////////////////////////////////////////////
 // HOME
 #home {
