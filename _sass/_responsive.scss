@@ -1,16 +1,37 @@
 // Responsive
 
 @mixin breakpoint($point) {
-  @if $point == large {
-    @media (min-width: 1200px) { @content; }
+  @if $point == lg {
+    @media (min-width: $screen-lg-min) { @content; }
   }
-  @else if $point == desktop {
-    @media (min-width: 768px) and (max-width: 979px) { @content; }
+  @else if $point == md {
+    @media (min-width: $screen-md-min) and (max-width: $screen-md-max) { @content; }
   }
-  @else if $point == tablet {
-    @media (max-width: 767px)  { @content; }
+  @else if $point == sm {
+    @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) { @content; }
   }
-  @else if $point == phone {
-    @media (max-width: 480px)  { @content; }
+  @else if $point == xs {
+    @media (max-width: $screen-xs-max) { @content; }
+  }
+  @else if $point == nano {
+    @media (max-width: 320px) { @content; }
+  }
+}
+
+#devwidth {
+  @include breakpoint(nano){
+    &:before { content: "nano: "; }
+  }
+  @include breakpoint(xs){
+    &:before { content: "xs: "; }
+  }
+  @include breakpoint(sm){
+    &:before { content: "sm: "; }
+  }
+  @include breakpoint(md){
+    &:before { content: "md: "; }
+  }
+  @include breakpoint(lg){
+    &:before { content: "lg: "; }
   }
 }
