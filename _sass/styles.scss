@@ -2,7 +2,7 @@
 
 @import '../bower_components/bootstrap-sass/vendor/assets/stylesheets/bootstrap.scss','responsive';
 
-
+// social icons from http://drinchev.github.io/monosocialiconsfont/
 // local variables
 $footerheight: 60px;
 $container-border: 1px solid transparentize($brand-primary, .5);
@@ -43,7 +43,7 @@ body {
     img {
       vertical-align: baseline;
     }
-    @include breakpoint(phone){
+    @include breakpoint(xs){
       margin-left: 60px;
     }
   }
@@ -68,13 +68,14 @@ section {
     border-style: solid;
     border-width: 2px 0;
     padding:3em 0;
-    @include breakpoint(phone) {
+    @include breakpoint(xs) {
       .row div:first-child .media {
         margin-bottom: 2em;
       }
     }
   }
   &.has-bg {
+    background-size: 100% 100%;
     h2 {
       font-family: 'alpin','helvetica neue',helvetica,sans-serif;
       font-size: 3em;
@@ -89,10 +90,8 @@ section {
   background-image: url(/img/bg-conversation.jpg);
   background-position: 100% 50%;
   padding: 6em 0;
-  background-size: 100%;
-  @include breakpoint(desktop) {
+  @include breakpoint(md) {
     background-position: center 70%;
-
     margin-top: 55px;
   }
 
@@ -104,7 +103,7 @@ section {
     span {
       color: $brand-secondary;
     }
-    @include breakpoint(phone) {
+    @include breakpoint(xs) {
       font-size: 2em;
       line-height: 1.15em;
       margin-bottom:1.5em;
@@ -112,7 +111,7 @@ section {
   }
   p {
     font-size:1.75em;
-    @include breakpoint(phone){
+    @include breakpoint(xs){
       font-size:1.25em;
     }
   }
@@ -141,7 +140,6 @@ section {
 // PROCESS
 #process {
   background-image: url(/img/bg-process.jpg);
-  background-size: 100%;
   .process_outline {
     margin: 1em 0;
     div {
@@ -165,27 +163,29 @@ section {
 // TEAM
 #team {
   background-image: url(/img/bg-team.jpg);
-  background-size: 100%;
+
   .the-huddle {
-    @include make-row();
     margin-top: 3em;
+    @include make-row();
+
     .member {
-      @include make-md-column(6);
-      @include breakpoint(phone) {
-        margin-bottom: 1.5em;
+      @include make-sm-column(6);
+      display: inline-block;
+      margin-bottom: 1.5em;
+      position: relative;
+      &:nth-child(odd){
+          clear:left;
       }
-      min-height: 220px;
       .meta {
-        @include make-md-column(3);
-        @include make-md-column-offset(1);
-        @include breakpoint(large) {
-          text-align: center;
-        }
+        display: inline-block;
+        position: relative;
+        float: left;
+        margin-right: 3%;
+        max-width: 120px;
+        min-height: 100%;
+        width: 22%;
         img {
-          width: 50%;
-          @include breakpoint(large) {
-            width: 100%;
-          }
+          @extend .img-responsive;
         }
         a {
           color: rgba(255,255,255,.3);
@@ -200,7 +200,9 @@ section {
         }
       }
       .caption{
-        @include make-md-column(8);
+        display: inline-block;
+        position: relative;
+        width: 75%;
         h3 {
           margin: 0;
         }

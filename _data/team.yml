@@ -2,11 +2,11 @@
   name-tokenized: j-cornelius
   role: Founder &amp; President
   skills:
+    - Digital Strategy
     - User Experience
     - Information Architecture
-    - Digital Strategy
-    - Web Analytics
     - Business Strategy
+    - Web Analytics
     - Process Improvement
     - Solution Architecture
     - Digital Marketing
@@ -26,8 +26,9 @@
     - MongoDB
     - jQuery
     - Mobile Applications
-    - CSS
-    - MVC
+    - HTML5
+    - CSS3
+    - MVC Frameworks
     - Web Applications
     - PhoneGap
   twitter: mospired
@@ -38,16 +39,14 @@
   role: Project Management
   skills:
     - Project Planning
-    - Nonprofits
-    - Public Speaking
     - Social Media
     - Data Analysis
-    - Social Networking
-    - Privacy Law
+    - Privacy Policy
     - Strategic Communications
     - Public Relations
     - Instructional Design
     - Data Privacy
+    - Nonprofits
     - Compliance
   twitter: wonderpondering
   linkedin: http://www.linkedin.com/in/jcherok/
@@ -59,6 +58,8 @@
     - Social Media
     - Marketing Strategy
     - Market Research
+    - Creative Writing
+    - Content Strategy
     - Public Relations
     - Merchandising
     - Copywriting
@@ -73,6 +74,9 @@
   linkedin: http://www.linkedin.com/in/evanvolgas
   skills:
     - Data Analytics
+    - Mathematical Modeling
+    - Data Visualization
+    - Business Analytics
     - JavaScript
     - Angular
     - jQuery
@@ -82,10 +86,6 @@
     - SAS
     - Data Mining
     - MySQL
-    - Mathematical Modeling
-    - d3.js
-    - Data Visualization
-    - Business Analytics
     - T-SQL
     - PHP
     - Ubuntu
@@ -102,12 +102,10 @@
     - Graphic Design
     - User Interface Design
     - Usability
-    - HTML 5
+    - HTML5
+    - CSS3
     - SEO
     - Information Architecture
-    - CSS3
-    - WordPress
-    - Web Development
     - jQuery
     - Wordpress
     - SMO
@@ -125,8 +123,10 @@
     - Identity Design
     - Typography
     - Art Direction
-    - Corporate Branding
     - User Interface Design
+    - Color Theory
+    - Illustration
+    - Photography
 
 - name: Jason Elgin
   name-tokenized: jason-elgin
@@ -134,15 +134,14 @@
   twitter: jrelgin
   linkedin: http://www.linkedin.com/in/jrelgin
   skills:
-    - HTML 5
-    - CSS 3
-    - Web Development
     - User Interface Design
-    - WordPress
-    - Typography
-    - Illustration
     - User Experience Design
+    - Typography
+    - Wordpress
+    - Illustration
     - Graphic Design
+    - HTML5
+    - CSS3
     - PHP
     - jQuery
 
