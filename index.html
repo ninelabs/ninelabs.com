@@ -51,7 +51,6 @@ title: Welcome
       </div>
     </div>
     <div class="row">
-
       {% for case in site.data.cases %}
       <div class="case">
         <div class="case-icon">
@@ -64,13 +63,12 @@ title: Welcome
         </div>
       </div>
       {% endfor %}
-
     </div>
-    <div class="row cta">
-      <div class="col-md-9">
+    <div class="cta">
+      <div class="tag">
         <p>We help you understand how to improve your products and services so people fall in love with your company.</p>
       </div>
-      <div class="col-md-3">
+      <div class="action">
         <a href="#process" class="go btn btn-info btn-lg pull-right">Learn How <span class="glyphicon glyphicon-chevron-right"></span></a>
       </div>
     </div>
@@ -111,7 +109,6 @@ title: Welcome
       </div>
     </div>
     <div class="process-outline">
-
       {% for stage in site.data.process %}
       <div class="stage">
         <div class="stage-icon">
@@ -123,13 +120,12 @@ title: Welcome
         </div>
       </div>
       {% endfor %}
-
     </div>
-    <div class="row cta">
-      <div class="col-md-9">
-        <p>Your goals are our top priority. We&rsquo;ll work with you to improve your company&rsquo;s brand and be better at what you do.</p>
+    <div class="cta">
+      <div class="tag">
+        <p>Your goals are our top priority. We&rsquo;ll help you improve your company&rsquo;s brand and be better at what you do.</p>
       </div>
-      <div class="col-md-3">
+      <div class="action">
         <a href="#contact" class="go btn btn-info btn-lg pull-right">Hire Us <span class="glyphicon glyphicon-chevron-right"></span></a>
       </div>
     </div>
@@ -280,18 +276,18 @@ title: Welcome
              <input type="hidden" id="idstamp" name="idstamp" value="zutICFfpTpEpCE1k66DQJwqPYMhhN9crZmntjid3jLA=">
            </form>
          </div>
-         <div class="contact-info">
+         <div class="contact-info" itemscope itemtype="http://schema.org/LocalBusiness">
           <img src="/img/map.png" alt="Map to 1736 Defoor Place, Atlanta, GA, 30318">
           <div class="vcard">
-            <div class="org">Nine Labs</div>
-            <div class="adr">
-              <div class="street-address">1736 Defoor Place</div>
-              <span class="locality">Atlanta</span>, <span class="region">GA</span> <span class="postal-code">30318</span>
+            <div class="org" itemprop="name">Nine Labs</div>
+            <div class="adr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+              <div class="street-address" itemprop="streetAddress">1736 Defoor Place</div>
+              <span class="locality" itemprop="addressLocality">Atlanta</span>, <span class="region" itemprop="addressRegion">GA</span> <span class="postal-code" itemprop="postalCode">30318</span>
             </div>
           </div>
           <div class="connect">
             <a class="tel" href="tel:+18776779225"><i class="fa fa-phone-square"></i> 877.677.9225</a>
-            <a class="tel" href="tel:+16785616463"><i class="fa fa-phone-square"></i> 678.561.6463</a>
+            <a class="tel" href="tel:+16785616463"><i class="fa fa-phone-square"></i> <span itemprop="telephone">678.561.6463</span></a>
             <a href="http://twitter.com/ninelabs"><i class="fa fa-twitter-square"></i> ninelabs</a>
           </div>
         </div>
