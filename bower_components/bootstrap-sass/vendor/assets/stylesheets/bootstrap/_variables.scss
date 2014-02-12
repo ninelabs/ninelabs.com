@@ -23,11 +23,11 @@ $gray-lighter:           lighten(#000, 93.5%) !default; // #eee
 // -------------------------
 
 $brand-primary:         rgb(81, 180, 246) !default;
-$brand-secondary:       #86b634 !default;
+$brand-secondary:       #9fe32c !default;
 $brand-success:         #5cb85c !default;
 $brand-warning:         #f0ad4e !default;
 $brand-danger:          #d9534f !default;
-$brand-info:            #86B634 !default;
+$brand-info:            darken($brand-secondary, 10%) !default;
 
 // Scaffolding
 // -------------------------

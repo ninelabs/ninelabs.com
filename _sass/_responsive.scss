@@ -18,20 +18,20 @@
   }
 }
 
-#devwidth {
+.navbar-brand {
   @include breakpoint(nano){
-    &:before { content: "nano: "; }
+    &:after { content: " - nano "; }
   }
   @include breakpoint(xs){
-    &:before { content: "xs: "; }
+    &:after { content: " - xs "; }
   }
   @include breakpoint(sm){
-    &:before { content: "sm: "; }
+    &:after { content: " - sm "; }
   }
   @include breakpoint(md){
-    &:before { content: "md: "; }
+    &:after { content: " - md "; }
   }
   @include breakpoint(lg){
-    &:before { content: "lg: "; }
+    &:after { content: " - lg "; }
   }
 }
