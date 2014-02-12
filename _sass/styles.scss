@@ -343,6 +343,13 @@ section {
   .contact-info {
     @include make-sm-column(4);
     @include make-sm-column-offset(1);
+    @include breakpoint(xs) {
+      font-size: .8em;
+      .vcard {
+        float: left;
+        width: 55%;
+      }
+    }
     img {
       @extend .img-thumbnail;
       margin-bottom: 1em;
