@@ -2,7 +2,6 @@
 
 @import '../bower_components/bootstrap-sass/vendor/assets/stylesheets/bootstrap.scss','responsive';
 
-// social icons from http://drinchev.github.io/monosocialiconsfont/
 // local variables
 $footerheight: 60px;
 $container-border: 1px solid transparentize($brand-primary, .5);
@@ -83,8 +82,13 @@ section {
     background-size: cover;
     h2 {
       font-family: 'alpin','helvetica neue',helvetica,sans-serif;
-      font-size: 3em;
       text-transform: uppercase;
+      @include breakpoint(md) {
+        font-size: 3em;
+      }
+      @include breakpoint(lg) {
+        font-size: 4em;
+      }
     }
   }
 }
