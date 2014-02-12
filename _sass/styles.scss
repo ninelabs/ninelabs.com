@@ -146,11 +146,18 @@ section {
   }
 }
 .cta {
+  @include make-row();
   border-top: 1px solid $brand-secondary;
   margin-top: 2em;
   padding-top:2em;
-  p {
+  .tag {
+    @include make-sm-column(8);
+    @include make-md-column(9);
     font-size: 1.5em;
+  }
+  .action {
+    @include make-sm-column(4);
+    @include make-md-column(3);
   }
 }
 
@@ -238,6 +245,18 @@ section {
           }
         }
       }
+      @include breakpoint(sm) {
+        text-align: center;
+        .stage-icon {
+          font-size: 3em;
+        }
+        .stage-detail {
+          h3 {
+            font-size: 2em;
+            margin: 0;
+          }
+        }
+      }
       @include breakpoint(md) {
         text-align: center;
         .stage-icon {
@@ -308,7 +327,7 @@ section {
           margin: 0;
         }
         .label {
-          background-color: darken($brand-primary, 50%);
+          background-color: darken($brand-primary, 60%);
           color: #aaa;
           display: inline-block;
           font-size: .7em;
@@ -344,7 +363,6 @@ section {
     @include make-sm-column(4);
     @include make-sm-column-offset(1);
     @include breakpoint(xs) {
-      font-size: .8em;
       .vcard {
         float: left;
         width: 55%;
@@ -356,6 +374,8 @@ section {
     }
     .vcard, .connect {
       @include make-sm-column(6);
+      font-size: .7em;
+      padding: 0;
     }
     .connect {
       text-align: right;
