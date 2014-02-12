@@ -2,16 +2,16 @@
 layout: default
 title: Welcome
 ---
-
+<div id="awesome"></div>
 <section id="home" class="has-bg">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <h1>Digital Strategy <span>+</span><br> User Experience <span>+</span><br> Design Creativity <span>=</span><br>Business Results</h1>
+        <h1>Digital Strategy <br><span>+</span> User Experience <br><span>+</span> Design Creativity <br><span>=</span> Business Results</h1>
       </div>
       <div class="col-md-6">
         <p>We explore how people interact with companies, their websites, and services. We find ways to improve them. Then we do it.</p>
-        <a href="#services" class="go btn btn-primary btn-lg">Find Out How <span class="glyphicon glyphicon-chevron-right"></span></a>
+        <a href="#services" class="go btn btn-info btn-lg">Find Out How <span class="glyphicon glyphicon-chevron-right"></span></a>
       </div>
     </div>
   </div>
@@ -25,7 +25,7 @@ title: Welcome
           <img class="media-object" src="/img/people/keith-robinson.jpg" alt="D. Keith Robinson">
           <div class="media-body">
             <p>&hellip;extremely easy to work with; being both very organized and professional, as well as personable and fun. J. is a passionate expert who really knows his stuff!</p>
-            <cite><strong>D. Keith Robinson</strong> / Lead Product Designer / <a href="http://www.salesforce.com">Salesforce</a></cite>
+            <cite><strong>D. Keith Robinson</strong> <span>Lead Product Designer / <a href="http://www.salesforce.com">Salesforce</a></span></cite>
           </div>
         </div>
       </div>
@@ -34,7 +34,7 @@ title: Welcome
           <img class="media-object" src="/img/people/aarron-walter.jpg" alt="Aarron Walter">
           <div class="media-body">
             <p>J. is an incredible organizer who can bring together diverse groups of people and somehow manages to get them all to communicate and share ideas.</p>
-            <cite><strong>Aarron Walter</strong> / Director of User Experience / <a href="http://www.mailchimp.com">MailChimp</a></cite>
+            <cite><strong>Aarron Walter</strong> <span>Director of User Experience / <a href="http://www.mailchimp.com">MailChimp</a></span></cite>
           </div>
         </div>
       </div>
@@ -47,37 +47,31 @@ title: Welcome
     <div class="row">
       <div class="col-md-12">
         <h2>We create delightful experiences</h2>
-        <p class="lead">Experiences that drive measurable results through understanding your business, your audience, and how to connect them in meaningful ways.</p>
+        <p class="lead">We understand your business, your audience, and how to connect them in meaningful ways. Then we design experiences that drive measurable results.</p>
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-3">
-        <h3><span class="glyphicon glyphicon-usd"></span> Finance</h3>
-        <p class="problem">A regional credit union serving 50,000 members and $800MM in managed assets was struggling with managing multiple vendor systems and maintaining their brand consistently across all the services they offered.</p>
-        <p class="solution">We identified the bottlenecks in their operations and helped build custom software to manage their vendor systems and unify the user experience across all services.</p>
+
+      {% for case in site.data.cases %}
+      <div class="case">
+        <div class="case-icon">
+          <i class="fa fa-{{case.icon}}"></i>
+        </div>
+        <div class="case-overview">
+          <h3>{{case.category}}</h3>
+          <p class="problem">{{ case.problem }}</p>
+          <p class="solution">{{ case.solution }}</p>
+        </div>
       </div>
-      <div class="col-sm-3">
-        <h3><span class="glyphicon glyphicon-heart-empty"></span> Healthcare</h3>
-        <p class="problem">A rapidly growing compounding pharmacy needed a way to manage their internal operational workflows and make reporting available to their outside sales team.</p>
-        <p class="solution">We helped them implement several web-based systems to track prescriptions through each phase of fullfillment and allow key staff to get real-time insight into the operation, increasing effeciency, revenue, and customer satisfaction.</p>
-      </div>
-      <div class="col-sm-3">
-        <h3><span class="glyphicon glyphicon-bullhorn"></span> Marketing</h3>
-        <p class="problem">A national direct marketing and lead generation company had grown by acquiring seven smaller companies, all of which had different brand identities, services, and products.</p>
-        <p class="solution">We helped them create a new corporate identity and understand how the services from each of their divisions could be bundled together to create compelling packages for their customers.</p>
-      </div>
-      <div class="col-sm-3">
-        <h3><span class="glyphicon glyphicon-tags"></span> Retail</h3>
-        <p class="problem">A global consumer products company wanted to create a new Retail Experience Center where customers could interact with their products in a hands-on environment.</p>
-        <p class="solution">We helped them understand how people would experience the store, and how to create immersive displays where customers could try the products with concierge level service.</p>
-      </div>
+      {% endfor %}
+
     </div>
     <div class="row cta">
       <div class="col-md-9">
         <p>We help you understand how to improve your products and services so people fall in love with your company.</p>
       </div>
       <div class="col-md-3">
-        <a href="#process" class="go btn btn-primary btn-lg pull-right">Learn How <span class="glyphicon glyphicon-chevron-right"></span></a>
+        <a href="#process" class="go btn btn-info btn-lg pull-right">Learn How <span class="glyphicon glyphicon-chevron-right"></span></a>
       </div>
     </div>
   </div>
@@ -91,7 +85,7 @@ title: Welcome
           <img class="media-object" src="/img/people/brad-smith.jpg" alt="Brad Smith">
           <div class="media-body">
             <p>J is a fast thinking, smart-as-a-whip guy who knows how to get things done and deliver&hellip;he&rsquo;s a leader in the design/interactive community and works with cool people from around the region and around the world. Start working with him already!</p>
-            <cite><strong>Brad Smith</strong> / Executive Director / <a href="http://webvisionsevent.com">WebVisions</a></cite>
+            <cite><strong>Brad Smith</strong> <span>Executive Director / <a href="http://webvisionsevent.com">WebVisions</a></span></cite>
           </div>
         </div>
       </div>
@@ -99,8 +93,8 @@ title: Welcome
         <div class="media">
           <img class="media-object" src="/img/people/john-agan.jpg" alt="John Agan">
           <div class="media-body">
-            <p>&hellip;very well rounded in technology, development, design and general business practice. He has the rare ability to communicate and present knowledge while keeping the audience engaged. They get the right people together to solve a problem or brainstorm on new ideas.</p>
-            <cite><strong>John Agan</strong> / Founder &amp; CEO / <a href="http://blackwirehq.com">Blackwire</a></cite>
+            <p>This team is very well rounded in technology, development, design and general business practice. They have the rare ability to communicate knowledge while keeping the audience engaged. They&rsquo;re the right people to solve your problem or brainstorm new ideas.</p>
+            <cite><strong>John Agan</strong> <span>Founder &amp; CEO / <a href="http://blackwirehq.com">Blackwire</a></span></cite>
           </div>
         </div>
       </div>
@@ -116,84 +110,72 @@ title: Welcome
         <p class="lead">We ask smart questions. We do the research. While every project is unique, we&rsquo;ve found our process applies to all of them. It&rsquo;s smart, simple, and effective.</p>
       </div>
     </div>
-    <div class="row process_outline">
-      <div class="col-md-3">
-        <span class="glyphicon glyphicon-search"></span>
-        <h3>Research</h3>
-        <p>We want to know the project like the backs of our hands.</p>
+    <div class="process-outline">
+
+      {% for stage in site.data.process %}
+      <div class="stage">
+        <div class="stage-icon">
+          <i class="fa fa-{{stage.icon}}"></i>
+        </div>
+        <div class="stage-detail">
+          <h3>{{ stage.title }}</h3>
+          <p>{{ stage.description }}</p>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+    <div class="row cta">
+      <div class="col-md-9">
+        <p>Your goals are our top priority. We&rsquo;ll work with you to improve your company&rsquo;s brand and be better at what you do.</p>
       </div>
       <div class="col-md-3">
-        <span class="glyphicon glyphicon-thumbs-up"></span>
-        <h3>Advise</h3>
-        <p>Our decades of experience bring unique insight to your situation.</p>
-      </div>
-      <div class="col-md-3">
-        <span class="glyphicon glyphicon-tasks"></span>
-        <h3>Build</h3>
-        <p>We know how to get things done on time and on budget.</p>
-      </div>
-      <div class="col-md-3">
-        <span class="glyphicon glyphicon-cloud-upload"></span>
-        <h3>Deliver</h3>
-        <p>Our team works with you to get everything running smoothly.</p>
+        <a href="#contact" class="go btn btn-info btn-lg pull-right">Hire Us <span class="glyphicon glyphicon-chevron-right"></span></a>
       </div>
     </div>
+  </div>
+</section>
+
+<section class="quote">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="media">
+          <img class="media-object" src="/img/people/julie-taylor.jpg" alt="Julie Taylor">
+          <div class="media-body">
+            <p>Everything they get involved with is successful due to diligence, knowledge and charisma. Anyone looking to create a better experience should contact them forthwith.</p>
+            <cite><strong>Julie Taylor</strong> <span>Design Engineer / <a href="http://www.fabric.com">Fabric.com</a></span></cite>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="media">
+          <img class="media-object" src="/img/people/nick-finck.jpg" alt="Nick Finck">
+          <div class="media-body">
+            <p>J has a great eye for the small details but never forgets the high-level strategy and vision. This shines through in every project J has overseen or produced.</p>
+            <cite><strong>Nick Finck</strong> <span>Senior Manager of UX / <a href="https://aws.amazon.com/">Amazon Web Services</a></span></cite>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="team" class="has-bg">
+  <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <p>
-        </div>
-      </div>
-      <div class="row cta">
-        <div class="col-md-9">
-          <p>Your goals are our top priority. We&rsquo;ll work with you to improve your company&rsquo;s brand and be better at what you do.</p>
-        </div>
-        <div class="col-md-3">
-          <a href="#contact" class="go btn btn-info btn-lg pull-right">Hire Us <span class="glyphicon glyphicon-chevron-right"></span></a>
-        </div>
+        <h2>A custom tailored team of experts</h2>
+        <p class="lead">The core team brings a wide variety of deep expertise. Strategy, brand identity, usability, content, design, and development expertise are all here.</p>
+        <p>We also work with dozens of top people from across the industry to bring the exact skills needed to each project.</p>
       </div>
     </div>
-  </section>
+    <div class="the-huddle">
 
-  <section class="quote">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="media">
-            <img class="media-object" src="/img/people/julie-taylor.jpg" alt="Julie Taylor">
-            <div class="media-body">
-              <p>Everything they get involved with is successful due to diligence, knowledge and charisma. Anyone looking to create a better experience should contact them forthwith.</p>
-              <cite><strong>Julie Taylor</strong> / Design Engineer / <a href="http://www.fabric.com">Fabric.com</a></cite>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="media">
-            <img class="media-object" src="/img/people/nick-finck.jpg" alt="Nick Finck">
-            <div class="media-body">
-              <p>J has a great eye for the small details but never forgets the high-level strategy and vision. This shines through in every project J has overseen or produced.</p>
-              <cite><strong>Nick Finck</strong> / User Experience Designer / <a href="http://nickfinck.com">NickFinck.com</a></cite>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="team" class="has-bg">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2>A custom tailored team of experts</h2>
-          <p class="lead">The core team brings a wide variety of deep expertise. Strategy, brand identity, usability, content, design, and development expertise are all here.</p>
-          <p>We also work with dozens of top people from across the industry to bring the exact skills needed to each project.</p>
-        </div>
-      </div>
-      <div class="the-huddle">
-
-        {% for member in site.data.team %}
-        <div class="member">
-          <div class="meta">
-            <img src="/img/people/{{member.name-tokenized}}.jpg" alt="{{member.name}}" class="img-circle">
+      {% for member in site.data.team %}
+      <div class="member">
+        <div class="meta">
+          <img src="/img/people/{{member.name-tokenized}}.jpg" alt="{{member.name}}" class="img-circle">
             <!--<div class="social">
               <a href="https://twitter.com/{{member.twitter}}"><span class='symbol'>&#xe286;</span></a>
               <a href="{{member.linkedin}}"><span class='symbol'>&#xe252;</span></a>
@@ -216,7 +198,7 @@ title: Welcome
           </div>
           <div class="caption">
             <h3>Maybe You?</h3>
-            <p>Think you have what it takes to make delightful stuff for the web? Do you have a passion for making things better? <a href="#contact" class="go">Let&rsquo;s talk</a>.</p>
+            <p>Do you have a passion for making delightful digital experiences? <a href="#contact" class="go">Let&rsquo;s talk</a>.</p>
           </div>
         </div>
       </div>
@@ -232,7 +214,7 @@ title: Welcome
             <img class="media-object" src="/img/people/carl-smith.jpg" alt="Carl Smith">
             <div class="media-body">
               <p>J is everything that&rsquo;s right with the web industry. Professional, knowledgable and smart as hell. On top of that he has the ability to make people want to be a part of whatever he's working on. Any client would be lucky to have J leading their team.</p>
-              <cite><strong>Carl Smith</strong> / Founder and Advisor / <a href="http://ngenworks.com">nGen Works</a></cite>
+              <cite><strong>Carl Smith</strong> <span>Founder &amp; Advisor / <a href="http://ngenworks.com">nGen Works</a></span></cite>
             </div>
           </div>
         </div>
@@ -241,7 +223,7 @@ title: Welcome
             <img class="media-object" src="/img/people/michael-hagel.jpg" alt="Michael Hagel">
             <div class="media-body">
               <p>The value they bring to a project is immeasurable. A very professional group, that is always focused on asking the right question, digging into the core of the clients problems, and coming up with excellent strategic solutions</p>
-              <cite><strong>Michael Hagel</strong> / President / <a href="http://maybeinc.com">Maybe.For.You</a></cite>
+              <cite><strong>Michael Hagel</strong> <span>President / <a href="http://maybeinc.com">Maybe.For.You</a></span></cite>
             </div>
           </div>
         </div>
@@ -254,59 +236,63 @@ title: Welcome
       <div class="row">
         <div class="col-md-12">
           <h2>Let&rsquo;s set a date.</h2>
-          <p class="lead">We love a great idea and a good challenge. Let&rsquo;s talk about yours.</p>
+          <p class="lead">We love great ideas and challenging projects. Let&rsquo;s talk about yours.</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-8">
+        <div class="contact-form">
           <form action="https://ninelabs.wufoo.com/forms/q7x3a1/#public" id="form3" name="form3" class="form-horizontal" autocomplete="off" enctype="multipart/form-data" method="post" novalidate>
             <div class="form-group">
-              <label class="col-sm-3" id="title1" for="Field1">Your Name:</label>
-              <div class="col-sm-6">
+              <label id="title1" for="Field1">Your Name:</label>
+              <div>
                 <input id="Field1" name="Field1" type="text" class="form-control" value="" maxlength="255" tabindex="1" onkeyup="" required placeholder="Your Name">
               </div>
             </div>
             <div class="form-group">
-              <label class="col-sm-3" id="title2" for="Field2">Email Address:</label>
-              <div class="col-sm-6">
+              <label id="title2" for="Field2">Email Address:</label>
+              <div>
                 <input id="Field2" name="Field2" type="email" spellcheck="false" class="form-control" value="" maxlength="255" tabindex="2" placeholder="Email Address">
               </div>
             </div>
             <div class="form-group">
-              <label class="col-sm-3" id="title6" for="Field6">Website:</label>
-              <div class="col-sm-6">
+              <label id="title6" for="Field6">Website:</label>
+              <div>
                 <input id="Field6" name="Field6" type="tel" class="form-control" value="" maxlength="255" tabindex="2" placeholder="Phone Number">
               </div>
             </div>
             <div class="form-group">
-              <label class="col-sm-3" id="title4" for="Field4">Subject:</label>
-              <div class="col-sm-6">
+              <label id="title4" for="Field4">Subject:</label>
+              <div>
                 <input id="Field4" name="Field4" type="text" class="form-control" value="" maxlength="255" tabindex="3" onkeyup="" required placeholder="Subject">
               </div>
             </div>
             <div class="form-group">
-              <label class="col-sm-3" id="title3" for="Field3">Message:</label>
-              <div class="col-sm-6">
+              <label id="title3" for="Field3">Message:</label>
+              <div>
                 <textarea id="Field3" name="Field3"  class="form-control" spellcheck="true" rows="5" cols="50" tabindex="4" required placeholder="What's on your mind?"></textarea>
               </div>
             </div>
             <div class="form-group">
-              <div class="col-sm-6">
-               <input id="saveForm" name="saveForm" class="btn btn-primary" type="submit" value="Send The Message">
+              <div class="field">
+               <button id="saveForm" name="saveForm" class="btn btn-info" type="submit">Send My Message <span class="glyphicon glyphicon-chevron-right"></span>
+               </div>
              </div>
-           </div>
-           <input type="hidden" id="idstamp" name="idstamp" value="zutICFfpTpEpCE1k66DQJwqPYMhhN9crZmntjid3jLA=">
-         </form>
-       </div>
-       <div class="col-md-4">
-        <img src="/img/map.png" class="img-thumbnail">
-        <p><b>Nine Labs</b>
-          <span class="address">
-            <span class="street-address">1736 Defoor Place</span><br>
-            <span class="locality">Atlanta</span>, <abbr title="Georgia" class="region">GA</abbr> <span class="postal-code">30318</span>
-          </span>
-        </p>
-        <p><a href="tel:+16785616463">678.561.6463</a> / <a href="http://twitter.com/ninelabs">@ninelabs</a></p>
+             <input type="hidden" id="idstamp" name="idstamp" value="zutICFfpTpEpCE1k66DQJwqPYMhhN9crZmntjid3jLA=">
+           </form>
+         </div>
+         <div class="contact-info">
+          <img src="/img/map.png" alt="Map to 1736 Defoor Place, Atlanta, GA, 30318">
+          <div class="vcard">
+            <div class="org">Nine Labs</div>
+            <div class="adr">
+              <div class="street-address">1736 Defoor Place</div>
+              <span class="locality">Atlanta</span>, <span class="region">GA</span> <span class="postal-code">30318</span>
+            </div>
+          </div>
+          <div class="connect">
+            <a class="tel" href="tel:+18776779225"><i class="fa fa-phone-square"></i> 877.677.9225</a>
+            <a class="tel" href="tel:+16785616463"><i class="fa fa-phone-square"></i> 678.561.6463</a>
+            <a href="http://twitter.com/ninelabs"><i class="fa fa-twitter-square"></i> ninelabs</a>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>

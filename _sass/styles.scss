@@ -36,7 +36,7 @@ body {
   border-top: 3px solid #000;
   &>.container .navbar-brand {
     font-family: 'alpin','helvetica neue',helvetica,sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-left: 45px;
     padding-bottom: 0;
     text-transform: uppercase;
@@ -75,7 +75,12 @@ section {
     }
   }
   &.has-bg {
-    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     h2 {
       font-family: 'alpin','helvetica neue',helvetica,sans-serif;
       font-size: 3em;
@@ -84,23 +89,37 @@ section {
   }
 }
 
-.quote .media-object {
-  @extend .img-circle;
-  @extend .pull-left;
-  width:90px;
+.quote {
+  .media-object {
+    @extend .img-circle;
+    @extend .pull-left;
+    width:90px;
+  }
+  cite {
+    color: #aaa;
+    span {
+      font-size: .9em;
+    }
+    strong {
+      color: #fff;
+      display: block;
+    }
+    a {
+      color: darken($brand-primary, 30%);
+    }
+  }
 }
 
 ///////////////////////////////////////////////////////////////////////
 // HOME
 #home {
   background-image: url(/img/bg-conversation.jpg);
-  background-position: 100% 50%;
-  padding: 6em 0;
+  background-position: 100% 70%;
+  padding: 9em 0 6em;
   @include breakpoint(md) {
     background-position: center 70%;
     margin-top: 55px;
   }
-
   h1 {
     font-family: 'alpin','helvetica neue',helvetica,sans-serif;
     font-size: 3.25em;
@@ -123,7 +142,7 @@ section {
   }
 }
 .cta {
-  border-top: 1px solid $brand-primary;
+  border-top: 1px solid $brand-secondary;
   margin-top: 2em;
   padding-top:2em;
   p {
@@ -134,11 +153,47 @@ section {
 ///////////////////////////////////////////////////////////////////////
 // SERVICES
 #services {
-  background-image: url(/img/bg-bricks.jpg);
+  background-image: url(/img/bg-services.jpg);
   padding-bottom: 3em;
-  h3 .glyphicon {
-    color: $brand-secondary;
-    font-size: .7em;
+  .case {
+    @include make-sm-column(12);
+    @include make-md-column(6);
+    display: inline-block;
+    margin-bottom: 1.5em;
+    position: relative;
+    &:nth-child(odd){
+      clear:left;
+    }
+    margin-bottom: 3em;
+    .case-icon {
+      display: inline-block;
+      position: relative;
+      float: left;
+      margin-right: 3%;
+      max-width: 120px;
+      min-height: 100%;
+      width: 12%;
+      i.fa {
+        color: $brand-secondary;
+        font-size: 2em;
+        @include breakpoint(md) {
+          font-size: 3em;
+        }
+        @include breakpoint(lg) {
+          font-size: 3.25em;
+        }
+      }
+    }
+    .case-overview {
+      display: inline-block;
+      position: relative;
+      width: 80%;
+      h3 {
+        font-weight: bold;
+        margin: 0;
+      }
+    }
+
   }
 }
 
@@ -146,20 +201,53 @@ section {
 // PROCESS
 #process {
   background-image: url(/img/bg-process.jpg);
-  .process_outline {
+  .process-outline {
     margin: 1em 0;
-    div {
-      text-align: center;
-      .glyphicon {
-        color: $brand-primary;
-        font-size: 6em;
+    @include make-row();
+    .stage {
+      @include make-sm-column(3);
+      .fa {
+        color: $brand-secondary;
       }
       h3 {
         font-size: 2.5em;
         font-weight: bold;
       }
-      p {
-
+      @include breakpoint(xs) {
+        clear: both;
+        margin-bottom: 2em;
+        .stage-icon {
+          display: inline-block;
+          float: left;
+          font-size: 2em;
+          margin-right: 3%;
+          position: relative;
+          text-align: center;
+          width: 17%;
+        }
+        .stage-detail {
+          display: inline-block;
+          position: relative;
+          width: 80%;
+          h3 {
+            margin: 0;
+          }
+        }
+      }
+      @include breakpoint(md) {
+        text-align: center;
+        .stage-icon {
+          font-size: 3em;
+        }
+        h3 {
+          font-size: 2em;
+        }
+      }
+      @include breakpoint(lg) {
+        text-align: center;
+        .stage-icon {
+          font-size: 5em;
+        }
       }
     }
   }
@@ -169,18 +257,16 @@ section {
 // TEAM
 #team {
   background-image: url(/img/bg-team.jpg);
-
   .the-huddle {
     margin-top: 3em;
     @include make-row();
-
     .member {
       @include make-sm-column(6);
       display: inline-block;
       margin-bottom: 1.5em;
       position: relative;
       &:nth-child(odd){
-          clear:left;
+        clear:left;
       }
       .meta {
         display: inline-block;
@@ -235,11 +321,37 @@ section {
 #contact {
   background-image: url(/img/bg-contact.jpg);
   background-position: center bottom;
-  .address {
-    display: block;
+  .contact-form {
+    @include make-sm-column(7);
+    .form-group {
+      label {
+        @include make-sm-column(6);
+        display: none;
+      }
+      div {
+        @include make-sm-column(9);
+      }
+      textarea {
+        resize: none;
+      }
+    }
   }
-  label {
-    display: none;
+  .contact-info {
+    @include make-sm-column(4);
+    @include make-sm-column-offset(1);
+    img {
+      @extend .img-thumbnail;
+      margin-bottom: 1em;
+    }
+    .vcard, .connect {
+      @include make-sm-column(6);
+    }
+    .connect {
+      text-align: right;
+      a {
+        display: block;
+      }
+    }
   }
 }
 
