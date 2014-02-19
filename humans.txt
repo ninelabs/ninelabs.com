@@ -1,0 +1,70 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  Founder: J Cornelius
+  Site: http://jcornelius.com
+  Twitter: @jc
+  Location: Atlanta, GA
+
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Jekyll, Bower, Bootstrap 3
+  Software: Github
+
+
+
+
+                      NNDDDDDDNN               DDDDDDDNN
+                     DDDDDDDDDDDD            DDDDDDDDDDDDN
+                    DDDDDDDDDDDDDD          NDDDDDDDDDDDDDN
+                   NDDDDDDDDDDDDDDN         DDDDDDDDDDDDDDD
+                   DDDDDDDDDDDDDDDD        NDDDDDDDDDDDDDDD
+                   NDDDDDDDDDDDDDDN   DDD   DDDDDDDDDDDDDDD
+                    DDDDDDDDDDDDDD   NDDD   DDDDDDDDDDDDDDN
+                     DDDDDDDDDDDD    NDDDN   NDDDDDDDDDDDN
+                      NDDDDDDDDN    DDDDDDN    DDDDDDDDN
+                                   NDDDDDDDN
+                                 NDDDDDDDDDDDN
+                     DDDDDDDDNDDDDDDDDDDDDDDDDDDDDDDDDDDDN
+                      DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDN
+           DDDDDDDN     DDDDDDDDDDDDN     NDDDDDDDDDDDD     DDDDDDDN
+         DDDDDDDDDDDD    DDDDDDDDDN         DDDDDDDDDD    DDDDDDDDDDDN
+        DDDDDDDDDDDDDD    DDDDDDD            NDDDDDDD    DDDDDDDDDDDDD
+       NDDDDDDDDDDDDDDN   DDDDDDD             DDDDDDN   DDDDDDDDDDDDDDD
+       DDDDDDDDDDDDDDDD   NDDDDD              DDDDDD    DDDDDDDDDDDDDDD
+       NDDDDDDDDDDDDDDD   DDDDDDN             DDDDDD    DDDDDDDDDDDDDDD
+        DDDDDDDDDDDDDD    NDDDDDD             DDDDDDD   DDDDDDDDDDDDDDN
+        NDDDDDDDDDDDDN   NDDDDDDDN           DDDDDDDD    DDDDDDDDDDDDD
+          DDDDDDDDDD    NDDDDDDDDDDN       NDDDDDDDDDD    NDDDDDDDDDD
+            NNNNNN     NDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD     NNNND
+                     DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDN
+                     NDDN      NDDDDDDDDDDDDDNDN     NDNN
+                                  DDDDDDDDDDN
+                       DDDDDDDD     DDDDDDD    NDDDDDDD
+                     NDDDDDDDDDDN    DDDDD   NDDDDDDDDDDN
+                    NDDDDDDDDDDDDN   NDDDN  NDDDDDDDDDDDDD
+                   NDDDDDDDDDDDDDDD  NDDD   DDDDDDDDDDDDDDN
+                   DDDDDDDDDDDDDDDD   NDD  NDDDDDDDDDDDDDDD
+                   DDDDDDDDDDDDDDDN         DDDDDDDDDDDDDDD
+                    DDDDDDDDDDDDDDN         DDDDDDDDDDDDDDD
+                    NDDDDDDDDDDDDN           DDDDDDDDDDDDD
+                      NDDDDDDDDD              NDDDDDDDDDN
+                        NNNDDN                  NDNDNN
+                                    DDDDDDN
+                                  NDDDDDDDDDN
+                                 NDDDDDDDDDDD
+                                 DDDDDDDDDDDDN
+                                 DDDDDDDDDDDDN
+                                 DDDDDDDDDDDDN
+                                  NDDDDDDDDDD
+                                   NDDDDDDD
+                         NDDDN
+                       NDDDDDDD
+                      NDDDDDDDDD
+                      DDDDDDDDDD
+                       DDDDDDDDN
+                        NDDDDDN
+                          NN
