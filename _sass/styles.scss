@@ -402,6 +402,13 @@ section {
   .job {
     padding: 1.5em;
     color:#eee;
+    .fa {
+      color: $brand-secondary;
+    }
+    .job-meta {
+      color: #aaa;
+      font-size: .9em;
+    }
   }
 }
 
