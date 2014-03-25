@@ -393,6 +393,18 @@ section {
   text-align: center;
 }
 
+///////////////////////////////////////////////////////////////////////
+// JOBS
+#jobs {
+  .job, .how-we-work, .get-in-touch {
+    border-top: $container-border;
+  }
+  .job {
+    padding: 1.5em;
+    color:#eee;
+  }
+}
+
 
 ///////////////////////////////////////////////////////////////////////
 // FOOTER

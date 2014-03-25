@@ -1,0 +1,31 @@
+---
+layout: thin
+title: Work With Us
+---
+
+<section id="jobs" class="has-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Work With Us</h2>
+        <p class="lead">Our clients love us becuase we do great work. We do great work becuase we have great people. Are you great? The we&rsquo;d love to have you join the team.</p>
+        <h3>How We Work</h3>
+        <p>We&rsquo;re not a traditional company. Instead, we use the distributed <a href="http://www.ngenworks.com/blog/the-jellyfish-model/">Jellyfish Model</a>. This means you can work anywhere, anytime. We want you to do you best work, even if it&rsquo;s in your pajamas. We would prefer you be in Atlanta (because we love to support our hometown), but it&rsquo;s not required.</p>
+      </div>
+    </div>
+    {% for job in site.data.jobs %}
+    <div class="row job">
+      <div class="col-sm-12">
+        <h4><i class="fa fa-user"></i> {{ job.title }}</h4>
+        <p>{{ job.description }}</p>
+      </div>
+    </div>
+    {% endfor %}
+    <div class="row get-in-touch">
+      <div class="col-md-12">
+        <h3>Get in Touch</h3>
+        <p>If you think you have what it takes and you&rsquo;d like to join the team please <a href="mailto:courtney@ninelabs.com">email Courtney</a>. Send your story, your resume, and examples of your work. We&rsquo;ll be in touch.</p>
+      </div>
+    </div>
+  </div>
+</section>
