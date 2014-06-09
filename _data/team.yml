@@ -34,23 +34,6 @@
   twitter: mospired
   linkedin: http://linkedin.com/in/mosesngone
 
-- name: Jessica Cherok
-  name-tokenized: jessica-cherok
-  role: Project Management
-  skills:
-    - Project Planning
-    - Social Media
-    - Data Analysis
-    - Privacy Policy
-    - Strategic Communications
-    - Public Relations
-    - Instructional Design
-    - Data Privacy
-    - Nonprofits
-    - Compliance
-  twitter: wonderpondering
-  linkedin: http://www.linkedin.com/in/jcherok/
-
 - name: Courtney Robb
   name-tokenized: courtney-robb
   role: Creative Writing &amp; Client Services
@@ -91,7 +74,6 @@
     - Ubuntu
     - Linux
 
-
 - name: Justin Cook
   name-tokenized: justin-cook
   role: Front-End Development
@@ -110,8 +92,6 @@
     - WordPress
     - SMO
 
-
-
 - name: Jason Ottinger
   name-tokenized: jason-ottinger
   role: Visual Design &amp; Branding
@@ -127,23 +107,6 @@
     - Color Theory
     - Illustration
     - Photography
-
-- name: Jason Elgin
-  name-tokenized: jason-elgin
-  role: Front-End Development
-  twitter: jrelgin
-  linkedin: http://www.linkedin.com/in/jrelgin
-  skills:
-    - User Interface Design
-    - User Experience Design
-    - Typography
-    - WordPress
-    - Illustration
-    - Graphic Design
-    - HTML5
-    - CSS3
-    - PHP
-    - jQuery
 
 - name: Doc Waller
   name-tokenized: doc-waller
