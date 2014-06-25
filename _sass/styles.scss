@@ -3,6 +3,7 @@
 @import '../bower_components/bootstrap-sass/vendor/assets/stylesheets/bootstrap.scss','responsive';
 
 // local variables
+$body-background: #111;
 $footerheight: 60px;
 $container-border: 1px solid transparentize($brand-primary, .5);
 
@@ -12,7 +13,7 @@ html,body {
 }
 
 body {
-  background: #111;
+  background-color: $body-background;
 }
 
 #wrap {
@@ -51,6 +52,12 @@ body {
     top:5px;
     width:47px;
     z-index: 9000;
+  }
+  .navbar-toggle {
+    padding: 4px 10px;
+    span {
+      color:#fff;
+    }
   }
 }
 
@@ -340,6 +347,47 @@ section {
 }
 
 ///////////////////////////////////////////////////////////////////////
+// PACKAGES
+
+#packages {
+  background-image: url(/img/bg-conversation.jpg);
+  background-position: 100% 70%;
+  padding: 5em 0;
+  @include breakpoint(md) {
+    background-position: center 70%;
+    margin-top: 55px;
+  }
+  .package-list {
+    background-color: $body-background;
+    border: 1px solid darken($body-background, 30%);
+
+  }
+  .table {
+    background-color: $body-background;
+    td,th {
+      border-color: lighten($body-background,20%);
+    }
+    th {
+      background-color: lighten($body-background,5%);
+      border-top: 0;
+    }
+    .package-length {
+
+    }
+    .package-type {
+
+    }
+    .package-cost {
+      text-align: right;
+    }
+  }
+}
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////
 // CONTACT
 #contact {
   background-image: url(/img/bg-contact.jpg);
@@ -351,13 +399,20 @@ section {
         @include make-sm-column(6);
         display: none;
       }
-      div {
+      div.name:first-of-type {
+        @include make-sm-column(4);
+      }
+      div.name:last-of-type {
+        @include make-sm-column(5);
+      }
+      div:not(.name) {
         @include make-sm-column(9);
       }
       textarea {
         resize: none;
       }
     }
+    span { text-shadow: none; }
   }
   .contact-info {
     @include make-sm-column(4);
@@ -391,6 +446,25 @@ section {
   margin-top: 3em;
   min-height: 800px;
   text-align: center;
+}
+
+///////////////////////////////////////////////////////////////////////
+// JOBS
+#jobs {
+  .job, .how-we-work, .get-in-touch {
+    border-top: $container-border;
+  }
+  .job {
+    padding: 1.5em;
+    color:#eee;
+    .fa {
+      color: $brand-secondary;
+    }
+    .job-meta {
+      color: #aaa;
+      font-size: .9em;
+    }
+  }
 }
 
 

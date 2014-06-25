@@ -1,0 +1,87 @@
+---
+layout: thin
+title: Consulting Packages
+---
+
+<section id="packages" class="has-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Let&rsquo;s get started</h2>
+        <p class="lead">Your time is valuable and we don&rsquo;t want to waste it. So we created a simple way to get started without obligations or pretense. Think of it like a first date, but without the nerves.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h3>No Obligation, a-la-carte Advice.</h3>
+        <p>Choose the amount of time you&rsquo;d like to have and we'll talk about your goals and how to get you there. No obligations.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="package-list well">
+          <table class="table">
+            <tr>
+              <th class="package-type">Type</th>
+              <th class="package-length">Time Commitment</th>
+              <th class="package-location">Where</th>
+              <th class="package-cost">Cost</th>
+            </tr>
+            {% for package in site.data.packages %}
+            <tr class="package">
+              <td class="package-type">{{ package.type }}</td>
+              <td class="package-length">{{ package.length }}</td>
+              <td class="package-location">{{ package.location }}</td>
+              <td class="package-cost">{{ package.cost }}</td>
+            </tr>
+            {% endfor %}
+          </table>
+        </div>
+        <h3>What you&rsquo;ll get</h3>
+        <p></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="quote">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="media">
+          <img class="media-object" src="/img/people/keith-robinson.jpg" alt="D. Keith Robinson">
+          <div class="media-body">
+            <p>&hellip;extremely easy to work with; being both very organized and professional, as well as personable and fun. J. is a passionate expert who really knows his stuff!</p>
+            <cite><strong>D. Keith Robinson</strong> <span>Lead Product Designer / <a href="http://www.salesforce.com">Salesforce</a></span></cite>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="media">
+          <img class="media-object" src="/img/people/aarron-walter.jpg" alt="Aarron Walter">
+          <div class="media-body">
+            <p>J. is an incredible organizer who can bring together diverse groups of people and somehow manages to get them all to communicate and share ideas.</p>
+            <cite><strong>Aarron Walter</strong> <span>Director of User Experience / <a href="http://www.mailchimp.com">MailChimp</a></span></cite>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="has-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Let&rsquo;s set a date.</h2>
+        <p class="lead">We love great ideas and challenging projects. Let&rsquo;s talk about yours.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="contact-form">
+        {% include contact-form.html %}
+      </div>
+    </div>
+  </div>
+</section>
+
