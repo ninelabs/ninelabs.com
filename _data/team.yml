@@ -1,11 +1,12 @@
 - name: J Cornelius
   name-tokenized: j-cornelius
-  role: Founder &amp; President
+  role: Founder // Partner // President
   skills:
     - Digital Strategy
     - User Experience
     - Information Architecture
     - Business Strategy
+    - Operations Efficiency
     - Web Analytics
     - Process Improvement
     - Solution Architecture
@@ -13,11 +14,30 @@
     - Usability
     - Interaction Design
   twitter: jc
-  linkedin: http://linkedin.com/in/jcornelius
+  linkedin: https://linkedin.com/in/jcornelius
+
+- name: Brad Weaver
+  name-tokenized: brad-weaver
+  role: Partner // Director of Design
+  skills:
+    - User Experience
+    - Information Architecture
+    - Identity Design
+    - Uset Interface Design
+    - Product Design
+    - Usability
+    - Content Strategy
+    - Graphic Design
+    - iOS Design
+    - Branding
+    - Packaging Design
+    - Motion Graphics
+  twitter: sbradweaver
+  linkedin: https://linkedin.com/in/sbradweaver
 
 - name: Moses Ngone
   name-tokenized: moses-ngone
-  role: Development Engineering
+  role: Partner // Director of Engineering
   skills:
     - PHP
     - Ruby
@@ -32,11 +52,11 @@
     - Web Applications
     - PhoneGap
   twitter: mospired
-  linkedin: http://linkedin.com/in/mosesngone
+  linkedin: https://linkedin.com/in/mosesngone
 
 - name: Courtney Robb
   name-tokenized: courtney-robb
-  role: Creative Writing &amp; Client Services
+  role: Client Services // Project Management
   skills:
     - Social Media
     - Marketing Strategy
@@ -48,13 +68,30 @@
     - Copywriting
     - Event Management
   twitter: Courtney_Robb_
-  linkedin: http://linkedin.com/pub/courtney-robb/58/6b6/3b7
+  linkedin: https://linkedin.com/pub/courtney-robb/58/6b6/3b7
+
+- name: Stacey James
+  name-tokenized: stacey-james
+  role: Marketing // Business Development
+  skills:
+    - Business Development
+    - Digital Marketing
+    - Strategic Planning
+    - Sales Operations
+    - Marketing Strategy
+    - Human Resources
+    - Product Development
+    - Marketing Communications
+    - Email Marketing
+    - Customer Satisfaction
+  twitter: stacey
+  linkedin: https://www.linkedin.com/in/staceyrjames
 
 - name: Evan Volgas
   name-tokenized: evan-volgas
-  role: Data Analysis &amp; Visualization
+  role: Data Analysis // Visualization
   twitter: evanvolgas
-  linkedin: http://www.linkedin.com/in/evanvolgas
+  linkedin: https://www.linkedin.com/in/evanvolgas
   skills:
     - Data Analytics
     - Mathematical Modeling
@@ -78,25 +115,42 @@
   name-tokenized: justin-cook
   role: Front-End Development
   twitter:
-  linkedin:
+  linkedin: https://www.linkedin.com/pub/justin-l-cook/16/b8b/492
   skills:
-    - User Experience
-    - Graphic Design
+    - Responsive Web Design
     - User Interface Design
+    - Graphic Design
     - Usability
     - HTML5
     - CSS3
-    - SEO
-    - Information Architecture
     - jQuery
+    - Search Engine Optimization
+    - Information Architecture
     - WordPress
-    - SMO
+
+- name: Sierra Petrowski
+  name-tokenized: sierra-petrowski
+  role: Interactive Design
+  twitter: snpetrowski
+  linkedin: https://www.linkedin.com/pub/jason-ottinger/7/357/413
+  skills:
+    - User Interface Design
+    - User Experience Design
+    - Responsive Web Design
+    - Integrated Marketing
+    - Marketing Strategy
+    - Brand Development
+    - Photoshop
+    - InDesign
+    - Illustrator
+    - HTML5
+    - CSS3
 
 - name: Jason Ottinger
   name-tokenized: jason-ottinger
-  role: Visual Design &amp; Branding
+  role: Branding // Visual Design
   twitter: jottin
-  linkedin: http://www.linkedin.com/pub/jason-ottinger/7/357/413
+  linkedin: https://www.linkedin.com/pub/jason-ottinger/7/357/413
   skills:
     - Branding
     - Graphic Design
@@ -112,7 +166,7 @@
   name-tokenized: doc-waller
   role: Inspiration Architecture
   twitter: docwaller
-  linkedin: http://www.linkedin.com/in/thedocwaller
+  linkedin: https://www.linkedin.com/in/thedocwaller
   skills:
     - Creative Writing
     - Entrepreneurship
