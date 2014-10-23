@@ -1,0 +1,50 @@
+---
+layout: default
+title: Our Experience
+pid: experience
+---
+
+<section id="team" class="has-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>A custom tailored team of experts</h2>
+        <p class="lead">The core team brings a wide variety of deep expertise. Strategy, brand identity, usability, content, design, and development expertise are all here.</p>
+        <p>We also work with dozens of top people from across the industry to bring the exact skills needed to each project.</p>
+      </div>
+    </div>
+    <div class="the-huddle">
+
+      {% for member in site.data.team %}
+      <div class="member">
+        <div class="meta">
+          <img src="/img/people/{{member.name-tokenized}}.jpg" alt="{{member.name}}" class="img-circle">
+            <!--<div class="social">
+              <a href="https://twitter.com/{{member.twitter}}"><span class='symbol'>&#xe286;</span></a>
+              <a href="{{member.linkedin}}"><span class='symbol'>&#xe252;</span></a>
+            </div>-->
+          </div>
+          <div class="caption">
+            <h3>{{member.name}}</h3>
+            <p>{{member.role}}</p>
+            <div class="skills">
+              {% for skill in member.skills %}
+              <span class="label">{{skill}}</span>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+        <div class="member">
+          <div class="meta">
+            <img src="/img/people/maybe-you.png" alt="Maybe You" class="img-circle">
+          </div>
+          <div class="caption">
+            <h3>Maybe You?</h3>
+            <p>Do you have a passion for making delightful digital experiences? <a href="/jobs/">Let&rsquo;s talk</a>.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>

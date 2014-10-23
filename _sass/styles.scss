@@ -146,7 +146,6 @@ section {
     }
   }
   p {
-    font-size:1.75em;
     @include breakpoint(xs){
       font-size:1.25em;
     }
