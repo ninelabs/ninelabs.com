@@ -6,252 +6,50 @@ title: Welcome
 <section id="home" class="has-bg">
   <div class="container">
     <div class="row">
-      <div class="col-md-8">
-        <h1>Your ideas and goals <span>+</span><br> our code and creativity <span>=</span><br> real business results.</h1>
-      </div>
-      <div class="col-md-4">
-        <p>We help consumer brands improve their digital experiences.</p>
-        <a href="#services" class="go btn btn-info btn-lg">Find Out How <span class="glyphicon glyphicon-chevron-right"></span></a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="quote">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="media">
-          <img class="media-object" src="/img/people/keith-robinson.jpg" alt="D. Keith Robinson">
-          <div class="media-body">
-            <p>&hellip;extremely easy to work with; being both very organized and professional, as well as personable and fun. J. is a passionate expert who really knows his stuff!</p>
-            <cite><strong>D. Keith Robinson</strong> <span>Lead Product Designer / <a href="http://www.salesforce.com">Salesforce</a></span></cite>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="media">
-          <img class="media-object" src="/img/people/aarron-walter.jpg" alt="Aarron Walter">
-          <div class="media-body">
-            <p>J. is an incredible organizer who can bring together diverse groups of people and somehow manages to get them all to communicate and share ideas.</p>
-            <cite><strong>Aarron Walter</strong> <span>Director of User Experience / <a href="http://www.mailchimp.com">MailChimp</a></span></cite>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="services" class="has-bg">
-  <div class="container">
-    <div class="row">
       <div class="col-md-12">
-        <h2>We create delightful experiences</h2>
-        <p class="lead">We understand your business, your audience, and how to connect them in meaningful ways. Then we design experiences that drive measurable results.</p>
+        <h1>We create delightful experiences</h1>
+        <p>by understanding your business, your audience, and how to connect them in meaningful ways.</p>
       </div>
     </div>
     <div class="row">
-      {% for case in site.data.cases %}
-      <div class="case">
-        <div class="case-icon">
-          <i class="fa fa-{{case.icon}}"></i>
-        </div>
-        <div class="case-overview">
-          <h3>{{case.category}}</h3>
-          <p class="problem">{{ case.problem }}</p>
-          <p class="solution">{{ case.solution }}</p>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-    <div class="cta">
-      <div class="tag">
-        <p>We help you understand how to improve your products and services so people fall in love with your company.</p>
-      </div>
-      <div class="action">
-        <a href="#process" class="go btn btn-info btn-lg pull-right">Learn How <span class="glyphicon glyphicon-chevron-right"></span></a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="quote">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6">
+      <div class="col-md-6">
         <div class="media">
-          <img class="media-object" src="/img/people/brad-smith.jpg" alt="Brad Smith">
+          <a class="pull-left" href="#">
+            <img class="media-object" src="http://placekitten.com/200/180" alt="">
+          </a>
           <div class="media-body">
-            <p>J is a fast thinking, smart-as-a-whip guy who knows how to get things done and deliver&hellip;he&rsquo;s a leader in the design/interactive community and works with cool people from around the region and around the world. Start working with him already!</p>
-            <cite><strong>Brad Smith</strong> <span>Executive Director / <a href="http://webvisionsevent.com">WebVisions</a></span></cite>
+            <h4 class="media-heading">What We Do</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
       </div>
-      <div class="col-sm-6">
+      <div class="col-md-6">
         <div class="media">
-          <img class="media-object" src="/img/people/john-agan.jpg" alt="John Agan">
+          <a class="pull-left" href="#">
+            <img class="media-object" src="http://placekitten.com/200/180" alt="">
+          </a>
           <div class="media-body">
-            <p>This team is very well rounded in technology, development, design and general business practice. They have the rare ability to communicate knowledge while keeping the audience engaged. They&rsquo;re the right people to solve your problem or brainstorm new ideas.</p>
-            <cite><strong>John Agan</strong> <span>Founder &amp; CEO / <a href="http://blackwirehq.com">Blackwire</a></span></cite>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="process" class="has-bg">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h2>Our Process</h2>
-        <p class="lead">We ask smart questions. We do the research. While every project is unique, we&rsquo;ve found our process applies to all of them. It&rsquo;s smart, simple, and effective.</p>
-      </div>
-    </div>
-    <div class="process-outline">
-      {% for stage in site.data.process %}
-      <div class="stage">
-        <div class="stage-icon">
-          <i class="fa fa-{{stage.icon}}"></i>
-        </div>
-        <div class="stage-detail">
-          <h3>{{ stage.title }}</h3>
-          <p>{{ stage.description }}</p>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-    <div class="cta">
-      <div class="tag">
-        <p>Your goals are our top priority. We&rsquo;ll help you improve your company&rsquo;s brand and be better at what you do.</p>
-      </div>
-      <div class="action">
-        <a href="#contact" class="go btn btn-info btn-lg pull-right">Hire Us <span class="glyphicon glyphicon-chevron-right"></span></a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="quote">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="media">
-          <img class="media-object" src="/img/people/julie-taylor.jpg" alt="Julie Taylor">
-          <div class="media-body">
-            <p>Everything they get involved with is successful due to diligence, knowledge and charisma. Anyone looking to create a better experience should contact them forthwith.</p>
-            <cite><strong>Julie Taylor</strong> <span>Design Engineer / <a href="http://www.fabric.com">Fabric.com</a></span></cite>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="media">
-          <img class="media-object" src="/img/people/nick-finck.jpg" alt="Nick Finck">
-          <div class="media-body">
-            <p>J has a great eye for the small details but never forgets the high-level strategy and vision. This shines through in every project J has overseen or produced.</p>
-            <cite><strong>Nick Finck</strong> <span>Senior Manager of UX / <a href="https://aws.amazon.com/">Amazon Web Services</a></span></cite>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="team" class="has-bg">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h2>A custom tailored team of experts</h2>
-        <p class="lead">The core team brings a wide variety of deep expertise. Strategy, brand identity, usability, content, design, and development expertise are all here.</p>
-        <p>We also work with dozens of top people from across the industry to bring the exact skills needed to each project.</p>
-      </div>
-    </div>
-    <div class="the-huddle">
-
-      {% for member in site.data.team %}
-      <div class="member">
-        <div class="meta">
-          <img src="/img/people/{{member.name-tokenized}}.jpg" alt="{{member.name}}" class="img-circle">
-            <!--<div class="social">
-              <a href="https://twitter.com/{{member.twitter}}"><span class='symbol'>&#xe286;</span></a>
-              <a href="{{member.linkedin}}"><span class='symbol'>&#xe252;</span></a>
-            </div>-->
-          </div>
-          <div class="caption">
-            <h3>{{member.name}}</h3>
-            <p>{{member.role}}</p>
-            <div class="skills">
-              {% for skill in member.skills %}
-              <span class="label">{{skill}}</span>
-              {% endfor %}
-            </div>
-          </div>
-        </div>
-        {% endfor %}
-        <div class="member">
-          <div class="meta">
-            <img src="/img/people/maybe-you.png" alt="Maybe You" class="img-circle">
-          </div>
-          <div class="caption">
-            <h3>Maybe You?</h3>
-            <p>Do you have a passion for making delightful digital experiences? <a href="/jobs/">Let&rsquo;s talk</a>.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <section class="quote">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="media">
-            <img class="media-object" src="/img/people/carl-smith.jpg" alt="Carl Smith">
-            <div class="media-body">
-              <p>J is everything that&rsquo;s right with the web industry. Professional, knowledgable and smart as hell. On top of that he has the ability to make people want to be a part of whatever he's working on. Any client would be lucky to have J leading their team.</p>
-              <cite><strong>Carl Smith</strong> <span>Founder &amp; Advisor / <a href="http://ngenworks.com">nGen Works</a></span></cite>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="media">
-            <img class="media-object" src="/img/people/michael-hagel.jpg" alt="Michael Hagel">
-            <div class="media-body">
-              <p>The value they bring to a project is immeasurable. A very professional group, that is always focused on asking the right question, digging into the core of the clients problems, and coming up with excellent strategic solutions</p>
-              <cite><strong>Michael Hagel</strong> <span>President / <a href="http://maybeinc.com">Maybe.For.You</a></span></cite>
-            </div>
+            <h4 class="media-heading">What We Do</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="contact" class="has-bg">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2>Let&rsquo;s set a date.</h2>
-          <p class="lead">We love great ideas and challenging projects. Let&rsquo;s talk about yours.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="contact-form">
-          {% include contact-form.html %}
-         </div>
-         <div class="contact-info" itemscope itemtype="http://schema.org/LocalBusiness">
-          <img src="/img/map.png" alt="Map to 1736 Defoor Place, Atlanta, GA, 30318">
-          <div class="vcard">
-            <div class="org" itemprop="name">Nine Labs</div>
-            <div class="adr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-              <div class="street-address" itemprop="streetAddress">1736 Defoor Place</div>
-              <span class="locality" itemprop="addressLocality">Atlanta</span>, <span class="region" itemprop="addressRegion">GA</span> <span class="postal-code" itemprop="postalCode">30318</span>
-            </div>
-          </div>
-          <div class="connect">
-            <a class="tel" href="tel:+18776779225"><i class="fa fa-phone-square"></i> 877.677.9225</a>
-            <a class="tel" href="tel:+16785616463"><i class="fa fa-phone-square"></i> <span itemprop="telephone">678.561.6463</span></a>
-            <a href="http://twitter.com/ninelabs"><i class="fa fa-twitter-square"></i> ninelabs</a>
-          </div>
-        </div>
-      </section>
+
+
+
+
+
+
