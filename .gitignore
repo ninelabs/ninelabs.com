@@ -1,7 +1,8 @@
 _site/
-/_sass/.sass-cache/
+.sass-cache/
 /img/people/source/
-
 /img/backgrounds.psd
-
 /img/source/
+*.log
+sass/*
+rb_config.rb
