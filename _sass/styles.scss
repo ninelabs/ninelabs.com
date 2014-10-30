@@ -44,7 +44,7 @@ body {
   margin: 0 auto (-$footerheight);
   padding: 40px 0 $footerheight;
   &> .container {
-    padding: 0 15px;
+    padding: 0 20px;
   }
 }
 
@@ -69,6 +69,7 @@ h2 {
   background-color: transparent;
   border-width:0;
   border-color: transparent;
+  font-family: $font-family-sans-serif;
   &>.container .navbar-brand {
     color: $nav-color;
     font-family: 'alpin','helvetica neue',helvetica,sans-serif;
@@ -574,18 +575,27 @@ h2 {
 ///////////////////////////////////////////////////////////////////////
 // FOOTER
 footer {
+  font-family: $font-family-sans-serif;
   height: $footerheight;
   margin: 0;
   padding: 5em 0;
   text-align: center;
   nav {
-    margin:1.5em 0;
+    margin:1.5em 0 1em;
+    a {
+      padding:0 .5em;
+    }
+  }
+  .social {
+    margin-bottom: 1em;
+    a {
+      display: inline-block;
+      font-size: 1.25em;
+      margin:0 20px;
+    }
   }
   .copyright {
     font-size: .9em;
-  }
-  .sig {
-    font-size: .7em;
   }
 }
 
