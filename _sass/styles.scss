@@ -521,9 +521,9 @@ h2 {
       div.name:last-of-type {
         @include make-sm-column(7);
       }
-      div:not(.name) {
-        @include make-sm-column(12);
-      }
+//      div:not(.name) {
+//        @include make-sm-column(12);
+ //     }
       textarea {
         resize: none;
       }
