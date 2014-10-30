@@ -1,11 +1,11 @@
 
 var colors = new Array(
-  [58,123,213],
   [0,210,255],
-  [134,182,52],
   [58,123,213],
-  [0,210,255],
-  [134,182,52]);
+  [100,200,154],
+  [11,210,205],
+  [0,154,187],
+  [94,187,144]);
 
 var step = 0;
 //color table indices for:
@@ -36,7 +36,7 @@ var g2 = Math.round(istep * c1_0[1] + step * c1_1[1]);
 var b2 = Math.round(istep * c1_0[2] + step * c1_1[2]);
 var color2 = "#"+((r2 << 16) | (g2 << 8) | b2).toString(16);
 
- $('body').css({
+ $('#lldfl').css({
    background: "-webkit-gradient(linear, left top, right top, from("+color1+"), to("+color2+"))"}).css({
     background: "-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"});
 

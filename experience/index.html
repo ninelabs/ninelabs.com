@@ -25,13 +25,15 @@ pid: experience
           <div class="caption">
             <h3>{{member.name}}</h3>
             <p>{{member.role}}</p>
-            {% if member.twitter %}<a href="{{ member.twitter }}"><i class="fa fa-twitter-square"></i></a>{% endif %}
-            {% if member.facebook %}<a href="{{ member.facebook }}"><i class="fa fa-facebook-square"></i></a>{% endif %}
-            {% if member.linkedin %}<a href="{{ member.linkedin }}"><i class="fa fa-linkedin-square"></i></a>{% endif %}
-            {% if member.instagram %}<a href="{{ member.instagram }}"><i class="fa fa-instagram"></i></a>{% endif %}
-            {% if member.github %}<a href="{{ member.github }}"><i class="fa fa-github-square"></i></a>{% endif %}
-            {% if member.dribbble %}<a href="{{ member.dribbble }}"><i class="fa fa-dribbble"></i></a>{% endif %}
-            {% if member.website %}<a href="{{ member.website }}"><i class="fa fa-external-link-square"></i></a>{% endif %}
+            <span class="">
+              {% if member.twitter %}<a href="{{ member.twitter }}"><i class="fa fa-twitter-square"></i></a>{% endif %}
+              {% if member.facebook %}<a href="{{ member.facebook }}"><i class="fa fa-facebook-square"></i></a>{% endif %}
+              {% if member.linkedin %}<a href="{{ member.linkedin }}"><i class="fa fa-linkedin-square"></i></a>{% endif %}
+              {% if member.instagram %}<a href="{{ member.instagram }}"><i class="fa fa-instagram"></i></a>{% endif %}
+              {% if member.github %}<a href="{{ member.github }}"><i class="fa fa-github-square"></i></a>{% endif %}
+              {% if member.dribbble %}<a href="{{ member.dribbble }}"><i class="fa fa-dribbble"></i></a>{% endif %}
+              {% if member.website %}<a href="{{ member.website }}"><i class="fa fa-external-link-square"></i></a>{% endif %}
+            </span>
             <div class="skills">
               {% for skill in member.skills %}
               <span class="label">{{skill}}</span>
