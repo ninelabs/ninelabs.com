@@ -4,24 +4,19 @@ title: Our Experience
 pid: experience
 ---
 
-<section id="team" class="has-bg">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h2>Use our experience to create yours.</h2>
-        <p class="lead">Imagine if you practiced playing guitar every day for 20 years.</p>
-        <p>You'd probably be pretty good. Now imagine you’re in a band with people who’ve been playing as long as you have. It’s easy to think that band would be really, really good.</p>
-        <p>Now imagine that band creates brand experiences instead of music and you have us. If you add all our experience together, we’ve been making websites for 51 years. Our guess is that’s longer than many of you have been alive. Needless to say we’ve learned a lot about how things work, and we’ll share everything we know with you to help your company succeed.</p>
-        <p>You learn a few things about business in 51 years, too. Especially when your career spans the birth of ecommerce, the .com bubble and bust, and the rise of social media. We’ve seen just about every strategy you can think of. Hell, we’ve tried most of them. We know what works, what doesn’t, and we have the scars to prove it. </p>
-        <p>Let’s have coffee. We’ll tell you some good stories.</p>
-      </div>
-    </div>
-    <div class="the-huddle">
+<section id="team">
+  <h2>Use our experience to create yours.</h2>
+  <p class="lead">Imagine if you practiced playing guitar every day for 20 years.</p>
+  <p>You'd probably be pretty good. Now imagine you’re in a band with people who’ve been playing as long as you have. It’s easy to think that band would be really, really good.</p>
+  <p>Now imagine that band creates brand experiences instead of music and you have us. If you add all our experience together, we’ve been making websites for 51 years. Our guess is that’s longer than many of you have been alive. Needless to say we’ve learned a lot about how things work, and we’ll share everything we know with you to help your company succeed.</p>
+  <p>You learn a few things about business in 51 years, too. Especially when your career spans the birth of ecommerce, the .com bubble and bust, and the rise of social media. We’ve seen just about every strategy you can think of. Hell, we’ve tried most of them. We know what works, what doesn’t, and we have the scars to prove it. </p>
+  <p>Let’s have coffee. We’ll tell you some good stories.</p>
+  <div class="the-huddle">
 
-      {% for member in site.data.team %}
-      <div class="member">
-        <div class="meta">
-          <img src="/img/people/{{member.name-tokenized}}.jpg" alt="{{member.name}}" class="img-circle">
+    {% for member in site.data.team %}
+    <div class="member">
+      <div class="meta">
+        <img src="/img/people/{{member.name-tokenized}}.jpg" alt="{{member.name}}" class="img-circle">
             <!--<div class="social">
               <a href="https://twitter.com/{{member.twitter}}"><span class='symbol'>&#xe286;</span></a>
               <a href="{{member.linkedin}}"><span class='symbol'>&#xe252;</span></a>
@@ -30,6 +25,13 @@ pid: experience
           <div class="caption">
             <h3>{{member.name}}</h3>
             <p>{{member.role}}</p>
+            {% if member.twitter %}<a href="{{ member.twitter }}"><i class="fa fa-twitter-square"></i></a>{% endif %}
+            {% if member.facebook %}<a href="{{ member.facebook }}"><i class="fa fa-facebook-square"></i></a>{% endif %}
+            {% if member.linkedin %}<a href="{{ member.linkedin }}"><i class="fa fa-linkedin-square"></i></a>{% endif %}
+            {% if member.instagram %}<a href="{{ member.instagram }}"><i class="fa fa-instagram"></i></a>{% endif %}
+            {% if member.github %}<a href="{{ member.github }}"><i class="fa fa-github-square"></i></a>{% endif %}
+            {% if member.dribbble %}<a href="{{ member.dribbble }}"><i class="fa fa-dribbble"></i></a>{% endif %}
+            {% if member.website %}<a href="{{ member.website }}"><i class="fa fa-external-link-square"></i></a>{% endif %}
             <div class="skills">
               {% for skill in member.skills %}
               <span class="label">{{skill}}</span>
