@@ -4,34 +4,64 @@ title: Our Approach
 pid: approach
 ---
 
-<section id="process" class="has-bg">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h2>Our Process is tried and true.</h2>
-        <p class="lead">We ask smart questions. We do the research. While every project is unique, we&rsquo;ve found our process applies to all of them. It&rsquo;s smart, simple, and effective.</p>
-      </div>
-    </div>
-    <div class="process-outline">
-      {% for stage in site.data.process %}
-      <div class="stage">
-        <div class="stage-icon">
-          <i class="fa fa-{{stage.icon}}"></i>
+<section id="approach">
+  <h2>Smart, Simple, and Effective.</h2>
+  <p class="lead">A good process is essential to the success of any project. While every project is unique, we&rsquo;ve found our process applies to all of them.</p>
+  <div class="process-outline">
+    <ul class="timeline">
+      <li>
+        <div class="timeline-badge"></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">The Socratic Method</h4>
+          </div>
+          <div class="timeline-body">
+            <p>Question everything. First we have to understand why things are the way they are now, then we can understand how to improve them.</p>
+          </div>
         </div>
-        <div class="stage-detail">
-          <h3>{{ stage.title }}</h3>
-          <p>{{ stage.description }}</p>
+      </li>
+      <li class="timeline-inverted">
+        <div class="timeline-badge"></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">Discussion and Brainstorming</h4>
+          </div>
+          <div class="timeline-body">
+            <p>Our team is trained in several methodologies for generating ideas and facilitating disucssion. We meet with you and your team to collaborate on finding the best potential solutions.</p>
+          </div>
         </div>
-      </div>
-      {% endfor %}
+      </li>
+      <li>
+        <div class="timeline-badge"></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">Pay Up Sucka!</h4>
+          </div>
+          <div class="timeline-body">
+            <p>We take your money, bitches! Then we head over to Diamond Dave's and make it rain. Hey, we support single moms.</p>
+            <p>Dolla dolla bills, y'all.</p>
+          </div>
+        </div>
+      </li>
+      <li class="timeline-inverted">
+        <div class="timeline-badge"></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">Drucker was right.</h4>
+          </div>
+          <div class="timeline-body">
+            <p>You can't improve what you don't measure. What gets measured gets improved. We figure out the core metrics and key performance indicators which fuel your business' growth.</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="cta">
+    <div class="tag">
+      <p>Your goals are our top priority. We&rsquo;ll help you improve your company&rsquo;s brand and be better at what you do.</p>
     </div>
-    <div class="cta">
-      <div class="tag">
-        <p>Your goals are our top priority. We&rsquo;ll help you improve your company&rsquo;s brand and be better at what you do.</p>
-      </div>
-      <div class="action">
-        <a href="/contact/" class="go btn btn-info btn-lg pull-right">Hire Us <span class="glyphicon glyphicon-chevron-right"></span></a>
-      </div>
+    <div class="action">
+      <a href="/contact/" class="go btn btn-info btn-lg pull-right">Hire Us <span class="glyphicon glyphicon-chevron-right"></span></a>
     </div>
   </div>
 </section>
