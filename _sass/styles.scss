@@ -25,6 +25,13 @@ body {
       #brand .brand-mark {
         fill: $home-text-color;
       }
+      .navbar-toggle {
+        border:1px solid $home-text-color;
+        span {
+
+          color: $home-text-color;
+        }
+      }
       &>.container .navbar-brand {
         color: $home-text-color;
       }
@@ -94,6 +101,7 @@ h2 {
     }
   }
   .navbar-toggle {
+    border:1px solid #888;
     padding: 4px 10px;
     span {
       color: $nav-color;
@@ -132,11 +140,13 @@ h2 {
   @include make-row();
   margin-bottom: 2em;
   .logo {
-    @include make-xs-column(12);
+    @include make-xs-column(6);
     @include make-md-column(4);
     margin: 2em 0;
-    &:nth-child(3n+1){
-      clear:left;
+    @include breakpoint(md){
+      &:nth-child(3n+1){
+        clear:left;
+      }
     }
   }
 }
@@ -157,7 +167,12 @@ h2 {
   .media-object {
     @extend .img-circle;
     @extend .pull-left;
-    width:120px;
+    @include breakpoint(xs){
+      width: 80px;
+    }
+    @include breakpoint(md){
+      width:120px;
+    }
   }
   cite {
     color: #aaa;
@@ -516,14 +531,19 @@ h2 {
         display: none;
       }
       div.name:first-of-type {
-        @include make-sm-column(5);
+        @include make-xs-column(12);
+        @include make-md-column(5);
+        @include breakpoint(xs){
+          margin-bottom: 15px;
+        }
       }
       div.name:last-of-type {
-        @include make-sm-column(7);
+        @include make-xs-column(12);
+        @include make-md-column(7);
       }
-//      div:not(.name) {
-//        @include make-sm-column(12);
- //     }
+      div:not(.name) {
+        @include make-sm-column(12);
+      }
       textarea {
         resize: none;
       }
@@ -560,7 +580,6 @@ h2 {
   }
   .job {
     padding: 1.5em;
-    color:#eee;
     .fa {
       color: $brand-secondary;
     }
