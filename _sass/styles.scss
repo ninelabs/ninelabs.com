@@ -101,6 +101,7 @@ h2 {
     }
   }
   .navbar-toggle {
+    border:1px solid #888;
     padding: 4px 10px;
     span {
       color: $nav-color;
@@ -139,11 +140,13 @@ h2 {
   @include make-row();
   margin-bottom: 2em;
   .logo {
-    @include make-xs-column(12);
+    @include make-xs-column(6);
     @include make-md-column(4);
     margin: 2em 0;
-    &:nth-child(3n+1){
-      clear:left;
+    @include breakpoint(md){
+      &:nth-child(3n+1){
+        clear:left;
+      }
     }
   }
 }
@@ -164,7 +167,12 @@ h2 {
   .media-object {
     @extend .img-circle;
     @extend .pull-left;
-    width:120px;
+    @include breakpoint(xs){
+      width: 80px;
+    }
+    @include breakpoint(md){
+      width:120px;
+    }
   }
   cite {
     color: #aaa;
@@ -523,87 +531,91 @@ h2 {
         display: none;
       }
       div.name:first-of-type {
-        @include make-sm-column(5);
+        @include make-xs-column(12);
+        @include make-md-column(5);
+        @include breakpoint(xs){
+          margin-bottom: 15px;
+        }
       }
       div.name:last-of-type {
-        @include make-sm-column(7);
+        @include make-xs-column(12);
+        @include make-md-column(7);
       }
-      //      div:not(.name) {
-        //        @include make-sm-column(12);
-        //     }
-        textarea {
-          resize: none;
-        }
+      div:not(.name) {
+        @include make-sm-column(12);
       }
-      span { text-shadow: none; }
-    }
-    .contact-info {
-      @include make-sm-column(4);
-      img {
-        @extend .img-thumbnail;
-        margin-bottom: 1em;
-      }
-      .vcard, .connect {
-        font-size: .9em;
-        padding: 0;
-      }
-      .connect {
-        a {
-          display: block;
-        }
+      textarea {
+        resize: none;
       }
     }
+    span { text-shadow: none; }
   }
-
-  #thanks {
-    text-align: center;
-  }
-
-  ///////////////////////////////////////////////////////////////////////
-  // JOBS
-  #jobs {
-    .job, .how-we-work, .get-in-touch {
-      border-top: $container-border;
-    }
-    .job {
-      padding: 1.5em;
-      color:#eee;
-      .fa {
-        color: $brand-secondary;
-      }
-      .job-meta {
-        color: #aaa;
-        font-size: .9em;
-      }
-    }
-  }
-
-
-  ///////////////////////////////////////////////////////////////////////
-  // FOOTER
-  footer {
-    font-family: $font-family-sans-serif;
-    height: $footerheight;
-    margin: 0;
-    padding: 5em 0;
-    text-align: center;
-    nav {
-      margin:1.5em 0 1em;
-      a {
-        padding:0 .5em;
-      }
-    }
-    .social {
+  .contact-info {
+    @include make-sm-column(4);
+    img {
+      @extend .img-thumbnail;
       margin-bottom: 1em;
+    }
+    .vcard, .connect {
+      font-size: .9em;
+      padding: 0;
+    }
+    .connect {
       a {
-        display: inline-block;
-        font-size: 1.25em;
-        margin:0 20px;
+        display: block;
       }
     }
-    .copyright {
+  }
+}
+
+#thanks {
+  text-align: center;
+}
+
+///////////////////////////////////////////////////////////////////////
+// JOBS
+#jobs {
+  .job, .how-we-work, .get-in-touch {
+    border-top: $container-border;
+  }
+  .job {
+    padding: 1.5em;
+    .fa {
+      color: $brand-secondary;
+    }
+    .job-meta {
+      color: #aaa;
       font-size: .9em;
     }
   }
+}
+
+
+///////////////////////////////////////////////////////////////////////
+// FOOTER
+footer {
+  font-family: $font-family-sans-serif;
+  height: $footerheight;
+  margin: 0;
+  padding: 5em 0;
+  text-align: center;
+  nav {
+    margin:1.5em 0 1em;
+    a {
+      padding:0 .5em;
+    }
+  }
+  .social {
+    margin-bottom: 1em;
+    a {
+      display: inline-block;
+      font-size: 1.25em;
+      margin:0 20px;
+    }
+  }
+  .copyright {
+    font-size: .9em;
+  }
+}
 
 

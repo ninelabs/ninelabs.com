@@ -1,10 +1,9 @@
 ---
-layout: thin
+layout: default
 title: Work With Us
 ---
 
-<section id="jobs" class="has-bg">
-  <div class="container">
+<section id="jobs" class="container">
     <div class="row">
       <div class="col-md-12">
         <h2>Work With Us</h2>
@@ -16,7 +15,7 @@ title: Work With Us
     {% for job in site.data.jobs %}
     <div class="row job">
       <div class="col-sm-12">
-        <h4><i class="fa fa-user"></i> {{ job.title }}</h4>
+        <h4></i> {{ job.title }}</h4>
         <p>{{ job.description }}</p>
         <p class="job-meta"><strong>Location:</strong> {{ job.location }} // <strong>Compensation:</strong> {{ job.pay }}</p>
       </div>
@@ -28,5 +27,4 @@ title: Work With Us
         <p>If you think you have what it takes and you&rsquo;d like to join the team please <a href="mailto:courtney@ninelabs.com">email Courtney</a>. Send your story, your resume, and examples of your work. We&rsquo;ll be in touch.</p>
       </div>
     </div>
-  </div>
 </section>
