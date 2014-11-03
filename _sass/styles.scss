@@ -25,8 +25,18 @@ body {
       #brand .brand-mark {
         fill: $home-text-color;
       }
+      .navbar-toggle {
+        border:1px solid $home-text-color;
+        span {
+
+          color: $home-text-color;
+        }
+      }
       &>.container .navbar-brand {
         color: $home-text-color;
+      }
+      .nav>li {
+        width: 30%;
       }
       .nav>li>a {
         color: $home-text-color;
@@ -521,82 +531,82 @@ h2 {
       div.name:last-of-type {
         @include make-sm-column(7);
       }
-//      div:not(.name) {
-//        @include make-sm-column(12);
- //     }
-      textarea {
-        resize: none;
+      //      div:not(.name) {
+        //        @include make-sm-column(12);
+        //     }
+        textarea {
+          resize: none;
+        }
+      }
+      span { text-shadow: none; }
+    }
+    .contact-info {
+      @include make-sm-column(4);
+      img {
+        @extend .img-thumbnail;
+        margin-bottom: 1em;
+      }
+      .vcard, .connect {
+        font-size: .9em;
+        padding: 0;
+      }
+      .connect {
+        a {
+          display: block;
+        }
       }
     }
-    span { text-shadow: none; }
   }
-  .contact-info {
-    @include make-sm-column(4);
-    img {
-      @extend .img-thumbnail;
-      margin-bottom: 1em;
+
+  #thanks {
+    text-align: center;
+  }
+
+  ///////////////////////////////////////////////////////////////////////
+  // JOBS
+  #jobs {
+    .job, .how-we-work, .get-in-touch {
+      border-top: $container-border;
     }
-    .vcard, .connect {
-      font-size: .9em;
-      padding: 0;
+    .job {
+      padding: 1.5em;
+      color:#eee;
+      .fa {
+        color: $brand-secondary;
+      }
+      .job-meta {
+        color: #aaa;
+        font-size: .9em;
+      }
     }
-    .connect {
+  }
+
+
+  ///////////////////////////////////////////////////////////////////////
+  // FOOTER
+  footer {
+    font-family: $font-family-sans-serif;
+    height: $footerheight;
+    margin: 0;
+    padding: 5em 0;
+    text-align: center;
+    nav {
+      margin:1.5em 0 1em;
       a {
-        display: block;
+        padding:0 .5em;
       }
     }
-  }
-}
-
-#thanks {
-  text-align: center;
-}
-
-///////////////////////////////////////////////////////////////////////
-// JOBS
-#jobs {
-  .job, .how-we-work, .get-in-touch {
-    border-top: $container-border;
-  }
-  .job {
-    padding: 1.5em;
-    color:#eee;
-    .fa {
-      color: $brand-secondary;
+    .social {
+      margin-bottom: 1em;
+      a {
+        display: inline-block;
+        font-size: 1.25em;
+        margin:0 20px;
+      }
     }
-    .job-meta {
-      color: #aaa;
+    .copyright {
       font-size: .9em;
     }
   }
-}
-
-
-///////////////////////////////////////////////////////////////////////
-// FOOTER
-footer {
-  font-family: $font-family-sans-serif;
-  height: $footerheight;
-  margin: 0;
-  padding: 5em 0;
-  text-align: center;
-  nav {
-    margin:1.5em 0 1em;
-    a {
-      padding:0 .5em;
-    }
-  }
-  .social {
-    margin-bottom: 1em;
-    a {
-      display: inline-block;
-      font-size: 1.25em;
-      margin:0 20px;
-    }
-  }
-  .copyright {
-    font-size: .9em;
-  }
-}
 
 
