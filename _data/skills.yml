@@ -1,35 +1,44 @@
 - name: Brand Strategy
-  text: We make HTML and CSS do things.
+  text: "Through conversations, research, and experience, we work with brands to build a vision that’s meant to last, adapt, and grow."
 
 - name: User Experience Design
-  text: We make HTML and CSS do things.
+  text: "From sketchpad to quality assurance, we create delightful experiences with purpose, planning, and execution. Our goal is to help our clients create the best customer experience possible."
 
 - name: Digital Marketing
-  text: We make HTML and CSS do things.
+  text: "Concept to campaign and beyond, marketing isn’t limited to traditional methods or channels. We find out where your message needs to be and get it there in the right medium."
 
 - name: Visual Design
-  text: We make HTML and CSS do things.
+  text: "Page, Screen, or in between, it’s about taking the communication goals and turning them into beautiful and functional visual work. If it’s 200 pixels or 200 feet, we’ll make it beautiful."
 
 - name: User Interface Design
-  text: We make HTML and CSS do things.
+  text: "We work to eliminate the clutter and create functional interfaces for products, software, apps, and even physical spaces."
 
 - name: Process Engineering
-  text: We make HTML and CSS do things.
+  text: "We partner with our clients to help them be more efficient with their time and resources when it comes to technology and marketing communications."
+
+- name: Information Architecture
+  text: "Organizing complex data, websites, or libraries of information into interfaces that can be searched, indexed, and easily used makes our eyes glisten with joy."
 
 - name: Front-End Development
-  text: We make HTML and CSS do things.
+  text: "We make it cool with code. Responsive and flexible websites and interfaces that work in tandem with smartly built back-end systems."
 
-- name: Front-End Development
-  text: We make HTML and CSS do things.
+- name: Web Application Development
+  text: "Got an app idea or software product you want to build? We love that. Our objective is to make it work the right way for as many users as possible."
 
-- name: Front-End Development
-  text: We make HTML and CSS do things.
+- name: Identity Design
+  text: "Beyond the brand strategy, you need logos, brandmarks, and the pattern systems that support them. We make those."
 
-- name: Front-End Development
-  text: We make HTML and CSS do things.
+- name: Content Strategy
+  text: "We craft stories in context with your goals and overall marketing strategy. From email marketing to online campaigns to interface writing."
 
-- name: Front-End Development
-  text: We make HTML and CSS do things.
+- name: Product Design
+  text: "You’ve finally got your own “why didn’t I think of that” idea you want to build, we’re ready to bring it to life (and late night television)."
 
-- name: Front-End Development
-  text: We make HTML and CSS do things.
+- name: Interactive Prototyping
+  text: "If you’ve got explaining to do, we can help. Getting ideas from your head to others is a lot easier when they can test it out visually."
+
+- name: Software Product Development
+  text: "Our engineering team can build custom software solutions for digital environments ranging from defense departments to doctors offices."
+
+- name: Product Engineering
+  text: "If your idea is ready to come to life, we’ve got the coding chops to build it for the long-haul. "

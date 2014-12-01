@@ -18,8 +18,6 @@
   github: https://github.com/jcornelius
   instagram: https://instagram.com/jcornelius
   website: http://jcornelius.com
-  dribbble: sdlkfj
-  facebook: sldkfj
 
 - name: Brad Weaver
   name-tokenized: brad-weaver
@@ -37,8 +35,11 @@
     - Branding
     - Packaging Design
     - Motion Graphics
-  twitter: sbradweaver
+  twitter: https://twitter.com/sbradweaver
   linkedin: https://linkedin.com/in/sbradweaver
+  github: https://github.com/sbradweaver
+  dribbble: https://dribbble.com/bradweaver
+
 
 - name: Moses Ngone
   name-tokenized: moses-ngone
@@ -56,8 +57,9 @@
     - MVC Frameworks
     - Web Applications
     - PhoneGap
-  twitter: mospired
+  twitter: https://twitter.com/mospired
   linkedin: https://linkedin.com/in/mosesngone
+  github: https://github.com/mospired
 
 - name: Courtney Robb
   name-tokenized: courtney-robb
@@ -72,7 +74,7 @@
     - Merchandising
     - Copywriting
     - Event Management
-  twitter: Courtney_Robb_
+  twitter: https://twitter.com/Courtney_Robb_
   linkedin: https://linkedin.com/pub/courtney-robb/58/6b6/3b7
 
 - name: Stacey James
@@ -89,7 +91,7 @@
     - Marketing Communications
     - Email Marketing
     - Customer Satisfaction
-  twitter: stacey
+  twitter: https://twitter.com/stacey
   linkedin: https://www.linkedin.com/in/staceyrjames
 
 - name: Evan Volgas

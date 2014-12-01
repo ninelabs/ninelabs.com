@@ -16,14 +16,24 @@ body {
   font-family: $font-family-serif;
   &.home {
     background-color: $brand-primary;
-    background-image: none;
+    background-image: url('/img/bg-atlanta-blue.jpg');
     color: $home-text-color;
+    text-shadow:1px 1px 1px #000;
     h1, h2, h3, h4, a {
       color: $home-text-color;
+      shadow:1px 1px 1px #000;
     }
     .navbar {
       #brand .brand-mark {
         fill: $home-text-color;
+
+      }
+      .navbar-toggle {
+        border:1px solid $home-text-color;
+        span {
+
+          color: $home-text-color;
+        }
       }
       &>.container .navbar-brand {
         color: $home-text-color;
@@ -94,6 +104,7 @@ h2 {
     }
   }
   .navbar-toggle {
+    border:1px solid #888;
     padding: 4px 10px;
     span {
       color: $nav-color;
@@ -132,11 +143,13 @@ h2 {
   @include make-row();
   margin-bottom: 2em;
   .logo {
-    @include make-xs-column(12);
+    @include make-xs-column(6);
     @include make-md-column(4);
     margin: 2em 0;
-    &:nth-child(3n+1){
-      clear:left;
+    @include breakpoint(md){
+      &:nth-child(3n+1){
+        clear:left;
+      }
     }
   }
 }
@@ -157,7 +170,12 @@ h2 {
   .media-object {
     @extend .img-circle;
     @extend .pull-left;
-    width:120px;
+    @include breakpoint(xs){
+      width: 80px;
+    }
+    @include breakpoint(md){
+      width:120px;
+    }
   }
   cite {
     color: #aaa;
@@ -174,7 +192,6 @@ h2 {
 #home {
   h1 {
     font-size: 2.75em;
-    text-align: center;
     text-transform: uppercase;
     @include breakpoint(xs) {
       font-size: 2em;
@@ -185,7 +202,6 @@ h2 {
   h2 {
     font-size: 1.3em;
     font-weight: normal;
-    text-align: center;
     text-transform: none;
     @include breakpoint(xs){
       font-size:1.25em;
@@ -200,18 +216,13 @@ h2 {
 .skill {
   @include make-xs-column(12);
   @include make-sm-column(4);
-  @extend .grow;
   display: inline-block;
   margin-bottom: 3em;
   position: relative;
   padding:0 20px;
-  text-align: center;
   h4 {
     border-bottom: 2px solid transparentize(#fff,.8);
     padding-bottom: 1em;
-  }
-  p {
-    padding:0 30px;
   }
 }
 
@@ -516,14 +527,19 @@ h2 {
         display: none;
       }
       div.name:first-of-type {
-        @include make-sm-column(5);
+        @include make-xs-column(12);
+        @include make-md-column(5);
+        @include breakpoint(xs){
+          margin-bottom: 15px;
+        }
       }
       div.name:last-of-type {
-        @include make-sm-column(7);
+        @include make-xs-column(12);
+        @include make-md-column(7);
       }
-//      div:not(.name) {
-//        @include make-sm-column(12);
- //     }
+      div:not(.name) {
+        @include make-sm-column(12);
+      }
       textarea {
         resize: none;
       }
@@ -560,7 +576,6 @@ h2 {
   }
   .job {
     padding: 1.5em;
-    color:#eee;
     .fa {
       color: $brand-secondary;
     }
