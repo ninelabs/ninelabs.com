@@ -1,10 +1,8 @@
 ---
-layout: post
-title: Hello
+layout: blog
+title: How We Bill
+author: J Cornelius
 ---
-
-# How we bill.
-
 This is one of the most important discussions we can have. We prefer to bill based on value. Why? Simple. It's clear, it's measurable, and it's better for you.
 
 * **There is a clear budget.** This removes the unknowns and gives you cost certainty.
