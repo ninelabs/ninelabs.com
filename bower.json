@@ -1,0 +1,16 @@
+{
+  "name": "ninelabs.com",
+  "version": "2.0.0",
+  "homepage": "https://ninelabs.com",
+  "main": "web/index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "git://github.com/twbs/bootstrap-sass.git#v3.0.3-0"
+  }
+}
