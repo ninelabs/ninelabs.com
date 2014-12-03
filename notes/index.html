@@ -1,0 +1,14 @@
+---
+layout: blog
+title: Lab Notes
+---
+
+{% for post in site.posts %}
+<div class="post-excerpt-container">
+  <div class="post-meta"><p>{{ post.date | date: "%D" }}</p></div>
+  <div class="post-excerpt">
+    <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+    <div>{{ post.excerpt | strip_html }}</div>
+  </div>
+</div>
+{% endfor %}
