@@ -39,13 +39,15 @@ Then you take these answers and create a narrative, a voice, a message. Only the
 - How should people feel when they come here and/or use this?
 - What feelings should they leave with?
 
-These answers will guide the design of the brand experience. Brand experience design must be focused and intentional. Otherwise you leave the design up for grabs.
+These answers will guide the design of the brand experience.
 
 ### Having No Design is a Design, too
 
+Brand experience design must be focused and intentional. Otherwise you leave the design up for grabs. If you don’t design the your brand’s message someone else is doing it for you.
+
 > If you choose not to decide you still have made a choice. *"Freewill" by Rush*
 
-If you don’t design the your brand’s message someone else is doing it for you. Think how easily the press can sway public opinion about a company. This is happening at a smaller scale all the time. People talk to each other about their experiences with products and brands, new feelings get formed, and someone else just designed your brand.
+Think how easily the press can sway public opinion about a company. This is happening at a smaller scale all the time. People talk to each other about their experiences with products and brands, new feelings get formed, and someone else just designed your brand.
 
 ### Consistency is Key
 This is made easier by inconsistent brand messaging. If messaging in your product, your website, and your social channels aren’t consistent you’re leaving gaps for people to fill in their own assumptions, or worse, for competitors to fill with negativity.
