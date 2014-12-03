@@ -3,3 +3,5 @@ markdown: redcarpet
 pygments: true
 port: 9999
 permalink: /notes/:title.html
+paginate: 10
+paginate_path: "/notes/page:num/"

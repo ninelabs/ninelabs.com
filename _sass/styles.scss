@@ -555,7 +555,6 @@ h2 {
       margin: 0
     }
   }
-
   .meta {
     color: $gray;
     margin-bottom: .5em;
@@ -565,20 +564,20 @@ h2 {
     }
   }
   h3 {
-   color:$gray;
- }
- blockquote {
-  border-color: $brand-primary;
-  i, em {
-    display:block;
-    color: $gray-light;
-    font-size: .7em;
-    margin: .75em 0 0 1em;
-    &:before {
-      content: "\2014";
+    color:$gray;
+  }
+  blockquote {
+    border-color: $brand-primary;
+    i, em {
+      display:block;
+      color: $gray-light;
+      font-size: .7em;
+      margin: .75em 0 0 1em;
+      &:before {
+        content: "\2014";
+      }
     }
   }
-}
 }
 
 
