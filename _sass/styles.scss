@@ -520,9 +520,21 @@ h2 {
 .labnotes {
   @include make-sm-column(8);
   @extend .col-sm-offset-2;
+  padding-top: 2em;
 
   h2 {
     border-bottom: 1px solid $gray-light;
+    line-height: .9em;
+    margin-top: 0;
+    padding-bottom: .25em;
+  }
+  .meta {
+    color: $gray;
+    margin-bottom: .5em;
+    a {
+      color: $gray-dark;
+      text-decoration: underline;
+    }
   }
   h3 {
    color:$gray;
