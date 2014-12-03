@@ -47,7 +47,7 @@ Brand experience design must be focused and intentional. Otherwise you leave the
 
 > If you choose not to decide you still have made a choice. *"Freewill" by Rush*
 
-Think how easily the press can sway public opinion about a company. This is happening at a smaller scale all the time. People talk to each other about their experiences with products and brands, new feelings get formed, and someone else just designed your brand.
+Think how easily the press can sway public opinion about a company. This is happening at a smaller scale in everyday converastions all the time. People talk to each other about their experiences with products and brands, new feelings get formed, and someone else just designed your brand.
 
 ### Consistency is Key
 This is made easier by inconsistent brand messaging. If messaging in your product, your website, and your social channels aren’t consistent you’re leaving gaps for people to fill in their own assumptions, or worse, for competitors to fill with negativity.
