@@ -614,6 +614,18 @@ h2 {
       color: $gray-light;
     }
   }
+
+  .docs-disclaimer {
+    @include make-row();
+    p {
+      @include make-sm-column(12);
+      border-top: 1px solid $gray-lighter;
+      margin-top:3em;
+      padding-top: 1em;
+      color:$gray-light;
+      font-style: italic;
+    }
+  }
 }
 
 
