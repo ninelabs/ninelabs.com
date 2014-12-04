@@ -1,5 +1,9 @@
 name: Nine Labs
 markdown: redcarpet
+redcarpet:
+  extensions: [smart]
+
+
 pygments: true
 port: 9999
 permalink: /notes/:title.html

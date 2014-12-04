@@ -580,6 +580,42 @@ h2 {
   }
 }
 
+///////////////////////////////////////////////////////////////////////
+// Docs
+
+.docs {
+  header {
+    border-bottom: 1px solid $gray-light;
+    margin-bottom: 2em;
+    padding-bottom:.5em;
+    h3 {
+      color:$gray;
+    }
+  }
+  article {
+    @include make-sm-column(8);
+
+    ol li {
+      list-style-type: decimal;
+      padding-top:.75em;
+      ol li {
+        list-style-type: lower-latin;
+        ol li {
+          list-style-type: lower-roman;
+        }
+      }
+    }
+  }
+  aside {
+    @include make-sm-column(3);
+    @extend .col-sm-offset-1;
+    margin-top: 3em;
+    h4 {
+      color: $gray-light;
+    }
+  }
+}
+
 
 
 ///////////////////////////////////////////////////////////////////////

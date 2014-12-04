@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<div class="docs">
+  <article>
+    <header>
+      <h3>{{ page.title }}</h3>
+    </header>
+
+    <div class="post">
+      {{ content }}
+    </div>
+
+  </article>
+
+  <aside>
+    <h4>All Documents</h4>
+    <ul>
+      {% assign docs = (site.pages | sort: "weight" | where: "layout" , "docs" ) %}
+      {% for page in docs %}
+      <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </aside>
+</div>
