@@ -3,8 +3,7 @@ markdown: redcarpet
 redcarpet:
   extensions: [smart]
 
-
-pygments: true
+highlighter: pygments
 port: 9999
 permalink: /notes/:title.html
 paginate: 10

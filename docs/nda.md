@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Non-Disclosure Agreement
+description: A simple no-nonsense NDA for use during the courtship phase of a new client relationship.
 weight: 3
 ---
 

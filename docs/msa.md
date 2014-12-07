@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Master Services Agreement
+description: This outlines the nature of our business relationship, how we protect your information, and what happens when things go wrong.
 weight: 1
 ---
 
