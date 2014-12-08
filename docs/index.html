@@ -2,10 +2,12 @@
 layout: default
 title: Documents and Agreements
 ---
-<div class="docs">
+<section id="docs">
   <header>
-    <h3>Mumbo Jumbo</h3>
-    <p>Legal documents we use for our client and employee/contractor relationships.</p>
+    <hgroup>
+      <h3>Mumbo Jumbo</h3>
+      <p>Legal documents we use for our client and employee/contractor relationships.</p>
+    </hgroup>
   </header>
   <div class="nl-list">
     {% assign docs = (site.pages | sort: "weight" | where: "layout" , "docs" ) %}
@@ -16,4 +18,4 @@ title: Documents and Agreements
     </div>
     {% endfor %}
   </ul>
-</div>
+</section>

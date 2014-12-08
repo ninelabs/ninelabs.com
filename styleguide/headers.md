@@ -1,7 +1,7 @@
 ---
-layout: default
-title: Headers
-weight: 2
+layout: styleguide
+title: Header Modules
+weight: 3
 ---
 
 # Header Modules
