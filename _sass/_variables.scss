@@ -3,7 +3,7 @@
 $font-family-sans-serif: "freight-sans-pro",'helvetica neue',helvetica,sans-serif;
 $font-family-serif: "ff-tisa-web-pro",serif;
 
-$brand-primary: rgb(58,123,213) !default;
+$brand-primary: rgb(35, 97, 182) !default; /* rgb(58,123,213) !default; */
 $brand-secondary: #00d2ff;
 $home-text-color: #ffffff;
 
@@ -12,4 +12,4 @@ $nav-color:             #000 !default;
 $text-color:            #222 !default;
 
 $footerheight: 260px;
-$container-border: 1px solid transparentize($brand-primary, .5);
+$container-border: 1px solid $brand-primary;

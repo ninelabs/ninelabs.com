@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<section class="docs has-sidebar">
+  <article>
+    <header>
+      <h3>{{ page.title }}</h3>
+    </header>
+
+    <div class="post">
+      {{ content }}
+    </div>
+
+  </article>
+
+  <div class="docs-disclaimer">
+    <p>Note: These documents are supplied as a reference only. Nothing here is meant to be used as legal advice.</p>
+  </div>
+</section>
+<aside>
+  <h4>All Documents</h4>
+  <ul>
+    {% assign docs = (site.pages | sort: "weight" | where: "layout" , "docs" ) %}
+    {% for page in docs %}
+    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+    {% endfor %}
+  </ul>
+</aside>
+

@@ -36,54 +36,21 @@
   }
   </script>
 </head>
-<body id="lldfl" class="{{page.pid}}">
+<body id="lldfl"{% if page.pid %} class="{{ page.pid }}"{% endif %}>
 
   <div id="wrap">
 
-    <nav class="navbar" role="navigation">
-      <div class="container">
-        <a href="/">
-          <svg viewBox="0 0 126 156" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" id="brand">
-            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-              <g id="Nine-Labs-Brand" sketch:type="MSLayerGroup" fill="#000000">
-                <g id="Group" sketch:type="MSShapeGroup">
-                  <path class="brand-mark" d="M39.029,30.725 C30.566,30.725 23.691,23.849 23.691,15.386 C23.691,6.922 30.566,0.225 39.029,0.225 C47.492,0.225 54.368,6.922 54.368,15.386 C54.368,23.849 47.492,30.725 39.029,30.725 L39.029,30.725 Z" id="Shape"></path>
-                  <path class="brand-mark" d="M86.281,30.725 C77.818,30.725 70.941,23.849 70.941,15.386 C70.941,6.922 77.818,0.225 86.281,0.225 C94.745,0.225 101.622,6.922 101.622,15.386 C101.622,23.849 94.745,30.725 86.281,30.725 L86.281,30.725 Z" id="Shape"></path>
-                  <path class="brand-mark" d="M39.029,110.946 C30.566,110.946 23.691,104.074 23.691,95.785 C23.691,87.324 30.566,80.445 39.029,80.445 C47.492,80.445 54.368,87.324 54.368,95.785 C54.368,104.074 47.492,110.946 39.029,110.946 L39.029,110.946 Z" id="Shape"></path>
-                  <path class="brand-mark" d="M86.281,110.946 C77.818,110.946 70.941,104.074 70.941,95.785 C70.941,87.324 77.818,80.445 86.281,80.445 C94.745,80.445 101.622,87.324 101.622,95.785 C101.622,104.074 94.745,110.946 86.281,110.946 L86.281,110.946 Z" id="Shape"></path>
-                  <path class="brand-mark" d="M15.58,71.277 C7.119,71.277 0.24,64.4 0.24,56.116 C0.24,47.65 7.119,40.773 15.58,40.773 C24.043,40.773 30.918,47.65 30.918,56.116 C30.918,64.4 24.043,71.277 15.58,71.277 L15.58,71.277 Z" id="Shape"></path>
-                  <path class="brand-mark" d="M110.083,71.277 C101.622,71.277 94.922,64.4 94.922,56.116 C94.922,47.65 101.622,40.773 110.083,40.773 C118.549,40.773 125.422,47.65 125.422,56.116 C125.422,64.4 118.549,71.277 110.083,71.277 L110.083,71.277 Z" id="Shape"></path>
-                  <path class="brand-mark" d="M96.156,70.924 C85.576,63.697 85.929,48.532 96.156,41.128 C101.092,37.603 97.744,32.313 92.454,34.779 C80.994,40.425 67.946,32.489 66.713,19.97 C66.535,16.974 64.771,15.562 63.183,15.562 C61.424,15.562 59.659,16.974 59.481,19.97 C58.424,32.665 45.2,40.07 33.741,34.779 C28.097,32.312 25.28,37.953 30.039,41.128 C40.618,48.357 40.265,63.521 30.039,70.924 C25.102,74.448 28.451,79.739 33.741,77.271 C45.2,71.633 58.247,79.566 59.481,92.085 C59.835,95.083 61.424,96.489 63.183,96.489 C64.771,96.666 66.536,95.083 66.713,92.085 C67.77,79.392 80.994,71.982 92.454,77.271 C98.096,79.738 101.092,74.1 96.156,70.924 L96.156,70.924 Z M63.183,69.69 C55.602,69.69 49.432,63.52 49.432,56.116 C49.432,48.531 55.602,42.36 63.183,42.36 C70.592,42.36 76.761,48.531 76.761,56.116 C76.761,63.521 70.592,69.69 63.183,69.69 L63.183,69.69 Z" id="Shape"></path>
-                  <path class="brand-mark" d="M37.795,155.557 C32.506,154.677 28.804,149.564 29.861,144.274 C30.74,138.983 35.679,135.454 40.968,136.339 C46.257,137.219 49.96,142.331 49.077,147.621 C48.021,152.91 43.086,156.435 37.795,155.557 L37.795,155.557 Z" id="Shape"></path>
-                  <path class="brand-mark" d="M60.893,137.042 C53.84,135.808 49.079,129.107 50.139,122.057 C51.372,115.003 58.071,110.244 65.125,111.479 C72.178,112.536 76.938,119.236 75.705,126.291 C74.645,133.34 67.946,138.099 60.893,137.042 L60.893,137.042 Z" id="Shape"></path>
-                </g>
-              </g>
-            </g>
-          </svg>
-        </a>
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span>Menu</span>
-          </button>
-          <a class="navbar-brand" href="/">NINE LABS</a>
-        </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a{% if page.pid == 'services' %} class="active"{% endif %} href="/services/">What We Do</a></li>
-            <li><a{% if page.pid == 'approach' %} class="active"{% endif %} href="/approach/">Our Approach</a></li>
-            <li><a{% if page.pid == 'reputation' %} class="active"{% endif %} href="/reputation/">Our Reputation</a></li>
-            <li><a{% if page.pid == 'experience' %} class="active"{% endif %} href="/experience/">Our Experience</a></li>
-            <li><a{% if page.pid == 'contact' %} class="active"{% endif %} href="/contact/">Contact Us</a></li>
-          </ul>
+    {% include global-navigation.html %}
+
+    <main>
+      <div>
+        <div class="content">
+        {{ content }}
         </div>
       </div>
-    </nav>
+    </main>
 
-    <div class="content"><div>
-      {{ content }}
-    </div></div>
-
-  </div>
+  </div><!-- /wrap -->
 
   <footer>
       <nav><a href="/">Home</a> // <a href="/services/">Services</a> // <a href="/approach/">Approach</a> // <a href="/reputation/">Reputation</a> // <a href="/experience/">Experience</a> // <a href="/contact/">Contact</a></nav>

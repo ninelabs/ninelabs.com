@@ -17,23 +17,3 @@
     @media (max-width: 320px) { @content; }
   }
 }
-
-/*
-.navbar-brand {
-  @include breakpoint(nano){
-    &:after { content: " - nano "; }
-  }
-  @include breakpoint(xs){
-    &:after { content: " - xs "; }
-  }
-  @include breakpoint(sm){
-    &:after { content: " - sm "; }
-  }
-  @include breakpoint(md){
-    &:after { content: " - md "; }
-  }
-  @include breakpoint(lg){
-    &:after { content: " - lg "; }
-  }
-}
-*/

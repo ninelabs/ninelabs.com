@@ -1,6 +1,6 @@
 // styles.scss
 
-@import 'variables' , '../vendor/bootstrap-sass/vendor/assets/stylesheets/bootstrap.scss','responsive','effects';
+@import 'variables','libs','responsive','effects';
 
 html,body {
   height: 100%;
@@ -48,33 +48,8 @@ body {
   }
 }
 
-#wrap {
-  min-height: 100%;
-  height: auto;
-  margin: 0 auto (-$footerheight);
-  padding: 40px 0 $footerheight;
-  &> .container {
-    padding: 0 20px;
-  }
-}
-
-h1, h2, h3, h4 {
-  color: $brand-primary;
-  font-family: $font-family-sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-h2 {
-  @include breakpoint(md) {
-    font-size: 3em;
-  }
-  @include breakpoint(lg) {
-    font-size: 3.75em;
-  }
-}
-
-///////////////////////////////////////////////////////////////////////
-// NAV
+//////////////////////////
+// Global Navigation
 .navbar {
   background-color: transparent;
   border-width:0;
@@ -124,6 +99,62 @@ h2 {
   }
 }
 
+
+//////////////////////////
+// Content Scaffold
+#wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto (-$footerheight);
+  padding: 40px 0 $footerheight;
+}
+main {
+  @extend .container;
+  >div {
+    @include make_row();
+    .content {
+      @include make-sm-column(10);
+      @include make-sm-column-offset(1);
+      padding-top: 2em;
+      .has-sidebar {
+        @include make-sm-column(8);
+      }
+      aside {
+        @include make-sm-column(3);
+        @extend .col-sm-offset-1;
+      }
+    }
+
+
+  }
+}
+
+
+//////////////////////////
+// Headers
+
+section header {
+  @include make-row();
+  border-bottom: 1px solid $brand-primary;
+  margin-bottom: 1.5em;
+  hgroup {
+    @include make-sm-column(12);
+    h1 { margin-top: 0; }
+    h4, h5, h6 { color: $gray; }
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $brand-primary;
+  font-family: $font-family-sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+
+
+
 ///////////////////////////////////////////////////////////////////////
 // GLOBAL SECTION STYLES
 .content {
@@ -170,11 +201,12 @@ h2 {
   .media-object {
     @extend .img-circle;
     @extend .pull-left;
+    width: 90px;
     @include breakpoint(xs){
-      width: 80px;
+      width: 60px;
     }
     @include breakpoint(md){
-      width:120px;
+      width: 90px;
     }
   }
   cite {
@@ -229,7 +261,7 @@ h2 {
 
 .cta {
   @include make-row();
-  border-top: 1px solid $brand-secondary;
+  border-top: 1px solid $brand-primary;
   margin-top: 2em;
   padding-top:2em;
   .tag {
@@ -240,6 +272,7 @@ h2 {
   .action {
     @include make-sm-column(4);
     @include make-md-column(3);
+    padding-top: 15px;
     a {
       @extend .btn;
       @extend .btn-success;
@@ -517,7 +550,7 @@ h2 {
 ///////////////////////////////////////////////////////////////////////
 // LAB NOTES
 
-.post-excerpt-container {
+.post-excerpt-container, .nl-list-item {
   @include make-row();
   border-bottom: 1px solid $gray-light;
   margin-bottom: 2em;
@@ -566,16 +599,59 @@ h2 {
   h3 {
     color:$gray;
   }
-  blockquote {
-    border-color: $brand-primary;
-    i, em {
-      display:block;
-      color: $gray-light;
-      font-size: .7em;
-      margin: .75em 0 0 1em;
-      &:before {
-        content: "\2014";
+}
+
+blockquote {
+  border-color: $brand-primary;
+  i, em {
+    display:block;
+    color: $gray-light;
+    font-size: .7em;
+    margin: .75em 0 0 1em;
+    &:before {
+      content: "\2014\00a0";
+    }
+  }
+}
+
+
+
+
+///////////////////////////////////////////////////////////////////////
+// Docs
+
+#docs {
+  article {
+    @include make-sm-column(8);
+    ol li {
+      list-style-type: decimal;
+      padding-top:.75em;
+      ol li {
+        list-style-type: lower-latin;
+        ol li {
+          list-style-type: lower-roman;
+        }
       }
+    }
+  }
+  aside {
+    @include make-sm-column(3);
+    @extend .col-sm-offset-1;
+    margin-top: 3em;
+    h4 {
+      color: $gray-light;
+    }
+  }
+
+  .docs-disclaimer {
+    @include make-row();
+    p {
+      @include make-sm-column(12);
+      border-top: 1px solid $gray-lighter;
+      margin-top:3em;
+      padding-top: 1em;
+      color:$gray-light;
+      font-style: italic;
     }
   }
 }
@@ -682,3 +758,6 @@ footer {
 }
 
 
+//////
+// removes the double border around example code blocks in the style guide.
+pre{border:none;padding:0;}
