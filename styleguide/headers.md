@@ -45,7 +45,7 @@ They can also have a subheader using a `<h4>` element for extra info.
     </header>
   </div>
   <div class="panel-footer">
-    {% highlight html %}
+{% highlight html %}
 <header>
   <hgroup>
     <h1>{% raw %}{{ page.title }}{% endraw %}</h1>
@@ -53,7 +53,7 @@ They can also have a subheader using a `<h4>` element for extra info.
   </hgroup>
 </header>
 {% endhighlight %}
-</div>
+  </div>
 </div>
 
 
