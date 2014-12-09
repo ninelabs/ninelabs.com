@@ -16,7 +16,7 @@
   twitter: https://twitter.com/jc
   linkedin: https://linkedin.com/in/jcornelius
   github: https://github.com/jcornelius
-  instagram: https://instagram.com/jcornelius
+  instagram: http://instagram.com/jcornelius
   website: http://jcornelius.com
 
 - name: Brad Weaver
@@ -37,7 +37,7 @@
     - Motion Graphics
   twitter: https://twitter.com/sbradweaver
   linkedin: https://linkedin.com/in/sbradweaver
-  github: https://github.com/sbradweaver
+  github: https://github.com/bradweaver
   dribbble: https://dribbble.com/bradweaver
 
 
@@ -97,7 +97,7 @@
 - name: Evan Volgas
   name-tokenized: evan-volgas
   role: Data Analysis // Visualization
-  twitter: evanvolgas
+  twitter: https://twitter.com/evanvolgas
   linkedin: https://www.linkedin.com/in/evanvolgas
   skills:
     - Data Analytics
@@ -138,7 +138,7 @@
 - name: Sierra Petrowski
   name-tokenized: sierra-petrowski
   role: Interactive Design
-  twitter: snpetrowski
+  twitter: https://twitter.com/snpetrowski
   linkedin: https://www.linkedin.com/pub/jason-ottinger/7/357/413
   skills:
     - User Interface Design
@@ -156,7 +156,7 @@
 - name: Jason Ottinger
   name-tokenized: jason-ottinger
   role: Branding // Visual Design
-  twitter: jottin
+  twitter: https://twitter.com/jottin
   linkedin: https://www.linkedin.com/pub/jason-ottinger/7/357/413
   skills:
     - Branding
@@ -172,8 +172,9 @@
 - name: Doc Waller
   name-tokenized: doc-waller
   role: Inspiration Architecture
-  twitter: docwaller
-  linkedin: https://www.linkedin.com/in/thedocwaller
+  twitter: https://twitter.com/docwaller
+  facebook: https://www.facebook.com/doc.waller
+  instagram: http://instagram.com/docwaller
   skills:
     - Creative Writing
     - Entrepreneurship
