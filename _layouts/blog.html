@@ -3,7 +3,7 @@ layout: default
 ---
 <article class="labnotes">
   <header>
-    {% if page.type == "post" %}<p class="meta"><a href="/notes/">Lab Notes</a> // {{ page.date | date: "%B %-d, %Y" }}</p>{% endif %}
+    {% if page.type == "post" %}<p class="meta"><a href="/notes/">Lab Notes</a> // {{ page.date | date: "%B %-d, %Y" }} // {{ page.content | reading_time }}</p>{% endif %}
     <h2>{{ page.title }}</h2>
     {% if page.type != "post" %}<h4>Thoughts and observations from inside the labs.</h4>{% endif %}
   </header>
