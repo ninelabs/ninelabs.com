@@ -1,6 +1,6 @@
 - name: J Cornelius
   name-tokenized: j-cornelius
-  role: Founder // Partner // President
+  role: President
   skills:
     - Digital Strategy
     - User Experience
@@ -21,7 +21,7 @@
 
 - name: Brad Weaver
   name-tokenized: brad-weaver
-  role: Partner // Director of Design
+  role: Director of Design
   skills:
     - User Experience
     - Information Architecture
@@ -43,7 +43,7 @@
 
 - name: Moses Ngone
   name-tokenized: moses-ngone
-  role: Partner // Director of Engineering
+  role: Director of Engineering
   skills:
     - PHP
     - Ruby
@@ -63,7 +63,7 @@
 
 - name: Courtney Robb
   name-tokenized: courtney-robb
-  role: Client Services // Project Management
+  role: Project Manager
   skills:
     - Social Media
     - Marketing Strategy
@@ -79,7 +79,7 @@
 
 - name: Stacey James
   name-tokenized: stacey-james
-  role: Marketing // Business Development
+  role: Marketing Director
   skills:
     - Business Development
     - Digital Marketing
@@ -94,46 +94,21 @@
   twitter: https://twitter.com/stacey
   linkedin: https://www.linkedin.com/in/staceyrjames
 
-- name: Evan Volgas
-  name-tokenized: evan-volgas
-  role: Data Analysis // Visualization
-  twitter: https://twitter.com/evanvolgas
-  linkedin: https://www.linkedin.com/in/evanvolgas
+- name: Jason Ottinger
+  name-tokenized: jason-ottinger
+  role: Branding // Visual Design
+  twitter: https://twitter.com/jottin
+  linkedin: https://www.linkedin.com/pub/jason-ottinger/7/357/413
   skills:
-    - Data Analytics
-    - Mathematical Modeling
-    - Data Visualization
-    - Business Analytics
-    - JavaScript
-    - Angular
-    - jQuery
-    - D3.js
-    - Visualization
-    - Statistics
-    - SAS
-    - Data Mining
-    - MySQL
-    - T-SQL
-    - PHP
-    - Ubuntu
-    - Linux
-
-- name: Justin Cook
-  name-tokenized: justin-cook
-  role: Front-End Development
-  twitter:
-  linkedin: https://www.linkedin.com/pub/justin-l-cook/16/b8b/492
-  skills:
-    - Responsive Web Design
-    - User Interface Design
+    - Branding
     - Graphic Design
-    - Usability
-    - HTML5
-    - CSS3
-    - jQuery
-    - Search Engine Optimization
-    - Information Architecture
-    - WordPress
+    - Identity Design
+    - Typography
+    - Art Direction
+    - User Interface Design
+    - Color Theory
+    - Illustration
+    - Photography
 
 - name: Sierra Petrowski
   name-tokenized: sierra-petrowski
@@ -152,22 +127,6 @@
     - Illustrator
     - HTML5
     - CSS3
-
-- name: Jason Ottinger
-  name-tokenized: jason-ottinger
-  role: Branding // Visual Design
-  twitter: https://twitter.com/jottin
-  linkedin: https://www.linkedin.com/pub/jason-ottinger/7/357/413
-  skills:
-    - Branding
-    - Graphic Design
-    - Identity Design
-    - Typography
-    - Art Direction
-    - User Interface Design
-    - Color Theory
-    - Illustration
-    - Photography
 
 - name: Doc Waller
   name-tokenized: doc-waller
@@ -188,3 +147,20 @@
     - New Media
     - Video
     - Documentaries
+
+- name: Justin Cook
+  name-tokenized: justin-cook
+  role: Front-End Development
+  twitter:
+  linkedin: https://www.linkedin.com/pub/justin-l-cook/16/b8b/492
+  skills:
+    - Responsive Web Design
+    - User Interface Design
+    - Graphic Design
+    - Usability
+    - HTML5
+    - CSS3
+    - jQuery
+    - Search Engine Optimization
+    - Information Architecture
+    - WordPress

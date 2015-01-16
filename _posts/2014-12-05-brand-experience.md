@@ -2,8 +2,10 @@
 layout: blog
 title: What is Brand Experience Design?
 author: J Cornelius
-date: December 5th, 2014
+date: December 18th, 2014
 type: post
+pid: blog
+image: http://ninelabs.com.s3.amazonaws.com/ferrari.jpg
 ---
 ### Ferrari. Apple. Ikea.
 These are household names in much of the world. Each of them evokes certain feelings. You have a connection with each brand in some way, even if it’s at a distance. Regardless of where you see these brands you get a consistent message. A message that’s been carefully designed for clarity and consistency.
@@ -20,7 +22,12 @@ A brand is much more than a name or logo. Those things are important, but withou
 
 A real brand is a alchemy of these things. It’s a combination of identity, emotion, experiences, charisma – the soul of the company and the products it makes. Removing any of these factors is only looking at part of the story. Unless you look at how people interact with a company and its products, you don’t have a holistic picture of the brand.
 
-> A company’s brand sits at the intersection of what they do and how people feel about it. *J Cornelius*
+> Brands are more than names and logos. A company’s brand sits at the intersection of what they do and how people feel about it. *J Cornelius*
+
+Or as my friend [Jared Spool](https://twitter.com/jmspool) said&hellip;
+
+<blockquote class="twitter-tweet" lang="en"><p>Brands aren’t a thing.&#10;Perceptions of brands are.&#10;&#10;You can’t create a brand.&#10;You influence people&#39;s perception of the brand.&#10;&#10;That’s design.</p>&mdash; Jared Spool (@jmspool) <a href="https://twitter.com/jmspool/status/543880902334373888">December 13, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### Brand Experience Design
 Any artist worth their salt can make a logo. Hell, there are throngs of people willing to make one for less than $100. But it’s just art. Without understanding the company's soul, a logo will always feel disconnected and disingenuous. It will seem fake, and people can feel it.
