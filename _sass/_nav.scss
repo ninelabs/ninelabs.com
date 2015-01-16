@@ -1,0 +1,142 @@
+//////////////////////////
+// Global Navigation
+
+// in case we want to have the nav section use a different background-color or something
+.site-header {}
+
+%nav-font {
+  font-family: $font-family-sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navigation {
+  @extend %container;
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.logo {
+  float: left;
+  position: relative;
+  width:40px;
+  .brand-id {
+    width:40px;
+    path { fill:$nav-color; }
+    &:hover {
+      path { fill:$nav-hover-color; }
+    }
+  }
+}
+
+.nav-collapse ul {
+  border-bottom: 1px solid $gray-lighter;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+  li {
+    border-top: 1px solid $gray-lighter;
+    display: block;
+    padding: 0 0 4px;
+    width: 100%;
+    a {
+      @extend %nav-font;
+    }
+  }
+}
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.nav-collapse.opened {
+  max-height: 9999px;
+}
+
+.nav-toggle {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  border: 1px solid $nav-color;
+  @include border-radius(5px);
+  @extend %nav-font;
+  color: $nav-color;
+  float: right;
+  padding:5px 12px;
+  text-align: center;
+  outline: 0;
+}
+
+@media screen and (max-width: 40em) {
+  .js .nav-collapse {
+    clear: both;
+    margin-top: 70px;
+  }
+
+}
+
+@media screen and (min-width: 40em) {
+  .nav-collapse {
+    width: auto;
+    ul {
+      border:none;
+      float: right;
+      margin: 0;
+      padding: 0;
+      width: auto;
+      display: block;
+      list-style: none;
+      li {
+        border: none;
+        display: inline-block;
+        padding: 12.5px;
+        padding-top: 0;
+        float: left;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: center;
+        width:auto;
+        a {
+          padding-bottom: 10px;
+          &:hover, &.active {
+            border-bottom: 5px solid $brand-primary;
+          }
+        }
+      }
+    }
+  }
+  .js .nav-collapse {
+    position: relative;
+  }
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

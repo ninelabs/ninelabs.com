@@ -2,6 +2,7 @@
 layout: blog
 title: How We Bill
 author: J Cornelius
+pid: blog
 ---
 This is one of the most important discussions we can have. We prefer to bill based on value. Why? Simple. It's clear, it's measurable, and it's better for you.
 

@@ -1,0 +1,20 @@
+////////////////////////////////////////////
+// Styleguide specific styles
+
+@import 'styles';
+
+
+.styleguide {
+
+  .grid-sample {
+    .row {
+      background-color:#ccc;
+      border: 1px solid pink;
+    }
+    .col-100, .col-66, .col-50, .col-33 {
+      background-color:#eee;
+      border:1px solid #ddd;
+    }
+  }
+
+}

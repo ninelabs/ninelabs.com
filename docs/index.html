@@ -5,17 +5,24 @@ title: Documents and Agreements
 <section id="docs">
   <header>
     <hgroup>
-      <h3>Mumbo Jumbo</h3>
-      <p>Legal documents we use for our client and employee/contractor relationships.</p>
+      <h1>Mumbo Jumbo</h1>
     </hgroup>
   </header>
-  <div class="nl-list">
+
+  <div class="docs-list">
+    <div class="docs-overview">
+      <p>Legal documents we use for our client and employee/contractor relationships.</p>
+    </div>
     {% assign docs = (site.pages | sort: "weight" | where: "layout" , "docs" ) %}
     {% for page in docs %}
-    <div class="nl-list-item">
-      <h4><a href="{{ page.url }}">{{ page.title }}</a></h4>
+    <div class="docs-excerpt">
+      <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
       <p>{{ page.description }}</p>
     </div>
     {% endfor %}
-  </ul>
+  </div>
+</ul>
+<div class="docs-disclaimer">
+  <p>Note: These documents are supplied as a reference only.</p>
+</div>
 </section>
