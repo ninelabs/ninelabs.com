@@ -1,15 +1,112 @@
-// local variables
+////////////////////////////////////////////
+// Variables
 
-$font-family-sans-serif: "freight-sans-pro",'helvetica neue',helvetica,sans-serif;
-$font-family-serif: "ff-tisa-web-pro",serif;
+////////////////////////////////////////////
+// Grid & Layout
 
-$brand-primary: rgb(35, 97, 182) !default; /* rgb(58,123,213) !default; */
-$brand-secondary: #00d2ff;
-$home-text-color: #ffffff;
+// Number of columns in the grid system
+$grid-columns:              3 !default;
 
-$body-bg:               #fff !default;
-$nav-color:             #000 !default;
-$text-color:            #222 !default;
+// Padding, to be divided by two and applied to the left and right of all columns
+$grid-gutter-width:         30px !default;
 
-$footerheight: 260px;
+////////////////////////////////////////////
+// Color
+
+// Brand colors
+// -------------------------
+$brand-primary:         #F07834 !default;
+$brand-secondary:       #9fe32c !default;
+$brand-success:         #5cb85c !default;
+$brand-warning:         #f0ad4e !default;
+$brand-danger:          #d9534f !default;
+$brand-info:            darken($brand-secondary, 10%) !default;
+
+// Grays
+// -------------------------
+$gray-darker:            lighten(#000, 13.5%) !default; // #222
+$gray-dark:              lighten(#000, 20%) !default;   // #333
+$gray:                   lighten(#000, 33.5%) !default; // #555
+$gray-light:             lighten(#000, 60%) !default;   // #999
+$gray-lighter:           lighten(#000, 93.5%) !default; // #eee
+
+
+// Design
+// -------------------------
+$body-bg:               white !default;
+$headings-color:        #111 !default;
+$text-color:            #444 !default;
+$nav-color:             transparentize($text-color,.1) !default;
+$nav-hover-color:       lighten($nav-color, .3) !default;
+$link-color:            darken($text-color,.5) !default;
+$link-hover-color:      $brand-primary !default;
+
+
+
+////////////////////////////////////////////
+// Typography
+
+$font-family-sans-serif:  "freight-sans-pro",'helvetica neue',helvetica,sans-serif;
+$font-family-serif:       "ff-tisa-web-pro",serif;
+$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base:        $font-family-sans-serif !default;
+
+$font-size-base:          22px !default;
+$font-size-large:         ceil($font-size-base * 1.25) !default; // ~18px
+$font-size-small:         ceil($font-size-base * 0.85) !default; // ~12px
+
+$font-size-h1:            floor($font-size-base * 2.6) !default; // ~36px
+$font-size-h2:            floor($font-size-base * 2.15) !default; // ~30px
+$font-size-h3:            ceil($font-size-base * 1.7) !default; // ~24px
+$font-size-h4:            ceil($font-size-base * 1.25) !default; // ~18px
+$font-size-h5:            $font-size-base !default;
+$font-size-h6:            ceil($font-size-base * 0.85) !default; // ~12px
+
+$line-height-base:        1.428571429 !default; // 20/14
+$line-height-computed:    floor($font-size-base * $line-height-base) !default; // ~20px
+
+$headings-font-family:    $font-family-base !default;
+$headings-font-weight:    500 !default;
+$headings-line-height:    1.1 !default;
+$headings-color:          inherit !default;
+
+// Components
+// -------------------------
+// Based on 14px font-size and 1.428 line-height (~20px to start)
+
+$padding-base-vertical:          6px !default;
+$padding-base-horizontal:        12px !default;
+
+$padding-large-vertical:         10px !default;
+$padding-large-horizontal:       16px !default;
+
+$padding-small-vertical:         5px !default;
+$padding-small-horizontal:       10px !default;
+
+$padding-xs-vertical:            1px !default;
+$padding-xs-horizontal:          5px !default;
+
+$line-height-large:              1.33 !default;
+$line-height-small:              1.5 !default;
+
+$border-radius-base:             4px !default;
+$border-radius-large:            6px !default;
+$border-radius-small:            3px !default;
+
+$component-active-color:         #fff !default;
+$component-active-bg:            $brand-primary !default;
+
+$caret-width-base:               4px !default;
+$caret-width-large:              5px !default;
+
 $container-border: 1px solid $brand-primary;
+
+// Thumbnails
+// -------------------------
+$thumbnail-padding:           4px !default;
+$thumbnail-bg:                $body-bg !default;
+$thumbnail-border:            #ddd !default;
+$thumbnail-border-radius:     $border-radius-base !default;
+
+$thumbnail-caption-color:     $text-color !default;
+$thumbnail-caption-padding:   9px !default;

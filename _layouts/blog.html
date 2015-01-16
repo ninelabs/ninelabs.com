@@ -1,30 +1,39 @@
 ---
 layout: default
+pid: notes
 ---
-<article class="labnotes">
-  <header>
-    {% if page.type == "post" %}<p class="meta"><a href="/notes/">Lab Notes</a> // {{ page.date | date: "%B %-d, %Y" }} // {{ page.content | reading_time }}</p>{% endif %}
-    <h2>{{ page.title }}</h2>
-    {% if page.type != "post" %}<h4>Thoughts and observations from inside the labs.</h4>{% endif %}
-  </header>
+<div class="labnotes">
+  <aside class="note-meta">
+    <p>Posted: {{ page.date | date: "%b %-d, %Y" }}</p>
+    <p>It should take {{ page.content | reading_time }} to read.</p>
+    <p><a href="/notes/">&laquo; All Notes</a></p>
+  </aside>
+  <article>
 
-  <div class="post">
-    {{ content }}
-  </div>
+    <header>
+      <h2>{{ page.title }}</h2>
+    </header>
 
-  <div id="page-navigation">
-    <div class="left">
-      {% if page.previous.url %}
-      <a href="{{page.previous.url}}" title="Previous Post:
-      {{page.previous.title}}">&laquo; {{page.previous.title}}</a>
-      {% endif %}
+    <div class="post">
+      {% if page.image %}<img src="{{ page.image }}">{% endif %}
+      {{ content }}
     </div>
-    <div class="right">
-      {% if page.next.url %}
-      <a href="{{page.next.url}}" title="next Post:
-      {{page.next.title}}">{{page.next.title}} &raquo;</a>
-      {% endif %}
-    </div>
-  </div>
 
-</article>
+    <div class="notes-page-navigation">
+      <div class="left">
+        {% if page.previous.url %}
+        <a href="{{page.previous.url}}" title="Previous Post:
+        {{page.previous.title}}">&laquo; {{page.previous.title}}</a>
+        {% endif %}
+      </div>
+      <div class="right">
+        {% if page.next.url %}
+        <a href="{{page.next.url}}" title="next Post:
+        {{page.next.title}}">{{page.next.title}} &raquo;</a>
+        {% endif %}
+      </div>
+    </div>
+
+  </article>
+
+</div>
