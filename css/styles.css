@@ -245,7 +245,7 @@ table {
   border-spacing: 0;
 }
 
-/* line 17, ../_sass/_grid.scss */
+/* line 11, ../_sass/_grid.scss */
 main, .navigation {
   max-width: 900px;
   width: 100%;
@@ -265,7 +265,7 @@ main:after, .navigation:after {
   clear: both;
 }
 
-/* line 28, ../_sass/_grid.scss */
+/* line 22, ../_sass/_grid.scss */
 main > div, .media, .post-excerpt-container, #home .trio, .logos, .names, .quotes, #team .the-huddle, .notes-page-navigation, .docs-list, .docs-disclaimer {
   clear: both;
   margin-bottom: 1em;
@@ -280,7 +280,7 @@ main > div:after, .media:after, .post-excerpt-container:after, #home .trio:after
   clear: both;
 }
 
-/* line 37, ../_sass/_grid.scss */
+/* line 31, ../_sass/_grid.scss */
 .media-object, .post-excerpt-container .post-meta, .logos .logo {
   float: left;
   min-height: 1px;
@@ -290,21 +290,15 @@ main > div:after, .media:after, .post-excerpt-container:after, #home .trio:after
   width: 20%;
 }
 @media (max-width: 767px) {
-  /* line 37, ../_sass/_grid.scss */
+  /* line 31, ../_sass/_grid.scss */
   .media-object, .post-excerpt-container .post-meta, .logos .logo {
     width: 100%;
     padding-left: 0;
     padding-right: 0;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 37, ../_sass/_grid.scss */
-  .media-object, .post-excerpt-container .post-meta, .logos .logo {
-    width: 100%;
-  }
-}
 
-/* line 37, ../_sass/_grid.scss */
+/* line 31, ../_sass/_grid.scss */
 main > div .content aside {
   float: left;
   min-height: 1px;
@@ -314,21 +308,15 @@ main > div .content aside {
   width: 25%;
 }
 @media (max-width: 767px) {
-  /* line 37, ../_sass/_grid.scss */
+  /* line 31, ../_sass/_grid.scss */
   main > div .content aside {
     width: 100%;
     padding-left: 0;
     padding-right: 0;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 37, ../_sass/_grid.scss */
-  main > div .content aside {
-    width: 100%;
-  }
-}
 
-/* line 37, ../_sass/_grid.scss */
+/* line 31, ../_sass/_grid.scss */
 #team .the-huddle .member {
   float: left;
   min-height: 1px;
@@ -338,21 +326,15 @@ main > div .content aside {
   width: 33%;
 }
 @media (max-width: 767px) {
-  /* line 37, ../_sass/_grid.scss */
+  /* line 31, ../_sass/_grid.scss */
   #team .the-huddle .member {
     width: 100%;
     padding-left: 0;
     padding-right: 0;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 37, ../_sass/_grid.scss */
-  #team .the-huddle .member {
-    width: 100%;
-  }
-}
 
-/* line 37, ../_sass/_grid.scss */
+/* line 31, ../_sass/_grid.scss */
 .error404-img {
   float: left;
   min-height: 1px;
@@ -362,21 +344,15 @@ main > div .content aside {
   width: 40%;
 }
 @media (max-width: 767px) {
-  /* line 37, ../_sass/_grid.scss */
+  /* line 31, ../_sass/_grid.scss */
   .error404-img {
     width: 100%;
     padding-left: 0;
     padding-right: 0;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 37, ../_sass/_grid.scss */
-  .error404-img {
-    width: 100%;
-  }
-}
 
-/* line 37, ../_sass/_grid.scss */
+/* line 31, ../_sass/_grid.scss */
 .skill, .names li, .quotes .quote, .notes-page-navigation div {
   float: left;
   min-height: 1px;
@@ -386,21 +362,15 @@ main > div .content aside {
   width: 50%;
 }
 @media (max-width: 767px) {
-  /* line 37, ../_sass/_grid.scss */
+  /* line 31, ../_sass/_grid.scss */
   .skill, .names li, .quotes .quote, .notes-page-navigation div {
     width: 100%;
     padding-left: 0;
     padding-right: 0;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 37, ../_sass/_grid.scss */
-  .skill, .names li, .quotes .quote, .notes-page-navigation div {
-    width: 100%;
-  }
-}
 
-/* line 37, ../_sass/_grid.scss */
+/* line 31, ../_sass/_grid.scss */
 .error404-message {
   float: left;
   min-height: 1px;
@@ -410,21 +380,15 @@ main > div .content aside {
   width: 60%;
 }
 @media (max-width: 767px) {
-  /* line 37, ../_sass/_grid.scss */
+  /* line 31, ../_sass/_grid.scss */
   .error404-message {
     width: 100%;
     padding-left: 0;
     padding-right: 0;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 37, ../_sass/_grid.scss */
-  .error404-message {
-    width: 100%;
-  }
-}
 
-/* line 37, ../_sass/_grid.scss */
+/* line 31, ../_sass/_grid.scss */
 main > div .content article {
   float: left;
   min-height: 1px;
@@ -434,21 +398,15 @@ main > div .content article {
   width: 75%;
 }
 @media (max-width: 767px) {
-  /* line 37, ../_sass/_grid.scss */
+  /* line 31, ../_sass/_grid.scss */
   main > div .content article {
     width: 100%;
     padding-left: 0;
     padding-right: 0;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 37, ../_sass/_grid.scss */
-  main > div .content article {
-    width: 100%;
-  }
-}
 
-/* line 37, ../_sass/_grid.scss */
+/* line 31, ../_sass/_grid.scss */
 .media-body, .post-excerpt-container .post-excerpt {
   float: left;
   min-height: 1px;
@@ -458,21 +416,15 @@ main > div .content article {
   width: 80%;
 }
 @media (max-width: 767px) {
-  /* line 37, ../_sass/_grid.scss */
+  /* line 31, ../_sass/_grid.scss */
   .media-body, .post-excerpt-container .post-excerpt {
     width: 100%;
     padding-left: 0;
     padding-right: 0;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 37, ../_sass/_grid.scss */
-  .media-body, .post-excerpt-container .post-excerpt {
-    width: 100%;
-  }
-}
 
-/* line 37, ../_sass/_grid.scss */
+/* line 31, ../_sass/_grid.scss */
 main > div .content, .docs-list .docs-overview, .docs-list .docs-excerpt, .docs-disclaimer p {
   float: left;
   min-height: 1px;
@@ -482,20 +434,20 @@ main > div .content, .docs-list .docs-overview, .docs-list .docs-excerpt, .docs-
   width: 100%;
 }
 @media (max-width: 767px) {
-  /* line 37, ../_sass/_grid.scss */
+  /* line 31, ../_sass/_grid.scss */
   main > div .content, .docs-list .docs-overview, .docs-list .docs-excerpt, .docs-disclaimer p {
     width: 100%;
     padding-left: 0;
     padding-right: 0;
   }
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 37, ../_sass/_grid.scss */
-  main > div .content, .docs-list .docs-overview, .docs-list .docs-excerpt, .docs-disclaimer p {
-    width: 100%;
+  /* line 57, ../_sass/_grid.scss */
+  #team .the-huddle .member, .error404-img, .error404-message {
+    width: 50%;
   }
 }
-
 /* line 7, ../_sass/_scaffold.scss */
 *, *:before, *:after {
   box-sizing: border-box;
