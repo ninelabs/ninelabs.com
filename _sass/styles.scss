@@ -4,6 +4,9 @@
 
 html {
   border-left: 15px solid $brand-primary;
+  @include breakpoint(xs) {
+    border-width: 5px;
+  }
 }
 
 body {
