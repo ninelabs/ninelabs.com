@@ -272,6 +272,17 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+///
+// SESSIONS
+
+.session-options {
+  @extend %row;
+}
+.session-list {
+  @extend %col-50;
+}
+
+
 ///////////////////////////////////////////////////////////////////////
 // COMMUNITY
 

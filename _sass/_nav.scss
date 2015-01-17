@@ -47,7 +47,7 @@
     a {
       @extend %nav-font;
       display: block;
-      padding: 5px;
+      padding: 5px 5px 10px;
     }
   }
 }
@@ -108,12 +108,11 @@
         padding: 12.5px;
         padding-top: 0;
         float: left;
-        margin-left: 5px;
-        margin-right: 5px;
         text-align: center;
         width:auto;
         a {
           padding-bottom: 10px;
+          border-bottom: 5px solid white;
           &:hover, &.active {
             border-bottom: 5px solid $brand-primary;
           }
