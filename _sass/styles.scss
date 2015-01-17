@@ -304,6 +304,13 @@ h1, h2, h3, h4, h5, h6 {
   .media-body h3 {
     margin-bottom: 0
   }
+  .offsite-link {
+
+    &:after {
+      content: "\000A0\000BB";
+    }
+  }
+
 }
 
 
