@@ -34,7 +34,12 @@ section header {
   border-bottom: 1px solid $gray-dark;
   margin-bottom: 1em;
   hgroup {
-    h1 { margin: 0; }
+    h1 {
+      margin: 0;
+      @include breakpoint(xs) {
+        font-size: 1.75em;
+      }
+    }
     h4, h5, h6 { color: $gray; }
   }
 }
