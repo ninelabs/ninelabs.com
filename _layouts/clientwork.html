@@ -7,7 +7,11 @@ pid: notes
     <p><a href="/notes/">&laquo; All Notes</a></p>
     <p><em>Posted:</em> {{ page.date | date: "%b %-d, %Y" }}</p>
     <p>It should take {{ page.content | reading_time }} to read.</p>
-
+    <hr>
+    <p><em>Client:</em> {{ page.client.name }}</p>
+    <p><em>Services:</em> {{ page.client.services }}</p>
+    <p><em>Platform:</em> {{ page.client.platform }}</p>
+    {% if page.client.url %}<p><a href="{{ page.client.url }}">Visit Website</a></p>{% endif %}
   </aside>
   <article>
 

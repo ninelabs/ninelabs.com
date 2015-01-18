@@ -16,7 +16,11 @@
   <link rel='canonical' href='http://ninelabs.com/'>
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  {% if page.pid == 'styleguide' %}
+  <link rel="stylesheet" href="/css/styleguide.css?v=2">
+  {% else %}
   <link rel="stylesheet" href="/css/styles.css?v=2">
+  {% endif %}
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
   <script src="/js/nav.js"></script>
   <script type="text/javascript" src="//use.typekit.com/gdv6slf.js"></script>
