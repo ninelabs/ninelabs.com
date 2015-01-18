@@ -5,7 +5,7 @@ author: J Cornelius
 date: December 18th, 2014
 type: post
 pid: blog
-image: http://ninelabs.com.s3.amazonaws.com/ferrari.jpg
+image: //ninelabs.com.s3.amazonaws.com/ferrari.jpg
 ---
 ### Ferrari. Apple. Ikea.
 These are household names in much of the world. Each of them evokes certain feelings. You have a connection with each brand in some way, even if it’s at a distance. Regardless of where you see these brands you get a consistent message. A message that’s been carefully designed for clarity and consistency.

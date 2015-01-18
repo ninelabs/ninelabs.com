@@ -3,7 +3,7 @@ title: BRASH Coffee
 layout: clientwork
 author: J Cornelius
 pid: blog
-image: http://ninelabs.com.s3.amazonaws.com/work-screenshot-brash-coffee.png
+image: //ninelabs.com.s3.amazonaws.com/work-screenshot-brash-coffee.png
 client:
   name: BRASH Coffee
   platform: Squarespace
