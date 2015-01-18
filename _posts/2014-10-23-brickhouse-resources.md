@@ -3,7 +3,7 @@ title: Brickhouse Resources
 layout: clientwork
 author: J Cornelius
 pid: blog
-image: http://ninelabs.com.s3.amazonaws.com/work-screenshot-brickhouse-resources.png
+image: //s3.amazonaws.com/ninelabs.com/work-screenshot-brickhouse-resources.png
 client:
   name: Brickhouse Resources
   platform: Jekyll &amp; Perch
