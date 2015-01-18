@@ -3,7 +3,7 @@ title: Hypepotamus
 layout: clientwork
 author: J Cornelius
 pid: blog
-image: //ninelabs.com.s3.amazonaws.com/work-screenshot-hypepotamus.png
+image: //s3.amazonaws.com/ninelabs.com/work-screenshot-hypepotamus.png
 client:
   name: Hypepotamus
   platform: Wordpress on WP Engine

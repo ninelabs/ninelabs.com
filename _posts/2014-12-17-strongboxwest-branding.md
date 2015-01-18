@@ -3,7 +3,7 @@ title: Strongbox West Branding
 layout: clientwork
 author: J Cornelius
 pid: blog
-image: //ninelabs.com.s3.amazonaws.com/work-screenshot-strongboxwest-brand.png
+image: //s3.amazonaws.com/ninelabs.com/work-screenshot-strongboxwest-brand.png
 client:
   name: Strongbox West
   services: Branding Design, Creative Direction, Visual Design
