@@ -106,6 +106,10 @@ h1, h2, h3, h4, h5, h6 {
   @extend .img-rounded;
 }
 
+.fa.highlight {
+  color: $brand-primary;
+}
+
 .footnote {
   color: $gray-light;
   font-size: .8em;
@@ -305,7 +309,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0
   }
   .offsite-link {
-
     &:after {
       content: "\000A0\000BB";
     }
@@ -340,8 +343,11 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
   .note-meta {
-    color: $gray;
+    color: $gray-dark;
     font-size: .65em;
+    em {
+      color: $gray-light;
+    }
   }
   h3 {
     color:$gray;

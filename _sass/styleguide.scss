@@ -1,10 +1,22 @@
 ////////////////////////////////////////////
 // Styleguide specific styles
 
-@import 'styles';
+@import 'styles','pygments';
 
 
 .styleguide {
+
+  aside {
+    h4 {
+      margin-top: 2.35em;
+    }
+    ul {
+      font-size: .8em;
+      list-style-type: square;
+      margin: 0;
+      padding: 0;
+    }
+  }
 
   .grid-sample {
     .row {

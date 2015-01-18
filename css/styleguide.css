@@ -793,17 +793,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* line 109, ../_sass/styles.scss */
+.fa.highlight {
+  color: #f07834;
+}
+
+/* line 113, ../_sass/styles.scss */
 .footnote {
   color: #999999;
   font-size: .8em;
   font-style: italic;
 }
-/* line 113, ../_sass/styles.scss */
+/* line 117, ../_sass/styles.scss */
 .footnote:before {
   content: "\0002A\000A0\02014\000A0";
 }
 
-/* line 123, ../_sass/styles.scss */
+/* line 127, ../_sass/styles.scss */
 #home h1 {
   font-size: 4em;
   line-height: 1em;
@@ -811,112 +816,112 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 @media (max-width: 767px) {
-  /* line 123, ../_sass/styles.scss */
+  /* line 127, ../_sass/styles.scss */
   #home h1 {
     font-size: 1.5em;
   }
 }
-/* line 132, ../_sass/styles.scss */
+/* line 136, ../_sass/styles.scss */
 #home .lead {
   font-size: 1.5em;
 }
 @media (max-width: 767px) {
-  /* line 132, ../_sass/styles.scss */
+  /* line 136, ../_sass/styles.scss */
   #home .lead {
     font-size: 1em;
   }
 }
-/* line 138, ../_sass/styles.scss */
+/* line 142, ../_sass/styles.scss */
 #home .trio {
   border-top: 5px solid #f07834;
   margin-top: 3em;
   padding-top: 2em;
 }
-/* line 145, ../_sass/styles.scss */
+/* line 149, ../_sass/styles.scss */
 #home .skill:nth-child(2n+1) {
   clear: left;
 }
 @media (max-width: 767px) {
-  /* line 149, ../_sass/styles.scss */
+  /* line 153, ../_sass/styles.scss */
   #home .skill h3 {
     margin-bottom: 0;
     padding-bottom: 0;
   }
-  /* line 153, ../_sass/styles.scss */
+  /* line 157, ../_sass/styles.scss */
   #home .skill p {
     margin-top: 0;
     padding-top: 0;
   }
 }
 
-/* line 161, ../_sass/styles.scss */
+/* line 165, ../_sass/styles.scss */
 .skill {
   margin-bottom: 3em;
 }
-/* line 164, ../_sass/styles.scss */
+/* line 168, ../_sass/styles.scss */
 .skill h4 {
   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
   padding-bottom: 1em;
 }
 
-/* line 181, ../_sass/styles.scss */
+/* line 185, ../_sass/styles.scss */
 .logos {
   margin-bottom: 2em;
 }
-/* line 184, ../_sass/styles.scss */
+/* line 188, ../_sass/styles.scss */
 .logos .logo {
   margin: 0 0 3em;
   text-align: center;
 }
-/* line 188, ../_sass/styles.scss */
+/* line 192, ../_sass/styles.scss */
 .logos .logo img {
   max-width: 70%;
 }
 
-/* line 193, ../_sass/styles.scss */
+/* line 197, ../_sass/styles.scss */
 .names {
   margin-bottom: 4em;
 }
-/* line 196, ../_sass/styles.scss */
+/* line 200, ../_sass/styles.scss */
 .names ul {
   margin: 0;
   padding: 0;
   width: auto;
 }
-/* line 201, ../_sass/styles.scss */
+/* line 205, ../_sass/styles.scss */
 .names li {
   padding: 0 .5em;
   margin: 0;
   list-style-type: none;
 }
 
-/* line 210, ../_sass/styles.scss */
+/* line 214, ../_sass/styles.scss */
 .quotes .quote {
   margin-bottom: 4em;
 }
-/* line 213, ../_sass/styles.scss */
+/* line 217, ../_sass/styles.scss */
 .quotes .quote:nth-of-type(odd) {
   clear: left;
 }
-/* line 217, ../_sass/styles.scss */
+/* line 221, ../_sass/styles.scss */
 .quotes .quote cite span {
   font-size: .75em;
 }
-/* line 218, ../_sass/styles.scss */
+/* line 222, ../_sass/styles.scss */
 .quotes .quote cite strong {
   color: #222222;
   display: block;
 }
 
-/* line 229, ../_sass/styles.scss */
+/* line 233, ../_sass/styles.scss */
 #team .the-huddle {
   margin-top: 3em;
 }
-/* line 232, ../_sass/styles.scss */
+/* line 236, ../_sass/styles.scss */
 #team .the-huddle .member {
   margin-bottom: 1.5em;
 }
-/* line 236, ../_sass/styles.scss */
+/* line 240, ../_sass/styles.scss */
 #team .the-huddle .member .meta {
   display: inline-block;
   position: relative;
@@ -925,7 +930,7 @@ h1, h2, h3, h4, h5, h6 {
   /*max-width: 120px;*/
   min-height: 100%;
 }
-/* line 247, ../_sass/styles.scss */
+/* line 251, ../_sass/styles.scss */
 #team .the-huddle .member .meta a {
   color: rgba(255, 255, 255, 0.3);
   font-size: 1.25em;
@@ -933,27 +938,27 @@ h1, h2, h3, h4, h5, h6 {
   text-indent: -999em;
   text-shadow: none;
 }
-/* line 253, ../_sass/styles.scss */
+/* line 257, ../_sass/styles.scss */
 #team .the-huddle .member .meta a:hover {
   color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
 }
-/* line 259, ../_sass/styles.scss */
+/* line 263, ../_sass/styles.scss */
 #team .the-huddle .member .caption {
   display: inline-block;
   position: relative;
   width: 75%;
 }
-/* line 263, ../_sass/styles.scss */
+/* line 267, ../_sass/styles.scss */
 #team .the-huddle .member .caption h4 {
   margin: 0;
 }
-/* line 266, ../_sass/styles.scss */
+/* line 270, ../_sass/styles.scss */
 #team .the-huddle .member .caption p {
   font-size: .75em;
   margin: 0;
 }
-/* line 270, ../_sass/styles.scss */
+/* line 274, ../_sass/styles.scss */
 #team .the-huddle .member .caption .label {
   color: #333333;
   display: inline-block;
@@ -962,62 +967,66 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: none;
 }
 
-/* line 297, ../_sass/styles.scss */
+/* line 301, ../_sass/styles.scss */
 #community .media {
   border-top: 1px solid #555555;
 }
-/* line 300, ../_sass/styles.scss */
+/* line 304, ../_sass/styles.scss */
 #community .media-object img {
   margin-top: 1em;
   max-width: 120px;
 }
-/* line 304, ../_sass/styles.scss */
+/* line 308, ../_sass/styles.scss */
 #community .media-body h3 {
   margin-bottom: 0;
 }
-/* line 309, ../_sass/styles.scss */
+/* line 312, ../_sass/styles.scss */
 #community .offsite-link:after {
   content: "\000A0\000BB";
 }
 
-/* line 321, ../_sass/styles.scss */
+/* line 324, ../_sass/styles.scss */
 .notes-list h1 small {
   color: #999999;
   font-size: .5em;
   font-weight: 400;
 }
 
-/* line 329, ../_sass/styles.scss */
+/* line 332, ../_sass/styles.scss */
 .labnotes header {
   border-bottom: 1px solid #999999;
   margin-bottom: 2em;
   padding-bottom: .5em;
 }
-/* line 333, ../_sass/styles.scss */
+/* line 336, ../_sass/styles.scss */
 .labnotes header h2 {
   line-height: .9em;
   margin: 0;
 }
-/* line 337, ../_sass/styles.scss */
+/* line 340, ../_sass/styles.scss */
 .labnotes header h4 {
   color: #555555;
   margin: 0;
 }
-/* line 342, ../_sass/styles.scss */
+/* line 345, ../_sass/styles.scss */
 .labnotes .note-meta {
-  color: #555555;
+  color: #333333;
   font-size: .65em;
 }
-/* line 346, ../_sass/styles.scss */
+/* line 348, ../_sass/styles.scss */
+.labnotes .note-meta em {
+  color: #999999;
+}
+/* line 352, ../_sass/styles.scss */
 .labnotes h3 {
   color: #555555;
 }
-/* line 349, ../_sass/styles.scss */
+/* line 355, ../_sass/styles.scss */
 .labnotes iframe.twitter-tweet {
   margin-left: 40px !important;
 }
 
-/* line 354, ../_sass/styles.scss */
+/* line 360, ../_sass/styles.scss */
 blockquote {
   border-color: #f07834;
   border-style: solid;
@@ -1025,61 +1034,61 @@ blockquote {
   margin-left: 0;
   padding-left: 20px;
 }
-/* line 360, ../_sass/styles.scss */
+/* line 366, ../_sass/styles.scss */
 blockquote i, blockquote em {
   display: block;
   color: #999999;
   font-size: .7em;
   margin: .75em 0 0 1em;
 }
-/* line 365, ../_sass/styles.scss */
+/* line 371, ../_sass/styles.scss */
 blockquote i:before, blockquote em:before {
   content: "\2014\00a0";
 }
 
-/* line 371, ../_sass/styles.scss */
+/* line 377, ../_sass/styles.scss */
 .notes-page-navigation {
   border-top: 1px solid #999999;
   font-size: .8em;
   margin-top: 2em;
   padding-top: 1em;
 }
-/* line 380, ../_sass/styles.scss */
+/* line 386, ../_sass/styles.scss */
 .notes-page-navigation .right {
   text-align: right;
 }
 
-/* line 394, ../_sass/styles.scss */
+/* line 400, ../_sass/styles.scss */
 .docs-list .docs-excerpt {
   border-top: 1px solid #999999;
 }
-/* line 397, ../_sass/styles.scss */
+/* line 403, ../_sass/styles.scss */
 .docs-list .docs-excerpt h3 {
   margin-bottom: 0;
   padding-bottom: 0;
 }
-/* line 401, ../_sass/styles.scss */
+/* line 407, ../_sass/styles.scss */
 .docs-list .docs-excerpt p {
   margin-top: 0;
   padding-top: 0;
 }
 
-/* line 410, ../_sass/styles.scss */
+/* line 416, ../_sass/styles.scss */
 .docs .post ol li {
   list-style-type: decimal;
   padding-top: .75em;
   margin-bottom: .125em;
 }
-/* line 414, ../_sass/styles.scss */
+/* line 420, ../_sass/styles.scss */
 .docs .post ol li ol li {
   list-style-type: lower-latin;
 }
-/* line 416, ../_sass/styles.scss */
+/* line 422, ../_sass/styles.scss */
 .docs .post ol li ol li ol li {
   list-style-type: lower-roman;
 }
 
-/* line 426, ../_sass/styles.scss */
+/* line 432, ../_sass/styles.scss */
 .docs-disclaimer p {
   border-left: 5px solid #f07834;
   margin: 1em 0;
@@ -1088,23 +1097,23 @@ blockquote i:before, blockquote em:before {
   font-style: italic;
 }
 
-/* line 439, ../_sass/styles.scss */
+/* line 445, ../_sass/styles.scss */
 .footer-contact {
   border-bottom: 1px solid #999999;
   border-top: 1px solid #999999;
   margin-top: 2em;
   padding-bottom: 1em;
 }
-/* line 444, ../_sass/styles.scss */
+/* line 450, ../_sass/styles.scss */
 .footer-contact h2 {
   margin-bottom: 0;
 }
-/* line 447, ../_sass/styles.scss */
+/* line 453, ../_sass/styles.scss */
 .footer-contact p {
   margin-top: 0;
 }
 
-/* line 456, ../_sass/styles.scss */
+/* line 462, ../_sass/styles.scss */
 #contact h2 {
   font-family: "ff-tisa-web-pro", serif;
   font-style: italic;
@@ -1112,37 +1121,37 @@ blockquote i:before, blockquote em:before {
   text-transform: none;
 }
 
-/* line 463, ../_sass/styles.scss */
+/* line 469, ../_sass/styles.scss */
 .contact-options {
   margin-bottom: 3em;
 }
 
-/* line 467, ../_sass/styles.scss */
+/* line 473, ../_sass/styles.scss */
 .contact-option {
   font-size: 1.25em;
   margin: 0;
   padding: 0;
 }
 
-/* line 476, ../_sass/styles.scss */
+/* line 482, ../_sass/styles.scss */
 #jobs .job, #jobs .how-we-work, #jobs .get-in-touch {
   border-top: 1px solid #f07834;
 }
-/* line 479, ../_sass/styles.scss */
+/* line 485, ../_sass/styles.scss */
 #jobs .job {
   padding: 1.5em;
 }
-/* line 481, ../_sass/styles.scss */
+/* line 487, ../_sass/styles.scss */
 #jobs .job .fa {
   color: #9fe32c;
 }
-/* line 484, ../_sass/styles.scss */
+/* line 490, ../_sass/styles.scss */
 #jobs .job .job-meta {
   color: #aaa;
   font-size: .9em;
 }
 
-/* line 494, ../_sass/styles.scss */
+/* line 500, ../_sass/styles.scss */
 footer {
   font-family: "freight-sans-pro", "helvetica neue", helvetica, sans-serif;
   margin: 0;
@@ -1150,46 +1159,448 @@ footer {
   text-align: center;
 }
 @media (max-width: 767px) {
-  /* line 494, ../_sass/styles.scss */
+  /* line 500, ../_sass/styles.scss */
   footer {
     padding: 0 0 2em;
   }
 }
-/* line 502, ../_sass/styles.scss */
+/* line 508, ../_sass/styles.scss */
 footer nav {
   margin: 1.5em 0 1em;
 }
-/* line 504, ../_sass/styles.scss */
+/* line 510, ../_sass/styles.scss */
 footer nav a {
   padding: 0 .5em;
 }
-/* line 508, ../_sass/styles.scss */
+/* line 514, ../_sass/styles.scss */
 footer .social {
   margin-bottom: 1em;
 }
-/* line 510, ../_sass/styles.scss */
+/* line 516, ../_sass/styles.scss */
 footer .social a {
   display: inline-block;
   font-size: 1.25em;
   margin: 0 20px;
 }
-/* line 516, ../_sass/styles.scss */
+/* line 522, ../_sass/styles.scss */
 footer .copyright {
   font-size: .8em;
 }
 
-/* line 536, ../_sass/styles.scss */
+/* line 542, ../_sass/styles.scss */
 pre {
   border: none;
   padding: 0;
 }
 
+/* line 1, ../_sass/_pygments.scss */
+.codehilite .hll {
+  background-color: #ffffcc;
+}
+
+/* line 2, ../_sass/_pygments.scss */
+.codehilite {
+  background: #f8f8f8;
+}
+
+/* line 3, ../_sass/_pygments.scss */
+.codehilite .c {
+  color: #408080;
+  font-style: italic;
+}
+
+/* Comment */
+/* line 4, ../_sass/_pygments.scss */
+.codehilite .err {
+  border: 1px solid red;
+}
+
+/* Error */
+/* line 5, ../_sass/_pygments.scss */
+.codehilite .k {
+  color: #008000;
+  font-weight: bold;
+}
+
+/* Keyword */
+/* line 6, ../_sass/_pygments.scss */
+.codehilite .o {
+  color: #666666;
+}
+
+/* Operator */
+/* line 7, ../_sass/_pygments.scss */
+.codehilite .cm {
+  color: #408080;
+  font-style: italic;
+}
+
+/* Comment.Multiline */
+/* line 8, ../_sass/_pygments.scss */
+.codehilite .cp {
+  color: #bc7a00;
+}
+
+/* Comment.Preproc */
+/* line 9, ../_sass/_pygments.scss */
+.codehilite .c1 {
+  color: #408080;
+  font-style: italic;
+}
+
+/* Comment.Single */
+/* line 10, ../_sass/_pygments.scss */
+.codehilite .cs {
+  color: #408080;
+  font-style: italic;
+}
+
+/* Comment.Special */
+/* line 11, ../_sass/_pygments.scss */
+.codehilite .gd {
+  color: #a00000;
+}
+
+/* Generic.Deleted */
+/* line 12, ../_sass/_pygments.scss */
+.codehilite .ge {
+  font-style: italic;
+}
+
+/* Generic.Emph */
+/* line 13, ../_sass/_pygments.scss */
+.codehilite .gr {
+  color: red;
+}
+
+/* Generic.Error */
+/* line 14, ../_sass/_pygments.scss */
+.codehilite .gh {
+  color: #000080;
+  font-weight: bold;
+}
+
+/* Generic.Heading */
+/* line 15, ../_sass/_pygments.scss */
+.codehilite .gi {
+  color: #00a000;
+}
+
+/* Generic.Inserted */
+/* line 16, ../_sass/_pygments.scss */
+.codehilite .go {
+  color: gray;
+}
+
+/* Generic.Output */
+/* line 17, ../_sass/_pygments.scss */
+.codehilite .gp {
+  color: #000080;
+  font-weight: bold;
+}
+
+/* Generic.Prompt */
+/* line 18, ../_sass/_pygments.scss */
+.codehilite .gs {
+  font-weight: bold;
+}
+
+/* Generic.Strong */
+/* line 19, ../_sass/_pygments.scss */
+.codehilite .gu {
+  color: #800080;
+  font-weight: bold;
+}
+
+/* Generic.Subheading */
+/* line 20, ../_sass/_pygments.scss */
+.codehilite .gt {
+  color: #0040d0;
+}
+
+/* Generic.Traceback */
+/* line 21, ../_sass/_pygments.scss */
+.codehilite .kc {
+  color: #008000;
+  font-weight: bold;
+}
+
+/* Keyword.Constant */
+/* line 22, ../_sass/_pygments.scss */
+.codehilite .kd {
+  color: #008000;
+  font-weight: bold;
+}
+
+/* Keyword.Declaration */
+/* line 23, ../_sass/_pygments.scss */
+.codehilite .kn {
+  color: #008000;
+  font-weight: bold;
+}
+
+/* Keyword.Namespace */
+/* line 24, ../_sass/_pygments.scss */
+.codehilite .kp {
+  color: green;
+}
+
+/* Keyword.Pseudo */
+/* line 25, ../_sass/_pygments.scss */
+.codehilite .kr {
+  color: #008000;
+  font-weight: bold;
+}
+
+/* Keyword.Reserved */
+/* line 26, ../_sass/_pygments.scss */
+.codehilite .kt {
+  color: #b00040;
+}
+
+/* Keyword.Type */
+/* line 27, ../_sass/_pygments.scss */
+.codehilite .m {
+  color: #666666;
+}
+
+/* Literal.Number */
+/* line 28, ../_sass/_pygments.scss */
+.codehilite .s {
+  color: #ba2121;
+}
+
+/* Literal.String */
+/* line 29, ../_sass/_pygments.scss */
+.codehilite .na {
+  color: #7d9029;
+}
+
+/* Name.Attribute */
+/* line 30, ../_sass/_pygments.scss */
+.codehilite .nb {
+  color: green;
+}
+
+/* Name.Builtin */
+/* line 31, ../_sass/_pygments.scss */
+.codehilite .nc {
+  color: #0000FF;
+  font-weight: bold;
+}
+
+/* Name.Class */
+/* line 32, ../_sass/_pygments.scss */
+.codehilite .no {
+  color: #880000;
+}
+
+/* Name.Constant */
+/* line 33, ../_sass/_pygments.scss */
+.codehilite .nd {
+  color: #aa22ff;
+}
+
+/* Name.Decorator */
+/* line 34, ../_sass/_pygments.scss */
+.codehilite .ni {
+  color: #999999;
+  font-weight: bold;
+}
+
+/* Name.Entity */
+/* line 35, ../_sass/_pygments.scss */
+.codehilite .ne {
+  color: #D2413A;
+  font-weight: bold;
+}
+
+/* Name.Exception */
+/* line 36, ../_sass/_pygments.scss */
+.codehilite .nf {
+  color: blue;
+}
+
+/* Name.Function */
+/* line 37, ../_sass/_pygments.scss */
+.codehilite .nl {
+  color: #a0a000;
+}
+
+/* Name.Label */
+/* line 38, ../_sass/_pygments.scss */
+.codehilite .nn {
+  color: #0000FF;
+  font-weight: bold;
+}
+
+/* Name.Namespace */
+/* line 39, ../_sass/_pygments.scss */
+.codehilite .nt {
+  color: #008000;
+  font-weight: bold;
+}
+
+/* Name.Tag */
+/* line 40, ../_sass/_pygments.scss */
+.codehilite .nv {
+  color: #19177c;
+}
+
+/* Name.Variable */
+/* line 41, ../_sass/_pygments.scss */
+.codehilite .ow {
+  color: #AA22FF;
+  font-weight: bold;
+}
+
+/* Operator.Word */
+/* line 42, ../_sass/_pygments.scss */
+.codehilite .w {
+  color: #bbbbbb;
+}
+
+/* Text.Whitespace */
+/* line 43, ../_sass/_pygments.scss */
+.codehilite .mf {
+  color: #666666;
+}
+
+/* Literal.Number.Float */
+/* line 44, ../_sass/_pygments.scss */
+.codehilite .mh {
+  color: #666666;
+}
+
+/* Literal.Number.Hex */
+/* line 45, ../_sass/_pygments.scss */
+.codehilite .mi {
+  color: #666666;
+}
+
+/* Literal.Number.Integer */
+/* line 46, ../_sass/_pygments.scss */
+.codehilite .mo {
+  color: #666666;
+}
+
+/* Literal.Number.Oct */
+/* line 47, ../_sass/_pygments.scss */
+.codehilite .sb {
+  color: #ba2121;
+}
+
+/* Literal.String.Backtick */
+/* line 48, ../_sass/_pygments.scss */
+.codehilite .sc {
+  color: #ba2121;
+}
+
+/* Literal.String.Char */
+/* line 49, ../_sass/_pygments.scss */
+.codehilite .sd {
+  color: #BA2121;
+  font-style: italic;
+}
+
+/* Literal.String.Doc */
+/* line 50, ../_sass/_pygments.scss */
+.codehilite .s2 {
+  color: #ba2121;
+}
+
+/* Literal.String.Double */
+/* line 51, ../_sass/_pygments.scss */
+.codehilite .se {
+  color: #BB6622;
+  font-weight: bold;
+}
+
+/* Literal.String.Escape */
+/* line 52, ../_sass/_pygments.scss */
+.codehilite .sh {
+  color: #ba2121;
+}
+
+/* Literal.String.Heredoc */
+/* line 53, ../_sass/_pygments.scss */
+.codehilite .si {
+  color: #BB6688;
+  font-weight: bold;
+}
+
+/* Literal.String.Interpol */
+/* line 54, ../_sass/_pygments.scss */
+.codehilite .sx {
+  color: green;
+}
+
+/* Literal.String.Other */
+/* line 55, ../_sass/_pygments.scss */
+.codehilite .sr {
+  color: #bb6688;
+}
+
+/* Literal.String.Regex */
+/* line 56, ../_sass/_pygments.scss */
+.codehilite .s1 {
+  color: #ba2121;
+}
+
+/* Literal.String.Single */
+/* line 57, ../_sass/_pygments.scss */
+.codehilite .ss {
+  color: #19177c;
+}
+
+/* Literal.String.Symbol */
+/* line 58, ../_sass/_pygments.scss */
+.codehilite .bp {
+  color: green;
+}
+
+/* Name.Builtin.Pseudo */
+/* line 59, ../_sass/_pygments.scss */
+.codehilite .vc {
+  color: #19177c;
+}
+
+/* Name.Variable.Class */
+/* line 60, ../_sass/_pygments.scss */
+.codehilite .vg {
+  color: #19177c;
+}
+
+/* Name.Variable.Global */
+/* line 61, ../_sass/_pygments.scss */
+.codehilite .vi {
+  color: #19177c;
+}
+
+/* Name.Variable.Instance */
+/* line 62, ../_sass/_pygments.scss */
+.codehilite .il {
+  color: #666666;
+}
+
+/* Literal.Number.Integer.Long */
 /* line 10, ../_sass/styleguide.scss */
+.styleguide aside h4 {
+  margin-top: 2.35em;
+}
+/* line 13, ../_sass/styleguide.scss */
+.styleguide aside ul {
+  font-size: .8em;
+  list-style-type: square;
+  margin: 0;
+  padding: 0;
+}
+/* line 22, ../_sass/styleguide.scss */
 .styleguide .grid-sample .row {
   background-color: #ccc;
   border: 1px solid pink;
 }
-/* line 14, ../_sass/styleguide.scss */
+/* line 26, ../_sass/styleguide.scss */
 .styleguide .grid-sample .col-100, .styleguide .grid-sample .col-66, .styleguide .grid-sample .col-50, .styleguide .grid-sample .col-33 {
   background-color: #eee;
   border: 1px solid #ddd;

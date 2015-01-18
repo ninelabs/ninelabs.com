@@ -63,7 +63,7 @@
 
 - name: Courtney Robb
   name-tokenized: courtney-robb
-  role: Project Manager
+  role: Studio Manager
   skills:
     - Social Media
     - Marketing Strategy
@@ -96,7 +96,7 @@
 
 - name: Jason Ottinger
   name-tokenized: jason-ottinger
-  role: Branding // Visual Design
+  role: Branding &amp; Visual Design
   twitter: https://twitter.com/jottin
   linkedin: https://www.linkedin.com/pub/jason-ottinger/7/357/413
   skills:
