@@ -16,7 +16,7 @@ title: Work With Us
 <div class="row job">
   <div class="col-sm-12">
     <h4></i> {{ job.title }}</h4>
-    <p>{{ job.description }}</p>
+    <p>{{ job.description | markdownify }}</p>
     <p class="job-meta"><strong>Location:</strong> {{ job.location }} // <strong>Compensation:</strong> {{ job.pay }}</p>
   </div>
 </div>
