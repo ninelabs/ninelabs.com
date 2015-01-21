@@ -231,7 +231,6 @@ h1, h2, h3, h4, h5, h6 {
 // EXPERIENCE
 #team {
   .the-huddle {
-    margin-top: 3em;
     @extend %row;
     .member {
       @extend %col-33;
@@ -289,8 +288,16 @@ h1, h2, h3, h4, h5, h6 {
 .session-options {
   @extend %row;
 }
-.session-list {
+.session-option {
   @extend %col-50;
+  h4 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  ul {
+    margin-top: .4em;
+    padding-top: 0;
+  }
 }
 
 
