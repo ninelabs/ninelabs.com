@@ -31,7 +31,7 @@ body {
 // Headers
 
 section header {
-  border-bottom: 1px solid $gray-dark;
+  border-bottom: $default-border;
   margin-bottom: 1em;
   hgroup {
     h1 {
@@ -52,8 +52,13 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
-//////////////////////////
+///////////////////////////////////////////////////////////////////////
 // General Stuff
+
+img {
+  @extend .img-responsive;
+  @extend .img-rounded;
+}
 
 .lead {
   font-size: 1.25em;
@@ -66,10 +71,6 @@ h1, h2, h3, h4, h5, h6 {
 .media-object {
   @extend %col-20;
   padding: 8px 0;
-  img {
-    @extend .img-responsive;
-    @extend .img-rounded;
-  }
 }
 .media-body {
   @extend %col-80;
@@ -79,35 +80,21 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-// posts and lists
-.post-excerpt-container {
-  @extend %row;
-  border-bottom: 1px solid $gray-light;
-  margin-bottom: 2em;
-  padding-bottom: 2em;
-  .post-meta {
-    @extend %col-20;
-    p {
-      color: $gray-light;
-      font-size: .8em;
-      margin: 5px 0 1em;
-      padding: 0;
+blockquote {
+  border-color: $brand-primary;
+  border-style: solid;
+  border-width: 0 0 0 4px;
+  margin-left: 0;
+  padding-left: 20px;
+  i, em {
+    display:block;
+    color: $gray-light;
+    font-size: .7em;
+    margin: .75em 0 0 1em;
+    &:before {
+      content: "\2014\00a0";
     }
   }
-  .post-excerpt {
-    @extend %col-80;
-    h3 {
-      margin: 0 0 .5em;
-    }
-  }
-}
-.post img {
-  @extend .img-responsive;
-  @extend .img-rounded;
-}
-
-.fa.highlight {
-  color: $brand-primary;
 }
 
 .footnote {
@@ -211,9 +198,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .quotes {
   @extend %row;
+  padding:2em 0;
   .quote {
     @extend %col-50;
-    margin-bottom:4em;
     &:nth-of-type(odd) {
       clear:left;
     }
@@ -243,10 +230,6 @@ h1, h2, h3, h4, h5, h6 {
         margin-right: 3%;
         /*max-width: 120px;*/
         min-height: 100%;
-        img {
-          @extend .img-responsive;
-          @extend .img-rounded;
-        }
         a {
           color: rgba(255,255,255,.3);
           font-size: 1.25em;
@@ -282,9 +265,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-///
+///////////////////////////////////////////////////////////////////////
 // SESSIONS
-
 .session-options {
   @extend %row;
 }
@@ -306,7 +288,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #community {
   .media {
-    border-top: 1px solid $gray;
+    border-top: $default-border;
   }
   .media-object img {
     margin-top: 1em;
@@ -323,13 +305,41 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-
 ///////////////////////////////////////////////////////////////////////
-// LAB NOTES
-
-.labnotes {
+// Posts and lists
+.post-excerpt-container {
+  @extend %row;
+  border-bottom: $default-border;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  .post-meta {
+    @extend %col-20;
+    p {
+      color: $gray-light;
+      font-size: .8em;
+      margin: 5px 0 1em;
+      padding: 0;
+    }
+  }
+  .post-excerpt {
+    @extend %col-80;
+    h3 {
+      margin: 0 0 .5em;
+    }
+  }
+}
+.post-container {
+  .post-meta {
+    color: $gray-dark;
+    font-size: .65em;
+    em {
+      color: $gray-light;
+    }
+  }
+}
+.post-content {
   header {
-    border-bottom: 1px solid $gray-light;
+    border-bottom: $default-border;
     margin-bottom: 2em;
     padding-bottom:.5em;
     h2 {
@@ -341,41 +351,42 @@ h1, h2, h3, h4, h5, h6 {
       margin: 0
     }
   }
-  .note-meta {
-    color: $gray-dark;
-    font-size: .65em;
-    em {
-      color: $gray-light;
-    }
-  }
   h3 {
     color:$gray;
   }
+  .post-description {
+    border-bottom: $default-border;
+    font-size: .8em;
+    margin-bottom: 4em;
+    padding-bottom: 2em;
+    p {
+      margin-bottom: 1em;
+      padding: 0;
+    }
+  }
+  .post-disclaimer {
+    color:$brand-primary;
+    font-style: italic;
+  }
+}
+.fa.highlight {
+  color: $brand-primary;
+}
+
+
+///////////////////////////////////////////////////////////////////////
+// LAB NOTES
+// Styles specific to the blog view
+
+.labnotes {
   iframe.twitter-tweet {
     margin-left: 40px !important;
   }
 }
 
-blockquote {
-  border-color: $brand-primary;
-  border-style: solid;
-  border-width: 0 0 0 4px;
-  margin-left: 0;
-  padding-left: 20px;
-  i, em {
-    display:block;
-    color: $gray-light;
-    font-size: .7em;
-    margin: .75em 0 0 1em;
-    &:before {
-      content: "\2014\00a0";
-    }
-  }
-}
-
-.notes-page-navigation {
+.posts-page-navigation {
   @extend %row;
-  border-top: 1px solid $gray-light;
+  border-top: $default-border;
   font-size: .8em;
   margin-top: 2em;
   padding-top: 1em;
@@ -390,25 +401,7 @@ blockquote {
 
 ///////////////////////////////////////////////////////////////////////
 // Docs
-
-.docs-list {
-  @extend %row;
-  .docs-overview {
-    @extend %col-100;
-  }
-  .docs-excerpt {
-    @extend %col-100;
-    border-top: 1px solid $gray-light;
-    h3 {
-      margin-bottom: 0;
-      padding-bottom: 0;
-    }
-    p {
-      margin-top: 0;
-      padding-top: 0;
-    }
-  }
-}
+// Styles specific to the docs view
 
 .docs {
   .post {
@@ -426,24 +419,13 @@ blockquote {
   }
 }
 
-.docs-disclaimer {
-  @extend %row;
-  p {
-    @extend %col-100;
-    border-left: 5px solid $brand-primary;
-    margin: 1em 0;
-    padding: 0 0 0 40px;
-    color:$gray-light;
-    font-style: italic;
-  }
-}
 
 ///////////////////////////////////////////////////////////////////////
 // Footer Contact Section
 
 .footer-contact {
-  border-bottom: 1px solid $gray-light;
-  border-top: 1px solid $gray-light;
+  border-bottom: $default-border;
+  border-top: $default-border;
   margin-top: 2em;
   padding-bottom: 1em;
   h2 {
@@ -525,10 +507,6 @@ footer {
 
 .error404-img {
   @extend %col-40;
-  img {
-    @extend .img-responsive;
-    @extend .img-rounded;
-  }
 }
 .error404-message {
   @extend %col-60;
