@@ -731,7 +731,7 @@ body {
 
 /* line 33, ../_sass/styles.scss */
 section header {
-  border-bottom: 1px solid #333333;
+  border-bottom: 1px solid #999999;
   margin-bottom: 1em;
 }
 /* line 37, ../_sass/styles.scss */
@@ -892,9 +892,9 @@ blockquote i:before, blockquote em:before {
   list-style-type: none;
 }
 
-/* line 201, ../_sass/styles.scss */
-.quotes .quote {
-  margin-bottom: 4em;
+/* line 199, ../_sass/styles.scss */
+.quotes {
+  padding: 2em 0;
 }
 /* line 204, ../_sass/styles.scss */
 .quotes .quote:nth-of-type(odd) {
@@ -973,7 +973,7 @@ blockquote i:before, blockquote em:before {
 
 /* line 290, ../_sass/styles.scss */
 #community .media {
-  border-top: 1px solid #555555;
+  border-top: 1px solid #999999;
 }
 /* line 293, ../_sass/styles.scss */
 #community .media-object img {
@@ -1039,7 +1039,7 @@ blockquote i:before, blockquote em:before {
 }
 /* line 357, ../_sass/styles.scss */
 .post-content .post-description {
-  border-bottom: 1px solid #555555;
+  border-bottom: 1px solid #999999;
   font-size: .8em;
   margin-bottom: 4em;
   padding-bottom: 2em;
