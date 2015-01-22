@@ -3,11 +3,11 @@ layout: default
 title: Lab Notes
 pid: notes
 ---
-
 <section class="notes-list">
   <header>
     <hgroup>
       <h1>Lab Notes</h1>
+      <h4>Sharing what we learn, how we think, and happenings.</h4>
     </hgroup>
   </header>
 
@@ -19,8 +19,8 @@ pid: notes
       {% if post.layout == 'clientwork' %}<p><i class="fa fa-star highlight"></i> Client Work</p>{% endif %}
     </div>
     <div class="post-excerpt">
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h4>
-        <div>{{ post.excerpt | strip_html }}</div>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <div>{{ post.excerpt | strip_html }}</div>
     </div>
   </div>
   {% endfor %}

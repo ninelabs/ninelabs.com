@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Confidentiality, Nonsolicitation, and Intellectual-Property-Assignment Agreement
+title: Confidentiality, Nonsolicitation, and IP Assignment
 description: The agreement we have all our employees and contractors sign which covers the nature of our working relationship, confidentiality, and non-disclosure.
 date: 2012-04-13
 weight: 2
