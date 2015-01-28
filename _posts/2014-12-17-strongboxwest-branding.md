@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: notes
 title: Strongbox West Branding
 author: J Cornelius
 category: clientwork

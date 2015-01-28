@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: notes
 title: What is Brand Experience Design?
 author: J Cornelius
 category: thoughts

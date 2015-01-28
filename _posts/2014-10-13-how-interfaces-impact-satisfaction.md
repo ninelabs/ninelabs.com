@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: notes
 title: How Interfaces Impact User Satisfaction
 author: J Cornelius
 category: thoughts

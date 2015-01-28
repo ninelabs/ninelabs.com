@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: notes
 title: BRASH Coffee
 author: J Cornelius
 category: clientwork

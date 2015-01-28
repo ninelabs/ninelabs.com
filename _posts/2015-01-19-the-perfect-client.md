@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: notes
 title: The Perfect Client
 author: J Cornelius
 category: playbook
