@@ -2,9 +2,7 @@
 layout: blog
 title: The Perfect Client
 author: J Cornelius
-date: December 18th, 2014
-type: post
-pid: blog
+category: playbook
 image: //s3.amazonaws.com/ninelabs.com/bullseye.png
 ---
 

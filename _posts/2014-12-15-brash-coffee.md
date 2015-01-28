@@ -1,8 +1,8 @@
 ---
+layout: blog
 title: BRASH Coffee
-layout: clientwork
 author: J Cornelius
-pid: blog
+category: clientwork
 image: //s3.amazonaws.com/ninelabs.com/work-screenshot-brash-coffee.png
 client:
   name: BRASH Coffee

@@ -2,9 +2,7 @@
 layout: blog
 title: What is Brand Experience Design?
 author: J Cornelius
-date: December 18th, 2014
-type: post
-pid: blog
+category: thoughts
 image: //s3.amazonaws.com/ninelabs.com/ferrari.jpg
 ---
 ### Ferrari. Apple. Ikea.

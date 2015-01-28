@@ -8,6 +8,13 @@ pid: notes
     <p><em>Posted:</em> {{ page.date | date: "%b %-d, %Y" }}</p>
     <p><em>By:</em> {{ page.author }}</p>
     <p>It should take {{ page.content | reading_time }} to read.</p>
+    {% if page.category == 'clientwork' %}
+    <hr>
+    <p><em>Client:</em> {{ page.client.name }}</p>
+    <p><em>Services:</em> {{ page.client.services }}</p>
+    {% if page.client.platform %}<p><em>Platform:</em> {{ page.client.platform }}</p>{% endif %}
+    {% if page.client.url %}<p><a href="{{ page.client.url }}">Visit Website</a></p>{% endif %}
+    {% endif %}
   </aside>
   <article class="post-content">
     <header>
@@ -19,15 +26,15 @@ pid: notes
     </div>
     <div class="posts-page-navigation">
       <div class="left">
-        {% if page.previous.url %}
+        {% if page.previous.url %}<em>Previously:</em><br>
         <a href="{{page.previous.url}}" title="Previous Post:
-        {{page.previous.title}}">&laquo; {{page.previous.title}}</a>
+        {{page.previous.title}}">{{page.previous.title}}</a>
         {% endif %}
       </div>
       <div class="right">
-        {% if page.next.url %}
+        {% if page.next.url %}<em>Next Up:</em><br>
         <a href="{{page.next.url}}" title="next Post:
-        {{page.next.title}}">{{page.next.title}} &raquo;</a>
+        {{page.next.title}}">{{page.next.title}}</a>
         {% endif %}
       </div>
     </div>

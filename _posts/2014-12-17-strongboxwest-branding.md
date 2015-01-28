@@ -1,8 +1,8 @@
 ---
+layout: blog
 title: Strongbox West Branding
-layout: clientwork
 author: J Cornelius
-pid: blog
+category: clientwork
 image: //s3.amazonaws.com/ninelabs.com/work-screenshot-strongboxwest-brand.png
 client:
   name: Strongbox West
