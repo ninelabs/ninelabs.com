@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: notes
 title: Hypepotamus
 author: J Cornelius
 category: clientwork

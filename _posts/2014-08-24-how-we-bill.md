@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: notes
 title: How We Bill
 author: J Cornelius
 category: playbook
