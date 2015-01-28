@@ -9,3 +9,4 @@ rb_config.rb
 .DS_Store
 node_modules
 bower_components
+*.sublime-*
