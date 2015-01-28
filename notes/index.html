@@ -11,12 +11,11 @@ pid: notes
     </hgroup>
   </header>
 
-
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
   <div class="post-excerpt-container">
     <div class="post-meta">
       <p>{{ post.date | date: "%D" }}</p>
-      {% if post.layout == 'clientwork' %}<p><i class="fa fa-star highlight"></i> Client Work</p>{% endif %}
+      {% if post.category == 'clientwork' %}<p><i class="fa fa-star highlight"></i> Client Work</p>{% endif %}
     </div>
     <div class="post-excerpt">
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
@@ -25,30 +24,18 @@ pid: notes
   </div>
   {% endfor %}
 
-
-  {% if paginator.total_pages > 1 %}
   <div class="pagination">
     {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
     {% else %}
-    <span>&laquo; Prev</span>
+    <span class="previous">Previous</span>
     {% endif %}
-
-    {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-    <em>{{ page }}</em>
-    {% elsif page == 1 %}
-    <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-    {% else %}
-    <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-    {% endif %}
-    {% endfor %}
-
+    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
     {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
     {% else %}
-    <span>Next &raquo;</span>
+    <span class="next ">Next</span>
     {% endif %}
   </div>
-  {% endif %}
+
 </section>

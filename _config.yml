@@ -6,5 +6,5 @@ redcarpet:
 highlighter: pygments
 port: 9999
 permalink: /notes/:title.html
-paginate: 10
+paginate: 9
 paginate_path: "/notes/page:num/"

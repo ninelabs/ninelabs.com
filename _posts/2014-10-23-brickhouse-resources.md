@@ -1,8 +1,8 @@
 ---
+layout: blog
 title: Brickhouse Resources
-layout: clientwork
 author: J Cornelius
-pid: blog
+category: clientwork
 image: //s3.amazonaws.com/ninelabs.com/work-screenshot-brickhouse-resources.png
 client:
   name: Brickhouse Resources
