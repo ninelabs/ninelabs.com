@@ -1,0 +1,25 @@
+---
+layout: default
+pid: docs
+---
+<div class="post-container docs">
+  <aside class="post-meta">
+    <p><a href="/docs/">&laquo; All Legal Docs</a></p>
+    <p><em>Posted:</em> {{ page.date | date: "%b %-d, %Y" }}</p>
+    <p>It should take {{ page.content | reading_time }} to read.</p>
+
+  </aside>
+  <article class="post-content">
+    <header>
+      <h2>{{ page.title }}</h2>
+    </header>
+    <div class="post-description">
+      <p class="post-disclaimer">This document is supplied as a reference only.</p>
+      <p>{{ page.description }}</p>
+    </div>
+    <div class="post">
+      {{ content }}
+    </div>
+  </article>
+</div>
+

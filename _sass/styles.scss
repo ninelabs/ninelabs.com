@@ -1,225 +1,157 @@
 // styles.scss
 
-@import 'variables' , '../vendor/bootstrap-sass/vendor/assets/stylesheets/bootstrap.scss','responsive','effects';
+@import 'normalize','variables','mixins','responsive','grid','scaffold','nav';
 
-html,body {
-  height: 100%;
+html {
+  border-left: 15px solid $brand-primary;
+  @include breakpoint(sm) {
+    border-width: 10px;
+  }
+  @include breakpoint(xs) {
+    border-width: 5px;
+  }
 }
 
 body {
   background-color: $body-bg;
-  background-image: url('/img/brick.jpg');
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  background-size: cover;
   color: $text-color;
   font-family: $font-family-serif;
-  &.home {
-    background-color: $brand-primary;
-    background-image: url('/img/bg-atlanta-blue.jpg');
-    color: $home-text-color;
-    text-shadow:1px 1px 1px #000;
-    h1, h2, h3, h4, a {
-      color: $home-text-color;
-      shadow:1px 1px 1px #000;
-    }
-    .navbar {
-      #brand .brand-mark {
-        fill: $home-text-color;
+}
 
-      }
-      .navbar-toggle {
-        border:1px solid $home-text-color;
-        span {
-
-          color: $home-text-color;
-        }
-      }
-      &>.container .navbar-brand {
-        color: $home-text-color;
-      }
-      .nav>li>a {
-        color: $home-text-color;
-        &:hover, &:focus {
-          border-bottom-color: $home-text-color;
-        }
-      }
-    }
+#brand {
+  width:27px;
+  margin-bottom:2em;
+  .brand-mark {
+    fill: $nav-color;
   }
 }
 
-#wrap {
-  min-height: 100%;
-  height: auto;
-  margin: 0 auto (-$footerheight);
-  padding: 40px 0 $footerheight;
-  &> .container {
-    padding: 0 20px;
+
+//////////////////////////
+// Headers
+
+section header {
+  border-bottom: $default-border;
+  margin-bottom: 1em;
+  hgroup {
+    h1 {
+      margin: 0;
+      @include breakpoint(xs) {
+        font-size: 1.75em;
+      }
+    }
+    h4, h5, h6 { color: $gray; }
   }
 }
 
-h1, h2, h3, h4 {
-  color: $brand-primary;
+h1, h2, h3, h4, h5, h6 {
+  color: $headings-color;
   font-family: $font-family-sans-serif;
   font-weight: bold;
+  line-height: 1.15em;
   text-transform: uppercase;
 }
-h2 {
-  @include breakpoint(md) {
-    font-size: 3em;
-  }
-  @include breakpoint(lg) {
-    font-size: 3.75em;
-  }
-}
 
 ///////////////////////////////////////////////////////////////////////
-// NAV
-.navbar {
-  background-color: transparent;
-  border-width:0;
-  border-color: transparent;
-  font-family: $font-family-sans-serif;
-  &>.container .navbar-brand {
-    color: $nav-color;
-    font-family: 'alpin','helvetica neue',helvetica,sans-serif;
-    font-size: 1.5em;
-    margin-left: 45px;
-    padding-bottom: 0;
-    text-transform: uppercase;
-    img {
-      vertical-align: baseline;
-    }
-    @include breakpoint(xs){
-      margin-left: 60px;
-    }
-  }
-  #brand {
-    position:absolute;
-    top:5px;
-    width:47px;
-    z-index: 9000;
-    .brand-mark {
-      fill: $nav-color;
-    }
-  }
-  .navbar-toggle {
-    border:1px solid #888;
-    padding: 4px 10px;
-    span {
-      color: $nav-color;
-    }
-  }
-  .nav>li {
-    padding:0 10px;
-    a {
-      border-bottom: 5px solid transparent;
-      color: $nav-color;
-    }
-  }
-  .nav>li>a:hover, .nav>li>a:focus, .nav>li>a.active {
-    background-color: transparent;
-    border-bottom-color: $nav-color;
-    color: $nav-color;
+// General Stuff
+
+img {
+  @extend .img-responsive;
+  @extend .img-rounded;
+}
+
+.lead {
+  font-size: 1.25em;
+}
+
+// media objects
+.media {
+  @extend %row;
+}
+.media-object {
+  @extend %col-20;
+  padding: 8px 0;
+}
+.media-body {
+  @extend %col-80;
+  p {
+    margin: 0;
+    padding: 0 0 1em;
   }
 }
 
-///////////////////////////////////////////////////////////////////////
-// GLOBAL SECTION STYLES
-.content {
-  @extend .container;
-  &>div {
-    @include make-row();
-    section {
-      @include make-md-column(10);
-      @extend .col-md-offset-1;
-      padding-top: 2em;
+blockquote {
+  border-color: $brand-primary;
+  border-style: solid;
+  border-width: 0 0 0 4px;
+  margin-left: 0;
+  padding-left: 20px;
+  i, em {
+    display:block;
+    color: $gray-light;
+    font-size: .7em;
+    margin: .75em 0 0 1em;
+    &:before {
+      content: "\2014\00a0";
     }
   }
 }
 
-
-.logos {
-  @include make-row();
-  margin-bottom: 2em;
-  .logo {
-    @include make-xs-column(6);
-    @include make-md-column(4);
-    margin: 2em 0;
-    @include breakpoint(md){
-      &:nth-child(3n+1){
-        clear:left;
-      }
-    }
-  }
-}
-.names {
-  @include make-row();
-  margin-bottom: 4em;
-  &>div {
-    @include make-md-column(6);
+.footnote {
+  color: $gray-light;
+  font-size: .8em;
+  font-style: italic;
+  &:before {
+    content: "\0002A\000A0\02014\000A0";
   }
 }
 
-.quote {
-  @include make-sm-column(6);
-  margin-bottom:4em;
-  &:nth-of-type(odd) {
-    clear:left;
-  }
-  .media-object {
-    @extend .img-circle;
-    @extend .pull-left;
-    @include breakpoint(xs){
-      width: 80px;
-    }
-    @include breakpoint(md){
-      width:120px;
-    }
-  }
-  cite {
-    color: #aaa;
-    span { font-size: .9em; }
-    strong {
-      color: $brand-primary;
-      display: block;
-    }
-  }
-}
 
 ///////////////////////////////////////////////////////////////////////
 // HOME
+
 #home {
   h1 {
-    font-size: 2.75em;
+    font-size: 4em;
+    line-height: 1em;
+    margin-top: 0;
     text-transform: uppercase;
     @include breakpoint(xs) {
-      font-size: 2em;
-      line-height: 1.15em;
-      margin-bottom:1.5em;
+      font-size: 1.5em;
     }
   }
-  h2 {
-    font-size: 1.3em;
-    font-weight: normal;
-    text-transform: none;
-    @include breakpoint(xs){
-      font-size:1.25em;
+  .lead {
+    font-size: 1.5em;
+    @include breakpoint(xs) {
+      font-size: 1em;
     }
   }
   .trio {
-    @include make-row();
-    margin-top: 5em;
+    @extend %row;
+    border-top: 5px solid $brand-primary;
+    margin-top: 3em;
+    padding-top: 2em;
+  }
+  .skill {
+    &:nth-child(2n+1){
+      clear:left;
+    }
+    @include breakpoint(xs) {
+      h3 {
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+      p {
+        margin-top: 0;
+        padding-top: 0;
+      }
+    }
   }
 }
 
 .skill {
-  @include make-xs-column(12);
-  @include make-sm-column(4);
-  display: inline-block;
+  @extend %col-50;
   margin-bottom: 3em;
-  position: relative;
-  padding:0 20px;
   h4 {
     border-bottom: 2px solid transparentize(#fff,.8);
     padding-bottom: 1em;
@@ -227,258 +159,77 @@ h2 {
 }
 
 
-.cta {
-  @include make-row();
-  border-top: 1px solid $brand-secondary;
-  margin-top: 2em;
-  padding-top:2em;
-  .tag {
-    @include make-sm-column(8);
-    @include make-md-column(9);
-    font-size: 1.5em;
-  }
-  .action {
-    @include make-sm-column(4);
-    @include make-md-column(3);
-    a {
-      @extend .btn;
-      @extend .btn-success;
-      @extend .btn-lg;
-      @extend .pull-right;
-    }
-  }
-}
-
 ///////////////////////////////////////////////////////////////////////
-// SERVICES
-#services {
-  .skills-list {
-    @include make-row();
-    .skill {
-      &:nth-child(3n+1){
-        clear:left;
-      }
-      h4 {
-        border-bottom: 2px solid $brand-primary;
-      }
-    }
-  }
-}
-
-///////////////////////////////////////////////////////////////////////
-// PROCESS
+// APPROACH
 #approach {
-  .timeline {
-    list-style: none;
-    padding: 20px 0 20px;
-    position: relative;
-  }
 
-  .timeline:before {
-    top: 0;
-    bottom: 0;
-    position: absolute;
-    content: " ";
-    width: 3px;
-    background-color: #eeeeee;
-    left: 50%;
-    margin-left: -1.5px;
-  }
+}
 
-  .timeline > li {
-    margin-bottom: 20px;
-    position: relative;
-  }
 
-  .timeline > li:before,
-  .timeline > li:after {
-    content: " ";
-    display: table;
-  }
+///////////////////////////////////////////////////////////////////////
+// REPUTATION
 
-  .timeline > li:after {
-    clear: both;
-  }
-
-  .timeline > li:before,
-  .timeline > li:after {
-    content: " ";
-    display: table;
-  }
-
-  .timeline > li:after {
-    clear: both;
-  }
-
-  .timeline > li > .timeline-panel {
-    width: 46%;
-    float: left;
-    border: 1px solid #d4d4d4;
-    border-radius: 2px;
-    padding: 20px;
-    position: relative;
-    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-    background-color: $body-bg;
-  }
-
-  .timeline > li > .timeline-panel:before {
-    position: absolute;
-    top: 26px;
-    right: -15px;
-    display: inline-block;
-    border-top: 15px solid transparent;
-    border-left: 15px solid #ccc;
-    border-right: 0 solid #ccc;
-    border-bottom: 15px solid transparent;
-    content: " ";
-  }
-
-  .timeline > li > .timeline-panel:after {
-    position: absolute;
-    top: 27px;
-    right: -14px;
-    display: inline-block;
-    border-top: 14px solid transparent;
-    border-left: 14px solid #fff;
-    border-right: 0 solid #fff;
-    border-bottom: 14px solid transparent;
-    content: " ";
-  }
-
-  .timeline > li > .timeline-badge {
-    color: #fff;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1.4em;
+.logos {
+  @extend %row;
+  margin-bottom: 2em;
+  .logo {
+    @extend %col-20;
+    margin:0 0 3em;
     text-align: center;
-    position: absolute;
-    top: 16px;
-    left: 50%;
-    margin-left: -25px;
-    background-color: $gray-light;
-    z-index: 100;
-    border-top-right-radius: 50%;
-    border-top-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-bottom-left-radius: 50%;
-  }
-
-  .timeline > li.timeline-inverted > .timeline-panel {
-    float: right;
-  }
-
-  .timeline > li.timeline-inverted > .timeline-panel:before {
-    border-left-width: 0;
-    border-right-width: 15px;
-    left: -15px;
-    right: auto;
-  }
-
-  .timeline > li.timeline-inverted > .timeline-panel:after {
-    border-left-width: 0;
-    border-right-width: 14px;
-    left: -14px;
-    right: auto;
-  }
-
-  .timeline-badge.primary {
-    background-color: #2e6da4 !important;
-  }
-
-  .timeline-badge.success {
-    background-color: #3f903f !important;
-  }
-
-  .timeline-badge.warning {
-    background-color: #f0ad4e !important;
-  }
-
-  .timeline-badge.danger {
-    background-color: #d9534f !important;
-  }
-
-  .timeline-badge.info {
-    background-color: #5bc0de !important;
-  }
-
-  .timeline-title {
-    margin-top: 0;
-    color: inherit;
-  }
-
-  .timeline-body > p,
-  .timeline-body > ul {
-    margin-bottom: 0;
-  }
-
-  .timeline-body > p + p {
-    margin-top: 5px;
-  }
-
-  @media (max-width: 767px) {
-    ul.timeline:before {
-      left: 40px;
+    img {
+      max-width:70%;
     }
-
-    ul.timeline > li > .timeline-panel {
-      width: calc(100% - 90px);
-      width: -moz-calc(100% - 90px);
-      width: -webkit-calc(100% - 90px);
+  }
+}
+.names {
+  @extend %row;
+  margin-bottom: 4em;
+  ul {
+    margin: 0;
+    padding: 0;
+    width: auto;
+  }
+  li {
+    @extend %col-50;
+    padding: 0 .5em;
+    margin: 0;
+    list-style-type: none;
+  }
+}
+.quotes {
+  @extend %row;
+  padding:2em 0;
+  .quote {
+    @extend %col-50;
+    &:nth-of-type(odd) {
+      clear:left;
     }
-
-    ul.timeline > li > .timeline-badge {
-      left: 15px;
-      margin-left: 0;
-      top: 16px;
-    }
-
-    ul.timeline > li > .timeline-panel {
-      float: right;
-    }
-
-    ul.timeline > li > .timeline-panel:before {
-      border-left-width: 0;
-      border-right-width: 15px;
-      left: -15px;
-      right: auto;
-    }
-
-    ul.timeline > li > .timeline-panel:after {
-      border-left-width: 0;
-      border-right-width: 14px;
-      left: -14px;
-      right: auto;
+    cite {
+      span { font-size: .75em; }
+      strong {
+        color: $gray-darker;
+        display: block;
+      }
     }
   }
 }
 
 ///////////////////////////////////////////////////////////////////////
-// TEAM
+// EXPERIENCE
 #team {
   .the-huddle {
-    margin-top: 3em;
-    @include make-row();
+    @extend %row;
     .member {
-      @include make-sm-column(6);
-      display: inline-block;
+      @extend %col-33;
       margin-bottom: 1.5em;
-      position: relative;
-      &:nth-child(odd){
-        clear:left;
-      }
+
       .meta {
         display: inline-block;
         position: relative;
         float: left;
         margin-right: 3%;
-        max-width: 120px;
+        /*max-width: 120px;*/
         min-height: 100%;
-        width: 22%;
-        img {
-          @extend .img-responsive;
-        }
         a {
           color: rgba(255,255,255,.3);
           font-size: 1.25em;
@@ -495,11 +246,11 @@ h2 {
         display: inline-block;
         position: relative;
         width: 75%;
-        h3 {
+        h4 {
           margin: 0;
         }
         p {
-          font-size: .9em;
+          font-size: .75em;
           margin: 0;
         }
         .label {
@@ -514,58 +265,196 @@ h2 {
   }
 }
 
+///////////////////////////////////////////////////////////////////////
+// SESSIONS
+.session-options {
+  @extend %row;
+}
+.session-option {
+  @extend %col-50;
+  h4 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  ul {
+    margin-top: .4em;
+    padding-top: 0;
+  }
+}
+
 
 ///////////////////////////////////////////////////////////////////////
-// CONTACT
-#contact {
-  background-position: center bottom;
-  .contact-form {
-    @include make-sm-column(8);
-    .form-group {
-      label {
-        @include make-sm-column(6);
-        display: none;
-      }
-      div.name:first-of-type {
-        @include make-xs-column(12);
-        @include make-md-column(5);
-        @include breakpoint(xs){
-          margin-bottom: 15px;
-        }
-      }
-      div.name:last-of-type {
-        @include make-xs-column(12);
-        @include make-md-column(7);
-      }
-      div:not(.name) {
-        @include make-sm-column(12);
-      }
-      textarea {
-        resize: none;
-      }
-    }
-    span { text-shadow: none; }
+// COMMUNITY
+
+#community {
+  .media {
+    border-top: $default-border;
   }
-  .contact-info {
-    @include make-sm-column(4);
-    img {
-      @extend .img-thumbnail;
-      margin-bottom: 1em;
+  .media-object img {
+    margin-top: 1em;
+    max-width: 120px;
+  }
+  .media-body h3 {
+    margin-bottom: 0
+  }
+  .offsite-link {
+    &:after {
+      content: "\000A0\000BB";
     }
-    .vcard, .connect {
-      font-size: .9em;
+  }
+
+}
+
+///////////////////////////////////////////////////////////////////////
+// Posts and lists
+.post-excerpt-container {
+  @extend %row;
+  border-bottom: $default-border;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  .post-meta {
+    @extend %col-20;
+    p {
+      color: $gray-light;
+      font-size: .8em;
+      margin: 5px 0 1em;
       padding: 0;
     }
-    .connect {
-      a {
-        display: block;
+  }
+  .post-excerpt {
+    @extend %col-80;
+    h3 {
+      margin: 0 0 .5em;
+    }
+  }
+}
+.post-container {
+  .post-meta {
+    color: $gray-dark;
+    font-size: .65em;
+    em {
+      color: $gray-light;
+    }
+  }
+}
+.post-content {
+  header {
+    border-bottom: $default-border;
+    margin-bottom: 2em;
+    padding-bottom:.5em;
+    h2 {
+      line-height: .9em;
+      margin: 0;
+    }
+    h4 {
+      color: $gray;
+      margin: 0
+    }
+  }
+  h3 {
+    color:$gray;
+  }
+  .post-description {
+    border-bottom: $default-border;
+    font-size: .8em;
+    margin-bottom: 4em;
+    padding-bottom: 2em;
+    p {
+      margin-bottom: 1em;
+      padding: 0;
+    }
+  }
+  .post-disclaimer {
+    color:$brand-primary;
+    font-style: italic;
+  }
+}
+.fa.highlight {
+  color: $brand-primary;
+}
+
+
+///////////////////////////////////////////////////////////////////////
+// LAB NOTES
+// Styles specific to the blog view
+
+.labnotes {
+  iframe.twitter-tweet {
+    margin-left: 40px !important;
+  }
+}
+
+.posts-page-navigation {
+  @extend %row;
+  border-top: $default-border;
+  font-size: .8em;
+  margin-top: 2em;
+  padding-top: 1em;
+  div {
+    @extend %col-50;
+  }
+  .right {
+    text-align: right;
+  }
+}
+
+
+///////////////////////////////////////////////////////////////////////
+// Docs
+// Styles specific to the docs view
+
+.docs {
+  .post {
+    ol li {
+      list-style-type: decimal;
+      padding-top:.75em;
+      margin-bottom: .125em;
+      ol li {
+        list-style-type: lower-latin;
+        ol li {
+          list-style-type: lower-roman;
+        }
       }
     }
   }
 }
 
-#thanks {
-  text-align: center;
+
+///////////////////////////////////////////////////////////////////////
+// Footer Contact Section
+
+.footer-contact {
+  border-bottom: $default-border;
+  border-top: $default-border;
+  margin-top: 2em;
+  padding-bottom: 1em;
+  h2 {
+    margin-bottom:0;
+  }
+  p {
+    margin-top: 0
+  }
+}
+
+
+///////////////////////////////////////////////////////////////////////
+// CONTACT
+
+#contact h2 {
+  font-family: $font-family-serif;
+  font-style: italic;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.contact-options {
+  margin-bottom: 3em;
+}
+
+.contact-option {
+  font-size: 1.25em;
+  margin: 0;
+  padding: 0;
 }
 
 ///////////////////////////////////////////////////////////////////////
@@ -591,10 +480,12 @@ h2 {
 // FOOTER
 footer {
   font-family: $font-family-sans-serif;
-  height: $footerheight;
   margin: 0;
   padding: 5em 0;
   text-align: center;
+  @include breakpoint(xs){
+    padding: 0 0 2em;
+  }
   nav {
     margin:1.5em 0 1em;
     a {
@@ -610,8 +501,19 @@ footer {
     }
   }
   .copyright {
-    font-size: .9em;
+    font-size: .8em;
   }
 }
 
+.error404-img {
+  @extend %col-40;
+}
+.error404-message {
+  @extend %col-60;
+}
 
+
+
+//////
+// removes the double border around example code blocks in the style guide.
+pre{border:none;padding:0;}

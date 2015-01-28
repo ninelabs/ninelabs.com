@@ -1,69 +1,6 @@
-- name: J Cornelius
-  name-tokenized: j-cornelius
-  role: Founder // Partner // President
-  skills:
-    - Digital Strategy
-    - User Experience
-    - Information Architecture
-    - Business Strategy
-    - Operations Efficiency
-    - Web Analytics
-    - Process Improvement
-    - Solution Architecture
-    - Digital Marketing
-    - Usability
-    - Interaction Design
-  twitter: https://twitter.com/jc
-  linkedin: https://linkedin.com/in/jcornelius
-  github: https://github.com/jcornelius
-  instagram: https://instagram.com/jcornelius
-  website: http://jcornelius.com
-
-- name: Brad Weaver
-  name-tokenized: brad-weaver
-  role: Partner // Director of Design
-  skills:
-    - User Experience
-    - Information Architecture
-    - Identity Design
-    - User Interface Design
-    - Product Design
-    - Usability
-    - Content Strategy
-    - Graphic Design
-    - iOS Design
-    - Branding
-    - Packaging Design
-    - Motion Graphics
-  twitter: https://twitter.com/sbradweaver
-  linkedin: https://linkedin.com/in/sbradweaver
-  github: https://github.com/sbradweaver
-  dribbble: https://dribbble.com/bradweaver
-
-
-- name: Moses Ngone
-  name-tokenized: moses-ngone
-  role: Partner // Director of Engineering
-  skills:
-    - PHP
-    - Ruby
-    - JavaScript
-    - Bower
-    - MongoDB
-    - jQuery
-    - Mobile Applications
-    - HTML5
-    - CSS3
-    - MVC Frameworks
-    - Web Applications
-    - PhoneGap
-  twitter: https://twitter.com/mospired
-  linkedin: https://linkedin.com/in/mosesngone
-  github: https://github.com/mospired
-
 - name: Courtney Robb
   name-tokenized: courtney-robb
-  role: Client Services // Project Management
+  role: Studio Manager
   skills:
     - Social Media
     - Marketing Strategy
@@ -79,7 +16,7 @@
 
 - name: Stacey James
   name-tokenized: stacey-james
-  role: Marketing // Business Development
+  role: Marketing Director
   skills:
     - Business Development
     - Digital Marketing
@@ -94,29 +31,59 @@
   twitter: https://twitter.com/stacey
   linkedin: https://www.linkedin.com/in/staceyrjames
 
-- name: Evan Volgas
-  name-tokenized: evan-volgas
-  role: Data Analysis // Visualization
-  twitter: evanvolgas
-  linkedin: https://www.linkedin.com/in/evanvolgas
+- name: Jason Ottinger
+  name-tokenized: jason-ottinger
+  role: Branding &amp; Visual Design
+  twitter: https://twitter.com/jottin
+  linkedin: https://www.linkedin.com/pub/jason-ottinger/7/357/413
   skills:
-    - Data Analytics
-    - Mathematical Modeling
-    - Data Visualization
-    - Business Analytics
-    - JavaScript
-    - Angular
-    - jQuery
-    - D3.js
-    - Visualization
-    - Statistics
-    - SAS
-    - Data Mining
-    - MySQL
-    - T-SQL
-    - PHP
-    - Ubuntu
-    - Linux
+    - Branding
+    - Graphic Design
+    - Identity Design
+    - Typography
+    - Art Direction
+    - User Interface Design
+    - Color Theory
+    - Illustration
+    - Photography
+
+- name: Sierra Petrowski
+  name-tokenized: sierra-petrowski
+  role: Interactive Design
+  twitter: https://twitter.com/snpetrowski
+  linkedin: https://www.linkedin.com/pub/jason-ottinger/7/357/413
+  skills:
+    - User Interface Design
+    - User Experience Design
+    - Responsive Web Design
+    - Integrated Marketing
+    - Marketing Strategy
+    - Brand Development
+    - Photoshop
+    - InDesign
+    - Illustrator
+    - HTML5
+    - CSS3
+
+- name: Doc Waller
+  name-tokenized: doc-waller
+  role: Inspiration Architecture
+  twitter: https://twitter.com/docwaller
+  facebook: https://www.facebook.com/doc.waller
+  instagram: http://instagram.com/docwaller
+  skills:
+    - Creative Writing
+    - Entrepreneurship
+    - Media Relations
+    - Entertainment
+    - Film &amp; Theatre
+    - Public Speaking
+    - Social Media Marketing
+    - Film Production
+    - Screenwriting
+    - New Media
+    - Video
+    - Documentaries
 
 - name: Justin Cook
   name-tokenized: justin-cook
@@ -134,56 +101,3 @@
     - Search Engine Optimization
     - Information Architecture
     - WordPress
-
-- name: Sierra Petrowski
-  name-tokenized: sierra-petrowski
-  role: Interactive Design
-  twitter: snpetrowski
-  linkedin: https://www.linkedin.com/pub/jason-ottinger/7/357/413
-  skills:
-    - User Interface Design
-    - User Experience Design
-    - Responsive Web Design
-    - Integrated Marketing
-    - Marketing Strategy
-    - Brand Development
-    - Photoshop
-    - InDesign
-    - Illustrator
-    - HTML5
-    - CSS3
-
-- name: Jason Ottinger
-  name-tokenized: jason-ottinger
-  role: Branding // Visual Design
-  twitter: jottin
-  linkedin: https://www.linkedin.com/pub/jason-ottinger/7/357/413
-  skills:
-    - Branding
-    - Graphic Design
-    - Identity Design
-    - Typography
-    - Art Direction
-    - User Interface Design
-    - Color Theory
-    - Illustration
-    - Photography
-
-- name: Doc Waller
-  name-tokenized: doc-waller
-  role: Inspiration Architecture
-  twitter: docwaller
-  linkedin: https://www.linkedin.com/in/thedocwaller
-  skills:
-    - Creative Writing
-    - Entrepreneurship
-    - Media Relations
-    - Entertainment
-    - Film &amp; Theatre
-    - Public Speaking
-    - Social Media Marketing
-    - Film Production
-    - Screenwriting
-    - New Media
-    - Video
-    - Documentaries

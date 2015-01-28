@@ -1,0 +1,18 @@
+---
+layout: default
+pid: styleguide
+---
+<div class="styleguide">
+  <aside>
+    <h4>Style Guide</h4>
+    <ul>
+      {% assign guides = (site.pages | sort: "weight" | where: "layout" , "styleguide" ) %}
+      {% for page in guides %}
+      <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </aside>
+  <article>
+    {{ content }}
+  </article>
+</div>

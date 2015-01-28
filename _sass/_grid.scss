@@ -1,0 +1,79 @@
+////////////////////////////////////////////
+// Grid.scss
+
+// Configs
+$full:            100%;
+$half:            100% / 2;
+
+$common: 10, 20, 25, 33, 40, 50, 60, 66, 75, 80, 90, 100;
+$gutter-width: 30px;
+
+%container {
+  max-width:960px;
+  width:100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom:3em;
+  padding-left:  ($gutter-width / 2);
+  padding-right: ($gutter-width / 2);
+  @include clearfix();
+}
+
+%row {
+  clear:both;
+  margin-bottom:1em;
+  @include clearfix();
+}
+
+////////////////////////////////////////////
+// Columns and Offsets
+@each $i in $common {
+  %col-#{$i} {
+    float:left;
+    min-height: 1px;
+    padding-left:  ($grid-gutter-width / 2);
+    padding-right: ($grid-gutter-width / 2);
+    position: relative;
+    width: percentage($i / 100);
+    @include breakpoint(xs){
+      width: $full;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  %offset-#{$i} {
+    left: percentage($i / 100);
+    @include breakpoint(xs){
+      left: 0;
+    }
+    @include breakpoint(sm){
+      left: 0;
+    }
+  }
+}
+
+// Portrait Tablet
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+  %col-33, %col-40, %col-60, %col-66 {
+    width: $half;
+  }
+}
+
+//////////////////////////
+// Content Scaffold
+
+main {
+  @extend %container;
+  >div {
+    @extend %row;
+    .content {
+      @extend %col-100;
+      article {
+        @extend %col-75;
+      }
+      aside {
+        @extend %col-25;
+      }
+    }
+  }
+}
