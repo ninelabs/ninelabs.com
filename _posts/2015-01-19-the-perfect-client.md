@@ -38,7 +38,9 @@ You can't do everything well. Perhaps the most important thing is that a company
 
 
 ## Why We&rsquo;re a Great Option
-We can help companies of both sizes by offering a diverse range of services and skills for the same cost as one or two full-time staff members. This is a great benefit for the company:
+We can help companies of both sizes by offering a diverse range of services and skills for the same cost as a full-time staff member. We also offer [a-la-carte sessions](/sessions/) that make it possible to get our thoughts and expertise without a huge commitment.
+
+This is a great benefit for the company:
 
 - No HR and related recruiting headaches.
 - Faster spin-up time on projects since they aren&rsquo;t looking for "the right person".

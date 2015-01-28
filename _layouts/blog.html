@@ -6,6 +6,7 @@ pid: notes
   <aside class="post-meta">
     <p><a href="/notes/">&laquo; All Lab Notes</a></p>
     <p><em>Posted:</em> {{ page.date | date: "%b %-d, %Y" }}</p>
+    <p><em>By:</em> {{ page.author }}</p>
     <p>It should take {{ page.content | reading_time }} to read.</p>
   </aside>
   <article class="post-content">
