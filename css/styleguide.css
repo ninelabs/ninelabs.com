@@ -1045,82 +1045,86 @@ blockquote i:before, blockquote em:before {
   color: #F07834;
 }
 /* line 363, ../_sass/styles.scss */
+.post-content img:first-of-type {
+  margin-bottom: 2em;
+}
+/* line 366, ../_sass/styles.scss */
 .post-content p {
   margin-top: 0;
   padding-top: 0;
 }
-/* line 367, ../_sass/styles.scss */
+/* line 370, ../_sass/styles.scss */
 .post-content .post-description {
   border-bottom: 1px solid #999999;
   font-size: .8em;
   margin-bottom: 4em;
   padding-bottom: 2em;
 }
-/* line 372, ../_sass/styles.scss */
+/* line 375, ../_sass/styles.scss */
 .post-content .post-description p {
   margin-bottom: 1em;
   padding: 0;
 }
-/* line 377, ../_sass/styles.scss */
+/* line 380, ../_sass/styles.scss */
 .post-content .post-disclaimer {
   color: #F07834;
   font-style: italic;
 }
 
-/* line 382, ../_sass/styles.scss */
+/* line 385, ../_sass/styles.scss */
 .fa.highlight {
   color: #F07834;
 }
 
-/* line 392, ../_sass/styles.scss */
+/* line 395, ../_sass/styles.scss */
 .labnotes iframe.twitter-tweet {
   margin-left: 40px !important;
 }
 
-/* line 397, ../_sass/styles.scss */
+/* line 400, ../_sass/styles.scss */
 .posts-page-navigation {
   border-top: 1px solid #999999;
   font-size: .8em;
   margin-top: 2em;
   padding-top: 1em;
 }
-/* line 406, ../_sass/styles.scss */
+/* line 409, ../_sass/styles.scss */
 .posts-page-navigation .right {
   text-align: right;
 }
 
-/* line 418, ../_sass/styles.scss */
+/* line 421, ../_sass/styles.scss */
 .docs .post ol li {
   list-style-type: decimal;
   padding-top: .75em;
   margin-bottom: .125em;
 }
-/* line 422, ../_sass/styles.scss */
+/* line 425, ../_sass/styles.scss */
 .docs .post ol li ol li {
   list-style-type: lower-latin;
 }
-/* line 424, ../_sass/styles.scss */
+/* line 427, ../_sass/styles.scss */
 .docs .post ol li ol li ol li {
   list-style-type: lower-roman;
 }
 
-/* line 436, ../_sass/styles.scss */
+/* line 439, ../_sass/styles.scss */
 .footer-contact {
   border-bottom: 1px solid #999999;
   border-top: 1px solid #999999;
   margin-top: 2em;
   padding-bottom: 1em;
 }
-/* line 441, ../_sass/styles.scss */
+/* line 444, ../_sass/styles.scss */
 .footer-contact h2 {
   margin-bottom: 0;
 }
-/* line 444, ../_sass/styles.scss */
+/* line 447, ../_sass/styles.scss */
 .footer-contact p {
   margin-top: 0;
 }
 
-/* line 453, ../_sass/styles.scss */
+/* line 456, ../_sass/styles.scss */
 #contact h2 {
   font-family: "ff-tisa-web-pro", serif;
   font-style: italic;
@@ -1128,37 +1132,37 @@ blockquote i:before, blockquote em:before {
   text-transform: none;
 }
 
-/* line 460, ../_sass/styles.scss */
+/* line 463, ../_sass/styles.scss */
 .contact-options {
   margin-bottom: 3em;
 }
 
-/* line 464, ../_sass/styles.scss */
+/* line 467, ../_sass/styles.scss */
 .contact-option {
   font-size: 1.25em;
   margin: 0;
   padding: 0;
 }
 
-/* line 473, ../_sass/styles.scss */
+/* line 476, ../_sass/styles.scss */
 #jobs .job, #jobs .how-we-work, #jobs .get-in-touch {
   border-top: 1px solid #F07834;
 }
-/* line 476, ../_sass/styles.scss */
+/* line 479, ../_sass/styles.scss */
 #jobs .job {
   padding: 1.5em;
 }
-/* line 478, ../_sass/styles.scss */
+/* line 481, ../_sass/styles.scss */
 #jobs .job .fa {
   color: #9fe32c;
 }
-/* line 481, ../_sass/styles.scss */
+/* line 484, ../_sass/styles.scss */
 #jobs .job .job-meta {
   color: #aaa;
   font-size: .9em;
 }
 
-/* line 491, ../_sass/styles.scss */
+/* line 494, ../_sass/styles.scss */
 footer {
   font-family: "freight-sans-pro", "helvetica neue", helvetica, sans-serif;
   margin: 0;
@@ -1166,35 +1170,35 @@ footer {
   text-align: center;
 }
 @media (max-width: 767px) {
-  /* line 491, ../_sass/styles.scss */
+  /* line 494, ../_sass/styles.scss */
   footer {
     padding: 0 0 2em;
   }
 }
-/* line 499, ../_sass/styles.scss */
+/* line 502, ../_sass/styles.scss */
 footer nav {
   margin: 1.5em 0 1em;
 }
-/* line 501, ../_sass/styles.scss */
+/* line 504, ../_sass/styles.scss */
 footer nav a {
   padding: 0 .5em;
 }
-/* line 505, ../_sass/styles.scss */
+/* line 508, ../_sass/styles.scss */
 footer .social {
   margin-bottom: 1em;
 }
-/* line 507, ../_sass/styles.scss */
+/* line 510, ../_sass/styles.scss */
 footer .social a {
   display: inline-block;
   font-size: 1.25em;
   margin: 0 20px;
 }
-/* line 513, ../_sass/styles.scss */
+/* line 516, ../_sass/styles.scss */
 footer .copyright {
   font-size: .8em;
 }
 
-/* line 529, ../_sass/styles.scss */
+/* line 532, ../_sass/styles.scss */
 pre {
   border: none;
   padding: 0;
