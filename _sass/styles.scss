@@ -351,8 +351,18 @@ blockquote {
       margin: 0
     }
   }
-  h3 {
+  h2,h3,h4 {
     color:$gray;
+    margin-bottom: .5em;
+    margin-top: 1.5em;
+    padding-bottom: 0;
+  }
+  h3 {
+    color:$brand-primary;
+  }
+  p {
+    margin-top: 0;
+    padding-top: 0;
   }
   .post-description {
     border-bottom: $default-border;
