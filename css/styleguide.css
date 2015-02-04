@@ -1181,24 +1181,25 @@ footer nav {
 }
 /* line 504, ../_sass/styles.scss */
 footer nav a {
+  font-size: .8em;
   padding: 0 .5em;
 }
-/* line 508, ../_sass/styles.scss */
+/* line 509, ../_sass/styles.scss */
 footer .social {
   margin-bottom: 1em;
 }
-/* line 510, ../_sass/styles.scss */
+/* line 511, ../_sass/styles.scss */
 footer .social a {
   display: inline-block;
   font-size: 1.25em;
   margin: 0 20px;
 }
-/* line 516, ../_sass/styles.scss */
+/* line 517, ../_sass/styles.scss */
 footer .copyright {
   font-size: .8em;
 }
 
-/* line 532, ../_sass/styles.scss */
+/* line 533, ../_sass/styles.scss */
 pre {
   border: none;
   padding: 0;

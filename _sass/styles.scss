@@ -434,7 +434,7 @@ blockquote {
 
 
 ///////////////////////////////////////////////////////////////////////
-// Footer Contact Section
+//  Contact Section
 
 .footer-contact {
   border-bottom: $default-border;
@@ -502,6 +502,7 @@ footer {
   nav {
     margin:1.5em 0 1em;
     a {
+      font-size: .8em;
       padding:0 .5em;
     }
   }

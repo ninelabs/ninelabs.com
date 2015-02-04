@@ -26,7 +26,7 @@ We work in one of three ways: in [Small Batches](/sessions/), on a project basis
 #### Project Based Budgets
 Most projects have a clear start and end. You know where you are and where you want to be. Through a discovery phase we work with you to define the scope of a project, it&rsquo;s timeline and budget.
 
-Once we agree on the project budget and timeline everyone one the team knows what to expect. From there we generally bill in three or four installments based on the project size a duration. For most projects we collect 50% up front as the deposit, 25% at the midway point, and 25% at the end point.
+Once we agree on the project budget and timeline everyone one the team knows what to expect. From there we generally bill in three or four installments based on the project size a duration. For most projects we collect 50% up front as the [deposit](/notes/deposits.html), 25% at the midway point, and 25% at the end point.
 
 #### Retainer Relationships
 Some work is evergreen, always evolving, or simply too large to try to contain in a single project. In these cases it makes more sense to setup a retainer relationship where we dedicate a predefined amount of time and effort to your team for a fixed fee on a monthly basis. You get cost certainty and the comfort of knowing we&rsquo;re there to help.
