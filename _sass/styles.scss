@@ -351,8 +351,21 @@ blockquote {
       margin: 0
     }
   }
-  h3 {
+  h2,h3,h4 {
     color:$gray;
+    margin-bottom: .5em;
+    margin-top: 1.5em;
+    padding-bottom: 0;
+  }
+  h3 {
+    color:$brand-primary;
+  }
+  img:first-of-type {
+    margin-bottom: 2em;
+  }
+  p {
+    margin-top: 0;
+    padding-top: 0;
   }
   .post-description {
     border-bottom: $default-border;
@@ -421,7 +434,7 @@ blockquote {
 
 
 ///////////////////////////////////////////////////////////////////////
-// Footer Contact Section
+//  Contact Section
 
 .footer-contact {
   border-bottom: $default-border;
@@ -489,6 +502,7 @@ footer {
   nav {
     margin:1.5em 0 1em;
     a {
+      font-size: .8em;
       padding:0 .5em;
     }
   }

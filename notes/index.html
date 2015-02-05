@@ -7,7 +7,7 @@ pid: notes
   <header>
     <hgroup>
       <h1>Lab Notes</h1>
-      <h4>Sharing what we learn, how we think, and happenings.</h4>
+      <h4>Sharing what we learn, how we think, and other happenings.</h4>
     </hgroup>
   </header>
 
@@ -23,19 +23,6 @@ pid: notes
     </div>
   </div>
   {% endfor %}
-
-  <div class="pagination">
-    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-    {% else %}
-    <span class="previous">Previous</span>
-    {% endif %}
-    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-    {% else %}
-    <span class="next ">Next</span>
-    {% endif %}
-  </div>
+  <p><em>That&rsquo;s all for now&hellip;</em></p>
 
 </section>
