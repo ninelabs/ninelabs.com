@@ -8,7 +8,7 @@ image: //s3.amazonaws.com/ninelabs.com/ferrari.jpg
 ### Ferrari. Apple. Ikea.
 These are household names in much of the world. Each of them evokes certain feelings. You have a connection with each brand in some way, even if it’s at a distance. Regardless of where you see these brands you get a consistent message. A message that’s been carefully designed for clarity and consistency.
 
-Your *experience* with each of these brands has been thoughtfully *designed*.
+Whether you feel it or not, your *experience* with each of these brands has been thoughtfully *designed*.
 
 ### Experience Design
 Chances are, if you’ve ever been in an Apple Store, you can remember what it feels like. The environment has a uniquely ‘Apple’ feel to it. If you’ve ever driven (or even sat in) a Ferrari your memory of doing so is probably vivid and palpable. It only takes one trip to Ikea for someone to understand what it’s all about. Everyone who’s ever done these things can tell stories about their experiences, and they are all very similar.
