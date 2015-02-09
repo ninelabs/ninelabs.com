@@ -24,6 +24,6 @@ We worked with Brickhouse to help them discover their voice, working through sev
 ## The Outcome
 The new BrickhouseResources.com is bright and clean. We used a mixture of photographs as a background for the top menu bar to elicit a personal connection, and emphasized the personal even more with the slogan "We're People Driven." The site has a consistent color scheme and drives results, just like Brickhouse. 
 
-[quote from Wendy]
+Wendy told us that, as happens with many projects, their site redesign had stalled out prior to contacting Nine Labs. She thanked us for taking the time to understand their brand and vision, and for delivering the customized website in the promised timeframe. We take pride in our ability to highlight exactly the message our customers are hoping to deliver, and in doing so on time!
 
 
