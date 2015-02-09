@@ -222,7 +222,6 @@ blockquote {
     .member {
       @extend %col-33;
       margin-bottom: 1.5em;
-
       .meta {
         display: inline-block;
         position: relative;
@@ -230,6 +229,9 @@ blockquote {
         margin-right: 3%;
         /*max-width: 120px;*/
         min-height: 100%;
+        img {
+          width: 260px;
+        }
         a {
           color: rgba(255,255,255,.3);
           font-size: 1.25em;
@@ -264,6 +266,34 @@ blockquote {
     }
   }
 }
+
+.partner-page {
+  @extend %row;
+  .partner-title {
+    margin:0;
+  }
+  .partner-meta {
+    @extend %col-33;
+    img {
+      width:100%;
+    }
+    h5 {
+      margin-bottom: 0;
+    }
+  }
+  .partner-info {
+    @extend %col-66;
+  }
+  .partner-skill {
+    @include border-radius(4px);
+    background-color:$gray-lighter;
+    display: inline-block;
+    font-size:14px;
+    font-family: $font-family-sans-serif;
+    padding:2px 6px;
+  }
+}
+
 
 ///////////////////////////////////////////////////////////////////////
 // SESSIONS
