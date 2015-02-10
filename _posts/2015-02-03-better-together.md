@@ -25,6 +25,6 @@ You see, we know we get better results when we &mdash; <em>the client&rsquo;s te
 ### Better Communication = Better Outcomes
 Our intent with each client is to collaborate, teach, and work towards shared goals. The only way that&rsquo;s possible is to stay closely connected and make sure we are in alignment on each step. By keeping everyone on the project team in the loop, we can reduce missteps and catch mistakes early.
 
-Fewer mistakes means higher quality and faster progress. High quality output and rapid progress lead to successuful projects. Successful projects lead to happy clients.
+Fewer mistakes means higher quality and faster progress. High quality output and rapid progress lead to successful projects. Successful projects lead to happy clients.
 
 And that&rsquo;s the whole point.
