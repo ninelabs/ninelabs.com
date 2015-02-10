@@ -51,7 +51,7 @@
   name-tokenized: sierra-petrowski
   role: Interactive Design
   twitter: https://twitter.com/snpetrowski
-  linkedin: https://www.linkedin.com/pub/jason-ottinger/7/357/413
+  linkedin: https://www.linkedin.com/pub/sierra-petrowski/40/331/b88
   skills:
     - User Interface Design
     - User Experience Design
@@ -64,6 +64,17 @@
     - Illustrator
     - HTML5
     - CSS3
+
+- name: Laura Lindeman
+  name-tokenized: laura-lindeman
+  role: Creative Writer
+  twitter: https://twitter.com/lclindeman
+  linkedin: https://www.linkedin.com/in/lauralindeman
+  instagram: https://instagram.com/lclindeman
+  website: http://blog.lauralindeman.com/
+  skills:
+    - Creative Writing
+    - Brand Messaging
 
 - name: Doc Waller
   name-tokenized: doc-waller
@@ -84,20 +95,3 @@
     - New Media
     - Video
     - Documentaries
-
-- name: Justin Cook
-  name-tokenized: justin-cook
-  role: Front-End Development
-  twitter:
-  linkedin: https://www.linkedin.com/pub/justin-l-cook/16/b8b/492
-  skills:
-    - Responsive Web Design
-    - User Interface Design
-    - Graphic Design
-    - Usability
-    - HTML5
-    - CSS3
-    - jQuery
-    - Search Engine Optimization
-    - Information Architecture
-    - WordPress

@@ -1,7 +1,7 @@
 - name: J Cornelius
   name-tokenized: j-cornelius
   partner: true
-  role: President
+  role: Founder &amp; President
   skills:
     - Digital Strategy
     - User Experience
@@ -19,6 +19,11 @@
   github: https://github.com/jcornelius
   instagram: http://instagram.com/jcornelius
   website: http://jcornelius.com
+  bio: |
+    His work focuses on computer/human interaction, user experience, application strategy, technical systems implementation, and process analysis. He served as VP of Operations at CoffeeCup Software for 14 years where he helped steer the company from startup to multi- national, is President of the Atlanta Web Design Group, founded the Web Afternoon conference series, lectures at the University of Georgia’s Terry School of Business, and has lectured on topics from software development methodologies to the psychology of customer experience to groups of all sizes at events across the country.
+
+    He has also worked on technical projects with companies like Mattel, Pantone, and General Electric; served as a mentor at the Advanced Technology Development Center at Georgia Tech, an advisor to the computer science department at Texas A&M University; and as a private consultant to numerous other enterprises and organizations.
+
 
 - name: Brad Weaver
   name-tokenized: brad-weaver
@@ -41,7 +46,10 @@
   linkedin: https://linkedin.com/in/sbradweaver
   github: https://github.com/bradweaver
   dribbble: https://dribbble.com/bradweaver
+  bio: |
+    He designs, he codes, he writes, he UXs, he slices and dices.
 
+    Brad went to school to be a lawyer, then he came to his senses and has spent the last 15 years as a UX generalist with a geek&rsquo;s heart of gold. His experience includes product development, interactive, branding, and market segmentation. He's been the big cheese, the plebeian, the middle manager, and the class clown. He's also folded clothes, pumped gas, bagged groceries, sold cell phones, and climbed the Great Wall of China. He likes beer, scotch, Oxford commas, and Jesus, but not in that order.
 
 - name: Moses Ngone
   name-tokenized: moses-ngone
@@ -63,3 +71,5 @@
   twitter: https://twitter.com/mospired
   linkedin: https://linkedin.com/in/mosesngone
   github: https://github.com/mospired
+  bio: |
+    After many years curating code for the likes of Cengage and Sharecare, he took the leap and created his solo consultancy Mospired while managing projects at Epic Labs. When not at the office, Mo loves sharing ideas and giving back to the community. As an active member of Atlanta web community, he participates and speaks on various topics related to web development. On any given weekend he is glued to the screen fueling his "fanhood" of the Arsenal Football Club (Gunners) and or looking out for the ever elusive super car. Ask him about it.

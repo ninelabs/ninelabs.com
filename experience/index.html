@@ -13,7 +13,7 @@ pid: experience
 
   <p class="lead">Imagine if you played guitar every day for 20 years.</p>
   <p>You&rsquo;d probably be pretty good. Now imagine you&rsquo;re in a band with people who&rsquo;ve been playing as long as you have. That band would be really, really good.</p>
-  <p>That band is us, but we create digital expereinces instead of music. Add us all up and we&rsquo;ve been doing it for 51 years. We&rsquo;ve seen the birth of ecommerce, the .com bubble and bust, and the rise of social media.</p>
+  <p>That band is us, but we create digital experiences instead of music. Add us all up and we&rsquo;ve been doing it for 51 years. We&rsquo;ve seen the birth of ecommerce, the .com bubble and bust, and the rise of social media.</p>
   <p>We&rsquo;ve seen just about every strategy you can think of. Hell, we&rsquo;ve tried most of them. We know what works, what doesn&rsquo;t, and we have the scars to prove it. </p>
   <p><a href="/contact/">Let&rsquo;s have coffee</a>. We&rsquo;ll tell you some good stories.</p>
   <div class="the-huddle">
@@ -24,7 +24,7 @@ pid: experience
       <div class="caption">
         <h4>{{member.name}}</h4>
         <p>{{member.role}}</p>
-        <span class="">
+        <span class="elsewhere">
           {% if member.twitter %}<a href="{{ member.twitter }}"><i class="fa fa-twitter-square"></i></a>{% endif %}
           {% if member.facebook %}<a href="{{ member.facebook }}"><i class="fa fa-facebook-square"></i></a>{% endif %}
           {% if member.linkedin %}<a href="{{ member.linkedin }}"><i class="fa fa-linkedin-square"></i></a>{% endif %}
@@ -38,7 +38,7 @@ pid: experience
     {% endfor %}
     <h3>The Team</h3>
     {% for member in site.data.team %}
-    <div class="member">
+    <div class="member team">
       <div class="meta"><img src="/img/people/{{member.name-tokenized}}.jpg" alt="{{member.name}}"></div>
       <div class="caption">
         <h4>{{member.name}}</h4>
