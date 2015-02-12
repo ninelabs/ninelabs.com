@@ -332,11 +332,19 @@ blockquote {
       content: "\000A0\000BB";
     }
   }
-
 }
 
 ///////////////////////////////////////////////////////////////////////
 // Posts and lists
+aside.meta {
+  p {
+    color: $gray-light;
+    font-size: .7em;
+    margin: 5px 0 1em;
+    padding: 0;
+  }
+}
+
 .post-excerpt-container {
   @extend %row;
   border-bottom: $default-border;
@@ -344,12 +352,6 @@ blockquote {
   padding-bottom: 2em;
   .post-meta {
     @extend %col-20;
-    p {
-      color: $gray-light;
-      font-size: .8em;
-      margin: 5px 0 1em;
-      padding: 0;
-    }
   }
   .post-excerpt {
     @extend %col-80;
@@ -361,7 +363,6 @@ blockquote {
 .post-container {
   .post-meta {
     color: $gray-dark;
-    font-size: .65em;
     em {
       color: $gray-light;
     }
