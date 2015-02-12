@@ -8,3 +8,5 @@ port: 9999
 permalink: /notes/:title.html
 paginate: 100
 paginate_path: "/notes/page:num/"
+gems:
+  - jekyll-redirect-from
