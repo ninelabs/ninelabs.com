@@ -9,6 +9,9 @@ client:
   platform: Squarespace
   services: Brand Messaging, Visual Design, Front-end Development
   url: http://www.brashcoffee.com
+  quote-person: Chris ???
+  quote-person-title: ??
+  quote: The project was fantastic. We thoroughly enjoyed working with Nine Labs. The whole project was streamlined, efficient, timely and structured - and it was delivered on our timeline. The final product really reflects the personality of our brand: simple and inviting, backed up by easy-to-use, low-click access.
 ---
 BRASH is an indie coffee company with a shop in Chattanooga and one coming soon to Atlanta. They have a passion for finding and sharing the best possible coffee they can. They literally travel the world forging relationships with independant farmers and bringing raw beans back to the US where they roast each batch by hand.
 
