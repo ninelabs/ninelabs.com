@@ -106,6 +106,9 @@ blockquote {
   }
 }
 
+.cta {
+  color:$brand-primary;
+}
 
 ///////////////////////////////////////////////////////////////////////
 // HOME
@@ -162,7 +165,16 @@ blockquote {
 ///////////////////////////////////////////////////////////////////////
 // APPROACH
 #approach {
-
+  .ways {
+    @extend %row;
+    margin:1em 0 4em;
+    .way {
+      @extend %col-33;
+      a {
+        font-weight: bold;
+      }
+    }
+  }
 }
 
 
