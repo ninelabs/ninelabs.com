@@ -80,13 +80,43 @@ img {
   }
 }
 
+.content {
+  ol.padded, ul.padded {
+    li {
+      margin-bottom: 1em;
+      ol,ul {
+        margin-top:.5em;
+      }
+      ul {
+        list-style-type: square;
+      }
+      li {
+        margin-bottom: .25em;
+      }
+    }
+  }
+}
+
+.callout {
+  color: $gray;
+  font-size: .9em;
+  font-style: italic;
+  p:before {
+    color: $brand-primary;
+    content: "\2014\00a0\00a0";
+  }
+}
+
 blockquote {
   border-color: $brand-primary;
   border-style: solid;
   border-width: 0 0 0 4px;
   margin-left: 0;
   padding-left: 20px;
-  i, em {
+  p {
+    margin-top: 0;
+  }
+  i, em, cite {
     display:block;
     color: $gray-light;
     font-size: .7em;
@@ -94,6 +124,13 @@ blockquote {
     &:before {
       content: "\2014\00a0";
     }
+  }
+  &.indent {
+    @extend %col-33;
+    float: right;
+    margin-left: 2em;
+    margin-right: 0;
+    padding-left: 20px !important;
   }
 }
 
@@ -106,6 +143,9 @@ blockquote {
   }
 }
 
+.cta {
+  color:$brand-primary;
+}
 
 ///////////////////////////////////////////////////////////////////////
 // HOME
@@ -162,7 +202,20 @@ blockquote {
 ///////////////////////////////////////////////////////////////////////
 // APPROACH
 #approach {
-
+  .ways {
+    margin:1em 0 4em;
+    .way {
+      border-top: $default-border;
+      margin: 2em 0;
+      padding-top: 1em;
+      a {
+        font-weight: bold;
+      }
+      p {
+        margin-top: 0;
+      }
+    }
+  }
 }
 
 
@@ -310,6 +363,14 @@ blockquote {
     margin-top: .4em;
     padding-top: 0;
   }
+  .session-rate {
+    font-size: 3.5em;
+    margin:0;
+    padding: 0;
+    sup {
+      font-size: .6em;
+    }
+  }
 }
 
 
@@ -332,11 +393,19 @@ blockquote {
       content: "\000A0\000BB";
     }
   }
-
 }
 
 ///////////////////////////////////////////////////////////////////////
 // Posts and lists
+aside.meta {
+  p {
+    color: $gray-light;
+    font-size: .7em;
+    margin: 5px 0 1em;
+    padding: 0;
+  }
+}
+
 .post-excerpt-container {
   @extend %row;
   border-bottom: $default-border;
@@ -344,12 +413,6 @@ blockquote {
   padding-bottom: 2em;
   .post-meta {
     @extend %col-20;
-    p {
-      color: $gray-light;
-      font-size: .8em;
-      margin: 5px 0 1em;
-      padding: 0;
-    }
   }
   .post-excerpt {
     @extend %col-80;
@@ -361,7 +424,6 @@ blockquote {
 .post-container {
   .post-meta {
     color: $gray-dark;
-    font-size: .65em;
     em {
       color: $gray-light;
     }
@@ -472,6 +534,7 @@ blockquote {
   margin-top: 2em;
   padding-bottom: 1em;
   h2 {
+    color: $brand-primary;
     margin-bottom:0;
   }
   p {

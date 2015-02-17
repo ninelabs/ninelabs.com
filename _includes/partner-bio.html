@@ -6,7 +6,7 @@
   </header>
 
   <div class="partner-page">
-    <div class="partner-meta">
+    <aside class="partner-meta meta">
       <img src="/img/people/{{ member.name-tokenized}}.jpg">
       <h5>Elsewhere</h5>
       <span class="elsewhere">
@@ -18,7 +18,8 @@
         {% if member.dribbble %}<a href="{{ member.dribbble }}"><i class="fa fa-dribbble"></i></a>{% endif %}
         {% if member.website %}<a href="{{ member.website }}"><i class="fa fa-external-link-square"></i></a>{% endif %}
       </span>
-    </div>
+      <p><a href="/experience/">&laquo; Back to The Team</a></p>
+    </aside>
     <div class="partner-info">
       <h2 class="partner-title">{{ member.role }}</h2>
       <div class="partner-skills">

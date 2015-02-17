@@ -20,9 +20,9 @@ pid: experience
     <h2>The Partners</h2>
     {% for member in site.data.partners %}
     <div class="member">
-      <div class="meta"><img src="/img/people/{{member.name-tokenized}}.jpg" alt="{{member.name}}"></div>
+      <div class="meta"><a href="{{member.name-tokenized}}.html"><img src="/img/people/{{member.name-tokenized}}.jpg" alt="{{member.name}}"></a></div>
       <div class="caption">
-        <h4>{{member.name}}</h4>
+        <h4><a href="{{member.name-tokenized}}.html">{{member.name}}</a></h4>
         <p>{{member.role}}</p>
         <span class="elsewhere">
           {% if member.twitter %}<a href="{{ member.twitter }}"><i class="fa fa-twitter-square"></i></a>{% endif %}
