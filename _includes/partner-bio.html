@@ -22,13 +22,13 @@
     </aside>
     <div class="partner-info">
       <h2 class="partner-title">{{ member.role }}</h2>
+      <div class="partner-bio">
+        {{ member.bio | markdownify }}
+      </div>
       <div class="partner-skills">
         {% for skill in member.skills %}
         <span class="partner-skill">{{ skill }}</span>
         {% endfor %}
-      </div>
-      <div class="partner-bio">
-        {{ member.bio | markdownify }}
       </div>
     </div>
   </div>
