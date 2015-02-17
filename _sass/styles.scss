@@ -205,9 +205,9 @@ blockquote {
   .ways {
     margin:1em 0 4em;
     .way {
-      border-bottom: $default-border;
+      border-top: $default-border;
       margin: 2em 0;
-      padding-bottom: 1em;
+      padding-top: 1em;
       a {
         font-weight: bold;
       }

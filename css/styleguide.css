@@ -930,9 +930,9 @@ blockquote.indent {
 }
 /* line 207, ../_sass/styles.scss */
 #approach .ways .way {
-  border-bottom: 1px solid #999999;
+  border-top: 1px solid #999999;
   margin: 2em 0;
-  padding-bottom: 1em;
+  padding-top: 1em;
 }
 /* line 211, ../_sass/styles.scss */
 #approach .ways .way a {
