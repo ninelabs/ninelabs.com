@@ -530,10 +530,15 @@ aside.meta {
 //  Contact Section
 
 .footer-contact {
+  @extend %row;
   border-bottom: $default-border;
   border-top: $default-border;
+  font-size: .9em;
   margin-top: 2em;
   padding-bottom: 1em;
+  div {
+    @extend %col-50;
+  }
   h2 {
     color: $brand-primary;
     margin-bottom:0;
