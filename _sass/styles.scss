@@ -400,7 +400,6 @@ blockquote {
 // Posts and lists
 aside.meta {
   p {
-    color: $gray-light;
     font-size: .7em;
     margin: 5px 0 1em;
     padding: 0;
@@ -422,12 +421,18 @@ aside.meta {
     }
   }
 }
-.post-container {
-  .post-meta {
+
+.post-meta {
+  p {
     color: $gray-dark;
+    margin-top: 0;
     em {
       color: $gray-light;
     }
+  }
+  .indicator {
+    color: $gray-light;
+    font-size: .65em;
   }
 }
 .post-content {
@@ -478,6 +483,25 @@ aside.meta {
 .fa.highlight {
   color: $brand-primary;
 }
+
+.client-quote {
+  @extend %row;
+  border-top: $default-border;
+  margin-top: 2em;
+  padding-top: 2em;
+  .client-photo {
+    @extend %col-25;
+  }
+  blockquote {
+    @extend %col-66;
+    margin-top: 0;
+    p {
+      font-size: .8em;
+      font-style: italic;
+    }
+  }
+}
+
 
 
 ///////////////////////////////////////////////////////////////////////
