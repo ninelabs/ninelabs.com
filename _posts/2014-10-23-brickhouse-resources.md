@@ -10,7 +10,8 @@ client:
   services: Brand Identity, Brand Messaging, Visual Design
   url: http://www.brickhouseresources.com
   quote-person: Wendy Kemp
-  quote-person-title: CEO, Brickhouse Resources
+  quote-person-title: CEO
+  quote-person-photo: wendy-kemp.jpg
   quote: When we hired Nine Labs, our project had stalled out with another firm.  The team at Nine Labs took the time to understand our brand and our vision.  They delivered a customized website in the promised timeframe.  Thanks Nine Labs!
 ---
 Brickhouse Resources is an IT staffing company that loves people and their home in Atlanta, just like we do. They focus on personalized recruiting and hiring for the technology industry. Wendy Kemp and Larry Bruce both came from the corportate staffing world, and they are passionate and excited about implementing a relationship-driven strategy.

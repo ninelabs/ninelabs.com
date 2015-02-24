@@ -10,7 +10,8 @@ client:
   services: Creative Direction, Visual Design, Front-end Design, Technical Implementation
   url: http://www.hypepotamus.com
   quote-person: Tricia Whitlock
-  quote-person-title: Editor, Hypepotamus
+  quote-person-title: Editor
+  quote-person-photo: tricia-whitlock.jpg
   quote: Working with Nine Labs was wonderful. I was able to bring a jumble of ideas and content to the table and they were able to organize and craft it into exactly what I needed. The team is not only talented, but also extremely communicative and responsive.
 ---
 Hypepotamus is a community publication that spreads awareness about entrepreneurs, innovative companies, and promising talent in Atlanta. Hype&rsquo;s editorial team maintains an up-to-the-minute calendar of tech-related events, tweets up a storm, and publishes numerous blog posts per week.

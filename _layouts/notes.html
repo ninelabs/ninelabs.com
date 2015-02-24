@@ -23,6 +23,17 @@ pid: notes
     <div class="post">
       {% if page.image %}<img src="{{ page.image }}">{% endif %}
       {{ content }}
+      {% if page.category == 'clientwork' %}
+      <div class="client-quote">
+        <div class="client-photo">
+          <img src="/img/people/{{ page.client.quote-person-photo }}">
+        </div>
+        <blockquote>
+          <p>{{ page.client.quote }}</p>
+          <cite>{{ page.client.quote-person }}, {{ page.client.quote-person-title }}</cite>
+        </blockquote>
+      </div>
+      {% endif %}
     </div>
     <div class="posts-page-navigation">
       <div class="left">
