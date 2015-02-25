@@ -13,7 +13,7 @@ client:
   quote-person-photo: amy-hoover.jpg
   quote: I loved working with the whole team on our project. They&rsquo;re fun and listened to what I needed before coming back with a variety of cool directions to choose from. Top notch firm.
 ---
-Strongbox West is a modern coworking space designed to offer freelancers, start-ups, and creative types an alternative to working at home or alone. It provides a comfortable and professional place to work but also network and collaborate with like-minded people.
+Strongbox West is a modern coworking space designed to offer freelancers, start-ups, and creative types an alternative to working at home or alone. It provides a comfortable and professional place to work heads down when you need to but also to network and collaborate with like-minded people.
 
 ## The Situation
 Atlanta&rsquo;s original coworking spot had outgrown their building. Moving from 9,000 sq. ft. to over 44,000 sq. ft. is a major upgrade, and Strongbox wanted to upgrade their identity along with their digs. So, they approached us to come up with a new logo.
