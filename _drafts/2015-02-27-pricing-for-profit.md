@@ -1,10 +1,11 @@
+---
 layout: notes
 title: Pricing for Profit Workshop
 author: Laura Lindeman
 category: news
 ---
 Join us on March 20th at Polygon for our first in a series of workshops on running a shop.
-----
+
 ## Do you feel like you’re never paid enough for your work? 
 Are you losing money on most of your projects? Are your client revisions out of control? Does your profit seem to melt away as each project goes along? Are you spending most of your time writing proposals only to lose the work?
 
