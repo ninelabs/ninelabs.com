@@ -25,6 +25,12 @@
   background-clip: padding-box;  /* stops bg color from leaking outside the border: */
 }
 
+@mixin tab-focus() {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
 
 ////////////////////////////////////////////
 // Responsive image
