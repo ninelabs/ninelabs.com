@@ -1,6 +1,6 @@
 // styles.scss
 
-@import 'normalize','variables','mixins','responsive','grid','scaffold','nav';
+@import 'normalize','variables','mixins','responsive','grid','scaffold','nav','forms';
 
 html {
   border-left: 15px solid $brand-primary;
@@ -153,7 +153,7 @@ blockquote {
 
 #home {
   h1 {
-    font-size: 4em;
+    font-size: 3em;
     line-height: 1em;
     margin-top: 0;
     text-transform: uppercase;
