@@ -18,7 +18,7 @@
         {% else %}
           <description>{{ post.content | strip_html | xml_escape }}</description>
         {% endif %}
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <pubDate>{{ post.date | date: "%a, %d %b %Y 09:18:27 %z" }}</pubDate>
         <link>{{ site.url }}{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
       </item>
