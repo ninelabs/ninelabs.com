@@ -21,7 +21,7 @@ To better illustrate how this all fits together, here&rsquo;s the general struct
 
 **scaffold.scss**
 
- {%highlight sass %} 
+ {% highlight sass %} 
     .event {
       @extend .container;
       .event-header {
@@ -39,11 +39,11 @@ To better illustrate how this all fits together, here&rsquo;s the general struct
          }
        }
        }
-{%endhighlight %}
+{% endhighlight %}
 
 **theme.scss**
 
- {%highlight sass %}
+ {% highlight sass %}
      .event {
       .event-title {
         h1 {
@@ -59,7 +59,7 @@ To better illustrate how this all fits together, here&rsquo;s the general struct
         }
       }
     }
- {%endhighlight  %}
+ {% endhighlight  %}
 
 This way, the designer can focus on the structure in one place, and the style in another.
 
