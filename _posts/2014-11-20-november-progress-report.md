@@ -64,7 +64,3 @@ This way, the designer can focus on the structure in one place, and the style in
 Moses will post some details about the backend architecture and how we&rsquo;re progressing with user accounts and event management.
 
 Until then, thanks for following along!
-
-Cheers,
-
-&mdash; J Cornelius
