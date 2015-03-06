@@ -1,6 +1,6 @@
 // styles.scss
 
-@import 'normalize','variables','mixins','responsive','grid','scaffold','nav','forms';
+@import 'normalize','variables','mixins','responsive','grid','scaffold','nav','forms','pygments';
 
 html {
   border-left: 15px solid $brand-primary;
@@ -147,6 +147,22 @@ blockquote {
 .cta {
   color:$brand-primary;
 }
+
+figure {
+  background-color: #fcfcfc;
+  border-left:1px solid $gray-lighter;
+  margin-bottom: 2em;
+  padding:10px;
+  img {
+    margin-bottom: .5em !important;
+  }
+  figcaption {
+    color: $gray;
+    font-size: .8em;
+    font-style: italic;
+  }
+}
+
 
 ///////////////////////////////////////////////////////////////////////
 // HOME
@@ -480,7 +496,7 @@ aside.meta {
     font-style: italic;
   }
 }
-.fa.highlight {
+.fa.bling {
   color: $brand-primary;
 }
 
@@ -527,7 +543,6 @@ aside.meta {
     text-align: right;
   }
 }
-
 
 ///////////////////////////////////////////////////////////////////////
 // Docs
