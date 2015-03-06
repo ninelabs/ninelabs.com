@@ -1,6 +1,6 @@
 ---
 layout: notes
-title: AWDG.or October Progress Report
+title: AWDG.org October Progress Report
 author: jcornelius
 category: awdg
 ---
