@@ -16,7 +16,7 @@ Insipred by AWDG member Jared Ponchot&rsquo;s wonderful talk [Designing on Purpo
 <figure>
   <img src="http://ninelabs.com.s3.amazonaws.com/comp-home-page-desktop.png">
   <figcaption>Home Page (Desktop View)</figcaption>
-</figure>
+</figure>  
 
 We know a lot of people will be using the site on a mobile device, so we thought about how to give them the information they are most likely to want first (more on this in future posts). Here&rsquo;s the mobile view of the home page.
 
