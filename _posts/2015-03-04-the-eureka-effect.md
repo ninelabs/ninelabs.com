@@ -21,7 +21,7 @@ An engineer's mind approaches problems with the full might of their training. Th
 ### Shifting Perspective
 In order to find a solution that works for the user, you have to think like the user. You need empathy to understand the problem from their perspective. To think about other ways it can be solved, unencumbered by the rigidity of an engineer's training.
 
-"What if you did it like this?" I asked the EVP. An [Archimedes moment](http://en.wikipedia.org/wiki/Eureka_effect) had happened, and he was immediatly thinking about all the possibilities this new perspective brough to the application.
+"What if you did it like this?" I asked the EVP. An [Archimedes moment](http://en.wikipedia.org/wiki/Eureka_effect) had happened, and he was immediatly thinking about all the possibilities this new perspective brought to the application.
 
 > You've just solved a problem we've been struggling with for two months in less than an hour. Thank you.
 
