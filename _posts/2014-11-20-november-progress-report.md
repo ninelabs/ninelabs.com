@@ -2,7 +2,7 @@
 layout: notes
 title: "AWDG.org November Progress Report"
 author: jcornelius
-category: notes
+category: awdg
 ---
 We&rsquo;d rather not take too much time away from you looking a cat photos, so we&rsquo;ll jump right in. There is progress to report on two fronts; front-end design and application architecture. This post will just talk about design. [Moses](https://twitter.com/mospired) will post some details about the architecture later.
 
