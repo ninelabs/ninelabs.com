@@ -14,7 +14,7 @@ His cursor circled a section of the UI&hellip; "Users need to be able to modify 
 ### The Curse
 The engineers were approaching the problem from the only perspective they know, engineering. They didn't know to think about how to use the UI from a user perspective because they suffer from the [Curse of Knowledge](http://en.wikipedia.org/wiki/Curse_of_knowledge). We can't fault them. They're doing their job. Engineering.
 
-An engineer's mind approaches problems with the full might of their training. The trouble is in the blind spots. Because of their training, engineers are blind to certain things. They know how systems work, and can't understand how some people struggle to use them.
+An engineer's mind approaches problems with the full might of their training. The trouble is in the blind spots. Because of their training, engineers are blind to certain things. They know how systems work and can't understand how some people struggle to use them.
 
 > Problems cannot be solved with the same mind set that created them. _Einstein_
 
