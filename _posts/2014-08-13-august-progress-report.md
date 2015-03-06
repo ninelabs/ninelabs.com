@@ -14,14 +14,14 @@ Insipred by AWDG member Jared Ponchot&rsquo;s wonderful talk [Designing on Purpo
 #### Home Page
 
 <figure>
-  <img src="/img/comp-home-page-desktop.png">
+  <img src="http://ninelabs.com.s3.amazonaws.com/comp-home-page-desktop.png">
   <figcaption>Home Page (Desktop View)</figcaption>
 </figure>
 
 We know a lot of people will be using the site on a mobile device, so we thought about how to give them the information they are most likely to want first (more on this in future posts). Here&rsquo;s the mobile view of the home page.
 
 <figure>
-  <img src="/img/comp-home-page-mobile.png">
+  <img src="http://ninelabs.com.s3.amazonaws.com/comp-home-page-mobile.png">
   <figcaption>Home Page (Mobile View)</figcaption>
 </figure>
 
@@ -29,7 +29,7 @@ We know a lot of people will be using the site on a mobile device, so we thought
 The main reason people visit the website is to get information about events. The event detail page is geared to provide all the relevant info quickly.
 
 <figure>
-  <img src="/img/comp-event-detail-page.png">
+  <img src="http://ninelabs.com.s3.amazonaws.com/comp-event-detail-page.png">
   <figcaption>Event Detail Page</figcaption>
 </figure>
 
@@ -37,7 +37,7 @@ The main reason people visit the website is to get information about events. The
 We promised everyone would get a profile page. Here is how it might look.
 
 <figure>
-  <img src="/img/comp-member-profile-page.png">
+  <img src="http://ninelabs.com.s3.amazonaws.com/comp-member-profile-page.png">
   <figcaption>Member Profile Page</figcaption>
 </figure>
 
@@ -51,6 +51,6 @@ Want to get involved? [Send me an email](mailto:jc@awdg.org) with your skills an
 ### Kickstarter Rewards are Shipping Soon!
 We&rsquo;ll be shipping Kickstarter rewards starting Friday. Check your mailboxes!
 <figure>
-  <img src="/img/kickstarter-rewards.jpg">
+  <img src="http://ninelabs.com.s3.amazonaws.com/kickstarter-rewards.jpg">
   <figcaption>Kickstarter Rewards, ready to ship</figcaption>
 </figure>
