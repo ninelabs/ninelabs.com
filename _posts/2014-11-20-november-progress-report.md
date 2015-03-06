@@ -21,6 +21,7 @@ To better illustrate how this all fits together, here&rsquo;s the general struct
 
 **scaffold.scss**
 
+ {%highlight sass %} 
     .event {
       @extend .container;
       .event-header {
@@ -37,11 +38,12 @@ To better illustrate how this all fits together, here&rsquo;s the general struct
            @include make-sm-col(4);
          }
        }
-     }
-
+       }
+{%endhighlight %}
 
 **theme.scss**
 
+ {%highlight sass %}
      .event {
       .event-title {
         h1 {
@@ -57,6 +59,7 @@ To better illustrate how this all fits together, here&rsquo;s the general struct
         }
       }
     }
+ {%endhighlight  %}
 
 This way, the designer can focus on the structure in one place, and the style in another.
 
