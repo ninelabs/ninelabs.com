@@ -11,12 +11,12 @@ So far all the basic requirements have been defined. Some workflow and process d
 
 ### Check out the goodies
 <figure>
-  <img src="/img/stickers-field-notes.jpg">
+  <img src="http://ninelabs.com.s3.amazonaws.com/stickers-field-notes.jpg">
   <figcaption>Stickers and Field Notes</figcaption>
 </figure>
 
 <figure>
-  <img src="/img/love-the-web-posters.jpg">
+  <img src="http://ninelabs.com.s3.amazonaws.com/love-the-web-posters.jpg">
   <figcaption>I Love the Web posters by <a href="https://twitter.com/johnwilliams713">John Williams</a></figcaption>
 </figure>
 
