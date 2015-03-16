@@ -23,7 +23,7 @@ pid: notes
     <div class="post">
       {% if page.image %}<img src="{{ page.image }}">{% endif %}
       {{ content }}
-      {% if page.category == 'clientwork' %}
+      {% if page.category == 'clientwork' and page.client.quote != null %}
       <div class="client-quote">
         <div class="client-photo">
           <img src="/img/people/{{ page.client.quote-person-photo }}">
