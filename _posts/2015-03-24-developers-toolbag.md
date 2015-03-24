@@ -37,3 +37,5 @@ You'll get a chance to fork a project from GitHub and experience the streamlined
 
 ### Hosted By:
 [Moses Ngone](/experience/moses-ngone.html), Director of Engineering
+
+Photo Credit: [Image](https://flic.kr/p/83N7X5) by [Poolerpeach](https://www.flickr.com/photos/poolerpeach/) via Flickr under [CC 2.0](https://creativecommons.org/licenses/by-nd/2.0/)
