@@ -3,7 +3,7 @@ layout: notes
 title: Terminus Threads Branding and Website
 author: Laura Lindeman
 category: clientwork
-image: //s3.amazonaws.com/ninelabs.com/terminus-threads.png
+image: //s3.amazonaws.com/ninelabs.com/terminus-threads-1.png
 client:
   name: Terminus Threads
   services: Brand Identity, Creative Direction, Visual Design
