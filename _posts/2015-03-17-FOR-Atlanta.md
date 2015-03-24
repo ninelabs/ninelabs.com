@@ -3,14 +3,14 @@ layout: notes
 title: FOR Atlanta
 author: Laura Lindeman
 category: clientwork
-image: 
+image: //s3.amazonaws.com/ninelabs.com/FOR-Atlanta.png
 client:
   name: FOR Atlanta
   platform: Bootstrap on GitHub Pages
   services: Visual Design, Front End Development
   url: http://foratlanta.github.io/
 ---
-FOR Atlanta (Focus on Results) is a division of the Mayor's office of the City of Atlanta. They identify and track performance metrics across city departments and use the analysis of that data to improve the efficiency and effectiveness of various city services. 
+FOR (Focus on Results) Atlanta is a division of the Mayor's office of the City of Atlanta. They identify and track performance metrics across city departments and use the analysis of that data to improve the efficiency and effectiveness of various city services. 
 
 ## The Situation
 Charged with aggregating metrics from across the city, FOR Atlanta has historically delivered its data and analyses in a yearly paper report. This would be delivered to the Mayor and then distributed to other city departments and to the public. It was scanned and displayed online as a PDF.
