@@ -11,7 +11,7 @@ client:
   url: http://foratlanta.github.io/
   quote-person: Matt Malament 
   quote-person-title: Deputy Director
-  quote-person-photo: //s3.amazonaws.com/ninelabs.com/matt-malament.jpg
+  quote-person-photo: matt-malament.jpg
   quote: We loved working with Nine Labs! They took the time to really understand what we needed and then worked diligently to make it happen. They transformed the way we're able to display data.
 ---
 FOR (Focus on Results) Atlanta is a division of the Mayor's office of the City of Atlanta. They identify and track performance metrics across city departments and use the analysis of that data to improve the efficiency and effectiveness of various city services. 
