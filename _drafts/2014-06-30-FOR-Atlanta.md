@@ -14,7 +14,7 @@ client:
   quote-person-photo: matt-malament.jpg
   quote: We loved working with Nine Labs! They took the time to really understand what we needed and then worked diligently to make it happen. They transformed the way we're able to display data.
 ---
-FOR (Focus on Results) Atlanta is a division of the Mayor's office of the City of Atlanta. They identify and track performance metrics across city departments and use the analysis of that data to improve the efficiency and effectiveness of various city services. 
+FOR (Focus on Results) Atlanta is a division of the Mayor's Office of the City of Atlanta. They identify and track performance metrics across city departments and use the analysis of that data to improve the efficiency and effectiveness of various city services. 
 
 ## The Situation
 Charged with aggregating metrics from across the city, [FOR Atlanta](http://www.atlantaga.gov/index.aspx?page=133) has historically delivered its data and analyses in a yearly paper report. This would be delivered to the Mayor and then distributed to other city departments and to the public. It was scanned and displayed online as a PDF.
@@ -31,7 +31,7 @@ City officials have complete control over what data sets are compared to each ot
 We used the city's official color scheme when designing the site, which is built on [Jekyll](http://jekyllrb.com/) and hosted on [GitHub Pages](https://github.com/foratlanta/foratlanta.github.io). For the charts, we pulled in [D3JS](http://d3js.org/), a JavaScript library for manipulating documents based on data.
 
 ## The Outcome
-GitHub has a [large collection of open data](https://government.github.com/), so, by hosting this project on [GitHub Pages](https://pages.github.com/), the City of Atlanta joins a larger movement toward open data in city governments. The city never tried to hide data from the public, they simply didn't know the best way to get it to the public. That problem is solved now. 
+GitHub has a [large collection of open data](https://government.github.com/), so, by hosting this project on [GitHub Pages](https://pages.github.com/), the City of Atlanta joins a larger movement toward open data in city governments. The city never tried to hide data; they simply didn't know the best way to get it to the public. That problem is solved now. 
 
 The system is easy to use and didn't require a major change in workflow for anyone involved. Employees can still do all of the data entry and manipulation in Excel as they're used to and then simply export the information as a CSV file to pull into the GitHub repo. Then, through the website, anyone can access data about whatever aspect of the municipal government they're interested in. The data is clearly displayed on the front end and easy to update in the database.
 
