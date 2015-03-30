@@ -4,6 +4,8 @@ title: Branding
 pid: branding
 ---
 
+
+
 # Objectives
 A brand exists at the intersection of what you do and how people feel about it. When people see the Logo they should intuitively understand what you do. The Logo should evoke the right emotions, and set the proper expectations in the mind of the people who see it.
 We aim to understand how you want to be perceived and create a Logo that aligns with your goals, and sets the proper tone and expectations from the start.

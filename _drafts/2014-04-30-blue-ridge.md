@@ -3,7 +3,7 @@ layout: notes
 title: BlueRidge
 author: Laura Lindeman
 category: clientwork
-image: 
+image: //s3.amazonaws.com/ninelabs.com/blueridge.png
 client:
   name: BlueRidge
   platform: JavaScript

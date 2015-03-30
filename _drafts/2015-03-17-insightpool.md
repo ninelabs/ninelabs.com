@@ -3,7 +3,7 @@ layout: notes
 title: Social Currency for Insightpool
 author: Laura Lindeman
 category: clientwork
-image: 
+image: //s3.amazonaws.com/ninelabs.com/social-currency.png
 client:
   name: Insightpool
   platform: JavaScript
