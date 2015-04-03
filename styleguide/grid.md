@@ -149,6 +149,10 @@ Available options are: 10, 20, 25, 30, 33, 40, 50, 60, 66, 70, 75, 80, 90, and 1
   </div>
 </div>
 
+<h2>Here's the code</h2>
+<script src="https://gist.github.com/jcornelius/ab9e5abfd3aa22043d8a.js"></script>
+
+
 <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
 <script type="text/javascript">
 $( document ).ready(function() {
