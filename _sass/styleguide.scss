@@ -3,9 +3,25 @@
 
 @import 'styles','pygments';
 
+// create utility classes for grid examples
+.row {
+  @extend %row;
+  background-color:#ccc;
+  border: 1px solid pink;
+}
+
+@each $i in $common {
+  .col-#{$i} {
+    @extend %col-#{$i};
+    background-color:#eee;
+    border:1px solid #ddd;
+  }
+  .offset-#{$i} {
+    @extend %offset-#{$i};
+  }
+}
 
 .styleguide {
-
   aside {
     h4 {
       margin-top: 2.35em;
@@ -17,16 +33,4 @@
       padding: 0;
     }
   }
-
-  .grid-sample {
-    .row {
-      background-color:#ccc;
-      border: 1px solid pink;
-    }
-    .col-100, .col-66, .col-50, .col-33 {
-      background-color:#eee;
-      border:1px solid #ddd;
-    }
-  }
-
 }

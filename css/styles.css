@@ -248,7 +248,7 @@ table {
 /* line 11, ../_sass/_grid.scss */
 main, .navigation {
   max-width: 960px;
-  width: 100%;
+  width: 10000%;
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 3em;
@@ -267,8 +267,9 @@ main:after, .navigation:after {
 
 /* line 22, ../_sass/_grid.scss */
 main > div, .media, #home .trio, .logos, .names, .quotes, #team .the-huddle, .partner-page, .session-options, .post-excerpt-container, .client-quote, .posts-page-navigation, .footer-contact {
-  clear: both;
   margin-bottom: 1em;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 /* line 12, ../_sass/_mixins.scss */
 main > div:before, .media:before, #home .trio:before, .logos:before, .names:before, .quotes:before, #team .the-huddle:before, .partner-page:before, .session-options:before, .post-excerpt-container:before, .client-quote:before, .posts-page-navigation:before, .footer-contact:before, main > div:after, .media:after, #home .trio:after, .logos:after, .names:after, .quotes:after, #team .the-huddle:after, .partner-page:after, .session-options:after, .post-excerpt-container:after, .client-quote:after, .posts-page-navigation:after, .footer-contact:after {
@@ -280,7 +281,7 @@ main > div:after, .media:after, #home .trio:after, .logos:after, .names:after, .
   clear: both;
 }
 
-/* line 31, ../_sass/_grid.scss */
+/* line 37, ../_sass/_grid.scss */
 .media-object, .logos .logo, .post-excerpt-container .post-meta {
   float: left;
   min-height: 1px;
@@ -290,15 +291,15 @@ main > div:after, .media:after, #home .trio:after, .logos:after, .names:after, .
   width: 20%;
 }
 @media (max-width: 767px) {
-  /* line 31, ../_sass/_grid.scss */
+  /* line 37, ../_sass/_grid.scss */
   .media-object, .logos .logo, .post-excerpt-container .post-meta {
-    width: 100%;
+    width: 100;
     padding-left: 0;
     padding-right: 0;
   }
 }
 
-/* line 31, ../_sass/_grid.scss */
+/* line 37, ../_sass/_grid.scss */
 main > div .content aside, .client-quote .client-photo {
   float: left;
   min-height: 1px;
@@ -308,33 +309,33 @@ main > div .content aside, .client-quote .client-photo {
   width: 25%;
 }
 @media (max-width: 767px) {
-  /* line 31, ../_sass/_grid.scss */
+  /* line 37, ../_sass/_grid.scss */
   main > div .content aside, .client-quote .client-photo {
-    width: 100%;
+    width: 100;
     padding-left: 0;
     padding-right: 0;
   }
 }
 
-/* line 31, ../_sass/_grid.scss */
+/* line 37, ../_sass/_grid.scss */
 blockquote.indent, #team .the-huddle .member, .partner-page .partner-meta, .startup-services .service {
   float: left;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
   position: relative;
-  width: 33%;
+  width: 33.33333%;
 }
 @media (max-width: 767px) {
-  /* line 31, ../_sass/_grid.scss */
+  /* line 37, ../_sass/_grid.scss */
   blockquote.indent, #team .the-huddle .member, .partner-page .partner-meta, .startup-services .service {
-    width: 100%;
+    width: 100;
     padding-left: 0;
     padding-right: 0;
   }
 }
 
-/* line 31, ../_sass/_grid.scss */
+/* line 37, ../_sass/_grid.scss */
 .error404-img {
   float: left;
   min-height: 1px;
@@ -344,15 +345,15 @@ blockquote.indent, #team .the-huddle .member, .partner-page .partner-meta, .star
   width: 40%;
 }
 @media (max-width: 767px) {
-  /* line 31, ../_sass/_grid.scss */
+  /* line 37, ../_sass/_grid.scss */
   .error404-img {
-    width: 100%;
+    width: 100;
     padding-left: 0;
     padding-right: 0;
   }
 }
 
-/* line 31, ../_sass/_grid.scss */
+/* line 37, ../_sass/_grid.scss */
 .skill, .names li, .quotes .quote, .session-option, .posts-page-navigation div, .footer-contact div {
   float: left;
   min-height: 1px;
@@ -362,15 +363,15 @@ blockquote.indent, #team .the-huddle .member, .partner-page .partner-meta, .star
   width: 50%;
 }
 @media (max-width: 767px) {
-  /* line 31, ../_sass/_grid.scss */
+  /* line 37, ../_sass/_grid.scss */
   .skill, .names li, .quotes .quote, .session-option, .posts-page-navigation div, .footer-contact div {
-    width: 100%;
+    width: 100;
     padding-left: 0;
     padding-right: 0;
   }
 }
 
-/* line 31, ../_sass/_grid.scss */
+/* line 37, ../_sass/_grid.scss */
 .error404-message {
   float: left;
   min-height: 1px;
@@ -380,33 +381,33 @@ blockquote.indent, #team .the-huddle .member, .partner-page .partner-meta, .star
   width: 60%;
 }
 @media (max-width: 767px) {
-  /* line 31, ../_sass/_grid.scss */
+  /* line 37, ../_sass/_grid.scss */
   .error404-message {
-    width: 100%;
+    width: 100;
     padding-left: 0;
     padding-right: 0;
   }
 }
 
-/* line 31, ../_sass/_grid.scss */
+/* line 37, ../_sass/_grid.scss */
 .partner-page .partner-info, .client-quote blockquote {
   float: left;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
   position: relative;
-  width: 66%;
+  width: 66.66667%;
 }
 @media (max-width: 767px) {
-  /* line 31, ../_sass/_grid.scss */
+  /* line 37, ../_sass/_grid.scss */
   .partner-page .partner-info, .client-quote blockquote {
-    width: 100%;
+    width: 100;
     padding-left: 0;
     padding-right: 0;
   }
 }
 
-/* line 31, ../_sass/_grid.scss */
+/* line 37, ../_sass/_grid.scss */
 main > div .content article {
   float: left;
   min-height: 1px;
@@ -416,15 +417,15 @@ main > div .content article {
   width: 75%;
 }
 @media (max-width: 767px) {
-  /* line 31, ../_sass/_grid.scss */
+  /* line 37, ../_sass/_grid.scss */
   main > div .content article {
-    width: 100%;
+    width: 100;
     padding-left: 0;
     padding-right: 0;
   }
 }
 
-/* line 31, ../_sass/_grid.scss */
+/* line 37, ../_sass/_grid.scss */
 .media-body, .post-excerpt-container .post-excerpt {
   float: left;
   min-height: 1px;
@@ -434,15 +435,15 @@ main > div .content article {
   width: 80%;
 }
 @media (max-width: 767px) {
-  /* line 31, ../_sass/_grid.scss */
+  /* line 37, ../_sass/_grid.scss */
   .media-body, .post-excerpt-container .post-excerpt {
-    width: 100%;
+    width: 100;
     padding-left: 0;
     padding-right: 0;
   }
 }
 
-/* line 31, ../_sass/_grid.scss */
+/* line 37, ../_sass/_grid.scss */
 main > div .content {
   float: left;
   min-height: 1px;
@@ -452,18 +453,18 @@ main > div .content {
   width: 100%;
 }
 @media (max-width: 767px) {
-  /* line 31, ../_sass/_grid.scss */
+  /* line 37, ../_sass/_grid.scss */
   main > div .content {
-    width: 100%;
+    width: 100;
     padding-left: 0;
     padding-right: 0;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 57, ../_sass/_grid.scss */
+  /* line 63, ../_sass/_grid.scss */
   blockquote.indent, #team .the-huddle .member, .partner-page .partner-meta, .startup-services .service, .error404-img, .error404-message, .partner-page .partner-info, .client-quote blockquote {
-    width: 50%;
+    width: 50;
   }
 }
 /* line 7, ../_sass/_scaffold.scss */
