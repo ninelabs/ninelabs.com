@@ -3,6 +3,8 @@ layout: styleguide
 title: The Grid
 weight: 1
 ---
+# The Grid
+
 The grid is built on the concept of percentages of the whole row rather than columns. If you want an area 25% of the width, use `.col-25`, `.col-60` for 60%, and so on.
 
 Available options are: 10, 20, 25, 30, 33, 40, 50, 60, 66, 70, 75, 80, 90, and 100.
@@ -151,15 +153,3 @@ Available options are: 10, 20, 25, 30, 33, 40, 50, 60, 66, 70, 75, 80, 90, and 1
 
 <h2>Here's the code</h2>
 <script src="https://gist.github.com/jcornelius/ab9e5abfd3aa22043d8a.js"></script>
-
-
-<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-<script type="text/javascript">
-$( document ).ready(function() {
-  $('.row div').not('.row').each(function(){
-    var t = $(this).attr("class");
-    var t = t.replace(" ", ".");
-    $(this).prepend('.' + t);
-  });
-});
-</script>
