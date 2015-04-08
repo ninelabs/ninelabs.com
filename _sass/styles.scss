@@ -391,6 +391,23 @@ figure {
 }
 
 ///////////////////////////////////////////////////////////////////////
+// Branding
+
+.branding-packages hgroup {
+  h2, h4, h5 {
+    margin:0;
+    padding:0;
+  }
+  h4 {
+    color:$gray;
+  }
+  h5 {
+    color: $brand-primary
+  }
+}
+
+
+///////////////////////////////////////////////////////////////////////
 // Startups
 
 .startup-services .service {
