@@ -10,7 +10,7 @@ $gutter-width: 30px;
 
 %container {
   max-width: $width;
-  width: percentage($full);
+  width: percentage($full / 100);
   margin-right: auto;
   margin-left: auto;
   padding-bottom:3em;
@@ -42,9 +42,7 @@ $gutter-width: 30px;
     position: relative;
     width: percentage($i / $row-full);
     @include breakpoint(xs){
-      width: $full;
-      padding-left: 0;
-      padding-right: 0;
+      width: percentage($full / 100);
     }
   }
   %offset-#{$i} {
@@ -61,7 +59,7 @@ $gutter-width: 30px;
 // Portrait Tablet
 @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
   %col-33, %col-40, %col-60, %col-66 {
-    width: $full / 2;
+    width: percentage($full / 200);
   }
 }
 

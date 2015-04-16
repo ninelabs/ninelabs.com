@@ -67,7 +67,8 @@ img {
 
 // media objects
 .media {
-  @extend %row;
+  margin-bottom:1em;
+  @include clearfix();
 }
 .media-object {
   @extend %col-20;
