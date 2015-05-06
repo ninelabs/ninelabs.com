@@ -10,7 +10,7 @@ weight: 1
 
 These terms will apply to the relationship between us (NoveLaboratori, LLC d/b/a Nine Labs) and you, the above-identified client:
 
-1. *Professional Services:* We will perform all actions that, according to our judgment, are necessary for us to complete the projects set forth in this agreement and any other subsequently executed Statement of Work.
+1. *Professional Services:* We will perform all actions that, according to our reasonable judgment, are necessary for us to complete the projects set forth in this agreement and any other subsequently executed Statement of Work.
 1. *Deposit:* You will pay us a deposit of $____________________, which will be applied toward our fees and expenses under this agreement.
 1. *Fees:* For project based engagements you will be invoiced for all fees as outlined in each respective project’s proposal. For retainer engagements you will be invoiced at the beginning of each calendar month for the services to be provided in that month (pay in advance).
   1. *Travel:* You will be charged a flat fee of $300 per day per staff member – in addition to regular charges – for each day or part thereof that we, upon your request, are traveling to and from or working from a location that is more than 50 miles away from our office.
