@@ -17,9 +17,9 @@ pid: experience
   <p>We&rsquo;ve seen just about every strategy you can think of. Hell, we&rsquo;ve tried most of them. We know what works, what doesn&rsquo;t, and we have the scars to prove it. </p>
   <p><a href="/contact/">Let&rsquo;s have coffee</a>. We&rsquo;ll tell you some good stories.</p>
   <div class="the-huddle">
-    <h2>The Partners</h2>
+    <h2>The Team</h2>
     {% for member in site.data.partners %}
-    <div class="member">
+    <div class="member partner">
       <div class="meta"><a href="{{member.name-tokenized}}.html"><img src="/img/people/{{member.name-tokenized}}.jpg" alt="{{member.name}}"></a></div>
       <div class="caption">
         <h4><a href="{{member.name-tokenized}}.html">{{member.name}}</a></h4>
@@ -36,7 +36,6 @@ pid: experience
       </div>
     </div>
     {% endfor %}
-    <h3>The Team</h3>
     {% for member in site.data.team %}
     <div class="member team">
       <div class="meta"><img src="/img/people/{{member.name-tokenized}}.jpg" alt="{{member.name}}"></div>

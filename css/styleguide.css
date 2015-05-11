@@ -1857,14 +1857,13 @@ figure figcaption {
   position: relative;
   float: left;
   margin-right: 3%;
-  /*max-width: 120px;*/
   min-height: 100%;
 }
-/* line 303, ../_sass/styles.scss */
+/* line 302, ../_sass/styles.scss */
 #team .the-huddle .member .meta img {
   width: 260px;
 }
-/* line 306, ../_sass/styles.scss */
+/* line 305, ../_sass/styles.scss */
 #team .the-huddle .member .meta a {
   color: rgba(255, 255, 255, 0.3);
   font-size: 1.25em;
@@ -1872,27 +1871,27 @@ figure figcaption {
   text-indent: -999em;
   text-shadow: none;
 }
-/* line 312, ../_sass/styles.scss */
+/* line 311, ../_sass/styles.scss */
 #team .the-huddle .member .meta a:hover {
   color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
 }
-/* line 318, ../_sass/styles.scss */
+/* line 317, ../_sass/styles.scss */
 #team .the-huddle .member .caption {
   display: inline-block;
   position: relative;
   width: 75%;
 }
-/* line 322, ../_sass/styles.scss */
+/* line 321, ../_sass/styles.scss */
 #team .the-huddle .member .caption h4 {
   margin: 0;
 }
-/* line 325, ../_sass/styles.scss */
+/* line 324, ../_sass/styles.scss */
 #team .the-huddle .member .caption p {
   font-size: .75em;
   margin: 0;
 }
-/* line 329, ../_sass/styles.scss */
+/* line 328, ../_sass/styles.scss */
 #team .the-huddle .member .caption .label {
   color: #333333;
   display: inline-block;
@@ -1901,19 +1900,19 @@ figure figcaption {
   text-shadow: none;
 }
 
-/* line 343, ../_sass/styles.scss */
+/* line 342, ../_sass/styles.scss */
 .partner-page .partner-title {
   margin: 0;
 }
-/* line 348, ../_sass/styles.scss */
+/* line 347, ../_sass/styles.scss */
 .partner-page .partner-meta img {
   width: 100%;
 }
-/* line 351, ../_sass/styles.scss */
+/* line 350, ../_sass/styles.scss */
 .partner-page .partner-meta h5 {
   margin-bottom: 0;
 }
-/* line 358, ../_sass/styles.scss */
+/* line 357, ../_sass/styles.scss */
 .partner-page .partner-skill {
   -webkit-border-radius: 4px;
   border-radius: 4px;
@@ -1926,209 +1925,209 @@ figure figcaption {
   padding: 2px 6px;
 }
 
-/* line 376, ../_sass/styles.scss */
+/* line 375, ../_sass/styles.scss */
 .session-option h4 {
   margin-bottom: 0;
   padding-bottom: 0;
 }
-/* line 380, ../_sass/styles.scss */
+/* line 379, ../_sass/styles.scss */
 .session-option ul {
   margin-top: .4em;
   padding-top: 0;
 }
-/* line 384, ../_sass/styles.scss */
+/* line 383, ../_sass/styles.scss */
 .session-option .session-rate {
   font-size: 3.5em;
   margin: 0;
   padding: 0;
 }
-/* line 388, ../_sass/styles.scss */
+/* line 387, ../_sass/styles.scss */
 .session-option .session-rate sup {
   font-size: .6em;
 }
 
-/* line 398, ../_sass/styles.scss */
+/* line 397, ../_sass/styles.scss */
 .branding-packages hgroup h2, .branding-packages hgroup h4, .branding-packages hgroup h5 {
   margin: 0;
   padding: 0;
 }
-/* line 402, ../_sass/styles.scss */
+/* line 401, ../_sass/styles.scss */
 .branding-packages hgroup h4 {
   color: #555555;
 }
-/* line 405, ../_sass/styles.scss */
+/* line 404, ../_sass/styles.scss */
 .branding-packages hgroup h5 {
   color: #F07834;
 }
 
-/* line 416, ../_sass/styles.scss */
+/* line 415, ../_sass/styles.scss */
 .startup-services .service h3 {
   margin-bottom: 0;
 }
-/* line 419, ../_sass/styles.scss */
+/* line 418, ../_sass/styles.scss */
 .startup-services .service p {
   margin-top: 0;
 }
 
-/* line 430, ../_sass/styles.scss */
+/* line 429, ../_sass/styles.scss */
 #community .media {
   border-top: 1px solid #999999;
 }
-/* line 433, ../_sass/styles.scss */
+/* line 432, ../_sass/styles.scss */
 #community .media-object img {
   margin-top: 1em;
   max-width: 120px;
 }
-/* line 437, ../_sass/styles.scss */
+/* line 436, ../_sass/styles.scss */
 #community .media-body h3 {
   margin-bottom: 0;
 }
-/* line 441, ../_sass/styles.scss */
+/* line 440, ../_sass/styles.scss */
 #community .offsite-link:after {
   content: "\000A0\000BB";
 }
 
-/* line 450, ../_sass/styles.scss */
+/* line 449, ../_sass/styles.scss */
 aside.meta p {
   font-size: .7em;
   margin: 5px 0 1em;
   padding: 0;
 }
 
-/* line 457, ../_sass/styles.scss */
+/* line 456, ../_sass/styles.scss */
 .post-excerpt-container {
   border-bottom: 1px solid #999999;
   margin-bottom: 2em;
   padding-bottom: 2em;
 }
-/* line 467, ../_sass/styles.scss */
+/* line 466, ../_sass/styles.scss */
 .post-excerpt-container .post-excerpt h3 {
   margin: 0 0 .5em;
 }
 
-/* line 474, ../_sass/styles.scss */
+/* line 473, ../_sass/styles.scss */
 .post-meta p {
   color: #333333;
   margin-top: 0;
 }
-/* line 477, ../_sass/styles.scss */
+/* line 476, ../_sass/styles.scss */
 .post-meta p em {
   color: #999999;
 }
-/* line 481, ../_sass/styles.scss */
+/* line 480, ../_sass/styles.scss */
 .post-meta .indicator {
   color: #999999;
   font-size: .65em;
 }
 
-/* line 487, ../_sass/styles.scss */
+/* line 486, ../_sass/styles.scss */
 .post-content header {
   border-bottom: 1px solid #999999;
   margin-bottom: 2em;
   padding-bottom: .5em;
 }
-/* line 491, ../_sass/styles.scss */
+/* line 490, ../_sass/styles.scss */
 .post-content header h2 {
   line-height: .9em;
   margin: 0;
 }
-/* line 495, ../_sass/styles.scss */
+/* line 494, ../_sass/styles.scss */
 .post-content header h4 {
   color: #555555;
   margin: 0;
 }
-/* line 500, ../_sass/styles.scss */
+/* line 499, ../_sass/styles.scss */
 .post-content h2, .post-content h3, .post-content h4 {
   color: #555555;
   margin-bottom: .5em;
   margin-top: 1.5em;
   padding-bottom: 0;
 }
-/* line 506, ../_sass/styles.scss */
+/* line 505, ../_sass/styles.scss */
 .post-content h3 {
   color: #F07834;
 }
-/* line 509, ../_sass/styles.scss */
+/* line 508, ../_sass/styles.scss */
 .post-content img:first-of-type {
   margin-bottom: 2em;
 }
-/* line 512, ../_sass/styles.scss */
+/* line 511, ../_sass/styles.scss */
 .post-content p {
   margin-top: 0;
   padding-top: 0;
 }
-/* line 516, ../_sass/styles.scss */
+/* line 515, ../_sass/styles.scss */
 .post-content .post-description {
   border-bottom: 1px solid #999999;
   font-size: .8em;
   margin-bottom: 4em;
   padding-bottom: 2em;
 }
-/* line 521, ../_sass/styles.scss */
+/* line 520, ../_sass/styles.scss */
 .post-content .post-description p {
   margin-bottom: 1em;
   padding: 0;
 }
-/* line 526, ../_sass/styles.scss */
+/* line 525, ../_sass/styles.scss */
 .post-content .post-disclaimer {
   color: #F07834;
   font-style: italic;
 }
 
-/* line 531, ../_sass/styles.scss */
+/* line 530, ../_sass/styles.scss */
 .fa.bling {
   color: #F07834;
 }
 
-/* line 535, ../_sass/styles.scss */
+/* line 534, ../_sass/styles.scss */
 .client-quote {
   border-top: 1px solid #999999;
   margin-top: 2em;
   padding-top: 2em;
 }
-/* line 543, ../_sass/styles.scss */
+/* line 542, ../_sass/styles.scss */
 .client-quote blockquote {
   margin-top: 0;
 }
-/* line 546, ../_sass/styles.scss */
+/* line 545, ../_sass/styles.scss */
 .client-quote blockquote p {
   font-size: .8em;
   font-style: italic;
 }
 
-/* line 560, ../_sass/styles.scss */
+/* line 559, ../_sass/styles.scss */
 .labnotes iframe.twitter-tweet {
   margin-left: 40px !important;
 }
 
-/* line 565, ../_sass/styles.scss */
+/* line 564, ../_sass/styles.scss */
 .posts-page-navigation {
   border-top: 1px solid #999999;
   font-size: .8em;
   margin-top: 2em;
   padding-top: 1em;
 }
-/* line 574, ../_sass/styles.scss */
+/* line 573, ../_sass/styles.scss */
 .posts-page-navigation .right {
   text-align: right;
 }
 
-/* line 585, ../_sass/styles.scss */
+/* line 584, ../_sass/styles.scss */
 .docs .post ol li {
   list-style-type: decimal;
   padding-top: .75em;
   margin-bottom: .125em;
 }
-/* line 589, ../_sass/styles.scss */
+/* line 588, ../_sass/styles.scss */
 .docs .post ol li ol li {
   list-style-type: lower-latin;
 }
-/* line 591, ../_sass/styles.scss */
+/* line 590, ../_sass/styles.scss */
 .docs .post ol li ol li ol li {
   list-style-type: lower-roman;
 }
 
-/* line 603, ../_sass/styles.scss */
+/* line 602, ../_sass/styles.scss */
 .footer-contact {
   border-bottom: 1px solid #999999;
   border-top: 1px solid #999999;
@@ -2136,17 +2135,17 @@ aside.meta p {
   margin-top: 2em;
   padding-bottom: 1em;
 }
-/* line 613, ../_sass/styles.scss */
+/* line 612, ../_sass/styles.scss */
 .footer-contact h2 {
   color: #F07834;
   margin-bottom: 0;
 }
-/* line 617, ../_sass/styles.scss */
+/* line 616, ../_sass/styles.scss */
 .footer-contact p {
   margin-top: 0;
 }
 
-/* line 626, ../_sass/styles.scss */
+/* line 625, ../_sass/styles.scss */
 #contact h2 {
   font-family: "ff-tisa-web-pro", serif;
   font-style: italic;
@@ -2154,37 +2153,37 @@ aside.meta p {
   text-transform: none;
 }
 
-/* line 633, ../_sass/styles.scss */
+/* line 632, ../_sass/styles.scss */
 .contact-options {
   margin-bottom: 3em;
 }
 
-/* line 637, ../_sass/styles.scss */
+/* line 636, ../_sass/styles.scss */
 .contact-option {
   font-size: 1.25em;
   margin: 0;
   padding: 0;
 }
 
-/* line 646, ../_sass/styles.scss */
+/* line 645, ../_sass/styles.scss */
 #jobs .job, #jobs .how-we-work, #jobs .get-in-touch {
   border-top: 1px solid #F07834;
 }
-/* line 649, ../_sass/styles.scss */
+/* line 648, ../_sass/styles.scss */
 #jobs .job {
   padding: 1.5em;
 }
-/* line 651, ../_sass/styles.scss */
+/* line 650, ../_sass/styles.scss */
 #jobs .job .fa {
   color: #9fe32c;
 }
-/* line 654, ../_sass/styles.scss */
+/* line 653, ../_sass/styles.scss */
 #jobs .job .job-meta {
   color: #aaa;
   font-size: .9em;
 }
 
-/* line 664, ../_sass/styles.scss */
+/* line 663, ../_sass/styles.scss */
 footer {
   font-family: "freight-sans-pro", "helvetica neue", helvetica, sans-serif;
   margin: 0;
@@ -2192,36 +2191,36 @@ footer {
   text-align: center;
 }
 @media (max-width: 767px) {
-  /* line 664, ../_sass/styles.scss */
+  /* line 663, ../_sass/styles.scss */
   footer {
     padding: 0 0 2em;
   }
 }
-/* line 672, ../_sass/styles.scss */
+/* line 671, ../_sass/styles.scss */
 footer nav {
   margin: 1.5em 0 1em;
 }
-/* line 674, ../_sass/styles.scss */
+/* line 673, ../_sass/styles.scss */
 footer nav a {
   font-size: .8em;
   padding: 0 .5em;
 }
-/* line 679, ../_sass/styles.scss */
+/* line 678, ../_sass/styles.scss */
 footer .social {
   margin-bottom: 1em;
 }
-/* line 681, ../_sass/styles.scss */
+/* line 680, ../_sass/styles.scss */
 footer .social a {
   display: inline-block;
   font-size: 1.25em;
   margin: 0 20px;
 }
-/* line 687, ../_sass/styles.scss */
+/* line 686, ../_sass/styles.scss */
 footer .copyright {
   font-size: .8em;
 }
 
-/* line 703, ../_sass/styles.scss */
+/* line 702, ../_sass/styles.scss */
 pre {
   border: none;
   padding: 0;
