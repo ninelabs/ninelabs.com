@@ -460,7 +460,7 @@ html {
 
 /* line 16, ../_sass/_scaffold.scss */
 body {
-  font-family: "freight-sans-pro", "helvetica neue", helvetica, sans-serif;
+  font-family: "canada-type-gibson", "helvetica neue", helvetica, sans-serif;
   font-size: 22px;
   line-height: 1.42857;
   color: #444;
@@ -546,9 +546,9 @@ hr {
 
 /* line 7, ../_sass/_nav.scss */
 .nav-collapse ul li a, .nav-toggle {
-  font-family: "freight-sans-pro", "helvetica neue", helvetica, sans-serif;
+  font-family: "canada-type-gibson", "helvetica neue", helvetica, sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 600;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -1254,7 +1254,7 @@ html {
 body {
   background-color: white;
   color: #444;
-  font-family: "ff-tisa-web-pro", serif;
+  font-family: "freight-text-pro", "georgia", serif;
 }
 
 /* line 21, ../_sass/styles.scss */
@@ -1291,7 +1291,7 @@ section header hgroup h4, section header hgroup h5, section header hgroup h6 {
 /* line 48, ../_sass/styles.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #111;
-  font-family: "freight-sans-pro", "helvetica neue", helvetica, sans-serif;
+  font-family: "canada-type-gibson", "helvetica neue", helvetica, sans-serif;
   font-weight: bold;
   line-height: 1.15em;
   text-transform: uppercase;
@@ -1619,7 +1619,7 @@ figure figcaption {
   background-color: #eeeeee;
   display: inline-block;
   font-size: 14px;
-  font-family: "freight-sans-pro", "helvetica neue", helvetica, sans-serif;
+  font-family: "canada-type-gibson", "helvetica neue", helvetica, sans-serif;
   padding: 2px 6px;
 }
 
@@ -1845,7 +1845,7 @@ aside.meta p {
 
 /* line 625, ../_sass/styles.scss */
 #contact h2 {
-  font-family: "ff-tisa-web-pro", serif;
+  font-family: "freight-text-pro", "georgia", serif;
   font-style: italic;
   font-weight: 400;
   text-transform: none;
@@ -1883,7 +1883,7 @@ aside.meta p {
 
 /* line 663, ../_sass/styles.scss */
 footer {
-  font-family: "freight-sans-pro", "helvetica neue", helvetica, sans-serif;
+  font-family: "canada-type-gibson", "helvetica neue", helvetica, sans-serif;
   margin: 0;
   padding: 5em 0;
   text-align: center;
