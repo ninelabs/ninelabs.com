@@ -31,3 +31,5 @@ Study after study has shown that multitasking is actually a lie. You're not real
 
 You don't need to care about the friction that keeps scientists from building a perpetual motion machine, but you *do* need to care about the friction that keeps your customers from closing the deal. Luckily, that's an easier row to hoe.
 
+Photo Credit: [Image](https://flic.kr/p/4Ht4HG) by [763255](https://www.flickr.com/photos/7363531@N05/) via Flickr under CC 2.0
+
