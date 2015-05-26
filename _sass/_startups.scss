@@ -1,32 +1,5 @@
 /** Startups **/
 
-#startups header {
-  background-image: url('/img/cdn/startup-napkin.jpg');
-  background-position: 95% right;
-  background-size: 100%;
-  border:10px solid $brand-primary;
-  display: block;
-  min-height: 400px;
-  position: relative;
-  width: 100%;
-  @include breakpoint(xs) {
-    min-height: 250px;
-  }
-
-  h1 {
-    bottom: 1em;
-    color: #fff;
-    left: 1em;
-    position: absolute;
-    width: 100%;
-    span {
-      display:block;
-      font-size: 2em;
-      padding-top:10px;
-    }
-  }
-}
-
 .startup-services {
   @extend %row;
   .service {
