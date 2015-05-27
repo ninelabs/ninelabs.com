@@ -12,3 +12,11 @@
     }
   }
 }
+
+#startups {
+  @include clearfix();
+  aside p {
+    font-size: .75em;
+    a { color: $brand-primary; }
+  }
+}

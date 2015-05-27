@@ -720,22 +720,23 @@ hr {
 /* line 21, ../_sass/_forms.scss */
 .btn:hover, button:hover, input[type='submit']:hover {
   background-color: #fb7529;
+  color: #fff;
   text-decoration: none;
 }
-/* line 25, ../_sass/_forms.scss */
+/* line 26, ../_sass/_forms.scss */
 .btn:active, .btn.active, button:active, button.active, input[type='submit']:active, input[type='submit'].active {
   outline: 0;
   background-image: none;
 }
 
-/* line 41, ../_sass/_forms.scss */
+/* line 42, ../_sass/_forms.scss */
 input[type="search"] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 46, ../_sass/_forms.scss */
+/* line 47, ../_sass/_forms.scss */
 input[type="radio"],
 input[type="checkbox"] {
   margin: 4px 0 0;
@@ -743,24 +744,24 @@ input[type="checkbox"] {
   line-height: normal;
 }
 
-/* line 54, ../_sass/_forms.scss */
+/* line 55, ../_sass/_forms.scss */
 input[type="file"] {
   display: block;
 }
 
-/* line 59, ../_sass/_forms.scss */
+/* line 60, ../_sass/_forms.scss */
 input[type="range"] {
   display: block;
   width: 100%;
 }
 
-/* line 65, ../_sass/_forms.scss */
+/* line 66, ../_sass/_forms.scss */
 select[multiple],
 select[size] {
   height: auto;
 }
 
-/* line 71, ../_sass/_forms.scss */
+/* line 72, ../_sass/_forms.scss */
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
@@ -769,7 +770,7 @@ input[type="checkbox"]:focus {
   outline-offset: -2px;
 }
 
-/* line 77, ../_sass/_forms.scss */
+/* line 78, ../_sass/_forms.scss */
 select,
 textarea,
 input[type="text"],
@@ -801,7 +802,7 @@ input[type="color"] {
   background-clip: padding-box;
   /* stops bg color from leaking outside the border: */
 }
-/* line 110, ../_sass/_forms.scss */
+/* line 111, ../_sass/_forms.scss */
 select[disabled], select[readonly], fieldset[disabled] select,
 textarea[disabled],
 textarea[readonly], fieldset[disabled]
@@ -1952,6 +1953,24 @@ footer .copyright {
 /* line 10, ../_sass/_startups.scss */
 .startup-services .service p {
   margin-top: 0;
+}
+
+/* line 12, ../_sass/_mixins.scss */
+#startups:before, #startups:after {
+  content: " ";
+  display: table;
+}
+/* line 17, ../_sass/_mixins.scss */
+#startups:after {
+  clear: both;
+}
+/* line 18, ../_sass/_startups.scss */
+#startups aside p {
+  font-size: .75em;
+}
+/* line 20, ../_sass/_startups.scss */
+#startups aside p a {
+  color: #F07834;
 }
 
 /* line 721, ../_sass/styles.scss */

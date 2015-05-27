@@ -20,6 +20,7 @@ $input-padding: 5px 15px 8px;
   white-space: nowrap;
   &:hover {
     background-color: saturate($brand-primary,10%);
+    color:#fff;
     text-decoration: none;
   }
   &:active,
