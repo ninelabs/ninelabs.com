@@ -4,7 +4,8 @@
   @extend %row;
   .service {
     @extend %col-50;
-    h3 {
+    h4 {
+      color: $brand-primary;
       margin-bottom: 0;
     }
     p {
@@ -18,5 +19,34 @@
   aside p {
     font-size: .75em;
     a { color: $brand-primary; }
+  }
+  .standout {
+    font-size: 1.1em;
+    color:$brand-primary;
+    font-weight: bold;
+    font-style: italic;
+  }
+}
+
+.inline-quote {
+  border-bottom: $container-border;
+  border-top: $container-border;
+  padding-top: 1em;
+  .media-object img {
+    max-width: 120px;
+  }
+  .media-body {
+    font-size: .75em;
+    q {
+      display: block;
+      margin-bottom: .5em;
+      quotes: "“" "”" "‘" "’";
+    }
+    q:before {
+      content: open-quote;
+    }
+    q:after {
+      content: close-quote;
+    }
   }
 }
