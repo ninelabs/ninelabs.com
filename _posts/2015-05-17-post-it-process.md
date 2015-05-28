@@ -3,9 +3,11 @@ layout: notes
 title: Post-It Process
 author: Laura Lindeman
 category: playbook
-image: //s3.amazonaws.com/ninelabs.com/post-it-wall.JPG
+image: //s3.amazonaws.com/ninelabs.com/post-it-wall.jpg
 ---
-If you walk by our office and see a wall covered in Post-It notes, odds are we're in the throes of an information logistics planning session. Information logistics is what we like to call it when we tackle content, UX, UI, and site architecture for a new project. By taking a birds-eye view and brain dumping onto a million brightly colored little squares, we end up with a product full of intuitive connections.
+If you walk by our office and see a wall covered in Post-It notes, odds are we're in the throes of an information logistics planning session.
+
+_Information Logistics_ is what we like to call it when we tackle content, UX, UI, and site architecture for a new project. By taking a birds-eye view and brain dumping onto a million brightly colored little squares, we end up with a product full of intuitive connections.
 
 Most recently, we've been working on a refresh of our *own* website, starting with the information architecture. We made a list of questions a website should answer about its company:
 
