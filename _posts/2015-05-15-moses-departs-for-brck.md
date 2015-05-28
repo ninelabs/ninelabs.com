@@ -15,7 +15,7 @@ In the team&rsquo;s words:
 
 Mo has been an entrepreneur at heart since his school days, and he&rsquo;s joining a group of fellow Kenyans to revolutionize Internet access in rural or other areas which have historically offered only unstable connections at best.
 
-The BRCK was launched via a succesful Kickstarter campaign and is already [available for purchase](http://shop.brck.com/brcks/brck-v1.html). Mo will be applying his coding chops to developing the online module for BRCK users and promoting best practices for developers to engage with it via the cloud.
+The BRCK was launched via a succesful Kickstarter campaign and is already [available for purchase](http://shop.brck.com/brcks/brck-v1.html). Mo will be applying his coding chops to improve BRCK for thier users and help the company acheive its goals.
 
 We&rsquo;ll miss having Mo just a desk away, but luckily he&rsquo;s not going too far! BRCK are fellow members of Strongbox West, so we&rsquo;ll get the chance to wave at him in the halls and maybe share a glass of whiskey from time to time.
 
