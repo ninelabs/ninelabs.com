@@ -18,31 +18,13 @@ pid: about
   <p><a href="/contact/">Let&rsquo;s have coffee</a>. We&rsquo;ll tell you some good stories.</p>
   <div class="the-huddle">
     <h2>The Team</h2>
-    {% for member in site.data.partners %}
-    <div class="member partner">
-      <div class="meta"><a href="{{member.name-tokenized}}.html"><img src="/img/people/{{member.name-tokenized}}.jpg" alt="{{member.name}}"></a></div>
+    {% for member in site.data.team %}
+    <div class="member">
+      <div class="meta"><a href="/{{ member.name | datapage_url: 'about' }}"><img src="{{member.photo}}" alt="{{member.name}}"></a></div>
       <div class="caption">
-        <h4><a href="{{member.name-tokenized}}.html">{{member.name}}</a></h4>
+        <h4><a href="/{{ member.name | datapage_url: 'about' }}">{{member.name}}</a></h4>
         <p>{{member.role}}</p>
         <span class="elsewhere">
-          {% if member.twitter %}<a href="{{ member.twitter }}"><i class="fa fa-twitter-square"></i></a>{% endif %}
-          {% if member.facebook %}<a href="{{ member.facebook }}"><i class="fa fa-facebook-square"></i></a>{% endif %}
-          {% if member.linkedin %}<a href="{{ member.linkedin }}"><i class="fa fa-linkedin-square"></i></a>{% endif %}
-          {% if member.instagram %}<a href="{{ member.instagram }}"><i class="fa fa-instagram"></i></a>{% endif %}
-          {% if member.github %}<a href="{{ member.github }}"><i class="fa fa-github-square"></i></a>{% endif %}
-          {% if member.dribbble %}<a href="{{ member.dribbble }}"><i class="fa fa-dribbble"></i></a>{% endif %}
-          {% if member.website %}<a href="{{ member.website }}"><i class="fa fa-external-link-square"></i></a>{% endif %}
-        </span>
-      </div>
-    </div>
-    {% endfor %}
-    {% for member in site.data.team %}
-    <div class="member team">
-      <div class="meta"><img src="/img/people/{{member.name-tokenized}}.jpg" alt="{{member.name}}"></div>
-      <div class="caption">
-        <h4>{{member.name}}</h4>
-        <p>{{member.role}}</p>
-        <span class="">
           {% if member.twitter %}<a href="{{ member.twitter }}"><i class="fa fa-twitter-square"></i></a>{% endif %}
           {% if member.facebook %}<a href="{{ member.facebook }}"><i class="fa fa-facebook-square"></i></a>{% endif %}
           {% if member.linkedin %}<a href="{{ member.linkedin }}"><i class="fa fa-linkedin-square"></i></a>{% endif %}

@@ -1,5 +1,63 @@
+- name: J Cornelius
+  partner: true
+  photo: /img/people/j-cornelius.jpg
+  role: Founder &amp; President
+  skills:
+    - Sitting
+    - Digital Strategy
+    - User Experience
+    - Information Architecture
+    - Business Strategy
+    - Operations Efficiency
+    - Web Analytics
+    - Process Improvement
+    - Solution Architecture
+    - Digital Marketing
+    - Usability
+    - Interaction Design
+  twitter: https://twitter.com/jc
+  linkedin: https://linkedin.com/in/jcornelius
+  github: https://github.com/jcornelius
+  instagram: http://instagram.com/jcornelius
+  website: http://jcornelius.com
+  bio: |
+    If J knows one thing, it&rsquo;s how business works on the Web. His background is in software design, user experience, and making companies more efficient through technology. He started his first company in high school, sold it, then joined [CoffeeCup Software](http://www.coffeecup.com), where he helped steer the company from fledgling startup to web design software powerhouse serving over 500MM users around the globe.
+
+    After moving back to Atlanta in 2008, he founded the [Atlanta Web Design Group](http://www.awdg.org), which now has over 3,000 members throughout the Atlanta Metro Area. He is a mentor at the [Advanced Technology Development Center](http://www.atdc.org) at Georgia Tech (Go Jackets!), a lecturer at the University of Georgia&rsquo;s Terry School of Business (Go Dawgs!), and has served as an advisor to the computer science department at Texas A&M University (don&rsquo;t mess with Texas). He&rsquo;s been a private consultant to numerous other enterprises and organizations (read more on [LinkedIn](https://www.linkedin.com/in/jcornelius)) and has spoken at events across the country on topics from software development methodologies to the psychology of customer experience.
+
+    He&rsquo;s passionate about efficient, usable, aesthetically pleasing design, and exceptional service. He has impeccable taste when it comes to whisky and thai food (but not at the same time). Away from the computer, you might find him grilling a steak, walking his dog, or making pocket squares. If he could have one superpower it would be time travel.
+
+
+- name: Brad Weaver
+  partner: true
+  photo: /img/people/brad-weaver.jpg
+  role: Director of Design
+  skills:
+    - User Experience
+    - Information Architecture
+    - Identity Design
+    - User Interface Design
+    - Product Design
+    - Usability
+    - Content Strategy
+    - Graphic Design
+    - iOS Design
+    - Branding
+    - Packaging Design
+    - Motion Graphics
+  twitter: https://twitter.com/sbradweaver
+  linkedin: https://linkedin.com/in/sbradweaver
+  github: https://github.com/bradweaver
+  dribbble: https://dribbble.com/bradweaver
+  bio: |
+    Brad&rsquo;s got an eye for design. A User Experience generalist, his background includes product development, interactive, branding, and market segmentation. He can design your graphics, optimize for user experience, code the front-end of your website, or lay out your iOS application. He&rsquo;s worked with big name clients like MTV, AT&T, ESPN, Disney, Columbia Records, NATO, The PGA, Coca-Cola, UnitedHealth Group, Macy&rsquo;s, and Hard Rock Café, but he&rsquo;s also folded clothes, pumped gas, bagged groceries, and sold cell phones.
+
+    As the CEO and Creative Director of Suckerpunch Studios, which he founded, Brad worked collaboratively with clients to solve business marketing challenges. Previously, he served as the Online Media Manager and Product Branding specialist for Verizon Wireless and did Visual Merchandising for American Eagle. His book, Creative Truth, releases fall 2015 from Focal Press. There&rsquo;s more on [LinkedIn](www.linkedin.com/in/sbradweaver/en)!
+
+    He&rsquo;s a big fan of minimal design, Scotch, and Oxford commas. He&rsquo;s known for his loquaciousness and his barbeque sauce. When he&rsquo;s not in front of a whiteboard, sketch pad, or monitor, you might stumble across Brad in the middle of the movie you&rsquo;re watching. His superpower, naturally, would be mind-reading.
+
 - name: Courtney Robb
-  name-tokenized: courtney-robb
+  photo: /img/people/courtney-robb.jpg
   role: Studio Manager
   skills:
     - Social Media
@@ -13,42 +71,15 @@
     - Event Management
   twitter: https://twitter.com/Courtney_Robb_
   linkedin: https://linkedin.com/pub/courtney-robb/58/6b6/3b7
+  bio: |
+    Courtney is detail-oriented and got the hang of planning and organization early on in her life. She has a degree in marketing from Kennesaw State University, and her goal as a project manager is to make sure both the client and our team are happy, enjoying their jobs, and getting what they need.
 
-- name: Stacey James
-  name-tokenized: stacey-james
-  role: Marketing Director
-  skills:
-    - Business Development
-    - Digital Marketing
-    - Strategic Planning
-    - Sales Operations
-    - Marketing Strategy
-    - Human Resources
-    - Product Development
-    - Marketing Communications
-    - Email Marketing
-    - Customer Satisfaction
-  twitter: https://twitter.com/stacey
-  linkedin: https://www.linkedin.com/in/staceyrjames
+    A city girl to the core, the original plan was to move to New York City and work for an agency, but Atlanta won her over. Courtney satisfied her need for every day to be different by working in the past with Epic Labs, Tech Talent South, and We&Co, where she did email marketing, event planning, and account management, respectively. She also worked with Nine Labs in the beginning as a copywriter and event planner. She was one of the first employees hired at Nine Labs and has enjoyed incorporating all of her experience into her role as Studio Manager.
 
-- name: Jason Ottinger
-  name-tokenized: jason-ottinger
-  role: Branding &amp; Visual Design
-  twitter: https://twitter.com/jottin
-  linkedin: https://www.linkedin.com/pub/jason-ottinger/7/357/413
-  skills:
-    - Branding
-    - Graphic Design
-    - Identity Design
-    - Typography
-    - Art Direction
-    - User Interface Design
-    - Color Theory
-    - Illustration
-    - Photography
+    Courtney loves animals--cats AND dogs!--and has a weakness for shopping. She values her relationships, whether at work or at play. Away from the computer, you can likely find her chatting with her friends over dinner and drinks until the restaurant closes around them. If she could have one superpower, she would choose to be able to fly.
 
 - name: Sierra Petrowski
-  name-tokenized: sierra-petrowski
+  photo: /img/people/sierra-petrowski.jpg
   role: Interactive Design
   twitter: https://twitter.com/snpetrowski
   linkedin: https://www.linkedin.com/pub/sierra-petrowski/40/331/b88
@@ -64,9 +95,15 @@
     - Illustrator
     - HTML5
     - CSS3
+  bio: |
+    Sierra has a penchant for Ketel One dirty martinis with blue cheese stuffed olives and modern design standards. She earned a degree in marketing from Coastal Carolina University, then studied Interactive Design at the Creative Circus. Her goal as a designer is to help people take their good ideas and execute them well by making things work efficiently.
+
+    She joined Nine Labs in 2014 as an interactive designer and enjoys that every client project requires something slightly different. As an independent and occasionally impatient only child, her worst fear after graduation was being siloed off at a large agency making banner ads every day. She’s glad to be involved in the full life cycle of a project and appreciates the strategy behind a well-researched design.
+
+    Sierra enjoys Atlanta&rsquo;s wealth of festivals and good restaurants. She loves elephants, Stevie Wonder, espresso and Sans Serif fonts.
 
 - name: Laura Lindeman
-  name-tokenized: laura-lindeman
+  photo: /img/people/laura-lindeman.jpg
   role: Creative Writer
   twitter: https://twitter.com/lclindeman
   linkedin: https://www.linkedin.com/in/lauralindeman
@@ -75,23 +112,9 @@
   skills:
     - Creative Writing
     - Brand Messaging
+  bio: |
+    Laura is a consumer and crafter of words, with a degree in English from Birmingham-Southern College and an abiding love for chick lit. She is somewhat of a pedant, especially when it comes to the Oxford comma and conventions of the 4-way stop.
 
-- name: Doc Waller
-  name-tokenized: doc-waller
-  role: Inspiration Architecture
-  twitter: https://twitter.com/docwaller
-  facebook: https://www.facebook.com/doc.waller
-  instagram: http://instagram.com/docwaller
-  skills:
-    - Creative Writing
-    - Entrepreneurship
-    - Media Relations
-    - Entertainment
-    - Film &amp; Theatre
-    - Public Speaking
-    - Social Media Marketing
-    - Film Production
-    - Screenwriting
-    - New Media
-    - Video
-    - Documentaries
+    In college, she fell in head over heels for a class of five year olds she was teaching to swim and embarked on a do-gooder career in the non-profit industry. She applied her organizational powers to the role of Operations Manager where she kept the office in shape, tracked and acknowledged donations, and assisted with fundraising events. She cultivated a love for the tech community through her efforts at learning to code and worked at The Iron Yard Atlanta as the Assistant Campus Director handling community building, scheduling, and event logistics. Yet the inner writer would not be silenced, and she currently handles digital communications through email, blogging, social media, and web copy for several clients in the Atlanta area.
+
+    Laura prefers lattes to brewed coffee and buys a pair of earrings at every craft show she visits. Away from the computer, you might find her in the kitchen trying out a new recipe or backpacking with her husband. If Laura could have any superpower, she would choose teleportation because sitting in traffic is the epitome of inefficiency.
