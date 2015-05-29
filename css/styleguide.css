@@ -481,7 +481,7 @@ blockquote.indent, #team .the-huddle .member, .member-page .member-meta, .col-33
 }
 
 /* line 37, ../_sass/_grid.scss */
-.skill, .names li, .quotes .quote, .session-option, .posts-page-navigation div, .footer-contact div, .startup-services .service, .col-50 {
+.skill, .names li, .quotes .quote, .session-option, .posts-page-navigation div, .footer-contact div, .startup-services .service, form.simple-contact .group-half, .col-50 {
   float: left;
   min-height: 1px;
   padding-left: 15px;
@@ -491,7 +491,7 @@ blockquote.indent, #team .the-huddle .member, .member-page .member-meta, .col-33
 }
 @media (max-width: 767px) {
   /* line 37, ../_sass/_grid.scss */
-  .skill, .names li, .quotes .quote, .session-option, .posts-page-navigation div, .footer-contact div, .startup-services .service, .col-50 {
+  .skill, .names li, .quotes .quote, .session-option, .posts-page-navigation div, .footer-contact div, .startup-services .service, form.simple-contact .group-half, .col-50 {
     width: 100%;
   }
 }
@@ -712,7 +712,7 @@ main > div .content article, .col-75 {
 }
 
 /* line 37, ../_sass/_grid.scss */
-main > div .content, .col-100 {
+main > div .content, form.simple-contact .group-full, .col-100 {
   float: left;
   min-height: 1px;
   padding-left: 15px;
@@ -722,7 +722,7 @@ main > div .content, .col-100 {
 }
 @media (max-width: 767px) {
   /* line 37, ../_sass/_grid.scss */
-  main > div .content, .col-100 {
+  main > div .content, form.simple-contact .group-full, .col-100 {
     width: 100%;
   }
 }
@@ -1032,14 +1032,19 @@ hr {
   background-image: none;
 }
 
-/* line 42, ../_sass/_forms.scss */
+/* line 32, ../_sass/_forms.scss */
+.sneaky {
+  display: none;
+}
+
+/* line 43, ../_sass/_forms.scss */
 input[type="search"] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 47, ../_sass/_forms.scss */
+/* line 48, ../_sass/_forms.scss */
 input[type="radio"],
 input[type="checkbox"] {
   margin: 4px 0 0;
@@ -1047,24 +1052,24 @@ input[type="checkbox"] {
   line-height: normal;
 }
 
-/* line 55, ../_sass/_forms.scss */
+/* line 56, ../_sass/_forms.scss */
 input[type="file"] {
   display: block;
 }
 
-/* line 60, ../_sass/_forms.scss */
+/* line 61, ../_sass/_forms.scss */
 input[type="range"] {
   display: block;
   width: 100%;
 }
 
-/* line 66, ../_sass/_forms.scss */
+/* line 67, ../_sass/_forms.scss */
 select[multiple],
 select[size] {
   height: auto;
 }
 
-/* line 72, ../_sass/_forms.scss */
+/* line 73, ../_sass/_forms.scss */
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
@@ -1073,7 +1078,7 @@ input[type="checkbox"]:focus {
   outline-offset: -2px;
 }
 
-/* line 78, ../_sass/_forms.scss */
+/* line 79, ../_sass/_forms.scss */
 select,
 textarea,
 input[type="text"],
@@ -1105,7 +1110,7 @@ input[type="color"] {
   background-clip: padding-box;
   /* stops bg color from leaking outside the border: */
 }
-/* line 111, ../_sass/_forms.scss */
+/* line 112, ../_sass/_forms.scss */
 select[disabled], select[readonly], fieldset[disabled] select,
 textarea[disabled],
 textarea[readonly], fieldset[disabled]
@@ -2311,6 +2316,29 @@ footer .copyright {
 /* line 48, ../_sass/_startups.scss */
 .inline-quote .media-body q:after {
   content: close-quote;
+}
+
+/* line 54, ../_sass/_startups.scss */
+form.simple-contact {
+  background-color: #efefef;
+  padding: 1em;
+}
+/* line 12, ../_sass/_mixins.scss */
+form.simple-contact:before, form.simple-contact:after {
+  content: " ";
+  display: table;
+}
+/* line 17, ../_sass/_mixins.scss */
+form.simple-contact:after {
+  clear: both;
+}
+/* line 58, ../_sass/_startups.scss */
+form.simple-contact .group-half, form.simple-contact .group-full {
+  padding-bottom: 1em;
+}
+/* line 60, ../_sass/_startups.scss */
+form.simple-contact .group-half input, form.simple-contact .group-full input {
+  width: 100%;
 }
 
 /* line 646, ../_sass/styles.scss */
