@@ -78,6 +78,23 @@
 
     Courtney loves animals--cats AND dogs!--and has a weakness for shopping. She values her relationships, whether at work or at play. Away from the computer, you can likely find her chatting with her friends over dinner and drinks until the restaurant closes around them. If she could have one superpower, she would choose to be able to fly.
 
+- name: Stacey James
+  name-tokenized: stacey-james
+  role: Marketing Director
+  skills:
+    - Business Development
+    - Digital Marketing
+    - Strategic Planning
+    - Sales Operations
+    - Marketing Strategy
+    - Human Resources
+    - Product Development
+    - Marketing Communications
+    - Email Marketing
+    - Customer Satisfaction
+  twitter: https://twitter.com/stacey
+  linkedin: https://www.linkedin.com/in/staceyrjames
+
 - name: Sierra Petrowski
   photo: /img/people/sierra-petrowski.jpg
   role: Interactive Design
