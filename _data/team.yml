@@ -1,6 +1,6 @@
 - name: J Cornelius
-  name-tokenized: j-cornelius
   partner: true
+  photo: /img/people/j-cornelius.jpg
   role: Founder &amp; President
   skills:
     - Sitting
@@ -29,8 +29,8 @@
 
 
 - name: Brad Weaver
-  name-tokenized: brad-weaver
   partner: true
+  photo: /img/people/brad-weaver.jpg
   role: Director of Design
   skills:
     - User Experience
@@ -57,7 +57,7 @@
     He&rsquo;s a big fan of minimal design, Scotch, and Oxford commas. He&rsquo;s known for his loquaciousness and his barbeque sauce. When he&rsquo;s not in front of a whiteboard, sketch pad, or monitor, you might stumble across Brad in the middle of the movie you&rsquo;re watching. His superpower, naturally, would be mind-reading.
 
 - name: Courtney Robb
-  name-tokenized: courtney-robb
+  photo: /img/people/courtney-robb.jpg
   role: Studio Manager
   skills:
     - Social Media
@@ -79,7 +79,7 @@
     Courtney loves animals--cats AND dogs!--and has a weakness for shopping. She values her relationships, whether at work or at play. Away from the computer, you can likely find her chatting with her friends over dinner and drinks until the restaurant closes around them. If she could have one superpower, she would choose to be able to fly.
 
 - name: Sierra Petrowski
-  name-tokenized: sierra-petrowski
+  photo: /img/people/sierra-petrowski.jpg
   role: Interactive Design
   twitter: https://twitter.com/snpetrowski
   linkedin: https://www.linkedin.com/pub/sierra-petrowski/40/331/b88
@@ -103,7 +103,7 @@
     Sierra enjoys Atlanta&rsquo;s wealth of festivals and good restaurants. She loves elephants, Stevie Wonder, espresso and Sans Serif fonts.
 
 - name: Laura Lindeman
-  name-tokenized: laura-lindeman
+  photo: /img/people/laura-lindeman.jpg
   role: Creative Writer
   twitter: https://twitter.com/lclindeman
   linkedin: https://www.linkedin.com/in/lauralindeman

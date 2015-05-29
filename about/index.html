@@ -20,7 +20,7 @@ pid: about
     <h2>The Team</h2>
     {% for member in site.data.team %}
     <div class="member">
-      <div class="meta"><a href="/{{ member.name | datapage_url: 'about' }}"><img src="/img/people/{{member.name-tokenized}}.jpg" alt="{{member.name}}"></a></div>
+      <div class="meta"><a href="/{{ member.name | datapage_url: 'about' }}"><img src="{{member.photo}}" alt="{{member.name}}"></a></div>
       <div class="caption">
         <h4><a href="/{{ member.name | datapage_url: 'about' }}">{{member.name}}</a></h4>
         <p>{{member.role}}</p>
