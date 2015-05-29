@@ -1,0 +1,41 @@
+---
+layout: default
+pid: about
+---
+<section id="team-member">
+  <header>
+    <hgroup>
+      <h1>{{ page.title }}</h1>
+    </hgroup>
+  </header>
+
+  <div class="member-page">
+    <aside class="member-meta meta">
+      <img src="/img/people/{{ page.name-tokenized}}.jpg">
+      <h5>Elsewhere</h5>
+      <span class="elsewhere">
+        {% if page.twitter %}<a href="{{ page.twitter }}"><i class="fa fa-twitter-square"></i></a>{% endif %}
+        {% if page.facebook %}<a href="{{ page.facebook }}"><i class="fa fa-facebook-square"></i></a>{% endif %}
+        {% if page.linkedin %}<a href="{{ page.linkedin }}"><i class="fa fa-linkedin-square"></i></a>{% endif %}
+        {% if page.instagram %}<a href="{{ page.instagram }}"><i class="fa fa-instagram"></i></a>{% endif %}
+        {% if page.github %}<a href="{{ page.github }}"><i class="fa fa-github-square"></i></a>{% endif %}
+        {% if page.dribbble %}<a href="{{ page.dribbble }}"><i class="fa fa-dribbble"></i></a>{% endif %}
+        {% if page.website %}<a href="{{ page.website }}"><i class="fa fa-external-link-square"></i></a>{% endif %}
+      </span>
+      <p><a href="/about/">&laquo; Back to The Team</a></p>
+    </aside>
+    <div class="member-info">
+      <h2 class="member-title">{{ page.role }}</h2>
+      <div class="membr-bio">
+        {{ page.bio | markdownify }}
+      </div>
+      <div class="member-skills">
+        {% for skill in page.skills %}
+        <span class="member-skill">{{ skill }}</span>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include footer-contact.html %}
