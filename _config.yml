@@ -12,3 +12,9 @@ paginate: 100
 paginate_path: "/notes/page:num/"
 gems:
   - jekyll-redirect-from
+
+page_gen:
+  - data: 'team'
+    template: 'team-member-bio'
+    name: 'name'
+    dir: 'about'

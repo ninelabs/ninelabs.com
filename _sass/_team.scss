@@ -1,0 +1,78 @@
+///////////////////////////////////////////////////////////////////////
+// EXPERIENCE
+#team {
+  .the-huddle {
+    @extend %row;
+    .member {
+      @extend %col-33;
+      margin-bottom: 1.5em;
+      .meta {
+        display: inline-block;
+        position: relative;
+        float: left;
+        margin-right: 3%;
+        min-height: 100%;
+        img {
+          width: 260px;
+        }
+        a {
+          color: rgba(255,255,255,.3);
+          font-size: 1.25em;
+          text-decoration: none;
+          text-indent: -999em;
+          text-shadow:none;
+          &:hover {
+            color: rgba(255,255,255,.7);
+            text-decoration: none;
+          }
+        }
+      }
+      .caption{
+        display: inline-block;
+        position: relative;
+        width: 75%;
+        h4 {
+          margin: 0;
+        }
+        p {
+          font-size: .75em;
+          margin: 0;
+        }
+        .label {
+          color: $gray-dark;
+          display: inline-block;
+          font-size: .7em;
+          font-weight: normal;
+          text-shadow: none;
+        }
+      }
+    }
+  }
+}
+
+.member-page {
+  @extend %row;
+  .member-title {
+    margin:0;
+  }
+  .member-meta {
+    @extend %col-33;
+    img {
+      width:100%;
+    }
+    h5 {
+      margin-bottom: 0;
+    }
+  }
+  .member-info {
+    @extend %col-66;
+  }
+  .member-skill {
+    @include border-radius(4px);
+    background-color:$gray-lighter;
+    display: inline-block;
+    font-size:14px;
+    font-family: $font-family-sans-serif;
+    padding:2px 6px;
+  }
+}
