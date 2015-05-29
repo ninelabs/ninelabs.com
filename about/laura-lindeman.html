@@ -1,0 +1,12 @@
+---
+layout: default
+title: Laura Lindeman
+pid: about
+---
+
+{% for member in site.data.partners %}
+  {% if member.name == page.title %}
+    {% capture partner %}{{ member }}{% endcapture %}
+    {% include partner-bio.html %}
+  {% endif %}
+{% endfor %}
