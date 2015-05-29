@@ -3,10 +3,9 @@ layout: default
 title: Sierra Petrowski
 pid: about
 ---
-
-{% for member in site.data.partners %}
+{% for member in site.data.team %}
   {% if member.name == page.title %}
-    {% capture partner %}{{ member }}{% endcapture %}
-    {% include partner-bio.html %}
+    {% capture member %}{{ member }}{% endcapture %}
+    {% include team-member-bio.html %}
   {% endif %}
 {% endfor %}

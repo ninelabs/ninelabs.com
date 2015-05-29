@@ -1,12 +1,12 @@
-<section id="partner">
+<section id="team-member">
   <header>
     <hgroup>
       <h1>{{ member.name }}</h1>
     </hgroup>
   </header>
 
-  <div class="partner-page">
-    <aside class="partner-meta meta">
+  <div class="member-page">
+    <aside class="member-meta meta">
       <img src="/img/people/{{ member.name-tokenized}}.jpg">
       <h5>Elsewhere</h5>
       <span class="elsewhere">
@@ -20,14 +20,14 @@
       </span>
       <p><a href="/about/">&laquo; Back to The Team</a></p>
     </aside>
-    <div class="partner-info">
-      <h2 class="partner-title">{{ member.role }}</h2>
-      <div class="partner-bio">
+    <div class="member-info">
+      <h2 class="member-title">{{ member.role }}</h2>
+      <div class="membr-bio">
         {{ member.bio | markdownify }}
       </div>
-      <div class="partner-skills">
+      <div class="member-skills">
         {% for skill in member.skills %}
-        <span class="partner-skill">{{ skill }}</span>
+        <span class="member-skill">{{ skill }}</span>
         {% endfor %}
       </div>
     </div>
