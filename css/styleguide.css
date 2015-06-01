@@ -2313,29 +2313,34 @@ footer .copyright {
   padding-top: 1em;
 }
 /* line 35, ../_sass/_startups.scss */
+.inline-quote .media-object {
+  width: 20% !important;
+}
+/* line 37, ../_sass/_startups.scss */
 .inline-quote .media-object img {
   max-width: 120px;
 }
-/* line 38, ../_sass/_startups.scss */
+/* line 41, ../_sass/_startups.scss */
 .inline-quote .media-body {
   font-size: .75em;
+  width: 80% !important;
 }
-/* line 40, ../_sass/_startups.scss */
+/* line 44, ../_sass/_startups.scss */
 .inline-quote .media-body q {
   display: block;
   margin-bottom: .5em;
   quotes: "“" "”" "‘" "’";
 }
-/* line 45, ../_sass/_startups.scss */
+/* line 49, ../_sass/_startups.scss */
 .inline-quote .media-body q:before {
   content: open-quote;
 }
-/* line 48, ../_sass/_startups.scss */
+/* line 52, ../_sass/_startups.scss */
 .inline-quote .media-body q:after {
   content: close-quote;
 }
 
-/* line 54, ../_sass/_startups.scss */
+/* line 58, ../_sass/_startups.scss */
 form.simple-contact {
   background-color: #efefef;
   padding: 1em;
@@ -2349,11 +2354,11 @@ form.simple-contact:before, form.simple-contact:after {
 form.simple-contact:after {
   clear: both;
 }
-/* line 58, ../_sass/_startups.scss */
+/* line 62, ../_sass/_startups.scss */
 form.simple-contact .group-half, form.simple-contact .group-full {
   padding-bottom: 1em;
 }
-/* line 60, ../_sass/_startups.scss */
+/* line 64, ../_sass/_startups.scss */
 form.simple-contact .group-half input, form.simple-contact .group-full input {
   width: 100%;
 }

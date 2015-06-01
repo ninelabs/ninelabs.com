@@ -32,11 +32,15 @@
   border-bottom: $container-border;
   border-top: $container-border;
   padding-top: 1em;
-  .media-object img {
-    max-width: 120px;
+  .media-object {
+    width: 20% !important;
+    img {
+      max-width: 120px;
+    }
   }
   .media-body {
     font-size: .75em;
+    width: 80% !important;
     q {
       display: block;
       margin-bottom: .5em;
