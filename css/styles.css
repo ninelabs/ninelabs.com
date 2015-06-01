@@ -364,7 +364,7 @@ blockquote.indent, #team .the-huddle .member, .member-page .member-meta {
 }
 
 /* line 37, ../_sass/_grid.scss */
-.skill, .names li, .quotes .quote, .session-option, .posts-page-navigation div, .footer-contact div, .startup-services .service, form.simple-contact .group-half {
+.simple-contact .group-half, .skill, .names li, .quotes .quote, .session-option, .posts-page-navigation div, .footer-contact div, .startup-services .service {
   float: left;
   min-height: 1px;
   padding-left: 15px;
@@ -374,7 +374,7 @@ blockquote.indent, #team .the-huddle .member, .member-page .member-meta {
 }
 @media (max-width: 767px) {
   /* line 37, ../_sass/_grid.scss */
-  .skill, .names li, .quotes .quote, .session-option, .posts-page-navigation div, .footer-contact div, .startup-services .service, form.simple-contact .group-half {
+  .simple-contact .group-half, .skill, .names li, .quotes .quote, .session-option, .posts-page-navigation div, .footer-contact div, .startup-services .service {
     width: 100%;
   }
 }
@@ -444,7 +444,7 @@ main > div .content article {
 }
 
 /* line 37, ../_sass/_grid.scss */
-main > div .content, form.simple-contact .group-full {
+main > div .content, .simple-contact .group-full {
   float: left;
   min-height: 1px;
   padding-left: 15px;
@@ -454,7 +454,7 @@ main > div .content, form.simple-contact .group-full {
 }
 @media (max-width: 767px) {
   /* line 37, ../_sass/_grid.scss */
-  main > div .content, form.simple-contact .group-full {
+  main > div .content, .simple-contact .group-full {
     width: 100%;
   }
 }
@@ -713,7 +713,31 @@ hr {
     display: none;
   }
 }
-/* line 4, ../_sass/_forms.scss */
+/* line 3, ../_sass/_forms.scss */
+.simple-contact {
+  background-color: #efefef;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+/* line 12, ../_sass/_mixins.scss */
+.simple-contact:before, .simple-contact:after {
+  content: " ";
+  display: table;
+}
+/* line 17, ../_sass/_mixins.scss */
+.simple-contact:after {
+  clear: both;
+}
+/* line 8, ../_sass/_forms.scss */
+.simple-contact .group-half, .simple-contact .group-full {
+  padding-bottom: 1em;
+}
+/* line 10, ../_sass/_forms.scss */
+.simple-contact .group-half input, .simple-contact .group-full input {
+  width: 100%;
+}
+
+/* line 23, ../_sass/_forms.scss */
 .btn, button, input[type='submit'] {
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -735,31 +759,31 @@ hr {
   vertical-align: middle;
   white-space: nowrap;
 }
-/* line 21, ../_sass/_forms.scss */
+/* line 40, ../_sass/_forms.scss */
 .btn:hover, button:hover, input[type='submit']:hover {
   background-color: #fb7529;
   color: #fff;
   text-decoration: none;
 }
-/* line 26, ../_sass/_forms.scss */
+/* line 45, ../_sass/_forms.scss */
 .btn:active, .btn.active, button:active, button.active, input[type='submit']:active, input[type='submit'].active {
   outline: 0;
   background-image: none;
 }
 
-/* line 32, ../_sass/_forms.scss */
+/* line 51, ../_sass/_forms.scss */
 .sneaky {
   display: none;
 }
 
-/* line 43, ../_sass/_forms.scss */
+/* line 62, ../_sass/_forms.scss */
 input[type="search"] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 48, ../_sass/_forms.scss */
+/* line 67, ../_sass/_forms.scss */
 input[type="radio"],
 input[type="checkbox"] {
   margin: 4px 0 0;
@@ -767,24 +791,24 @@ input[type="checkbox"] {
   line-height: normal;
 }
 
-/* line 56, ../_sass/_forms.scss */
+/* line 75, ../_sass/_forms.scss */
 input[type="file"] {
   display: block;
 }
 
-/* line 61, ../_sass/_forms.scss */
+/* line 80, ../_sass/_forms.scss */
 input[type="range"] {
   display: block;
   width: 100%;
 }
 
-/* line 67, ../_sass/_forms.scss */
+/* line 86, ../_sass/_forms.scss */
 select[multiple],
 select[size] {
   height: auto;
 }
 
-/* line 73, ../_sass/_forms.scss */
+/* line 92, ../_sass/_forms.scss */
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
@@ -793,7 +817,7 @@ input[type="checkbox"]:focus {
   outline-offset: -2px;
 }
 
-/* line 79, ../_sass/_forms.scss */
+/* line 98, ../_sass/_forms.scss */
 select,
 textarea,
 input[type="text"],
@@ -825,7 +849,7 @@ input[type="color"] {
   background-clip: padding-box;
   /* stops bg color from leaking outside the border: */
 }
-/* line 112, ../_sass/_forms.scss */
+/* line 131, ../_sass/_forms.scss */
 select[disabled], select[readonly], fieldset[disabled] select,
 textarea[disabled],
 textarea[readonly], fieldset[disabled]
@@ -2036,29 +2060,6 @@ footer .copyright {
 /* line 52, ../_sass/_startups.scss */
 .inline-quote .media-body q:after {
   content: close-quote;
-}
-
-/* line 58, ../_sass/_startups.scss */
-form.simple-contact {
-  background-color: #efefef;
-  padding: 1em;
-}
-/* line 12, ../_sass/_mixins.scss */
-form.simple-contact:before, form.simple-contact:after {
-  content: " ";
-  display: table;
-}
-/* line 17, ../_sass/_mixins.scss */
-form.simple-contact:after {
-  clear: both;
-}
-/* line 62, ../_sass/_startups.scss */
-form.simple-contact .group-half, form.simple-contact .group-full {
-  padding-bottom: 1em;
-}
-/* line 64, ../_sass/_startups.scss */
-form.simple-contact .group-half input, form.simple-contact .group-full input {
-  width: 100%;
 }
 
 /* line 646, ../_sass/styles.scss */
