@@ -246,6 +246,23 @@ table {
   border-spacing: 0;
 }
 
+/* line 55, ../_sass/_responsive.scss */
+.mobile-only {
+  display: none;
+}
+@media (max-width: 767px) {
+  /* line 55, ../_sass/_responsive.scss */
+  .mobile-only {
+    display: block;
+  }
+}
+@media (max-width: 320px) {
+  /* line 55, ../_sass/_responsive.scss */
+  .mobile-only {
+    display: block;
+  }
+}
+
 /* line 11, ../_sass/_grid.scss */
 main, .navigation {
   max-width: 960px;

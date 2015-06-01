@@ -50,3 +50,15 @@ $screen-md-max:              ($screen-lg-min - 1) !default;
     @media (max-width: 320px) { @content; }
   }
 }
+
+// Utility classes for hiding and showing things at different breakpoints
+.mobile-only {
+  display:none;
+  @include breakpoint(xs) {
+    display:block;
+  }
+  @include breakpoint(nano) {
+    display:block;
+  }
+}
+
