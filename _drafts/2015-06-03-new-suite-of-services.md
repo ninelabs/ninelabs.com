@@ -30,3 +30,5 @@ We're offering four different packages to catapult your idea from bar napkin to 
 **Not sure where to start?** We can help with that too. We'd love to put our heads together and see how we can help you experience success. 
 
 Find out all the nitty-gritty [details](https://ninelabs.com/startups/) about our startup packages and get in touch today!
+
+*Photo credit: [Image](https://flic.kr/p/jJpjHn) by [Steve Jurvetson](https://www.flickr.com/photos/jurvetson/) via Flickr under [CC 2.0](https://creativecommons.org/licenses/by/2.0/)*
