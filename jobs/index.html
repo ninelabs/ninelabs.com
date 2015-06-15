@@ -19,6 +19,7 @@ meta-description: We do great work because we have great people. Are you great a
       <h4><a href="#{{ job.slug }}">{{ job.title }}</a></h4>
       <p>{{ job.description | markdownify }}</p>
       <p class="job-meta"><strong>Location:</strong> {{ job.location }} // <strong>Compensation:</strong> {{ job.pay }}</p>
+      <a href="mailto:hello@ninelabs.com?subject={{ job.title | url_encode }}" class="btn">Apply Now</a>
     </div>
   </div>
   {% endfor %}
