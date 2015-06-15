@@ -1,14 +1,5 @@
-- title: Marketing and Sales Manager
-  description: |
-    Do you love networking? Are you great at winning friends and influencing people? We're looking for someone to spread the word about who we are and what we do.
-
-    You'll need a solid understanding of what we do and why it matters so you can answer questions on the fly while working the room at a mixer or on the phone with a prospect. You'll need to be able to do market research to identify potential clients and be charming enough to get a meeting with them. Most of your time will be out of the office, but you'll have a desk in our West Midtown office when you want it.
-
-    Sound like something you're great at? Sweet. [Send us a nicely worded email](mailto:hello@ninelabs.com) explaining why you're the best person for the job. If we agree, we'll reply and set up a time to meet.
-  location: Atlanta, GA
-  pay: Salary
-
 - title: Lead Web Developer
+  slug: lead-web-developer
   location: Atlanta, GA
   pay: Salary
   description: |
@@ -71,3 +62,15 @@
     - Casual dress code
     - Membership in the Atlanta Web Design Group
     - Be a part of the AWDG, Polygon Atlanta, Web Afternoon teams
+
+- title: Marketing and Sales Manager
+  slug: marketing-manager
+  description: |
+    Do you love networking? Are you great at winning friends and influencing people? We&rsquo;re looking for someone to spread the word about who we are and what we do.
+
+    You&rsquo;ll need a solid understanding of what we do and why it matters so you can answer questions on the fly while working the room at a mixer or on the phone with a prospect. You&rsquo;ll need to be able to do market research to identify potential clients and be charming enough to get a meeting with them. Most of your time will be out of the office, but you&rsquo;ll have a desk in our West Midtown office when you want it.
+
+    Sound like something you&rsquo;re great at? Sweet. [Send us a nicely worded email](mailto:hello@ninelabs.com) explaining why you&rsquo;re the best person for the job. If we agree, we&rsquo;ll reply and set up a time to meet.
+  location: Atlanta, GA
+  pay: Salary
+

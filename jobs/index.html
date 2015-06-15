@@ -13,9 +13,9 @@ title: Work With Us
   <h3>How We Work</h3>
   <p>We&rsquo;re not a traditional company. Instead, we use something similar to the distributed <a href="http://www.ngenworks.com/blog/the-jellyfish-model/">Jellyfish Model</a>. This means you can work anywhere, anytime. We want you to do your best work, even if it&rsquo;s in your pajamas. We would prefer you be in Atlanta (because <a href="/community/">we support our hometown</a>), but it&rsquo;s not required.</p>
 {% for job in site.data.jobs %}
-<div class="row job">
+<div class="row job" id="{{ job.slug }}">
   <div class="col-sm-12">
-    <h4></i> {{ job.title }}</h4>
+    <h4><a href="#{{ job.slug }}">{{ job.title }}</a></h4>
     <p>{{ job.description | markdownify }}</p>
     <p class="job-meta"><strong>Location:</strong> {{ job.location }} // <strong>Compensation:</strong> {{ job.pay }}</p>
   </div>
