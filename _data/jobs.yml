@@ -1,13 +1,13 @@
 - title: Lead Web Developer
-  slug: lead-web-developer
   location: Atlanta, GA
-  pay: Salary
+  status: Full-time
+  compensation: Salary
   description: |
     We’re looking for an experienced developer to lead our engineering team. You should have significant experience with front-end code and architecture, as well as creating interactions that delight the user.
 
     You will be responsible for leading all development efforts and determining the right technology solutions for our product, brand, and client projects. We are constantly creating new interactive content and you’ll play a key role in creating, delivering, and maintaining it all. This is not for someone new or in their first rodeo. We’re looking for experience, self-sufficiency, and accountability.
 
-    *Your responsibilities*
+    ### Your responsibilities
 
     - Lead development of all interactive projects
     - Clearly communicate the intricacies of complex web development issues, acting as a subject matter expert both internally with our team and externally with clients
@@ -27,7 +27,7 @@
     - Speak directly with clients about their projects in meetings, on the phone, and via project management tools
     - Write documentation, provide client training, and produce clean and well-documented code
 
-    *Required experience with high proficiency*
+    ### Required experience with high proficiency
 
     - HTML5, CSS, Ajax, jQuery, JSON
     - Vanilla JavaScript, not just frameworks
@@ -41,7 +41,7 @@
     - Version control via GitHub
     - APIs and web services including 3rd party APIs (Facebook, Twitter, Google Maps, etc.)
 
-    *Preferred experience*
+    ### Preferred experience
 
     - Rails
     - Jekyll
@@ -53,7 +53,7 @@
     - Knowledge of UI/UX design principles
     - Experience with web analytics and SEO
 
-    *Perks*
+    ### Perks
 
     - Competitive Salary
     - Flexible working schedule include remote/work from home
@@ -65,13 +65,19 @@
     - Tacos!
 
 - title: Marketing and Sales Manager
-  slug: marketing-manager
+  location: Atlanta, GA
+  compensation: Salary
+  status: Full-time
   description: |
     Do you love networking? Are you great at winning friends and influencing people? We&rsquo;re looking for someone to spread the word about who we are and what we do.
 
     You&rsquo;ll need a solid understanding of what we do and why it matters so you can answer questions on the fly while working the room at a mixer or on the phone with a prospect. You&rsquo;ll need to be able to do market research to identify potential clients and be charming enough to get a meeting with them. Most of your time will be out of the office, but you&rsquo;ll have a desk in our West Midtown office when you want it.
 
     Sound like something you&rsquo;re great at? Sweet. [Send us a nicely worded email](mailto:hello@ninelabs.com) explaining why you&rsquo;re the best person for the job. If we agree, we&rsquo;ll reply and set up a time to meet.
-  location: Atlanta, GA
-  pay: Salary
 
+- title: Project Manager
+  location: Atlanta, GA
+  compensation: Contract or Hourly
+  status: Part-time
+  description: |
+    Herd the cats!

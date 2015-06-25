@@ -14,7 +14,12 @@ gems:
   - jekyll-redirect-from
 
 page_gen:
+  - data: 'jobs'
+    template: 'job-posting'
+    name: 'title'
+    dir: 'jobs'
   - data: 'team'
     template: 'team-member-bio'
     name: 'name'
     dir: 'about'
+
