@@ -1,0 +1,47 @@
+---
+layout: default
+pid: job
+---
+<section id="job-posting">
+  <header>
+    <hgroup>
+      <h1>{{ page.title }}</h1>
+    </hgroup>
+  </header>
+
+  <div class="job">
+    <aside class="other-jobs">
+      <h4>Details</h4>
+      <p class="job-meta">
+        <strong>Status:</strong> {{ page.status }} <br>
+        <strong>Location:</strong> {{ page.location }} <br>
+        <strong>Compensation:</strong> {{ page.compensation }}
+      </p>
+      <h4>Other Openings</h4>
+      <span>
+        <ul>
+          {% for job in site.data.jobs %}
+          <li><a href="/{{ job.title | datapage_url: 'jobs' }}">{{ job.title }}</a></li>
+          {% endfor %}
+        </ul>
+        <a href="/jobs/">&laquo; All Jobs</a>
+      </span>
+    </aside>
+    <div class="job-info">
+      <a href="mailto:hello@ninelabs.com?subject={{ page.title | url_encode }}" class="btn">Apply Now</a>
+      <div class="job-description">
+        {{ page.description | markdownify }}
+      </div>
+      {% if page.skills %}
+      <div class="member-skills">
+        {% for skill in page.skills %}
+        <span class="member-skill">{{ skill }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+      <a href="mailto:hello@ninelabs.com?subject={{ page.title | url_encode }}" class="btn">Apply Now</a>
+    </div>
+  </div>
+</section>
+
+{% include footer-contact.html %}

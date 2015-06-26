@@ -1,0 +1,30 @@
+// Jobs
+
+#jobs {
+  .job, .how-we-work, .get-in-touch {
+    border-top: $container-border;
+  }
+  .job {
+    padding: 1.5em;
+    .fa {
+      color: $brand-secondary;
+    }
+    .job-meta {
+      color: #aaa;
+      font-size: .9em;
+    }
+  }
+}
+
+#job-posting {
+  .job {
+    @include clearfix();
+  }
+  .other-jobs {
+    @extend %col-33;
+    font-size: .75em
+  }
+  .job-info {
+    @extend %col-66;
+  }
+}

@@ -582,21 +582,8 @@ aside.meta {
 
 ///////////////////////////////////////////////////////////////////////
 // JOBS
-#jobs {
-  .job, .how-we-work, .get-in-touch {
-    border-top: $container-border;
-  }
-  .job {
-    padding: 1.5em;
-    .fa {
-      color: $brand-secondary;
-    }
-    .job-meta {
-      color: #aaa;
-      font-size: .9em;
-    }
-  }
-}
+
+@import "jobs";
 
 
 ///////////////////////////////////////////////////////////////////////
