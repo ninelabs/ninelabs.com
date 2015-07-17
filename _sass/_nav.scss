@@ -22,14 +22,14 @@
 .logo {
   float: left;
   position: relative;
-  width:40px;
-  .brand-id {
-    height: 45px;
-    width: 40px;
-    path { fill:$nav-color; }
-    &:hover {
-      path { fill:$nav-hover-color; }
+  width:200px;
+  .brand-mark-word, .brand-mark {
+    path, polygon {
+      fill:$brand-primary;
     }
+  }
+  .brand-mark polygon:hover {
+    fill:$brand-secondary;
   }
 }
 

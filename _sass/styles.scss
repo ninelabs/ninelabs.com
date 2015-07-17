@@ -18,16 +18,6 @@ body {
   font-family: $font-family-serif;
 }
 
-#brand {
-  width:27px;
-  height:36px;
-  margin-bottom:2em;
-  .brand-mark {
-    fill: $nav-color;
-  }
-}
-
-
 //////////////////////////
 // Headers
 
@@ -252,12 +242,15 @@ figure {
 // APPROACH
 #approach {
   .ways {
+    @extend %row;
     margin:1em 0 4em;
     .way {
+      @extend %col-50;
       border-top: $default-border;
-      margin: 2em 0;
+      margin:1em 0 0;
       padding-top: 1em;
       a {
+        color: $brand-primary;
         font-weight: bold;
       }
       p {
@@ -613,6 +606,14 @@ footer {
   }
   .copyright {
     font-size: .8em;
+  }
+  #logo {
+    height:45px;
+    width:45px;
+    .brand-mark {
+      fill:$brand-primary;
+    }
+
   }
 }
 
