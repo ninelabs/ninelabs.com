@@ -9,12 +9,9 @@
 
     ### Your responsibilities
 
-    - Lead development of all interactive projects
-    - Clearly communicate the intricacies of complex web development issues, acting as a subject matter expert both internally with our team and externally with clients
+    - Lead development of front-end development and interactive projects
     - Collaborate with other developers to write maintainable code and solve problems effectively
     - See development projects through from start to finish
-    - Help manage outside developers and vendors
-    - Locate and source outside developers and vendors
     - Work with clients’ in-house development teams
     - Collaborate with the Nine Labs design team to execute on creative projects
     - Work in an Agile and test-driven environment
@@ -23,21 +20,17 @@
     - Research and adapt new technologies quickly in a dynamic work environment
     - Be curious, positive, and influence the products being built
     - Evaluate designs, wireframes, and other deliverables during the design and user experience phase for potential development issues and flag problems appropriately
-    - Create secure, scalable, efficient, database-driven solutions
-    - Speak directly with clients about their projects in meetings, on the phone, and via project management tools
-    - Write documentation, provide client training, and produce clean and well-documented code
+    - Write documentation and produce clean and well-documented code
 
     ### Required experience with high proficiency
 
     - HTML5, CSS, Ajax, jQuery, JSON
-    - Vanilla JavaScript, not just frameworks
-    - PHP
+    - Raw JavaScript (not just frameworks)
+    - Familiarity with JS Frameworks (jQuery, Ember, Angular, React, etc.)
     - Sass/SCSS
-    - MySQL database design and optimization
+    - Knowledge of UI/UX design principles
+    - CMS experience (Drupal, Wordpress, Perch, Expression Engine)
     - Mac OS
-    - Server management - preferably AWS, Digital Ocean, and Heroku
-    - Apache, Nginx
-    - DNS administration
     - Version control via GitHub
     - APIs and web services including 3rd party APIs (Facebook, Twitter, Google Maps, etc.)
 
@@ -45,12 +38,13 @@
 
     - Rails
     - Jekyll
-    - Familiarity with JS Frameworks (Ember, Angular, React, etc.)
+    - MySQL database design and optimization
     - Node.js
-    - CMS experience (Drupal, Wordpress, Perch, Expression Engine)
+    - Server management - preferably AWS, Digital Ocean, and Heroku
+    - Apache, Nginx
+    - DNS administration
     - Web Components & Polymer
     - Ability to create custom themes and plugins for WordPress
-    - Knowledge of UI/UX design principles
     - Experience with web analytics and SEO
 
     ### Perks
