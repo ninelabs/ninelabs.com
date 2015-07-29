@@ -36,3 +36,11 @@ Now you can view your out-of-the-box website by going to [http://localhost:4000]
 Notes: We use [Sass](http://sass-lang.com/) installed via Bower.
 
 ---
+
+## Deployment
+
+To deploy go to the `ninelabs-website` channel in Slack and type `coup deploy ninelabs on production`.
+
+#### If coup doesn't respond
+
+Log into the ci box: `sudo su` and `start hubot`
