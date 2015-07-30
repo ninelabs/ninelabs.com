@@ -2,6 +2,8 @@
   location: Atlanta, GA
   status: Full-time
   compensation: Salary
+  meta-description: |
+    We’re looking for an experienced developer to lead our engineering team.
   description: |
     We’re looking for an experienced developer to lead our engineering team. You should have significant experience with front-end code and architecture, as well as creating interactions that delight the user.
 
@@ -63,6 +65,8 @@
   location: Atlanta, GA
   compensation: Salary
   status: Full-time
+  meta-description: |
+    We&rsquo;re looking for someone to spread the word about who we are and what we do.
   description: |
     Do you love networking? Are you great at winning friends and influencing people? We&rsquo;re looking for someone to spread the word about who we are and what we do.
 
