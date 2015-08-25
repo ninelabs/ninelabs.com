@@ -2,6 +2,8 @@
   location: Atlanta, GA
   status: Full-time
   compensation: Salary
+  meta-description: |
+    We are constantly creating new interactive content and you’ll play a key role in creating, delivering, and maintaining it all.
   image: http://s3.amazonaws.com/ninelabs.com/desk.jpg
   responsibilities:
     - Collaborate with other developers to write maintainable code and solve problems effectively
