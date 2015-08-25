@@ -49,7 +49,7 @@
   <meta property="og:title" content="{% if page.title or post.title %}{{ page.title }}{{ post.title }}{% else %}Digital Strategy // Business Results{% endif %}" />
   <meta property="og:description" content="{% if page.meta-description %}{{ page.meta-description }}{% else %}Strategic Thinking To Help Your Business - Web, Mobile, Apps, and Ecommerce{% endif %}" />
   <meta property="og:type" content="article" />
-  <meta property="og:image" content="https://ninelabs.com/img/post-it-wall.jpg" />
+  <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}https://ninelabs.com/img/post-it-wall.jpg{% endif %}" />
 </head>
 <body id="lldfl"{% if page.pid %} class="{{ page.pid }}"{% endif %}>
 
