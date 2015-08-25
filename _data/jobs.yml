@@ -1,42 +1,84 @@
+- title: Web Solutions Architect
+  location: Atlanta, GA
+  status: Full-time
+  compensation: Salary
+  responsibilities:
+    - Collaborate with other developers to write maintainable code and solve problems effectively
+    - Work with clients&rsquo; in-house development teams
+    - Collaborate with the Nine Labs design team to execute on creative projects
+    - Work in an Agile and test-driven environment
+    - Conduct cross-browser and cross-device testing to ensure consistent display in major supported browsers on Mac, PC, iOS, and Android platforms
+    - Research and adapt new technologies quickly in a dynamic work environment
+    - Evaluate designs, wireframes, and other deliverables during the design phase and flag potential problems appropriately
+    - Write documentation and produce clean and well-documented code
+  requirements:
+    - HTML5, CSS, Ajax, jQuery, JSON
+    - Raw JavaScript (not just frameworks)
+    - Familiarity with JS Frameworks (jQuery, Ember, Angular, React, etc.)
+    - Sass/SCSS
+    - Knowledge of UI/UX design principles
+    - CMS experience (Drupal, Wordpress, Perch, Expression Engine)
+    - Version control via GitHub
+    - APIs and web services including 3rd party APIs (Facebook, Twitter, Google Maps, etc.)
+  preferreds:
+    - Rails
+    - Jekyll
+    - MySQL
+    - Node.js
+    - Server management (AWS, Digital Ocean, Heroku)
+    - Apache, Nginx
+    - DNS management
+    - Web Components & Polymer
+    - Web analytics and SEO
+  perks:
+    - Competitive Salary
+    - Flexible working schedule include remote/work from home
+    - Time off when you need it and a flexible vacation policy
+    - Health, dental, and vision insurance
+    - Casual dress code
+    - Membership in the Atlanta Web Design Group
+    - Be a part of the AWDG, Polygon Atlanta, Web Afternoon teams
+    - Tacos!
+  description: |
+    We’re looking for an experienced Solutions Architect to lead our engineering team and oversee development projects. The right candidate for the job should have significant experience with front-end code and architecture, as well as creating interactions that delight the user. The position requires a breadth of knowledge across various technologies and resources enabling the successful delivery of solutions that meet client and organizational current and future digital strategy needs.
+
+    You will be responsible for leading all development efforts and determining the right technology solutions for our product, brand, and client projects. We are constantly creating new interactive content and you’ll play a key role in creating, delivering, and maintaining it all. This is not for someone new or in their first rodeo. We’re looking for experience, self-sufficiency, and accountability. As a leader in the company, our Solutions Architect will be engaging with and leading communications with clients and vendors on a regular basis.
+
+
 - title: Production Front-end Developer
-  location: Preferably Atlanta, but remote is cool.
+  location: Atlanta prefered, remote okay
   status: Contract
-  compensation: Up to $1500 a week for 6-8 weeks
+  compensation: Project basis
   meta-description: |
     Seeking talented front-end developer for short-term projects.
+  responsibilities:
+    - Take in Sketch, Photoshop, and Illustrator design files.
+    - Implement designs via HTML5, CSS3, JavaScript, etc.
+    - Hand coding custom WordPress themes and all sorts of plugin development - or even create your own!
+    - You know WooCommerce like the back of your hand
+    - You are experienced working with basic PHP tasks
+    - You&rsquo;re a dab hand in JavaScript/jQuery
+    - You&rsquo;re an old pro in writing raw HTML and CSS (especially HTML5 and CSS3)
+    - You&rsquo;re used to developing in a LAMP environment
+    - You&rsquo;re on-the-button with current Web standards, optimization techniques and best practices
+    - You&rsquo;re a web developer with two or more years of industry experience
+    - Working knowledge of a CSS preprocessor (SASS) is a plus
+  requirements:
+    - HTML5, CSS, Ajax, jQuery, JSON
+    - Familiarity with JS Frameworks (jQuery, Ember, Angular, React, etc.)
+    - Write and implement small-to-medium Javascript plugins
+    - Sass (because it's awesome)
+    - General knowledge of UI/UX design principles
+    - CMS experience (Drupal, Wordpress, Perch, Expression Engine)
+    - Version control via GitHub
+  preferreds:
+    - how to write custom jQuery plugins
   description: |
-    Are you a pretty kick-ass front-end developer who enjoys working on well-scoped projects? Read on&hellip;
+    Are you a pretty kick-ass front-end developer who enjoys working on well-scoped projects?
 
     The work is some Wordpress, some Squarespace, some plain-ole HTML/CSS/JS hotness. You can work from home or from our offices in West Midtown.
 
     There are several projects; all are well defined with a designer on the team to handle the heavy lifting on visuals and an engineer to handle the details of implementation. Your job will be focused on delivering lean, quality code and working with the rest of the team through the process of making it all live and delivering to the clients.
-
-    We&rsquo;re interested in contract to hire, full time for 6 weeks:
-
-    ### RESPONSIBILITIES
-
-    - Take in Sketch, Photoshop, and Illustrator design files.
-    - Implement designs via HTML5, CSS3, JavaScript, etc.
-    - You are a Wordpress Whiz. You can hit the ground running with hand coding custom WordPress themes and all sorts of plugin development - or even create your own!
-    - You know WooCommerce like the back of your hand
-    - You are experienced working with basic PHP tasks
-    - You’re a dab hand in JavaScript/jQuery (If you can write plugins as well then that’s a bonus, but you must be able to write and implement small-to-medium scripts at least)
-    - You’re an old pro in writing raw HTML and CSS (especially HTML5 and CSS3)
-    - You’re used to developing in a LAMP environment
-    - You’re on-the-button with current Web standards, optimization techniques and best practices
-    - You’re a web developer with two or more years of industry experience
-    - Working knowledge of a CSS preprocessor (SASS) is a plus
-
-    ### Please send the following
-
-    - Linkedin Profile
-    - GitHub (if you have work that we can look at)
-    - Live samples of work
-
-    ### Perks
-    - Flexible working schedule include remote/work from home
-    - Casual dress code
-    - Tacos!
 
 
 - title: Social, Marketing, and Sales Manager
@@ -50,17 +92,14 @@
 
     You&rsquo;ll need a solid understanding of what we do and why it matters so you can answer questions on the fly while working the room at a mixer or on the phone with a client. Most of your time will be out of the office, but you&rsquo;ll have a desk in our West Midtown office when you want it.
 
-    ### YOUR RESPONSIBILITIES
-
+  responsibilities:
     - Conduct market research to identify potential clients and be charming enough to get a meeting with them
     - Work with our leadership to craft marketing materials about our events, products, and services
     - Conceive and plan marketing campaigns for our events, products, and services
     - Work closely with our Polygon Event Coordinator on scheduling and accomodations for various events.
     - Create content for and manage the Nine Labs, AWDG, Polygon, and Web Afternoon social media accounts
     - Create content for our email newsletters and various marketing campaigns
-
-    ### REQUIRED EXPERIENCE WITH HIGH PROFICIENCY
-
+  requirements:
     - A charming personality
     - Excellent written and verbal communication and presentation skills
     - A desire to keep up with the latest digital trends
@@ -71,15 +110,11 @@
     - Experience working with and configuring marketing automation systems (preferably Infusionsoft)
     - Ability to attend networking and social events across the city, often in evenings and on weekends
     - Ability to travel to conferences and other events outside the city multiple times per year
-
-    ### PREFERRED EXPERIENCE
-
+  preferreds:
     - Experience working with an event space or event planning company
     - Experience working with a digital creative agency or consulting firm
     - Strong skill in making guacamole, cocktails, or both.
-
-    ### Perks
-
+  perks:
     - Competitive Salary
     - Flexible working schedule include remote/work from home
     - Time off when you need it and a flexible vacation policy
@@ -88,6 +123,3 @@
     - Membership in the Atlanta Web Design Group
     - Be a part of the AWDG, Polygon Atlanta, Web Afternoon teams
     - Tacos!
-
-
-    Sound like something you&rsquo;re great at? Sweet. [Send us a nicely worded email](mailto:hello@ninelabs.com) explaining why you&rsquo;re the best person for the job. If we agree, we&rsquo;ll reply and set up a time to meet.

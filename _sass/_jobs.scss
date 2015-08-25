@@ -20,11 +20,43 @@
   .job {
     @include clearfix();
   }
-  .other-jobs {
-    @extend %col-33;
-    font-size: .75em
-  }
   .job-info {
-    @extend %col-66;
+    @extend %col-100;
   }
+  .job-overview, .job-details {
+    @extend %row;
+  }
+  .job-description {
+    @extend %col-80;
+  }
+  .job-meta {
+    @extend %col-20;
+    font-size: .75em;
+    border-left: 3px solid $brand-primary;
+    p strong {
+      display: block;
+    }
+    @include breakpoint(xs){
+      border: none;
+      p {
+        margin: .25em 0;
+        padding: 0;
+        strong {
+          display: inline;
+        }
+      }
+    }
+
+  }
+  .job-responsibilities, .job-requirements {
+    @extend %col-50;
+    font-size: .8em;
+    li {
+      margin-bottom: .9em;
+    }
+    .optional {
+        font-style: italic;
+    }
+  }
+
 }

@@ -10,41 +10,54 @@ pid: job
   </header>
 
   <div class="job">
-    <aside class="other-jobs">
-      <h4>Details</h4>
-      <p class="job-meta">
-        <strong>Status:</strong> {{ page.status }} <br>
-        <strong>Location:</strong> {{ page.location }} <br>
-        <strong>Compensation:</strong> {{ page.compensation }}
-      </p>
-      <h4>Other Openings</h4>
-      <span>
-        <ul>
-          {% for job in site.data.jobs %}
-          <li><a href="/{{ job.title | datapage_url: 'jobs' }}">{{ job.title }}</a></li>
-          {% endfor %}
-        </ul>
-        <a href="/jobs/">&laquo; All Jobs</a>
-      </span>
-      <hr>
-      <h2>A great place for smart people to do their best work</h2>
-      <p>That&rsquo;s what we&rsquo;re creating at Nine Labs. It&rsquo;s all about giving people the tools and atmosphere they need to do what they do best.</p>
-      <p>Do you want to work in a supportive, results focused environment? Are you looking for a chance to improve your skills with a group of fun, smart people? Well, let&rsquo;s do this.</p>
-      <p><a href="/about/">Meet the team</a> // <a href="/reputation/">Our Reputation</a></p>
-    </aside>
     <div class="job-info">
-      <a href="mailto:hello@ninelabs.com?subject={{ page.title | url_encode }}" class="btn">Apply Now</a>
-      <div class="job-description">
-        {{ page.description | markdownify }}
+
+      <div class="job-overview">
+        <div class="job-description">
+          {{ page.description | markdownify }}
+        </div>
+        <div class="job-meta">
+          <p><strong>Status:</strong> {{ page.status }}</p>
+          <p><strong>Location:</strong> {{ page.location }}</p>
+          <p><strong>Compensation:</strong> {{ page.compensation }}</p>
+        </div>
       </div>
-      {% if page.skills %}
-      <div class="member-skills">
-        {% for skill in page.skills %}
-        <span class="member-skill">{{ skill }}</span>
+      <div class="job-details">
+        <div class="job-responsibilities">
+          <h4>Responsibilities</h4>
+          <ul>
+            {% for responsibility in page.responsibilities %}
+            <li>{{ responsibility }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="job-requirements">
+          <h4>Desired Skills</h4>
+          <ul>
+            {% for requirement in page.requirements %}
+            <li>{{ requirement }}</li>
+            {% endfor %}
+            {% if page.preferreds %}
+            <li class="optional"><strong>It would be nice if you knew:</strong> {% for preferred in page.preferreds %}{{ preferred }}, {% endfor %} and how to make guacamole.</li>
+            {% endif %}
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <h3>A great place for smart people to do their best work</h3>
+      <p>That&rsquo;s what we&rsquo;re creating at Nine Labs. You&rsquo;ll work with <a href="/about/">smart people</a> on <a href="/reputation/">cool projects</a>. It&rsquo;s all about giving people the tools and atmosphere they need to do what they do best.</p>
+      {% if page.perks %}
+      <h4>Perks:</h4>
+      <ul>
+        {% for perk in page.perks %}
+        <li>{{ perk }}</li>
         {% endfor %}
-      </div>
+      </ul>
       {% endif %}
+      <p>Are you looking for a chance to improve your skills? Do you want to work in a supportive, results focused environment? Well, let&rsquo;s do this. Send us a nicely worded email explaining why you&rsquo;re the best person for the job.</p>
       <a href="mailto:hello@ninelabs.com?subject={{ page.title | url_encode }}" class="btn">Apply Now</a>
+      <hr>
+      <p>Not your thing? That&rsquo;s okay. We have <a href="/jobs/">other openings</a>, too.</p>
     </div>
   </div>
 </section>
