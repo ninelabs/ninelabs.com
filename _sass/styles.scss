@@ -205,12 +205,6 @@ figure {
       font-size: 1em;
     }
   }
-  .trio {
-    @extend %row;
-    border-top: 5px solid $brand-primary;
-    margin-top: 3em;
-    padding-top: 2em;
-  }
   .skill {
     &:nth-child(2n+1){
       clear:left;
@@ -227,7 +221,15 @@ figure {
     }
   }
 }
-
+.trio {
+  @extend %row;
+  border-top: 5px solid $brand-primary;
+  margin-top: 3em;
+  padding-top: 2em;
+}
+.pod {
+  @extend %col-33;
+}
 .skill {
   @extend %col-50;
   margin-bottom: 3em;
@@ -236,6 +238,51 @@ figure {
     padding-bottom: 1em;
   }
 }
+
+#sponsorship-99u {
+  .sponsor-why {
+    border-top: 1px solid $brand-primary;
+    padding-top: 2em;
+    h4 {
+      margin-top: 0;
+    }
+  }
+  .sponsor-name {
+    margin-bottom:0;
+    padding-bottom:0;
+  }
+  .sponsor-fee {
+    color:$brand-primary;
+    font-family: $font-family-sans-serif;
+    font-size: .85em;
+    margin-top:0;
+    padding-top:0;
+  }
+  .title-sponsor {
+    border-top: 5px solid $brand-primary;
+    margin-top: 1em;
+  }
+  .options {
+    @extend %row;
+    border-top: 1px solid $brand-primary;
+    margin-top: 2em;
+    padding-top: 2em;
+  }
+  .pod {
+    ul{
+      padding-left: 20px;
+    }
+    li {
+      font-size: .9em;
+    }
+  }
+  .basic-sponsor {
+    border-bottom: 1px solid $brand-primary;
+    border-top: 1px solid $brand-primary;
+    margin: 2em 0;
+  }
+}
+
 
 
 ///////////////////////////////////////////////////////////////////////
@@ -540,9 +587,6 @@ aside.meta {
   font-size: .9em;
   margin-top: 2em;
   padding-bottom: 1em;
-  div {
-    @extend %col-50;
-  }
   h2 {
     color: $brand-primary;
     margin-bottom:0;
