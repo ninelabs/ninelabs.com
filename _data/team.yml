@@ -105,9 +105,11 @@
   bio: |
     Enthusiastic, self-motivated with a flair for marketing and sales. Whether it be by knowledge, charm, wit, or all of the above; I generate results and follow through to get the job done. My passion for people and building relationships is a fantastic asset for growing businesses and energizing marketing efforts.
 
+
+
 - name: Sierra Petrowski
   photo: /img/people/sierra-petrowski.jpg
-  role: Interactive Design
+  role: Interactive Designer
   twitter: https://twitter.com/snpetrowski
   linkedin: https://www.linkedin.com/pub/sierra-petrowski/40/331/b88
   skills:
@@ -123,8 +125,77 @@
     - HTML5
     - CSS3
   bio: |
-    Sierra has a penchant for Ketel One dirty martinis with blue cheese stuffed olives and modern design standards. She earned a degree in marketing from Coastal Carolina University, then studied Interactive Design at the Creative Circus. Her goal as a designer is to help people take their good ideas and execute them well by making things work efficiently.
+    Sierra&rsquo;s goal as a designer is to help people take their good ideas and execute them well by making things work efficiently. Sierra earned a degree in marketing from Coastal Carolina University, then studied Interactive Design at the Creative Circus.
 
     She joined Nine Labs in 2014 as an interactive designer and enjoys that every client project requires something slightly different. As an independent and occasionally impatient only child, her worst fear after graduation was being siloed off at a large agency making banner ads every day. She’s glad to be involved in the full life cycle of a project and appreciates the strategy behind a well-researched design.
 
     Sierra enjoys Atlanta&rsquo;s wealth of festivals and good restaurants. She loves elephants, Stevie Wonder, espresso and Sans Serif fonts.
+
+- name: Patrick Haney
+  photo: /img/people/patrick-haney.jpg
+  role: Presentation Layer Developer
+  twitter: https://twitter.com/notasausage
+  linkedin: https://www.linkedin.com/patrickhaney
+  dribbble: https://dribbble.com/notasausage
+  skills:
+    - User Interface Design
+    - Responsive Web Design
+    - Mobile Design
+    - Usability
+    - Web Application Design
+    - Email Messaging Design
+    - HTML5
+    - CSS3
+    - jQuery
+    - Sass CSS
+  bio: |
+    Patrick is not a sausage. He's a designer/developer hybrid that has spent the last 17 years working as a web professional, from large corporations to startups to universities (including Harvard). He now runs his own design studio just outside of Rochester, NY with his wife, Jenna, and their adorable Jack Russell Terrier named Milo.
+
+    Patrick's expertise is in designing and hand-coding websites and web applications with HTML & CSS. He's a full-stack designer that is able to take a project from concept to final build and is keenly aware of cross-browser differences, web standards and usability concerns.
+
+    He's also adept at designing for mobile, both native and web-based products, and is highly experienced with responsive web design patterns and techniques. When he's not designing and developing for the web, you can find Patrick speaking at conferences, taking classes at RIT and getting involved in the local web community.
+
+- name: Paige Templeton
+  photo: /img/people/paige-templeton.jpg
+  role: User Experience Designer
+  twitter: https://twitter.com/paigejosie
+  linkedin: https://www.linkedin.com/in/paigejosie
+  website: http://paigejosephine.com/
+  skills:
+    - User Interface Design
+    - User Experience Design
+    - Responsive Web Design
+    - Application Prototyping
+    - Sketch
+    - Invision
+    - HTML5
+    - CSS3
+  bio: |
+    Paige finds herself lost in the creative world most hours of the day. She earned a BA in Integrative Studies from Oakland University with an emphasis on Communications, Computer Science, and Psychology.
+
+    Here at Nine Labs, Paige does UX/UI and  Front End Development. She thrives on pixel-perfect gutters and Heuristic Evaluations. Before Nine Labs, Paige was a Junior Front End Developer at Mercury Studio in Detroit, MI. She is passionate about women in tech, coffee, and the rejuvenation of her hometown Detroit. She is excited to continue to grow as a designer and developer.
+
+    On her spare time you can catch Paige either sipping on dessert wine while reading Jane Austen or shredding powder on her snowboard.
+
+- name: Jacklyn Burgan
+  photo: /img/people/jacklyn-burgan.jpg
+  role: UX Researcher + Strategist
+  twitter: https://twitter.com/playfulpixel
+  linkedin: https://www.linkedin.com/in/jacklynburgan
+  website: http://www.playfulpixel.com/
+  skills:
+    - User Experience Design
+    - User Research
+    - Agile Methodologies
+    - Usability
+    - Usability Testing
+    - Interaction Design
+    - Wireframing
+    - User-centered Design
+    - Information Architecture
+  bio: |
+    Jacklyn is a user experience researcher and strategist with experience in the corporate, agency and startup worlds; she’s passionate about usability, empathetic design and collaboration. She is currently a user experience researcher at Pardot, a Salesforce company.
+
+    Jacklyn is a firm believer that educating the future leaders is just as important as eating your greens; she advocates engineering and user experience career paths to young women, conducts workshops at conferences and participates in the Atlanta design community meetups.
+
+    In her free time, you can find her on the competitive dance floor, organizing the Atlanta chapter of Ladies That UX, or walking the Beltline with her dog.
