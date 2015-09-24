@@ -71,17 +71,17 @@
   {% if page.pid == 'styleguide' %}<script src="/js/styleguide.js"></script>{% endif %}
   {% if page.textrotate %}
   <script>
-  var keywords = $("span.rotate").data("words").split(',');
+  var keywords = $(".rotate").data("words").split('|');
   var count = 1;
   setInterval(function(){
-    $("span.rotate").fadeOut(400, function(){
+    $(".rotate").fadeOut(400, function(){
       $(this).html(keywords[count]);
       count++;
       if(count == keywords.length)
         count = 0;
       $(this).fadeIn(400);
     });
-  }, 3000);
+  }, 5000);
   </script>
   {% endif %}
   <script>
