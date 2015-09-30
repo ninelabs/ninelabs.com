@@ -1,10 +1,22 @@
-www
-===
+# Master repo for the Nine Labs website
 
-Master repo for the Nine Labs website
+## Installing Locally
 
-### Installing Locally
-To get running you'll need to install [Jekyll](http://jekyllrb.com/), [Bower](http://bower.io/), and [Compass](http://compass-style.org/). This assumes you are running OS X and already have XCode and the [command line tools](http://stackoverflow.com/questions/9329243/xcode-4-4-and-later-install-command-line-tools) installed.
+#### For newbies:
+If you're new to development, you'll need to follow these steps first.
+
+1. Create a new folder named `Projects` in your root directory. 
+    1. Open Finder, click Go in the menubar, click "Go to Folder...".
+    1. Type a tilde `~` in the box and click 'Go'
+    1. Either option-click or use the menu to create a new folder and name it "Projects"
+1. Install the [GitHub App](https://desktop.github.com)
+1. Once the Github App is running, you'll need to [clone this repository](https://help.github.com/articles/cloning-a-repository/#cloning-a-repository-to-github-desktop) to the `Projects` folder you just created.
+1. Now you should be good to move on to the next steps.
+
+#### For Pros:
+**Important:** This assumes you are running OS X and already have [XCode](https://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12) and the [command line tools](http://stackoverflow.com/questions/9329243/xcode-4-4-and-later-install-command-line-tools) installed. If you don't please start at the [newbie](#for-newbies) section above.
+
+To get running you'll need to install [Jekyll](http://jekyllrb.com/), [Bower](http://bower.io/), and [Compass](http://compass-style.org/). 
 
 [Here's a good tutorial](http://davidpots.com/blog/jekyll-github-pages-compass/)
 
