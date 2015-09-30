@@ -36,10 +36,10 @@ Then install Bower. It depends on [Node](http://nodejs.org/) and [npm](http://np
 
 **Now that things are installed**
 
-Move into your webafternoon.com directory and start the Jekyll server.
+Move into your ninelabs.com directory and start the Jekyll server.
 
-    cd webafternoon.com
-    jekyll serve -w --baseurl ''
+    cd ninelabs.com
+    jekyll serve
 
 Now you can view your out-of-the-box website by going to [http://localhost:4000](http://localhost:4000).
 
