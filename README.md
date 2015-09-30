@@ -16,9 +16,7 @@ If you're new to development, you'll need to follow these steps first.
 #### For Pros:
 **Important:** This assumes you are running OS X and already have [XCode](https://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12) and the [command line tools](http://stackoverflow.com/questions/9329243/xcode-4-4-and-later-install-command-line-tools) installed. If you don't please start at the [newbie](#for-newbies) section above.
 
-To get running you'll need to install [Jekyll](http://jekyllrb.com/), [Bower](http://bower.io/), and [Compass](http://compass-style.org/). 
-
-[Here's a good tutorial](http://davidpots.com/blog/jekyll-github-pages-compass/)
+To get running you'll need to install [Jekyll](http://jekyllrb.com/docs/installation/), [Bower](http://bower.io/#install-bower), and [Compass](http://compass-style.org/install/). 
 
 #### Setting up Jekyll
 
