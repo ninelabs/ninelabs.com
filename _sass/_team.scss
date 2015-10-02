@@ -4,7 +4,7 @@
   .the-huddle {
     @extend %row;
     .member {
-      @extend %col-33;
+      @extend %col-50;
       margin-bottom: 1.5em;
       .meta {
         display: inline-block;

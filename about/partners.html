@@ -1,0 +1,32 @@
+---
+layout: default
+title: Technology Partners
+pid: about
+weight: 5
+---
+
+<section id="team">
+  <header>
+    <hgroup>
+      <h1>Only Work With the Best</h1>
+    </hgroup>
+  </header>
+  <aside>
+    {% include local-navigation.html %}
+  </aside>
+  <article>
+    <p class="lead"></p>
+    <div class="the-huddle">
+      <h2>The Team</h2>
+      {% for partner in site.data.partners %}
+      <div class="member">
+        <img src="{{ partner.photo }}" alt="{{ partner.name }}">
+      </div>
+      {% endfor %}
+    </div>
+
+    <p>We believe the Web should help make the world a better place for everyone. <a href="/community/">Find out</a> how we&rsquo;re involved in the local community.</p>
+  </article>
+</section>
+
+{% include footer-contact.html %}

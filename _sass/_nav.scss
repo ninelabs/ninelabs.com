@@ -132,7 +132,20 @@
   }
 }
 
-
+.local-nav {
+  margin-top: .5em;
+  a {
+    display: block;
+    @extend %nav-font;
+    margin-bottom: .75em;
+    &:hover, &.active {
+      color: $brand-primary;
+    }
+    &.active:after {
+      content: " \000BB";
+    }
+  }
+}
 
 
 

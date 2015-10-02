@@ -1,0 +1,49 @@
+---
+layout: default
+title: Meet the Team
+pid: about
+weight: 2
+---
+
+<section id="team">
+  <header>
+    <hgroup>
+      <h1>Use our experience to create yours.</h1>
+    </hgroup>
+  </header>
+  <aside>
+    {% include local-navigation.html %}
+  </aside>
+  <article>
+    <p class="lead">Imagine if you played guitar every day for 20 years.</p>
+    <p>You&rsquo;d probably be pretty good. Now imagine you&rsquo;re in a band with people who&rsquo;ve been playing as long as you have. That band would be really, really good.</p>
+    <p>That band is us, but we create digital experiences instead of music. Add us all up and we&rsquo;ve been doing it for 51 years. We&rsquo;ve seen the birth of ecommerce, the .com bubble and bust, and the rise of social media.</p>
+    <p>We&rsquo;ve seen just about every strategy you can think of. Hell, we&rsquo;ve tried most of them. We know what works, what doesn&rsquo;t, and we have the scars to prove it. </p>
+    <p><a href="/contact/">Let&rsquo;s have coffee</a>. We&rsquo;ll tell you some good stories.</p>
+    <div class="the-huddle">
+      <h2>The Team</h2>
+      {% for member in site.data.team %}
+      <div class="member">
+        <div class="meta"><a href="/{{ member.name | datapage_url: 'about' }}"><img src="{{member.photo}}" alt="{{member.name}}"></a></div>
+        <div class="caption">
+          <h4><a href="/{{ member.name | datapage_url: 'about' }}">{{member.name}}</a></h4>
+          <p>{{member.role}}</p>
+          <span class="elsewhere">
+            {% if member.twitter %}<a href="{{ member.twitter }}"><i class="fa fa-twitter-square"></i></a>{% endif %}
+            {% if member.facebook %}<a href="{{ member.facebook }}"><i class="fa fa-facebook-square"></i></a>{% endif %}
+            {% if member.linkedin %}<a href="{{ member.linkedin }}"><i class="fa fa-linkedin-square"></i></a>{% endif %}
+            {% if member.instagram %}<a href="{{ member.instagram }}"><i class="fa fa-instagram"></i></a>{% endif %}
+            {% if member.github %}<a href="{{ member.github }}"><i class="fa fa-github-square"></i></a>{% endif %}
+            {% if member.dribbble %}<a href="{{ member.dribbble }}"><i class="fa fa-dribbble"></i></a>{% endif %}
+            {% if member.website %}<a href="{{ member.website }}"><i class="fa fa-external-link-square"></i></a>{% endif %}
+          </span>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <p>We believe the Web should help make the world a better place for everyone. <a href="/community/">Find out</a> how we&rsquo;re involved in the local community.</p>
+  </article>
+</section>
+
+{% include footer-contact.html %}

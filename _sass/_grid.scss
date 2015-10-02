@@ -76,6 +76,7 @@ main {
         @extend %col-75;
       }
       aside {
+        padding-left: 0;
         @extend %col-25;
       }
     }
