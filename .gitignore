@@ -7,3 +7,4 @@ rb_config.rb
 node_modules
 bower_components
 *.sublime-*
+Gemfile.lock
