@@ -3,8 +3,12 @@
   @extend %row;
   .discipline {
     @extend %col-50;
+    margin-bottom: 2em;
     &:nth-child(odd) {
       clear:left;
+    }
+    img {
+      margin-bottom: .5em;
     }
   }
 }

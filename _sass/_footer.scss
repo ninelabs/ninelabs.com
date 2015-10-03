@@ -1,0 +1,42 @@
+///////////////////////////////////////////////////////////////////////
+// FOOTER
+
+footer {
+  @extend %container;
+  font-family: $font-family-sans-serif;
+  @include breakpoint(xs){
+    padding: 0 0 2em;
+  }
+  nav {
+    display: inline-block;
+    margin-bottom: 1em;
+    margin-right: 2em;
+    vertical-align: top;
+    a {
+      display: block;
+      font-size: .75em;
+      font-weight: 400;
+      padding:0 .5em;
+      text-decoration: none;
+      &:first-of-type {
+        font-weight: 600;
+      }
+    }
+  }
+  .social {
+    a {
+      display: block;
+    }
+  }
+  .copyright {
+    font-size: .6em;
+  }
+  #logo {
+    height:45px;
+    width:45px;
+    .brand-mark {
+      fill:$brand-primary;
+    }
+
+  }
+}

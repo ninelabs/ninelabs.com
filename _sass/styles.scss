@@ -8,9 +8,11 @@
 'grid',
 'scaffold',
 'nav',
+'footer',
 'forms',
 'work',
 'team',
+'jobs',
 'pygments';
 
 html {
@@ -607,7 +609,7 @@ aside.meta {
 //  Contact Section
 
 .footer-contact {
-  @extend %row;
+  clear:both;
   border-bottom: $default-border;
   border-top: $default-border;
   font-size: .9em;
@@ -643,49 +645,6 @@ aside.meta {
   padding: 0;
 }
 
-///////////////////////////////////////////////////////////////////////
-// JOBS
-
-@import "jobs";
-
-
-///////////////////////////////////////////////////////////////////////
-// FOOTER
-footer {
-  font-family: $font-family-sans-serif;
-  margin: 0;
-  padding: 5em 0;
-  text-align: center;
-  @include breakpoint(xs){
-    padding: 0 0 2em;
-  }
-  nav {
-    margin:1.5em 0 1em;
-    a {
-      font-size: .8em;
-      padding:0 .5em;
-    }
-  }
-  .social {
-    margin-bottom: 1em;
-    a {
-      display: inline-block;
-      font-size: 1.25em;
-      margin:0 20px;
-    }
-  }
-  .copyright {
-    font-size: .8em;
-  }
-  #logo {
-    height:45px;
-    width:45px;
-    .brand-mark {
-      fill:$brand-primary;
-    }
-
-  }
-}
 
 .error404-img {
   @extend %col-40;
