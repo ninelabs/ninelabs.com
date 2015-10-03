@@ -1,0 +1,10 @@
+
+.disciplines {
+  @extend %row;
+  .discipline {
+    @extend %col-50;
+    &:nth-child(odd) {
+      clear:left;
+    }
+  }
+}

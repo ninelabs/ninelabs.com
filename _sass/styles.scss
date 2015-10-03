@@ -1,6 +1,17 @@
 // styles.scss
 
-@import 'normalize','variables','mixins','responsive','grid','scaffold','nav','forms','pygments';
+@import
+'normalize',
+'variables',
+'mixins',
+'responsive',
+'grid',
+'scaffold',
+'nav',
+'forms',
+'work',
+'team',
+'pygments';
 
 html {
   border-left: 15px solid $brand-primary;
@@ -374,10 +385,6 @@ figure {
     }
   }
 }
-
-
-@import "team";
-
 
 
 ///////////////////////////////////////////////////////////////////////
