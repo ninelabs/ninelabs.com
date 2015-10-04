@@ -5,14 +5,14 @@
 {% assign allpages = (site.pages | sort: "weight" ) %}
 
 <nav class="local-nav">
-{% for node in allpages %}
+  {% for node in allpages %}
   {% if node.url contains base_url and node.nav != 'exclude' %}
-    {% assign node_url_parts = node.url | split: '/' %}
-    {% assign node_url_parts_size = node_url_parts | size %}
-    {% assign filename = node_url_parts | last %}
-    {% if url_parts_size == node_url_parts_size %}
-      <a href='{{node.url}}'{% if page.url == node.url %} class="active"{% endif %}>{{node.title}}</a>
-    {% endif %}
+  {% assign node_url_parts = node.url | split: '/' %}
+  {% assign node_url_parts_size = node_url_parts | size %}
+  {% assign filename = node_url_parts | last %}
+  {% if url_parts_size == node_url_parts_size %}
+  <a href='{{node.url}}'{% if page.url == node.url %} class="active"{% endif %}>{{node.title}}</a>
   {% endif %}
-{% endfor %}
+  {% endif %}
+  {% endfor %}
 </nav>
