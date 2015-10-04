@@ -19,7 +19,7 @@ Strongbox West is a modern coworking space designed to offer freelancers, start-
 Atlanta&rsquo;s original coworking spot had outgrown their building. Moving from 9,000 sq. ft. to over 44,000 sq. ft. is a major upgrade, and Strongbox wanted to upgrade their identity along with their digs. So, they approached us to come up with a new logo to help communicate that things had changed.
 
 ## The Solution
-[Brad](/experience/brad-weaver.html) worked with the Strongbox West team to develop a new brand direction. The old logo reflected the industrial feel of the coworking space, but it needed to be modernized. We took inspiration for the logo&rsquo;s shape from the low, horizontal new building, and roughed it up a bit to make sure the pirate mentality of the scrappy entreprenuers who work at Strongbox came through. The options our team presented to the client had a handmade, DIY feel.
+[Brad](/about/brad-weaver.html) worked with the Strongbox West team to develop a new brand direction. The old logo reflected the industrial feel of the coworking space, but it needed to be modernized. We took inspiration for the logo&rsquo;s shape from the low, horizontal new building, and roughed it up a bit to make sure the pirate mentality of the scrappy entreprenuers who work at Strongbox came through. The options our team presented to the client had a handmade, DIY feel.
 
 ![Logos](//s3.amazonaws.com/ninelabs.com/work-screenshot-strongboxwest-brand.png)
 

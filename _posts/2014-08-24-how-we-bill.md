@@ -21,7 +21,7 @@ You know what you&rsquo;re spending and can see a clear result of the work. This
 
 ### Options to Suit Your Needs
 
-We work in one of three ways: [Short Term](/short-term/), on a project basis, or in a retainer based relationship. What&rsquo;s the difference? Glad you asked.
+We work in one of three ways: [Short Term](/approach/short-term.html), on a project basis, or in a retainer based relationship. What&rsquo;s the difference? Glad you asked.
 
 #### Project Based Budgets
 Most projects have a clear start and end. You know where you are and where you want to be. Through a discovery phase we work with you to define the scope of a project, it&rsquo;s timeline and budget.
