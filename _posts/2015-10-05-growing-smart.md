@@ -2,13 +2,14 @@
 published: true
 layout: notes
 author: Jordan Watts
-slug: growing-smart
-image: http://s3.amazonaws.com/ninelabs.com/russell-simmons-quote.jpg
+slug: "growing-smart"
+image: "http://s3.amazonaws.com/ninelabs.com/russell-simmons-quote.jpg"
 ---
 
-The past year at Nine Labs has been one for the books! It started with the merging of our (Brad and J) companies, creating the new and improved Nine Labs. Once the merger was complete, business starting picking up at a breakneck pace, and we found ourselves covered up in work.
 
-We quickly realized that future growth is dependent on quality staffing, so we set out to build a great place for smart people to do their best work. Over the last 12 months, the Nine Labs crew has almost tripled, and business continues to grow exponentially.
+The past year at Nine Labs has been one for the books! It started with the merging of our (Brad and J) two companies, resulting in the new and improved Nine Labs. Once the merger was complete, business picked up at a breakneck pace, and we found ourselves covered up in work.
+
+We quickly realized that future growth is dependent on quality staffing, so we set out to build a great place for smart people to do their best work. Over the last 12 months, the Nine Labs crew has almost tripled in size, and business continues to grow exponentially.
 
 Allow us to introduce you to our new team members. They are some smart cookies, and chances are good that you’ll recognize a few of them!
 
@@ -28,7 +29,7 @@ Sierra came to us with a degree in marketing from Coastal Carolina University, h
 ### Jordan Watts
 ##### Content Strategist/carpool mom with a tattoo
 
-Jordan recently joined the team at Nine Labs to tackle marketing and brand development. She is a lover of words and imagery, and finding the perfect marriage of the two is something she is enthusiastic about. She is an author and a musician, and fits right in with this creative and sometimes-crazy crew.
+Jordan recently joined us at Nine Labs to tackle marketing and brand development. She is a lover of words and imagery, and finding the perfect marriage of the two is something she is enthusiastic about. She is an author and a musician, and fits right in with this creative and sometimes-crazy crew.
 
 ###### Sept. 2015
 ### Patrick Haney
@@ -60,4 +61,4 @@ Charline has gained invaluable experience around the world in art and design. Sh
 
 Kellye is a 2012 graduate of the University of Georgia, where she received her Bachelor of Arts in Political Science degree, along with a minor in dance. She then devoted her time and talents to GivingPoint, ultimately taking on the role of Sr. Digital Strategist by managing the ongoing development and advancement of the company’s website and social media platforms. We couldn’t be more excited that she’s joining the Nine Labs family.
 
-In summary, it takes a great team to make great design happen, and Nine Labs has it. We believe the future is bright and that we are staffed with the best people to get us there. Cheers to what lies ahead!
+In short, it takes a great team to make great design happen, and Nine Labs has it. We believe the future is bright and that we are staffed with the best people to get us there. Cheers to what lies ahead!
