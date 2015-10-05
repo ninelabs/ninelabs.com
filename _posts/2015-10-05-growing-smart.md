@@ -1,9 +1,11 @@
 ---
 published: true
 layout: notes
+author: Jordan Watts
 ---
 
-_“Surround yourself with people who are smarter than you.”_ - Russell Simmons
+
+> Surround yourself with people who are smarter than you. - Russell Simmons
 
 The past year at Nine Labs has been one for the books! It started with Brad and J merging companies to create the new and improved Nine Labs. Once the merger was complete, business starting picking up at a breakneck pace, and Brad and J quickly found themselves covered up in work. 
 
@@ -11,10 +13,13 @@ They quickly realized that future growth is dependent on adequate and quality st
 
 Allow us to introduce you to our new team members. They are some smart cookies, and chances are good that you’ll recognize a few of them!
 
-**July 2015 - Miranda Hocevar, Managing Director/Auburn football freak**
+#### July 2015 
+## Miranda Hocevar, Managing Director/Auburn football freak
+
 Over the last decade, Miranda has worked for several well-known organizations in marketing, media relations and communications, sales, management, and business development. Oh, and did we also mention that she’s a two-time Emmy winner from her time as an associate producer at ESPN? Miranda now works as Nine Labs’ Managing Director, overseeing daily operations and client relations.
 
 **Aug. 2015 - Sierra Petrowski, Interactive Designer/Stevie Wonder superfan**
+
 Sierra came to us with a degree in marketing from Coastal Carolina University, having also studied interactive design at Creative Circus. Her skills, combined with her get-it-done attitude, make her a huge asset. She worked with us as a contractor over the last year, but is now a full-time member of our team.
 
 **Aug. 2015 - Jordan Watts, Content Strategist/carpool mom with a tattoo**
