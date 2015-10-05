@@ -2,19 +2,17 @@
 published: true
 layout: notes
 author: Jordan Watts
+slug: growing-smart
+image: http://s3.amazonaws.com/ninelabs.com/russell-simmons-quote.jpg
 ---
 
+The past year at Nine Labs has been one for the books! It started with the merging of our (Brad and J) companies, creating the new and improved Nine Labs. Once the merger was complete, business starting picking up at a breakneck pace, and we found ourselves covered up in work.
 
-
-> "Surround yourself with people who are smarter than you." - Russell Simmons
-
-The past year at Nine Labs has been one for the books! It started with the merging of our (Brad and J) companies, creating the new and improved Nine Labs. Once the merger was complete, business starting picking up at a breakneck pace, and we found ourselves covered up in work. 
-
-We quickly realized that future growth is dependent on quality staffing, so we set out to build a great place for smart people to do their best work. Over the last 12 months, the Nine Labs crew has almost tripled, and business continues to grow exponentially. 
+We quickly realized that future growth is dependent on quality staffing, so we set out to build a great place for smart people to do their best work. Over the last 12 months, the Nine Labs crew has almost tripled, and business continues to grow exponentially.
 
 Allow us to introduce you to our new team members. They are some smart cookies, and chances are good that you’ll recognize a few of them!
 
-###### July 2015 
+###### July 2015
 ### Miranda Hocevar
 ##### Managing Director/Auburn football freak
 

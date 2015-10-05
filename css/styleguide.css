@@ -2386,34 +2386,49 @@ aside.meta p {
   margin-left: 40px !important;
 }
 
-/* line 582, ../_sass/styles.scss */
+/* line 583, ../_sass/styles.scss */
+.growing-smart h6 {
+  color: #999;
+  margin-bottom: 0;
+}
+/* line 584, ../_sass/styles.scss */
+.growing-smart h3 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+/* line 585, ../_sass/styles.scss */
+.growing-smart h5 {
+  margin-top: 0;
+}
+
+/* line 588, ../_sass/styles.scss */
 .posts-page-navigation {
   border-top: 1px solid #999999;
   font-size: .8em;
   margin-top: 2em;
   padding-top: 1em;
 }
-/* line 591, ../_sass/styles.scss */
+/* line 597, ../_sass/styles.scss */
 .posts-page-navigation .right {
   text-align: right;
 }
 
-/* line 602, ../_sass/styles.scss */
+/* line 608, ../_sass/styles.scss */
 .docs .post ol li {
   list-style-type: decimal;
   padding-top: .75em;
   margin-bottom: .125em;
 }
-/* line 606, ../_sass/styles.scss */
+/* line 612, ../_sass/styles.scss */
 .docs .post ol li ol li {
   list-style-type: lower-latin;
 }
-/* line 608, ../_sass/styles.scss */
+/* line 614, ../_sass/styles.scss */
 .docs .post ol li ol li ol li {
   list-style-type: lower-roman;
 }
 
-/* line 620, ../_sass/styles.scss */
+/* line 626, ../_sass/styles.scss */
 .footer-contact {
   clear: both;
   border-bottom: 1px solid #999999;
@@ -2422,17 +2437,17 @@ aside.meta p {
   margin-top: 2em;
   padding-bottom: 1em;
 }
-/* line 627, ../_sass/styles.scss */
+/* line 633, ../_sass/styles.scss */
 .footer-contact h2 {
   color: #e4166f;
   margin-bottom: 0;
 }
-/* line 631, ../_sass/styles.scss */
+/* line 637, ../_sass/styles.scss */
 .footer-contact p {
   margin-top: 0;
 }
 
-/* line 640, ../_sass/styles.scss */
+/* line 646, ../_sass/styles.scss */
 #contact h2 {
   font-family: "freight-text-pro", "georgia", serif;
   font-style: italic;
@@ -2440,12 +2455,12 @@ aside.meta p {
   text-transform: none;
 }
 
-/* line 647, ../_sass/styles.scss */
+/* line 653, ../_sass/styles.scss */
 .contact-options {
   margin-bottom: 3em;
 }
 
-/* line 651, ../_sass/styles.scss */
+/* line 657, ../_sass/styles.scss */
 .contact-option {
   font-size: 1.25em;
   margin: 0;
@@ -2523,7 +2538,7 @@ aside.meta p {
   content: close-quote;
 }
 
-/* line 672, ../_sass/styles.scss */
+/* line 678, ../_sass/styles.scss */
 pre {
   border: none;
   padding: 0;
