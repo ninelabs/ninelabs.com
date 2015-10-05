@@ -24,7 +24,7 @@
   position: relative;
   width:200px;
   .brand-mark-word, .brand-mark {
-    path, polygon {
+    path, polygon, polyline {
       fill:$brand-primary;
     }
   }

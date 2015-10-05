@@ -586,7 +586,7 @@ hr {
   width: 200px;
 }
 /* line 27, ../_sass/_nav.scss */
-.logo .brand-mark-word path, .logo .brand-mark-word polygon, .logo .brand-mark path, .logo .brand-mark polygon {
+.logo .brand-mark-word path, .logo .brand-mark-word polygon, .logo .brand-mark-word polyline, .logo .brand-mark path, .logo .brand-mark polygon, .logo .brand-mark polyline {
   fill: #e4166f;
 }
 /* line 31, ../_sass/_nav.scss */
