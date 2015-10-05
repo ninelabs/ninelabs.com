@@ -113,7 +113,7 @@
         width:auto;
         a {
           padding-bottom: 10px;
-          border-bottom: 5px solid white;
+          border-bottom: 5px solid rgba(0, 0, 0, 0);
           &:hover, &.active {
             border-bottom: 5px solid $brand-primary;
           }
