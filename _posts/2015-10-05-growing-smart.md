@@ -1,5 +1,6 @@
 ---
 published: true
+layout: notes
 ---
 
 _“Surround yourself with people who are smarter than you.”_ - Russell Simmons
