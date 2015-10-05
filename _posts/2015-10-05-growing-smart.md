@@ -2,7 +2,6 @@
 published: false
 ---
 
-
 _“Surround yourself with people who are smarter than you.”_ - Russell Simmons
 
 The past year at Nine Labs has been one for the books! It started with Brad and J merging companies to create the new and improved Nine Labs. Once the merger was complete, business starting picking up at a breakneck pace, and Brad and J quickly found themselves covered up in work. 
