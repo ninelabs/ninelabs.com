@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'bundler'
-gem 'jekyll'
+gem 'jekyll', '~> 1.5'
 gem 'jekyll-redirect-from'
 gem 'rack-jekyll'
 gem 'compass'
