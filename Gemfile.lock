@@ -103,6 +103,6 @@ DEPENDENCIES
   bundler
   compass
   html-proofer
-  jekyll (~> 2.1)
+  jekyll (~> 2.5)
   jekyll-redirect-from
   rack-jekyll
