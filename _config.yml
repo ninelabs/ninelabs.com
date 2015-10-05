@@ -1,6 +1,7 @@
 name: Nine Labs
 description: Strategic Thinking to Help Your Business.
 url: https://ninelabs.com
+host: 0.0.0.0
 markdown: redcarpet
 redcarpet:
   extensions: [smart]
