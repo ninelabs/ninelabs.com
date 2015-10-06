@@ -15,17 +15,16 @@ weight: 5
     {% include local-navigation.html %}
   </aside>
   <article>
-    <p class="lead"></p>
-    <div class="the-huddle">
-      <h2>The Team</h2>
+
+    <p class="lead">Working with fantastic companies helps make any project succeed.</p>
+    <div class="partner-huddle">
       {% for partner in site.data.partners %}
-      <div class="member">
-        <img src="{{ partner.logo }}" alt="{{ partner.name }}">
+      <div class="partner">
+        <a href="{{ partner.url }}"><img src="/img/partners/{{ partner.logo }}" alt="{{ partner.name }}"></a>
       </div>
       {% endfor %}
     </div>
 
-    <p>We believe the Web should help make the world a better place for everyone. <a href="/community/">Find out</a> how we&rsquo;re involved in the local community.</p>
   </article>
 </section>
 

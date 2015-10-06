@@ -1,14 +1,39 @@
 - name: InVision
   tagline:
   url: http://www.invisionapp.com
-  logo: invisionapp.png
+  logo: invision.png
+
+- name: Shopify
+  tagline:
+  url: http://www.shopify.com
+  logo: shopify.png
+
+- name: Squarespace
+  tagline:
+  url: http://www.squarespace.com
+  logo: squarespace.png
 
 - name: MailChimp
   tagline:
   url: http://www.mailchimp.com
   logo: mailchimp.png
 
-- name: MailChimp
+- name: InfusionSoft
   tagline:
-  url: http://www.mailchimp.com
-  logo: mailchimp.png
+  url: http://www.infusionsoft.com
+  logo: infusionsoft.png
+
+- name: GitHub
+  tagline:
+  url: http://www.github.com
+  logo: github.png
+
+- name: Digital Ocean
+  tagline:
+  url: http://www.digitalocean.com
+  logo: digitalocean.png
+
+- name: Heroku
+  tagline:
+  url: http://www.heroku.com
+  logo: heroku.png
