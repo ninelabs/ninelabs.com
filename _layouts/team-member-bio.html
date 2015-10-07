@@ -1,6 +1,7 @@
 ---
 layout: default
 pid: about
+nav: exclude
 ---
 <section id="team-member">
   <header>
@@ -11,7 +12,7 @@ pid: about
 
   <div class="member-page">
     <aside class="member-meta meta">
-      <img src="{{ page.photo}}">
+      <img src="{{ page.photo}}" alt="{{ page.title }}">
       <h5>Elsewhere</h5>
       <span class="elsewhere">
         {% if page.twitter %}<a href="{{ page.twitter }}"><i class="fa fa-twitter-square"></i></a>{% endif %}
@@ -22,7 +23,7 @@ pid: about
         {% if page.dribbble %}<a href="{{ page.dribbble }}"><i class="fa fa-dribbble"></i></a>{% endif %}
         {% if page.website %}<a href="{{ page.website }}"><i class="fa fa-external-link-square"></i></a>{% endif %}
       </span>
-      <p><a href="/about/">&laquo; Back to The Team</a></p>
+      <p><a href="/about/team.html">&laquo; Back to The Team</a></p>
     </aside>
     <div class="member-info">
       <h2 class="member-title">{{ page.role }}</h2>

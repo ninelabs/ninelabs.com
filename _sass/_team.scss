@@ -5,7 +5,7 @@
     @extend %row;
     .member {
       @extend %col-33;
-      margin-bottom: 1.5em;
+      margin-bottom: 2em;
       .meta {
         display: inline-block;
         position: relative;
@@ -13,11 +13,11 @@
         margin-right: 3%;
         min-height: 100%;
         img {
-          width: 260px;
+          width: 300px;
         }
         a {
           color: rgba(255,255,255,.3);
-          font-size: 1.25em;
+          font-size: 1em;
           text-decoration: none;
           text-indent: -999em;
           text-shadow:none;
@@ -29,10 +29,13 @@
       }
       .caption{
         display: inline-block;
+        margin-top: .5em;
         position: relative;
-        width: 75%;
         h4 {
           margin: 0;
+        }
+        a {
+          text-decoration: none;
         }
         p {
           font-size: .75em;

@@ -2,7 +2,7 @@
 // Grid.scss
 
 // Configs
-$width:  960px;
+$width:  1200px;
 $full:   100;
 
 $common: 10, 20, 25, 30, 33, 40, 50, 60, 66, 70, 75, 80, 90, 100;
@@ -61,7 +61,21 @@ $gutter-width: 30px;
   %col-33, %col-40, %col-60, %col-66 {
     width: percentage($full / 200);
   }
+  %col-20, %col-25 {
+    width: 25%
+  }
 }
+
+@media (max-width: $screen-xs-max) {
+  %col-20, %col-25 {
+    width: 33%;
+    &:nth-child(3n+1) {
+      clear: left;
+    }
+  }
+}
+
+
 
 //////////////////////////
 // Content Scaffold
@@ -76,6 +90,7 @@ main {
         @extend %col-75;
       }
       aside {
+        padding-left: 0;
         @extend %col-25;
       }
     }

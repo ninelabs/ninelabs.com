@@ -1,0 +1,34 @@
+---
+layout: default
+title: Technology Partners
+pid: about
+weight: 5
+---
+
+<section id="team">
+  <header>
+    <hgroup>
+      <h1>Only Work With the Best</h1>
+    </hgroup>
+  </header>
+  <aside>
+    {% include local-navigation.html %}
+  </aside>
+  <article>
+
+    <p class="lead">We make it a priority to surround ourselves with top-of-the-line technologies. Working with fantastic companies helps us make every client project successful.</p>
+    <div class="partner-huddle">
+      {% for partner in site.data.partners %}
+      <div class="partner">
+        <a href="{{ partner.url }}">
+          <img src="/img/partners/{{ partner.logo }}" alt="{{ partner.name }}">
+          <p class="meta">{{ partner.name }}</p>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+
+  </article>
+</section>
+
+{% include footer-contact.html %}

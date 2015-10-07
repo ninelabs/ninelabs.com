@@ -3,7 +3,7 @@
 <!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html {% if page.pid == 'home' %}id="home" {% endif %}class="no-js" lang="en"> <!--<![endif]-->
 <head>
   <title>{% if page.title or post.title %}{{ page.title }}{{ post.title }} // {{ site.name }}{% else %} {{ site.name }} // Strategic thinking to help your business{% endif %}</title>
   <meta charset="utf-8">

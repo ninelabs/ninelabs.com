@@ -2,7 +2,7 @@
 layout: default
 pid: notes
 ---
-<div class="post-container labnotes">
+<div class="post-container labnotes {{ page.slug }}">
   <aside class="post-meta meta">
     <p><a href="/notes/">&laquo; All Lab Notes</a></p>
     <p><em>Posted:</em> {{ page.date | date: "%b %-d, %Y" }}</p>
@@ -21,12 +21,12 @@ pid: notes
       <h2>{{ page.title }}</h2>
     </header>
     <div class="post">
-      {% if page.image %}<img src="{{ page.image }}">{% endif %}
+      {% if page.image %}<img src="{{ page.image }}" alt="Header Image">{% endif %}
       {{ content }}
       {% if page.category == 'clientwork' and page.client.quote != null %}
       <div class="client-quote">
         <div class="client-photo">
-          <img src="/img/people/{{ page.client.quote-person-photo }}">
+          <img src="/img/people/{{ page.client.quote-person-photo }}" alt="{{ page.client.quote-person }}">
         </div>
         <blockquote>
           <p>{{ page.client.quote }}</p>

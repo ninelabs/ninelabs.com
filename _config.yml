@@ -6,7 +6,6 @@ redcarpet:
   extensions: [smart]
 exclude: [vendor]
 highlighter: pygments
-port: 9999
 permalink: /notes/:title.html
 paginate: 100
 paginate_path: "/notes/page:num/"

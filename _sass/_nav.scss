@@ -24,7 +24,7 @@
   position: relative;
   width:200px;
   .brand-mark-word, .brand-mark {
-    path, polygon {
+    path, polygon, polyline {
       fill:$brand-primary;
     }
   }
@@ -113,7 +113,7 @@
         width:auto;
         a {
           padding-bottom: 10px;
-          border-bottom: 5px solid white;
+          border-bottom: 5px solid rgba(0, 0, 0, 0);
           &:hover, &.active {
             border-bottom: 5px solid $brand-primary;
           }
@@ -132,13 +132,21 @@
   }
 }
 
-
-
-
-
-
-
-
-
-
-
+.local-nav {
+  margin-bottom: 2em;
+  margin-top: .5em;
+  a {
+    display: block;
+    @extend %nav-font;
+    margin-bottom: .75em;
+    &:hover, &.active {
+      color: $brand-primary;
+    }
+    &.active:after {
+      content: " \000BB";
+    }
+  }
+  @include breakpoint(xs) {
+    display:none;
+  }
+}

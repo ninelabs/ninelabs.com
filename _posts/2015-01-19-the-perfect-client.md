@@ -36,7 +36,7 @@ You can't do everything well. Perhaps the most important thing is that a company
 
 
 ## Why We&rsquo;re a Great Option
-We can help companies of both sizes by offering a diverse range of services and skills for the same cost as a full-time staff member. We also offer [a-la-carte sessions](/sessions/) that make it possible to get our thoughts and expertise without a huge commitment.
+We can help companies of both sizes by offering a diverse range of services and skills for the same cost as a full-time staff member. We also offer [Short-term Consulting](/approach/short-term.html) that make it possible to get our thoughts and expertise without a huge commitment.
 
 This is a great benefit for the company:
 
