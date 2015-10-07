@@ -4,7 +4,10 @@
   .the-huddle {
     @extend %row;
     .member {
-      @extend %col-33;
+      @extend %col-50;
+      &:nth-child(even) {
+        clear: left;
+      }
       margin-bottom: 2em;
       .meta {
         display: inline-block;

@@ -428,7 +428,7 @@ main > div .content aside, .client-quote .client-photo, .col-25 {
 }
 
 /* line 37, ../_sass/_grid.scss */
-#team .the-huddle .member, .member-page .member-meta, blockquote.indent, .pod, .col-33 {
+.member-page .member-meta, blockquote.indent, .pod, .col-33 {
   float: left;
   min-height: 1px;
   padding-left: 15px;
@@ -438,7 +438,7 @@ main > div .content aside, .client-quote .client-photo, .col-25 {
 }
 @media (max-width: 767px) {
   /* line 37, ../_sass/_grid.scss */
-  #team .the-huddle .member, .member-page .member-meta, blockquote.indent, .pod, .col-33 {
+  .member-page .member-meta, blockquote.indent, .pod, .col-33 {
     width: 100%;
   }
 }
@@ -494,7 +494,7 @@ main > div .content aside, .client-quote .client-photo, .col-25 {
 }
 
 /* line 37, ../_sass/_grid.scss */
-.simple-contact .group-half, .disciplines .discipline, #job-posting .job-responsibilities, #job-posting .job-requirements, .startup-services .service, .skill, .names li, .quotes .quote, .session-option, .posts-page-navigation div, .col-50 {
+.simple-contact .group-half, .disciplines .discipline, #team .the-huddle .member, #job-posting .job-responsibilities, #job-posting .job-requirements, .startup-services .service, .skill, .names li, .quotes .quote, .session-option, .posts-page-navigation div, .col-50 {
   float: left;
   min-height: 1px;
   padding-left: 15px;
@@ -504,7 +504,7 @@ main > div .content aside, .client-quote .client-photo, .col-25 {
 }
 @media (max-width: 767px) {
   /* line 37, ../_sass/_grid.scss */
-  .simple-contact .group-half, .disciplines .discipline, #job-posting .job-responsibilities, #job-posting .job-requirements, .startup-services .service, .skill, .names li, .quotes .quote, .session-option, .posts-page-navigation div, .col-50 {
+  .simple-contact .group-half, .disciplines .discipline, #team .the-huddle .member, #job-posting .job-responsibilities, #job-posting .job-requirements, .startup-services .service, .skill, .names li, .quotes .quote, .session-option, .posts-page-navigation div, .col-50 {
     width: 100%;
   }
 }
@@ -759,7 +759,7 @@ main > div .content, footer .copyright p, .simple-contact .group-full, #job-post
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 61, ../_sass/_grid.scss */
-  #team .the-huddle .member, .member-page .member-meta, blockquote.indent, .pod, .col-33, .error404-img, .col-40, .error404-message, .col-60, .member-page .member-info, .client-quote blockquote, .col-66 {
+  .member-page .member-meta, blockquote.indent, .pod, .col-33, .error404-img, .col-40, .error404-message, .col-60, .member-page .member-info, .client-quote blockquote, .col-66 {
     width: 50%;
   }
 
@@ -1301,7 +1301,11 @@ input[type="color"] {
 #team .the-huddle .member {
   margin-bottom: 2em;
 }
-/* line 9, ../_sass/_team.scss */
+/* line 8, ../_sass/_team.scss */
+#team .the-huddle .member:nth-child(even) {
+  clear: left;
+}
+/* line 12, ../_sass/_team.scss */
 #team .the-huddle .member .meta {
   display: inline-block;
   position: relative;
@@ -1309,11 +1313,11 @@ input[type="color"] {
   margin-right: 3%;
   min-height: 100%;
 }
-/* line 15, ../_sass/_team.scss */
+/* line 18, ../_sass/_team.scss */
 #team .the-huddle .member .meta img {
   width: 300px;
 }
-/* line 18, ../_sass/_team.scss */
+/* line 21, ../_sass/_team.scss */
 #team .the-huddle .member .meta a {
   color: rgba(255, 255, 255, 0.3);
   font-size: 1em;
@@ -1321,31 +1325,31 @@ input[type="color"] {
   text-indent: -999em;
   text-shadow: none;
 }
-/* line 24, ../_sass/_team.scss */
+/* line 27, ../_sass/_team.scss */
 #team .the-huddle .member .meta a:hover {
   color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
 }
-/* line 30, ../_sass/_team.scss */
+/* line 33, ../_sass/_team.scss */
 #team .the-huddle .member .caption {
   display: inline-block;
   margin-top: .5em;
   position: relative;
 }
-/* line 34, ../_sass/_team.scss */
+/* line 37, ../_sass/_team.scss */
 #team .the-huddle .member .caption h4 {
   margin: 0;
 }
-/* line 37, ../_sass/_team.scss */
+/* line 40, ../_sass/_team.scss */
 #team .the-huddle .member .caption a {
   text-decoration: none;
 }
-/* line 40, ../_sass/_team.scss */
+/* line 43, ../_sass/_team.scss */
 #team .the-huddle .member .caption p {
   font-size: .75em;
   margin: 0;
 }
-/* line 44, ../_sass/_team.scss */
+/* line 47, ../_sass/_team.scss */
 #team .the-huddle .member .caption .label {
   color: #333333;
   display: inline-block;
@@ -1354,19 +1358,19 @@ input[type="color"] {
   text-shadow: none;
 }
 
-/* line 58, ../_sass/_team.scss */
+/* line 61, ../_sass/_team.scss */
 .member-page .member-title {
   margin: 0;
 }
-/* line 63, ../_sass/_team.scss */
+/* line 66, ../_sass/_team.scss */
 .member-page .member-meta img {
   width: 100%;
 }
-/* line 66, ../_sass/_team.scss */
+/* line 69, ../_sass/_team.scss */
 .member-page .member-meta h5 {
   margin-bottom: 0;
 }
-/* line 73, ../_sass/_team.scss */
+/* line 76, ../_sass/_team.scss */
 .member-page .member-skill {
   -webkit-border-radius: 4px;
   border-radius: 4px;
