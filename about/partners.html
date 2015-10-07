@@ -20,7 +20,10 @@ weight: 5
     <div class="partner-huddle">
       {% for partner in site.data.partners %}
       <div class="partner">
-        <a href="{{ partner.url }}"><img src="/img/partners/{{ partner.logo }}" alt="{{ partner.name }}"></a>
+        <a href="{{ partner.url }}">
+          <img src="/img/partners/{{ partner.logo }}" alt="{{ partner.name }}">
+          <p class="meta">{{ partner.name }}</p>
+        </a>
       </div>
       {% endfor %}
     </div>

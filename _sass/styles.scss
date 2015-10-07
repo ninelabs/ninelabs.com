@@ -334,7 +334,7 @@ figure {
     @extend %row;
     margin:1em 0 4em;
     .way {
-      @extend %col-50;
+      @extend %col-100;
       border-top: $default-border;
       margin:1em 0 0;
       padding-top: 1em;
@@ -546,29 +546,37 @@ aside.meta {
   }
 }
 
+///////////////////////////
+// Partners
 .partner-huddle {
   @extend %row;
   .partner {
     @extend %col-20;
+
+    font-family: $font-family-sans-serif;
+    font-size: .6em;
     margin-bottom: 2em;
-    .meta {
-      display: inline-block;
-      position: relative;
-      float: left;
-      margin-right: 3%;
-      min-height: 100%;
-      img {
-        width: 300px;
+    min-height: 120px;
+    text-align: center;
+    /*@include breakpoint(md) {
+      &:nth-child(5n+1) {
+        clear: left;
       }
-      a {
-        color: rgba(255,255,255,.3);
-        font-size: 1em;
-        text-decoration: none;
-        text-indent: -999em;
-        text-shadow:none;
-        &:hover {
-          color: rgba(255,255,255,.7);
-          text-decoration: none;
+    }
+
+    @include breakpoint(lg) {
+      &:nth-child(5n+1) {
+        clear: left;
+      }
+    }*/
+
+    a {
+      text-decoration: none;
+      img {
+        width:50%;
+        margin: 0 auto 1em;
+        @include breakpoint(xs) {
+          width: 50%;
         }
       }
     }

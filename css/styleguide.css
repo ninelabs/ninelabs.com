@@ -494,7 +494,7 @@ main > div .content aside, .client-quote .client-photo, .col-25 {
 }
 
 /* line 37, ../_sass/_grid.scss */
-.simple-contact .group-half, .disciplines .discipline, #job-posting .job-responsibilities, #job-posting .job-requirements, .startup-services .service, .skill, #approach .ways .way, .names li, .quotes .quote, .session-option, .posts-page-navigation div, .col-50 {
+.simple-contact .group-half, .disciplines .discipline, #job-posting .job-responsibilities, #job-posting .job-requirements, .startup-services .service, .skill, .names li, .quotes .quote, .session-option, .posts-page-navigation div, .col-50 {
   float: left;
   min-height: 1px;
   padding-left: 15px;
@@ -504,7 +504,7 @@ main > div .content aside, .client-quote .client-photo, .col-25 {
 }
 @media (max-width: 767px) {
   /* line 37, ../_sass/_grid.scss */
-  .simple-contact .group-half, .disciplines .discipline, #job-posting .job-responsibilities, #job-posting .job-requirements, .startup-services .service, .skill, #approach .ways .way, .names li, .quotes .quote, .session-option, .posts-page-navigation div, .col-50 {
+  .simple-contact .group-half, .disciplines .discipline, #job-posting .job-responsibilities, #job-posting .job-requirements, .startup-services .service, .skill, .names li, .quotes .quote, .session-option, .posts-page-navigation div, .col-50 {
     width: 100%;
   }
 }
@@ -725,7 +725,7 @@ main > div .content article, .col-75 {
 }
 
 /* line 37, ../_sass/_grid.scss */
-main > div .content, footer .copyright p, .simple-contact .group-full, #job-posting .job-info, .col-100 {
+main > div .content, footer .copyright p, .simple-contact .group-full, #job-posting .job-info, #approach .ways .way, .col-100 {
   float: left;
   min-height: 1px;
   padding-left: 15px;
@@ -735,7 +735,7 @@ main > div .content, footer .copyright p, .simple-contact .group-full, #job-post
 }
 @media (max-width: 767px) {
   /* line 37, ../_sass/_grid.scss */
-  main > div .content, footer .copyright p, .simple-contact .group-full, #job-posting .job-info, .col-100 {
+  main > div .content, footer .copyright p, .simple-contact .group-full, #job-posting .job-info, #approach .ways .way, .col-100 {
     width: 100%;
   }
 }
@@ -762,8 +762,23 @@ main > div .content, footer .copyright p, .simple-contact .group-full, #job-post
   #team .the-huddle .member, .member-page .member-meta, blockquote.indent, .pod, .col-33, .error404-img, .col-40, .error404-message, .col-60, .member-page .member-info, .client-quote blockquote, .col-66 {
     width: 50%;
   }
+
+  /* line 64, ../_sass/_grid.scss */
+  #job-posting .job-meta, .media-object, .logos .logo, .post-excerpt-container .post-meta, .partner-huddle .partner, .col-20, main > div .content aside, .client-quote .client-photo, .col-25 {
+    width: 25%;
+  }
 }
-/* line 78, ../_sass/_grid.scss */
+@media (max-width: 767px) {
+  /* line 70, ../_sass/_grid.scss */
+  #job-posting .job-meta, .media-object, .logos .logo, .post-excerpt-container .post-meta, .partner-huddle .partner, .col-20, main > div .content aside, .client-quote .client-photo, .col-25 {
+    width: 33%;
+  }
+  /* line 72, ../_sass/_grid.scss */
+  #job-posting .job-meta:nth-child(3n+1), .media-object:nth-child(3n+1), .logos .logo:nth-child(3n+1), .post-excerpt-container .post-meta:nth-child(3n+1), .partner-huddle .partner:nth-child(3n+1), .col-20:nth-child(3n+1), main > div .content aside:nth-child(3n+1), .client-quote .client-photo:nth-child(3n+1), .col-25:nth-child(3n+1) {
+    clear: left;
+  }
+}
+/* line 92, ../_sass/_grid.scss */
 main > div .content aside {
   padding-left: 0;
 }
@@ -2442,84 +2457,89 @@ aside.meta p {
   font-style: italic;
 }
 
-/* line 551, ../_sass/styles.scss */
+/* line 553, ../_sass/styles.scss */
 .partner-huddle .partner {
+  font-family: "canada-type-gibson", "helvetica neue", helvetica, sans-serif;
+  font-size: .6em;
   margin-bottom: 2em;
+  min-height: 120px;
+  text-align: center;
+    /*@include breakpoint(md) {
+      &:nth-child(5n+1) {
+        clear: left;
+      }
+    }
+
+    @include breakpoint(lg) {
+      &:nth-child(5n+1) {
+        clear: left;
+      }
+    }*/
 }
-/* line 554, ../_sass/styles.scss */
-.partner-huddle .partner .meta {
-  display: inline-block;
-  position: relative;
-  float: left;
-  margin-right: 3%;
-  min-height: 100%;
-}
-/* line 560, ../_sass/styles.scss */
-.partner-huddle .partner .meta img {
-  width: 300px;
-}
-/* line 563, ../_sass/styles.scss */
-.partner-huddle .partner .meta a {
-  color: rgba(255, 255, 255, 0.3);
-  font-size: 1em;
+/* line 573, ../_sass/styles.scss */
+.partner-huddle .partner a {
   text-decoration: none;
-  text-indent: -999em;
-  text-shadow: none;
 }
-/* line 569, ../_sass/styles.scss */
-.partner-huddle .partner .meta a:hover {
-  color: rgba(255, 255, 255, 0.7);
-  text-decoration: none;
+/* line 575, ../_sass/styles.scss */
+.partner-huddle .partner a img {
+  width: 50%;
+  margin: 0 auto 1em;
+}
+@media (max-width: 767px) {
+  /* line 575, ../_sass/styles.scss */
+  .partner-huddle .partner a img {
+    width: 50%;
+  }
 }
 
-/* line 585, ../_sass/styles.scss */
+/* line 593, ../_sass/styles.scss */
 .labnotes iframe.twitter-tweet {
   margin-left: 40px !important;
 }
 
-/* line 591, ../_sass/styles.scss */
+/* line 599, ../_sass/styles.scss */
 .growing-smart h6 {
   color: #999;
   margin-bottom: 0;
 }
-/* line 592, ../_sass/styles.scss */
+/* line 600, ../_sass/styles.scss */
 .growing-smart h3 {
   margin-bottom: 0;
   margin-top: 0;
 }
-/* line 593, ../_sass/styles.scss */
+/* line 601, ../_sass/styles.scss */
 .growing-smart h5 {
   margin-top: 0;
 }
 
-/* line 596, ../_sass/styles.scss */
+/* line 604, ../_sass/styles.scss */
 .posts-page-navigation {
   border-top: 1px solid #999999;
   font-size: .8em;
   margin-top: 2em;
   padding-top: 1em;
 }
-/* line 605, ../_sass/styles.scss */
+/* line 613, ../_sass/styles.scss */
 .posts-page-navigation .right {
   text-align: right;
 }
 
-/* line 616, ../_sass/styles.scss */
+/* line 624, ../_sass/styles.scss */
 .docs .post ol li {
   list-style-type: decimal;
   padding-top: .75em;
   margin-bottom: .125em;
 }
-/* line 620, ../_sass/styles.scss */
+/* line 628, ../_sass/styles.scss */
 .docs .post ol li ol li {
   list-style-type: lower-latin;
 }
-/* line 622, ../_sass/styles.scss */
+/* line 630, ../_sass/styles.scss */
 .docs .post ol li ol li ol li {
   list-style-type: lower-roman;
 }
 
-/* line 634, ../_sass/styles.scss */
+/* line 642, ../_sass/styles.scss */
 .footer-contact {
   clear: both;
   border-bottom: 1px solid #999999;
@@ -2528,17 +2548,17 @@ aside.meta p {
   margin-top: 2em;
   padding-bottom: 1em;
 }
-/* line 641, ../_sass/styles.scss */
+/* line 649, ../_sass/styles.scss */
 .footer-contact h2 {
   color: #e4166f;
   margin-bottom: 0;
 }
-/* line 645, ../_sass/styles.scss */
+/* line 653, ../_sass/styles.scss */
 .footer-contact p {
   margin-top: 0;
 }
 
-/* line 654, ../_sass/styles.scss */
+/* line 662, ../_sass/styles.scss */
 #contact h2 {
   font-family: "freight-text-pro", "georgia", serif;
   font-style: italic;
@@ -2546,19 +2566,19 @@ aside.meta p {
   text-transform: none;
 }
 
-/* line 661, ../_sass/styles.scss */
+/* line 669, ../_sass/styles.scss */
 .contact-options {
   margin-bottom: 3em;
 }
 
-/* line 665, ../_sass/styles.scss */
+/* line 673, ../_sass/styles.scss */
 .contact-option {
   font-size: 1.25em;
   margin: 0;
   padding: 0;
 }
 
-/* line 686, ../_sass/styles.scss */
+/* line 694, ../_sass/styles.scss */
 pre {
   border: none;
   padding: 0;

@@ -1,39 +1,75 @@
-- name: InVision
-  tagline:
-  url: http://www.invisionapp.com
-  logo: invision.png
+- name: Adobe
+  url: http://www.adobe.com
+  logo: adobe.png
+
+- name: Google
+  url: https://www.google.com/work/apps/business/products/
+  logo: googleapps.png
+
+- name: Salesforce
+  url: https://www.salesforce.com
+  logo: salesforce.png
+
+- name: InfusionSoft
+  url: http://www.infusionsoft.com
+  logo: infusionsoft.png
+
+- name: MailChimp
+  url: http://www.mailchimp.com
+  logo: mailchimp.png
+
+- name: Zendesk
+  url: http://www.zendesk.com/
+  logo: zendesk.png
 
 - name: Shopify
-  tagline:
   url: http://www.shopify.com
   logo: shopify.png
 
 - name: Squarespace
-  tagline:
   url: http://www.squarespace.com
   logo: squarespace.png
 
-- name: MailChimp
-  tagline:
-  url: http://www.mailchimp.com
-  logo: mailchimp.png
+- name: Expression Engine
+  url: https://ellislab.com/expressionengine
+  logo: expressionengine.png
 
-- name: InfusionSoft
-  tagline:
-  url: http://www.infusionsoft.com
-  logo: infusionsoft.png
+- name: Craft
+  url: https://buildwithcraft.com/
+  logo: craft.png
+
+- name: Jekyll
+  url: http://jekyllrb.com/
+  logo: jekyll.png
+
+- name: InVision
+  url: http://www.invisionapp.com
+  logo: invision.png
+
+- name: Sketch
+  url: http://www.sketchapp.com/
+  logo: sketch.png
+
+- name: Axure
+  url: http://www.axure.com/
+  logo: axure.png
+
+- name: Slack
+  url: http://www.slack.com/
+  logo: slack.png
+
+- name: Dropbox
+  url: http://www.dropbox.com
+  logo: dropbox.png
 
 - name: GitHub
-  tagline:
   url: http://www.github.com
   logo: github.png
 
 - name: Digital Ocean
-  tagline:
   url: http://www.digitalocean.com
   logo: digitalocean.png
 
 - name: Heroku
-  tagline:
   url: http://www.heroku.com
   logo: heroku.png

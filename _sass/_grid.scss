@@ -61,7 +61,21 @@ $gutter-width: 30px;
   %col-33, %col-40, %col-60, %col-66 {
     width: percentage($full / 200);
   }
+  %col-20, %col-25 {
+    width: 25%
+  }
 }
+
+@media (max-width: $screen-xs-max) {
+  %col-20, %col-25 {
+    width: 33%;
+    &:nth-child(3n+1) {
+      clear: left;
+    }
+  }
+}
+
+
 
 //////////////////////////
 // Content Scaffold
