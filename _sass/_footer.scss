@@ -29,7 +29,12 @@ footer {
     }
   }
   .copyright {
-    font-size: .6em;
+    @extend %row;
+    p {
+      @extend %col-100;
+      font-size: .6em;
+      padding-left: 2em
+    }
   }
   #logo {
     height:45px;

@@ -282,14 +282,14 @@ main:before, .navigation:before, footer:before, main:after, .navigation:after, f
 }
 
 /* line 22, ../_sass/_grid.scss */
-main > div, .disciplines, #team .the-huddle, .member-page, #job-posting .job-overview, #job-posting .job-details, .startup-services, .trio, #sponsorship-99u .options, #approach .ways, .logos, .names, .quotes, .session-options, .post-excerpt-container, .client-quote, .partner-huddle, .posts-page-navigation {
+main > div, footer .copyright, .disciplines, #team .the-huddle, .member-page, #job-posting .job-overview, #job-posting .job-details, .startup-services, .trio, #sponsorship-99u .options, #approach .ways, .logos, .names, .quotes, .session-options, .post-excerpt-container, .client-quote, .partner-huddle, .posts-page-navigation {
   margin-bottom: 1em;
   margin-left: -15px;
   margin-right: -15px;
   clear: both;
 }
 /* line 13, ../_sass/_mixins.scss */
-main > div:before, .disciplines:before, #team .the-huddle:before, .member-page:before, #job-posting .job-overview:before, #job-posting .job-details:before, .startup-services:before, .trio:before, #sponsorship-99u .options:before, #approach .ways:before, .logos:before, .names:before, .quotes:before, .session-options:before, .post-excerpt-container:before, .client-quote:before, .partner-huddle:before, .posts-page-navigation:before, main > div:after, .disciplines:after, #team .the-huddle:after, .member-page:after, #job-posting .job-overview:after, #job-posting .job-details:after, .startup-services:after, .trio:after, #sponsorship-99u .options:after, #approach .ways:after, .logos:after, .names:after, .quotes:after, .session-options:after, .post-excerpt-container:after, .client-quote:after, .partner-huddle:after, .posts-page-navigation:after {
+main > div:before, footer .copyright:before, .disciplines:before, #team .the-huddle:before, .member-page:before, #job-posting .job-overview:before, #job-posting .job-details:before, .startup-services:before, .trio:before, #sponsorship-99u .options:before, #approach .ways:before, .logos:before, .names:before, .quotes:before, .session-options:before, .post-excerpt-container:before, .client-quote:before, .partner-huddle:before, .posts-page-navigation:before, main > div:after, footer .copyright:after, .disciplines:after, #team .the-huddle:after, .member-page:after, #job-posting .job-overview:after, #job-posting .job-details:after, .startup-services:after, .trio:after, #sponsorship-99u .options:after, #approach .ways:after, .logos:after, .names:after, .quotes:after, .session-options:after, .post-excerpt-container:after, .client-quote:after, .partner-huddle:after, .posts-page-navigation:after {
   clear: both;
   content: " ";
   display: table;
@@ -440,7 +440,7 @@ main > div .content article {
 }
 
 /* line 37, ../_sass/_grid.scss */
-main > div .content, .simple-contact .group-full, #job-posting .job-info {
+main > div .content, footer .copyright p, .simple-contact .group-full, #job-posting .job-info {
   float: left;
   min-height: 1px;
   padding-left: 15px;
@@ -450,7 +450,7 @@ main > div .content, .simple-contact .group-full, #job-posting .job-info {
 }
 @media (max-width: 767px) {
   /* line 37, ../_sass/_grid.scss */
-  main > div .content, .simple-contact .group-full, #job-posting .job-info {
+  main > div .content, footer .copyright p, .simple-contact .group-full, #job-posting .job-info {
     width: 100%;
   }
 }
@@ -711,20 +711,27 @@ hr {
 }
 /* line 135, ../_sass/_nav.scss */
 .local-nav {
+  margin-bottom: 2em;
   margin-top: .5em;
 }
-/* line 137, ../_sass/_nav.scss */
+/* line 138, ../_sass/_nav.scss */
 .local-nav a {
   display: block;
   margin-bottom: .75em;
 }
-/* line 141, ../_sass/_nav.scss */
+/* line 142, ../_sass/_nav.scss */
 .local-nav a:hover, .local-nav a.active {
   color: #e4166f;
 }
-/* line 144, ../_sass/_nav.scss */
+/* line 145, ../_sass/_nav.scss */
 .local-nav a.active:after {
   content: " \000BB";
+}
+@media (max-width: 767px) {
+  /* line 135, ../_sass/_nav.scss */
+  .local-nav {
+    display: none;
+  }
 }
 
 /* line 4, ../_sass/_footer.scss */
@@ -760,16 +767,17 @@ footer nav a:first-of-type {
 footer .social a {
   display: block;
 }
-/* line 31, ../_sass/_footer.scss */
-footer .copyright {
+/* line 33, ../_sass/_footer.scss */
+footer .copyright p {
   font-size: .6em;
+  padding-left: 2em;
 }
-/* line 34, ../_sass/_footer.scss */
+/* line 39, ../_sass/_footer.scss */
 footer #logo {
   height: 45px;
   width: 45px;
 }
-/* line 37, ../_sass/_footer.scss */
+/* line 42, ../_sass/_footer.scss */
 footer #logo .brand-mark {
   fill: #e4166f;
 }

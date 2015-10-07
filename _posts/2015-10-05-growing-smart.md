@@ -47,7 +47,7 @@ A designer who often finds herself lost in the creative realm, Paige earned a BA
 ### Jacklyn Burgan
 ##### UX Researcher/Strategist/competitive dancer
 
-Basically, Jacklyn is sort of a big deal. She’s a user-experience researcher and strategist with experience in the corporate, agency, and start-up worlds. She’s passionate about usability, empathetic design, and collaboration. She is currently a user-experience researcher at Pardot, a Salesforce Company, and a researcher/strategist at Nine Labs. We’re thrilled to have her on board.
+Basically, Jacklyn is sort of a big deal. She’s a user-experience researcher and strategist with experience in the corporate, agency, and start-up worlds. She’s passionate about usability, empathetic design, and collaboration. She also leads the local chapter of [Ladies that UX](http://www.ladiesthatux.com/), and speaks at conferences across the nation. We’re thrilled to have her on board.
 
 ###### Oct. 2015
 ### Charline Leger

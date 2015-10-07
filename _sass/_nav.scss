@@ -133,6 +133,7 @@
 }
 
 .local-nav {
+  margin-bottom: 2em;
   margin-top: .5em;
   a {
     display: block;
@@ -145,13 +146,7 @@
       content: " \000BB";
     }
   }
+  @include breakpoint(xs) {
+    display:none;
+  }
 }
-
-
-
-
-
-
-
-
-
