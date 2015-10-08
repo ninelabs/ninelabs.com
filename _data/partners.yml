@@ -34,6 +34,10 @@
   url: https://ellislab.com/expressionengine
   logo: expressionengine.png
 
+- name: Magento
+  url: https://www.magento.com
+  logo: magento.png
+
 - name: Craft
   url: https://buildwithcraft.com/
   logo: craft.png
