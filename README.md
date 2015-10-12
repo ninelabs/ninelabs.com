@@ -1,5 +1,7 @@
 # Master repo for the Nine Labs website
 
+![Build Status](https://travis-ci.org/ninelabs/ninelabs.com.svg?branch=master)
+
 ## Installing Locally
 
 #### For newbies:
