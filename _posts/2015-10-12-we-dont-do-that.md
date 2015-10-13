@@ -17,7 +17,7 @@ That means figuring out how to make websites and mobile apps easier to use, why 
 
 - [User Experience Design](/work/user-experience-design.html)
 - [User Interface Design](/work/user-interface-design.html)
-- [Digital Marketing Strategy](/work/digital-marketing-strategy.html)
+- [Digital Marketing Strategy](/work/digital-strategy.html)
 - [Application Prototyping](/work/application-prototyping.html)
 - [Marketing Microsites](/work/marketing-microsites.html)
 - [Brand Naming and Identity](/work/branding-identity.html)
