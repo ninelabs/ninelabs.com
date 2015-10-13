@@ -1,9 +1,10 @@
 ---
 published: true
 layout: notes
+title: Growing Smart
 author: Jordan Watts
-slug: "growing-smart"
-image: "http://s3.amazonaws.com/ninelabs.com/russell-simmons-quote.jpg"
+slug: growing-smart
+image: //s3.amazonaws.com/ninelabs.com/russell-simmons-quote.jpg
 ---
 
 
