@@ -3,6 +3,7 @@ published: true
 layout: notes
 title: We Don't Do That
 author: J Cornelius
+image: //s3.amazonaws.com/ninelabs.com/truth.jpg
 ---
 
 In case you missed it, a lot has been happening over here at Nine Labs since Brad and I merged last year. [Miss that news](/notes/merger.html)?
