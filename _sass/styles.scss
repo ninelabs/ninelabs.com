@@ -522,7 +522,9 @@ aside.meta {
   }
   .post {
     margin-bottom: 4em;
-    // comment
+    p:nth-of-type(1) {
+      margin-top: 2em;
+    }
     p:nth-of-type(n+2) img {
       float:right;
       margin:1em 0 .5em 1.5em;
