@@ -3,7 +3,7 @@ layout: notes
 title: Spicing Up UX Design
 published: true
 author: Brad Weaver
-image: //s3.amazonaws.com/ninelabs.com/peppers.jpg
+image: //s3.amazonaws.com/ninelabs.com/maslow-ux-chart.png
 ---
 
 Inarguably, in today’s day and age, a business’ ability to connect with its customers is critical to success. There’s a new standard when it comes to engaging the consumer, and it can be summed up in one word: emotion. Customers don’t just want to find solutions to their problems; they want to enjoy the process.
