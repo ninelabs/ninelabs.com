@@ -502,9 +502,6 @@ aside.meta {
   h3 {
     color:$brand-primary;
   }
-  img:first-of-type {
-    margin-bottom: 2em;
-  }
   p {
     margin-top: 0;
     padding-top: 0;
@@ -522,6 +519,14 @@ aside.meta {
   .post-disclaimer {
     color:$brand-primary;
     font-style: italic;
+  }
+  .post {
+    margin-bottom: 4em;
+    p:nth-of-type(n+2) img {
+      float:right;
+      margin:1em 0 .5em 1.5em;
+      max-width:50%;
+    }
   }
 }
 .fa.bling {
