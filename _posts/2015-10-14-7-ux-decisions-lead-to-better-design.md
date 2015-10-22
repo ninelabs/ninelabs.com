@@ -1,6 +1,6 @@
 ---
 layout: notes
-title: How 7 UX Decisons Lead to Better Design
+title: How 7 UX Decisions Lead to Better Design
 published: true
 author: Jacklyn Burgan
 image: //s3.amazonaws.com/ninelabs.com/negativespace-devices.jpg
