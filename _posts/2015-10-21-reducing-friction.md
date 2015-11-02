@@ -8,11 +8,12 @@ image: "//s3.amazonaws.com/ninelabs.com/newton-balls.jpg"
 ---
 
 
+
 There's a reason why perpetual motion is scientifically impossible to achieve. **Friction**. Friction exists at every level in our physical world, and it should be applied to the digital world, too. It's an important factor in the design of websites, apps, and systems.
 
 > **fric·tion** /ˈfrikSH(ə)n/ noun &mdash; the resistance that one surface or object encounters when moving over another
 
-Website friction, in that sense, is **anything that gets in the way of a user achieiving a desired outcome**.
+Website friction, in that sense, is **anything that gets in the way of a user achieving a desired outcome**.
 
 ## Friction is a bummer.
 
