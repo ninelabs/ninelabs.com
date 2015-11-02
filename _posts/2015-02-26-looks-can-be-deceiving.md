@@ -1,16 +1,17 @@
 ---
 layout: notes
 title: Looks Can be Deceiving
-categories: [u'thoughts']
+categories: 
+  - "u'thoughts'"
 tags: []
-published: True
+published: true
 author: J Cornelius
-
 ---
 
-Be careful not to equate aesthetics with effectiveness.
 
-Some designs might look great but not generate results for the business. Others might be visually underwhelming and drive a lot of revenue (just look at craigslist).
+###CAUTION: pleasing aesthetics do NOT always equal effectiveness.
+
+Some designs might look great but don't seem to generate results for the business. Others might be visually underwhelming and drive a lot of revenue (just look at craigslist).
 
 > Form follows function _Frank Lloyd Wright_
 
