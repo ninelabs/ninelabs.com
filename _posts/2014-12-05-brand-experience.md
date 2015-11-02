@@ -1,24 +1,26 @@
 ---
 layout: notes
-title: What is Brand Experience Design?
+title: "What is Brand Experience Design?"
 author: J Cornelius
 category: thoughts
 image: //s3.amazonaws.com/ninelabs.com/ferrari.jpg
+published: true
 ---
+
 ### Ferrari. Apple. Ikea.
 These are household names in much of the world. Each of them evokes certain feelings. You have a connection with each brand in some way, even if it&rsquo;s at a distance. Regardless of where you see these brands you get a consistent message. A message that&rsquo;s been carefully designed for clarity and consistency.
 
 Whether you feel it or not, your *experience* with each of these brands has been thoughtfully *designed*.
 
 ### Experience Design
-Chances are, if you&rsquo;ve ever been in an Apple Store, you can remember what it feels like. The environment has a uniquely ‘Apple&rsquo; feel to it. If you&rsquo;ve ever driven (or even sat in) a Ferrari your memory of doing so is probably vivid and palpable. It only takes one trip to Ikea for someone to understand what it&rsquo;s all about. Everyone who&rsquo;s ever done these things can tell stories about their experiences, and they are all very similar.
+Chances are, if you&rsquo;ve ever been in an Apple Store, you can remember what it feels like. The environment has a uniquely ‘Apple&rsquo; feel to it. If you&rsquo;ve ever driven (or even sat in) a Ferrari, your memory of doing so is probably vivid and palpable. In the same way, it only takes one trip to Ikea for someone to understand what it&rsquo;s all about. Everyone who&rsquo;s ever done these things can tell stories about their experiences, and they are all very similar.
 
 Why? Because these companies have recognized and invested in creating a *brand experience*.
 
 ### More than the sum of its parts
 A brand is much more than a name or logo. Those things are important, but without products or services or customers, a logo is just art.
 
-A real brand is a alchemy of these things. It&rsquo;s a combination of identity, emotion, experiences, charisma – the soul of the company and the products it makes. Removing any of these factors is only looking at part of the story. Unless you look at how people interact with a company and its products, you don&rsquo;t have a holistic picture of the brand.
+A real brand is an alchemy of these things. It&rsquo;s a combination of identity, emotion, experiences, charisma – the soul of the company and the products it makes. Remove any of these factors you're left looking at only part of the picture. Unless you look at how people interact with a company and its products, you don&rsquo;t have a holistic picture of the brand.
 
 > Brands are more than names and logos. A company&rsquo;s brand sits at the intersection of what they do and how people feel about it. *J Cornelius*
 
@@ -36,7 +38,7 @@ To create a great brand you have to ask:
 - How do people feel about what that company does?
 - Why should people care?
 
-Then you take these answers and create a narrative, a voice, a message. Only then can you begin to define how the message can be used in various channels. As you look at each channel (physical, digital, social) you have to ask;
+You can then take these answers and create a narrative, a voice, a message. Only then can you begin to define how the message should be used in various channels. As you look at each channel (physical, digital, social) you have to ask;
 
 - How will the brand message resonate here?
 - How can we reinforce the message with other parts of the environment?
@@ -48,14 +50,15 @@ These answers will guide the design of the brand experience.
 
 ### Having No Design is a Design, too
 
-Brand experience design must be focused and intentional. Otherwise you leave the design up for grabs. If you don&rsquo;t design the your brand&rsquo;s message someone else is doing it for you.
+Brand experience design must be focused and intentional. Otherwise you leave the design up for grabs. If you don&rsquo;t design the your brand&rsquo;s message, someone else is doing it for you.
 
 > If you choose not to decide you still have made a choice. *"Freewill" by Rush*
 
-Think how easily the press can sway public opinion about a company. This is happening at a smaller scale in everyday conversations all the time. People talk to each other about their experiences with products and brands, new feelings get formed, and someone else just designed your brand.
+Think how easily the press can sway public opinion about a company. This is happening all the time on a smaller scale in everyday conversations. People talk to each other about their experiences with products and brands, new feelings get formed, and, suddenly, someone else just designed your brand.
 
 ### Consistency is Key
-This is made easier by inconsistent brand messaging. If messaging in your product, your website, and your social channels aren&rsquo;t consistent you&rsquo;re leaving gaps for people to fill in their own assumptions, or worse, for competitors to fill with negativity.
+This is made easier by inconsistent brand messaging. If messaging in your product, your website, and your social channels isn't consistent, you&rsquo;re leaving gaps for people to fill in with their own assumptions, or worse, for competitors to fill with negativity.
+
 ### Take Control
 The easiest way to mitigate the risk of your brand being redefined around you is to take action. Take time to think about the soul of the company. Think about how you want people to feel about the company and its products. Be intentional about making sure your messaging is consistent across every channel (even the ones you might not think are important).
 
