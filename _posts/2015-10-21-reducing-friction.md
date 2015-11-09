@@ -31,7 +31,7 @@ Think about how you can give your customers the information they need in the lea
 
 #### 2. Too Much Context Switching
 
-![Kindle Dictionary](//s3.amazonaws.com/ninelabs.com/kindle-dictionary.jpg)
+![Kindle's built-in dictionary](//s3.amazonaws.com/ninelabs.com/kindle-dictionary.jpg){: .caption}
 
 Study after study has shown that multitasking isn't actually a thing. You&rsquo;re not really working on two tasks at once &mdash; you&rsquo;re mentally switching between the two, albeit rapidly, therefore often being less effective at both. It was a revelation when Kindle introduced an included dictionary, so when you&rsquo;re reading and stumble over a word, you can immediately highlight the text and look it up.
 
@@ -42,7 +42,7 @@ No need to get up, hunt down the ole Webster&rsquo;s, and remember the alphabet.
 
 The menu is a one-pager rather than a book. If you don&rsquo;t like anything on it...well, that&rsquo;s tough. However, most people do find something appealing, and the simplified menu results in faster and easier ordering. Extensive drop-down navigation options are the Cheesecake Factory behemoth menu of the web. You don&rsquo;t need them.
 
-## Friction Matters 
+## Friction Matters
 You don&rsquo;t need to care about the science that keeps brainiacs from building a perpetual motion machine, but you *do* need to care about the friction that keeps your customers from doing business with you. Luckily, that&rsquo;s an easier hill to climb.
 
 Ask yourself, &ldquo;Is my website as easy to use as it could be?&rdquo; _If not, we should talk._
