@@ -7,7 +7,7 @@ category: UX, mobile
 image: "//s3.amazonaws.com/ninelabs.com/phone-in-hands.jpg"
 ---
 
-A few months ago, I accidently left my iPhone at home when I headed out for the day. When I realized it wasn’t in my car I immediately felt like I was missing a limb. I turned around and drove almost 20 minutes back to the house to grab it. I don’t say this with pride, but I do say it honestly. _Life without my iPhone would be very difficult_.
+A few months ago, I accidently left my iPhone at home when I headed out for the day. When I realized it wasn’t in my car, I felt like I was missing a limb, and I immediately turned around and drove almost 20 minutes back to the house to grab my it. I don’t say this with pride, but I do say it honestly. _Life without my iPhone would be very difficult_.
 
 ### And I'm not alone
 Tens of millions of Americans and other citizens of the world feel the same way. We are obsessed with, even addicted to, our mobile devices.
