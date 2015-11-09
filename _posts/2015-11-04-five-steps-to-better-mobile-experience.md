@@ -2,7 +2,7 @@
 layout: notes
 published: true
 title: 5 Steps to a Better Mobile Experience
-author: Jordan Watts
+author: J Cornelius
 category: UX, mobile
 image: "//s3.amazonaws.com/ninelabs.com/phone-in-hands.jpg"
 ---
@@ -40,7 +40,7 @@ It’s apparent that lengthy loading times will affect a company’s bottom line
 If your mobile site or app contains microscopic text and is crammed edge-to-edge with content, links, and pictures, even the world’s tiniest fingers won’t be able to tap what they want without error. Frustrated customers will be short-term customers, and in a world where customer loyalty is directly related to profit, this just won’t do. Give your users a clean and uncluttered interface with large touch-targets and they’ll thank you for it every time they tap.
 
 #### 3. RESPECT THE CODE
-The code used to create websites has come a long way since the early days of the Internet. Back in 1996, all we had was a gray background, black text, and blue links. Now we can do really smart things like make the numeric keypad appear instead of the QWERTY alternative when someone is entering a number into a form. Websites and app should always take advantage of the most current coding practices so they are as easy to use as possible.
+The code used to create websites has come a long way since the early days of the Internet. Back in 1996, all we had was a gray background, black text, and blue links. Now we can do really smart things like make the numeric keypad appear instead of the QWERTY alternative when someone is entering a number into a form. Websites and apps should always take advantage of the most current coding practices so they are as easy to use as possible.
 
 #### 4. RESPECT THE SCREEN
 Hick’s Law describes the time it takes for a person to make a decision as a result of the possible choices he or she has. The more choices offered, the longer it takes for said person to make a decision. 48% of people say they’ve left a website that had a product they wanted due to an overabundance of options. More than a few things on the screen at once can paralyze your user. Don’t overload them with too many choices at once.
