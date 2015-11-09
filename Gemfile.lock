@@ -105,4 +105,5 @@ DEPENDENCIES
   html-proofer
   jekyll (= 2.4)
   jekyll-redirect-from
+  kramdown
   rack-jekyll
