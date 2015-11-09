@@ -21,7 +21,15 @@ pid: notes
       <h2>{{ page.title }}</h2>
     </header>
     <div class="post">
-      {% if page.image %}<img src="{{ page.image }}" alt="Header Image">{% endif %}
+      {% if page.image %}
+        <figure>
+          <img src="{{ page.image }}" alt="Header Image">
+          {% if page.image-caption %}
+          <figcaption>{{ page.image-caption }}</figcaption>
+          {% endif %}
+        </figure>
+      {% endif %}
+
       {{ content }}
       {% if page.category == 'clientwork' and page.client.quote != null %}
       <div class="client-quote">
