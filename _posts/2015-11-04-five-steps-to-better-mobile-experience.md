@@ -7,10 +7,10 @@ category: UX, mobile
 image: "//s3.amazonaws.com/ninelabs.com/phone-in-hands.jpg"
 ---
 
-I’ll admit: I have what's probably an unhealthy attachment to the palm-sized device that manages my life. This one time, at bandcamp...I mean, this one time, a few months ago, I left my cell phone at home when I headed out for the day. I was halfway to the office when I realized it wasn’t in my car, and immediately I felt like I was missing a limb, or something equally as important. I turned around and drove almost 20 minutes back to the house to grab my phone. I don’t say this with pride, but I do say it honestly. I. Love. My. Smartphone.
+A few months ago, I accidently left my iPhone at home when I headed out for the day. When I realized it wasn’t in my car I immediately felt like I was missing a limb. I turned around and drove almost 20 minutes back to the house to grab it. I don’t say this with pride, but I do say it honestly. _Life without my iPhone would be very difficult_.
 
-### I'm not alone
-I am joined by tens of millions of Americans and other citizens of this spinning celestial ball we call Earth. We are obsessed with, even addicted to, our mobile devices.
+### And I'm not alone
+Tens of millions of Americans and other citizens of the world feel the same way. We are obsessed with, even addicted to, our mobile devices.
 
 ![Chart: Share of US digital media time, by platform](http://277y2d10y5kk16f38t1xjp9f.wpengine.netdna-cdn.com/wp-content/uploads/2015/05/Share-of-US-Digital-Media-Time-Spent-by-Platform.png)
 
