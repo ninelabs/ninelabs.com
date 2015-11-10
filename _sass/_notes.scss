@@ -1,0 +1,179 @@
+///////////////////
+// Notes
+///////////////////
+
+/// EXCERPT
+aside.meta {
+  p {
+    font-size: .7em;
+    margin: 5px 0 1em;
+    padding: 0;
+  }
+  &>a {
+    @extend %nav-font;
+  }
+}
+
+.post-excerpt-container {
+  @extend %row;
+  border-bottom: $default-border;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  .post-meta {
+    @extend %col-20;
+  }
+  .post-excerpt {
+    @extend %col-80;
+    h3 {
+      margin: 0 0 .5em;
+    }
+  }
+}
+
+
+/// Post Page
+
+.post-container {
+  .meta {
+    @include breakpoint(xs) {
+      margin-bottom: 2em;
+      padding-left: ($gutter-width / 2);
+      width:100%;
+      .post-meta {
+        p.kv {
+          margin: 0 0 1em;
+          display: table-row;
+          em, span {
+            display: table-cell;
+          }
+          em {
+            padding-right: 1em;
+            text-align: right;
+            width:15%;
+          }
+        }
+        p.readtime {
+          clear: both;
+          margin-top: 1em;
+        }
+      }
+    }
+  }
+  .post-meta {
+    p {
+      color: $gray-dark;
+      margin-top: 0;
+      em {
+        color: $gray-light;
+      }
+    }
+    .indicator {
+      color: $gray-light;
+      font-size: .65em;
+    }
+  }
+
+
+
+
+}
+
+.post-content {
+  header {
+    border-bottom: $default-border;
+    margin-bottom: 2em;
+    padding-bottom:.5em;
+    h2 {
+      line-height: .9em;
+      margin: 0;
+    }
+    h4 {
+      color: $gray;
+      margin: 0
+    }
+  }
+  h2,h3,h4 {
+    color:$gray;
+    margin-bottom: .5em;
+    margin-top: 1.5em;
+    padding-bottom: 0;
+  }
+  h3 {
+    color:$brand-primary;
+  }
+  p {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .post-description {
+    border-bottom: $default-border;
+    font-size: .8em;
+    margin-bottom: 4em;
+    padding-bottom: 2em;
+    p {
+      margin-bottom: 1em;
+      padding: 0;
+    }
+  }
+  .post-disclaimer {
+    color:$brand-primary;
+    font-style: italic;
+  }
+  .post {
+    margin-bottom: 4em;
+    p:nth-of-type(1) {
+      margin-top: 2em;
+    }
+    img.left {
+      float:left;
+      margin:1em 1.5em .5em 0;
+      max-width:50%;
+    }
+    img.right, figure.inline {
+      float:right;
+      margin:1em 0 .5em 1.5em;
+      max-width:50%;
+    }
+    figure.inline {
+      max-width: 33%
+    }
+    img.full {
+      @include clearfix();
+      margin:1em 0;
+    }
+    figure.inner figcaption {
+      font-size: .9em;
+    }
+  }
+}
+
+
+///////////////////////////////////////////////////////////////////////
+// LAB NOTES
+// Styles specific to the blog view
+
+.labnotes {
+  iframe.twitter-tweet {
+    margin-left: 40px !important;
+  }
+}
+
+.growing-smart {
+  h6 { color: #999; margin-bottom: 0; }
+  h3 { margin-bottom: 0; margin-top: 0; }
+  h5 { margin-top: 0; }
+}
+
+.posts-page-navigation {
+  @extend %row;
+  border-top: $default-border;
+  font-size: .8em;
+  margin-top: 2em;
+  padding-top: 1em;
+  div {
+    @extend %col-50;
+  }
+  .right {
+    text-align: right;
+  }
+}

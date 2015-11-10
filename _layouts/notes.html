@@ -3,18 +3,17 @@ layout: default
 pid: notes
 ---
 <div class="post-container labnotes {{ page.slug }}">
-  <aside class="post-meta meta">
-    <p><a href="/notes/">&laquo; All Lab Notes</a></p>
-    <p><em>Posted:</em> {{ page.date | date: "%b %-d, %Y" }}</p>
-    <p><em>By:</em> {{ page.author }}</p>
-    <p>It should take {{ page.content | reading_time }} to read.</p>
-    {% if page.category == 'clientwork' %}
-    <hr>
-    <p><em>Client:</em> {{ page.client.name }}</p>
-    <p><em>Services:</em> {{ page.client.services }}</p>
-    {% if page.client.platform %}<p><em>Platform:</em> {{ page.client.platform }}</p>{% endif %}
-    {% if page.client.url %}<p><a href="{{ page.client.url }}">Visit Website</a></p>{% endif %}
-    {% endif %}
+  <aside class="meta">
+    <a href="/notes/">&laquo; All Lab Notes</a></p>
+    <div class="post-meta">
+      {% if page.category == 'clientwork' %}
+      <p class="kv"><em>Client:</em> <span>{% if page.client.url %}<a href="{{ page.client.url }}">{{ page.client.name }}</a>{% else %}{{ page.client.name }}{% endif %}</span></p>
+      <p class="kv"><em>Services:</em> <span>{{ page.client.services }}</span></p>
+      {% endif %}
+      <p class="kv"><em>Posted:</em> <span>{{ page.date | date: "%b %-d, %Y" }}</span></p>
+      <p class="kv"><em>By:</em> <span>{{ page.author }}</span></p>
+      <p class="readtime">It should take {{ page.content | reading_time }} to read.</p>
+    </div>
   </aside>
   <article class="post-content">
     <header>
