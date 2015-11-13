@@ -7,6 +7,7 @@ category: "UX, strategy"
 image: "//cdn.productplan.com/wp-content/uploads/2014/03/Sample-roadmap-1024x566.png"
 ---
 
+
 Ahhh, the product roadmap. If you’re a digital designer, chances are great that you’ve labored over one before. Love them or hate them, most organizations revolve around these sometimes-confusing pages.
 
 Product roadmaps detail the features a design team plans to implement over upcoming releases. Marketing departments depend on them for bits of insider info to use as bait for customers. Customer service departments use them for training. Product development departments use them to properly budget for upcoming projects and to keep a product’s momentum going in the marketplace.
