@@ -1,14 +1,10 @@
 ---
-published: false
----
-
----
-layout: notes
 published: true
+layout: notes
 title: Product Roadmaps That Lead to Success
 author: Brad Weaver
-category: UX, strategy
-image: //cdn.productplan.com/wp-content/uploads/2014/03/Sample-roadmap-1024x566.png
+category: "UX, strategy"
+image: "//cdn.productplan.com/wp-content/uploads/2014/03/Sample-roadmap-1024x566.png"
 ---
 
 Ahhh, the product roadmap. If you’re a digital designer, chances are great that you’ve labored over one before. Love them or hate them, most organizations revolve around these sometimes-confusing pages.
@@ -50,8 +46,3 @@ I’m not going to lie - changing your roadmapping approach from features to the
 #####This doesn’t mean it’s not worth the fight. 
 
 If you can push through the challenges that come with change, your business will experience more focus, better results, satisfied customers, and ultimately more revenue. Simply put, change may be your best roadmap to success.
-
-
-
-
-
