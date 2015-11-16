@@ -160,7 +160,7 @@ pid: branding
   </ul>
 </div>
 
-{% include footer-contact.html %}
+
 
 <div class="quotes">
   <h3>What Others Say</h3>
