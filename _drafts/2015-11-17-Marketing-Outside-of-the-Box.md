@@ -3,7 +3,8 @@ published: true
 layout: notes
 author: J Cornelius
 title: Marketing Outside of the Box
-category: "marketing, strategy"
+category: "marketing, strategy, innovating"
+image: "//cdn.business2community.com/wp-content/uploads/2014/03/planning-for-a-mobile-future-www.icesugarmedia.com_.jpg"
 ---
 
 
