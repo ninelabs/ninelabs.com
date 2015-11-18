@@ -6,9 +6,10 @@ title: Marketing Outside of the Box
 category: "marketing, strategy"
 ---
 
-PepsiCo executive Brad Jakeman recently spoke at the Association of National Advertising’s annual “Masters of Marketing” conference in Orlando, FL, and he didn’t pull any punches when it came time for him to address to crowd. He did very little, if any, promotion of the PepsiCo brand; in fact, other than holding a blue can of Pepsi on his hand for the duration of his time on stage, he actually steered clear of product hype and PepsiCo marketing. Instead he took a direction that was a bit unexpected, and spoke boldly and honestly about the problems plaguing the marketing world today. His perspective was honest and refreshing, albeit a bit tough for marketing pros to hear.
 
-The overall theme of Jakeman’s talk centered around the need for marketing strategies to adapt to ever-changing culture:
+PepsiCo executive Brad Jakeman recently spoke at the Association of National Advertising’s annual “Masters of Marketing” conference in Orlando, FL, and he didn’t pull any punches when it came time for him to address to crowd. He did very little, if any, promotion of the PepsiCo brand; in fact, other than holding a blue can of Pepsi in his hand for the duration of his time on stage, he actually steered clear of product hype and PepsiCo marketing. Instead he took a direction that was a bit unexpected, and spoke boldly and honestly about the problems plaguing the marketing world today. His perspective was honest and refreshing, albeit a bit tough for marketing pros to hear.
+
+The overall theme of Jakeman’s talk centered around the need for marketing strategies to adapt to ever-changing times:
 
 > “[The current model] assumes that paid media is the only way to build brands…[but user-generated content] doesn’t cost us a cent...This is a disruption that has happened around us, and we are still talking about 30-second television ads. We fundamentally haven’t changed.”
 
@@ -18,7 +19,7 @@ Jakeman is an trailblazer; it’s why PepsiCo hired him. And he has a good point
 
 This leads me to a question, something I’ve been mulling over in my brain as I consider my business’ approach to marketing strategy:
 
-#####AM I FLEXIBLE AND ADAPTABLE, READY AND WILLING TO CHANGE UP MY METHODOLOGY WHENEVER CHANGING TIMES REQUIRE IT OF ME?
+#####AM I CREATIVE AND PASSIONATE, READY AND WILLING TO CHANGE UP MY METHODOLOGY WHENEVER CHANGING TIMES REQUIRE IT OF ME?
 
 Are you?
 
@@ -26,7 +27,7 @@ It’s easy to get stuck in routine. It’s easy to do things “the way we’ve
 
 I’d say no.
 
-The way I see it, those of us in the design and marketing industry have two choices. We can step out and take risks in hopes that we stay ahead of the curve and pave the way for innovative thinking in our field (and ultimately successful marketing strategies), or we can maintain the status quo, doing what we’ve always done in hopes that the well-oiled marketing machine that we’ve known for so long won’t get rusty and fall to pieces. The second option sounds like an uncalculated risk, otherwise known as foolishness. 
+The way I see it, those of us in the design and marketing industry have two choices. We can step out and take risks in hopes that we stay ahead of the curve and pave the way for innovative thinking in our field (resulting ultimately in successful marketing strategies), or we can maintain the status quo, doing what we’ve always done in hopes that the well-oiled marketing machine that we’ve known for so long won’t get rusty and fall to pieces. The second option sounds like an _uncalculated_ risk, otherwise known as _foolishness_. 
 
 I don’t want to be a fool.
 
@@ -38,13 +39,13 @@ Another of the company’s executives supported this train of thought:
 
 > “We no longer have on a lot of our brands an AOR or lead creative agency. We’re pulling from a roster of agencies for different projects, as we look for the right creative ideas.”
 
-PepsiCo is not alone in its thinking. For the last several years there’s been more and more speculation about the future of marketing’s “Agency of Record” model. For as long as most of us can remember, the focus has been placed on the partnership between a marketer and its agency. More and more, though, this model is under major scrutiny, and AOR tenures vanishing by the day. Marketers are exploring other agencies outside of their previous rosters and long-term partnerships are becoming less and less common. 
+PepsiCo is not alone in its thinking. For the last several years there’s been more and more speculation about the future of marketing’s “Agency of Record” model. For as long as most of us can remember, the focus has been placed on the partnership between a marketer and its agency. More and more, though, this model is under major scrutiny, and AOR tenures are vanishing by the day. Marketers are exploring other agencies outside of their previous rosters, and long-term partnerships are becoming less and less common. 
 
 Why?
 
 Marketers want the freedom to go where the best ideas are at any given time. They don’t want to be tied down, locked into long-term retainers and contracts.
 
-This might feel unsettling for agencies like yours and mine. However, I believe that ultimately it will be the best thing that ever happened to our industry, because it requires us to step up our creative game. When marketers aren’t making decisions rooted in loyalty to an agency, but instead are making them based on “may the best creative marketing strategy win,” it lights a fire under creatives and it pushes us to think outside of the box and with innovate minds. 
+This might feel unsettling for agencies like yours and mine. However, I believe that it ultimately will be the best thing that ever happened to our industry, because it requires us to step up our creative game. When marketers aren’t making decisions rooted in loyalty to an agency, but instead are making them based on “may the best creative marketing strategy win,” it lights a fire under creatives and it pushes us to think outside of the box and with innovate minds. 
 
 The world no longer revolves around the mega-agencies that lock down contracts with major brands simply because they have penthouse offices. The playing field is substantially more level, and we can all take a stab at offering marketers the best idea for their products.
 
