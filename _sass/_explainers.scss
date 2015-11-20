@@ -1,0 +1,55 @@
+///////////////////////////////////////
+// Explainers
+///////////////////////////////////////
+
+
+main>div .content section.explainer {
+
+  &> article {
+    @extend %col-100;
+  }
+
+  .module {
+    @extend %row;
+    border-bottom: $default-border;
+    margin-bottom: 2em;
+    margin-top: 4em;
+    padding-bottom: 2em;
+
+    hgroup {
+      @extend %col-100;
+      h2 {
+        color: $brand-primary;
+        margin-bottom: .25em;
+        small {
+          color: $gray-light;
+          font-size: .65em;
+          font-weight: normal;
+          text-transform: lowercase;
+        }
+      }
+      h5 {
+        color: $gray;
+        font-weight: normal;
+        margin-top:0;
+        text-transform: capitalize;
+      }
+    }
+
+    figure.example {
+      @extend %col-30;
+      margin:0 1em 1em 0;
+    }
+    .description {
+      @extend %col-66;
+      h4 {
+        margin-bottom: .15em;
+      }
+      p {
+        margin-top: 0;
+      }
+    }
+
+  }
+
+}
