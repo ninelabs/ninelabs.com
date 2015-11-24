@@ -1,7 +1,7 @@
 - name: J Cornelius
   partner: true
   photo: /img/people/j-cornelius.jpg
-  role: Founder &amp; President
+  role: President &amp; CEO
   skills:
     - Digital Strategy
     - User Experience
@@ -30,7 +30,7 @@
 - name: Brad Weaver
   partner: true
   photo: /img/people/brad-weaver.jpg
-  role: Director of Design
+  role: Chief Experience Officer
   skills:
     - User Experience
     - Information Architecture
@@ -85,6 +85,30 @@
     Miranda is a two-time Emmy Award winner from her time as an Associate Producer with ESPN. She is a 2002 graduate of Auburn University where she earned a Bachelor’s degree in Public Relations and Communication. She loves college football, cooking shows, Pinterest and a good Russian River Pinot. A native of Birmingham, Alabama, Miranda resides in Decatur with her husband Tony and their Chihuahua, Napoleon. Her superpower is...we mean would be persuasion.
 
 
+- name: Jacklyn Burgan
+  photo: /img/people/jacklyn-burgan.jpg
+  role: UX Researcher + Strategist
+  twitter: https://twitter.com/playfulpixel
+  linkedin: https://www.linkedin.com/in/jacklynburgan
+  website: http://www.playfulpixel.com/
+  skills:
+    - User Experience Design
+    - User Research
+    - Agile Methodologies
+    - Usability
+    - Usability Testing
+    - Interaction Design
+    - Wireframing
+    - User-centered Design
+    - Information Architecture
+  bio: |
+    Jacklyn is a user-experience researcher and strategist with experience in the corporate, agency, and start-up worlds. She’s passionate about usability, empathetic design, and collaboration.
+
+    Jacklyn is a firm believer that educating future leaders is just as important as eating your greens! She advocates engineering and user-experience career paths to young women, conducts workshops at conferences, and participates in the Atlanta design community meetups.
+
+    In her free time, you can find her on the competitive dance floor, organizing the Atlanta chapter of [Ladies that UX](http://www.ladiesthatux.com/), or walking the Beltline with her dog.
+
+
 - name: Sierra Petrowski
   photo: /img/people/sierra-petrowski.jpg
   role: User Experience Designer
@@ -109,31 +133,6 @@
 
     Sierra enjoys Atlanta&rsquo;s wealth of festivals and good restaurants. She loves elephants, Stevie Wonder, espresso and Sans Serif fonts.
 
-- name: Patrick Haney
-  photo: /img/people/patrick-haney.jpg
-  role: Presentation Layer Developer
-  twitter: https://twitter.com/notasausage
-  linkedin: https://www.linkedin.com/in/patrickhaney
-  dribbble: https://dribbble.com/notasausage
-  website: http://patrickhaney.com
-  skills:
-    - User Interface Design
-    - Responsive Web Design
-    - Mobile Design
-    - Usability
-    - Web Application Design
-    - Email Messaging Design
-    - HTML5
-    - CSS3
-    - jQuery
-    - Sass CSS
-  bio: |
-    Patrick is not a sausage. He’s a designer/developer hybrid who has spent the last 17 years working as a web professional in a variety of environments, including large corporations, startups, and universities (including Harvard). These days he works from his home office in Western New York where he's focused on improving the UX of web products with front-end code.
-
-    Patrick specializes in designing and hand coding websites and web applications with HTML and CSS. He’s a full-stack designer who is able to take a project from concept to final build, and he is keenly aware of cross-browser differences, web standards, and usability concerns.
-
-    He is also adept at designing for mobile (both native and web-based products), and is highly experienced with responsive web design patterns and techniques. When he’s not designing and developing for the web, you can find Patrick speaking at conferences, getting involved in the local web community, or hunting down the best chicken wings in town.
-
 
 - name: Paige Templeton
   photo: /img/people/paige-templeton.jpg
@@ -157,30 +156,6 @@
 
     On her spare time you can catch Paige either sipping on dessert wine while reading Jane Austen or shredding powder on her snowboard.
 
-
-
-- name: Jacklyn Burgan
-  photo: /img/people/jacklyn-burgan.jpg
-  role: UX Researcher + Strategist
-  twitter: https://twitter.com/playfulpixel
-  linkedin: https://www.linkedin.com/in/jacklynburgan
-  website: http://www.playfulpixel.com/
-  skills:
-    - User Experience Design
-    - User Research
-    - Agile Methodologies
-    - Usability
-    - Usability Testing
-    - Interaction Design
-    - Wireframing
-    - User-centered Design
-    - Information Architecture
-  bio: |
-    Jacklyn is a user-experience researcher and strategist with experience in the corporate, agency, and start-up worlds. She’s passionate about usability, empathetic design, and collaboration.
-
-    Jacklyn is a firm believer that educating future leaders is just as important as eating your greens! She advocates engineering and user-experience career paths to young women, conducts workshops at conferences, and participates in the Atlanta design community meetups.
-
-    In her free time, you can find her on the competitive dance floor, organizing the Atlanta chapter of [Ladies that UX](http://www.ladiesthatux.com/), or walking the Beltline with her dog.
 
 - name: Kellye Call
   photo: /img/people/kellye-call.jpg
