@@ -1,7 +1,7 @@
 - name: J Cornelius
   partner: true
   photo: /img/people/j-cornelius.jpg
-  role: Founder &amp; President
+  role: President &amp; CEO
   skills:
     - Digital Strategy
     - User Experience
@@ -30,7 +30,7 @@
 - name: Brad Weaver
   partner: true
   photo: /img/people/brad-weaver.jpg
-  role: Director of Design
+  role: Chief Experience Officer
   skills:
     - User Experience
     - Information Architecture
@@ -108,31 +108,6 @@
     She joined Nine Labs in 2014 as an interactive designer and enjoys that every client project requires something slightly different. As an independent and occasionally impatient only child, her worst fear after graduation was being siloed off at a large agency making banner ads every day. She’s glad to be involved in the full life cycle of a project and appreciates the strategy behind a well-researched design.
 
     Sierra enjoys Atlanta&rsquo;s wealth of festivals and good restaurants. She loves elephants, Stevie Wonder, espresso and Sans Serif fonts.
-
-- name: Patrick Haney
-  photo: /img/people/patrick-haney.jpg
-  role: Presentation Layer Developer
-  twitter: https://twitter.com/notasausage
-  linkedin: https://www.linkedin.com/in/patrickhaney
-  dribbble: https://dribbble.com/notasausage
-  website: http://patrickhaney.com
-  skills:
-    - User Interface Design
-    - Responsive Web Design
-    - Mobile Design
-    - Usability
-    - Web Application Design
-    - Email Messaging Design
-    - HTML5
-    - CSS3
-    - jQuery
-    - Sass CSS
-  bio: |
-    Patrick is not a sausage. He’s a designer/developer hybrid who has spent the last 17 years working as a web professional in a variety of environments, including large corporations, startups, and universities (including Harvard). These days he works from his home office in Western New York where he's focused on improving the UX of web products with front-end code.
-
-    Patrick specializes in designing and hand coding websites and web applications with HTML and CSS. He’s a full-stack designer who is able to take a project from concept to final build, and he is keenly aware of cross-browser differences, web standards, and usability concerns.
-
-    He is also adept at designing for mobile (both native and web-based products), and is highly experienced with responsive web design patterns and techniques. When he’s not designing and developing for the web, you can find Patrick speaking at conferences, getting involved in the local web community, or hunting down the best chicken wings in town.
 
 
 - name: Paige Templeton
