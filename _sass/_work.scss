@@ -16,3 +16,17 @@
 img.page-lead {
   margin-bottom: 1.5em;
 }
+
+
+.concierge .content {
+  @extend %row;
+  &>div {
+    @extend %col-50;
+    h5 {
+      margin-bottom: 0;
+    }
+    ul {
+      margin-top: 0.5em;
+    }
+  }
+}
