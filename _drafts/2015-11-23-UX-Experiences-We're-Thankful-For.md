@@ -13,13 +13,15 @@ This definitely holds true for designers. It’s easy to identify UI errors and 
 In the spirit of Thanksgiving, our team at Nine Labs racked our brains to come up with a list of UX experiences we’re thankful for. We hope you enjoy them!
 
 <div class="segment">
-<h3>J CORNELIUS, FOUNDER & PRESIDENT</h3>
+<h3>J CORNELIUS, PRESIDENT &amp; CEO</h3>
 <img src="/img/people/j-cornelius.jpg" class="left small">
-<p>My favorite UX experience has to be TouchID on iOS. It’s the first thing that actually solves username/password nonsense for apps and services. Tempo detection in Runkeeper and Spotify Running comes in a close second. Just start running and the app automatically selects music that fits your pace. Amazing. (I’M THANKFUL FOR ? BECAUSE…)</p>
+<p>My favorite UX experience has to be TouchID on iOS. It’s the first thing that actually solves username/password nonsense for apps and services. The problem is not enough apps are taking advantage of it. Case in point, all my financial apps (American Express, USAA, Simple, Coin) use it, but Wells Fargo doesn't. The Wells Fargo app is pretty bad in general, and the lack of TouchID is annoying enough that I've actually considered switching banks.</p>
+<p>Tempo detection in <a href="https://runkeeper.com/">Runkeeper</a> and <a href="https://www.spotify.com/us/running/">Spotify Running</a> is pretty cool, too. It removes one of the little barriers to starting a run. Just start running and the app automatically selects music that fits your pace. Amazing.</p>
+<p>Both of these technologies are very easy to use and understand because of the simplicity of their execution. They <a href="/notes/reducing-friction.html">remove friction from the experience</a>, which is always a good thing.</p>
 </div>
 
 <div class="segment">
-<h3>BRAD WEAVER, DIRECTOR OF DESIGN</h3>
+<h3>BRAD WEAVER, Chief Experience Officer</h3>
 <img src="/img/people/brad-weaver.jpg" class="left small">
 <p>I’m in love with (and insanely jealous of the work done by <a href="https://www.fiftythree.com/">FiftyThree</a> on) the Paper ecosystem. I tried the Paper app when it was more or less finger painting on the iPad, and it sat unused in a folder. When FiftyThree announced Pencil, I was intrigued. I hate using a stylus, but there was something magical about the Pencil. I was immediately sold the first time I used it. Where Penultimate and so many other apps failed in sensitivity and in understanding where the wrist was on the device, FiftyThree nailed it. It truly felt like I was using something from a science-fiction film. I used the app for sketches, wireframes, and lettering, and it fit perfectly into my workflow.</p>
 <p>Then they came out with their iPhone app. The Paper app for iPhone has become the center of my day-to-day operations. Not only can I capture quick sketches and ideas on both of my devices, but I can be a Creative Director on the go and quickly make notes on images and sketches to get back to my team, no matter where I am. Some long-time users have complained about the recently-simplified UI, and the reduction of features, but I applaud FiftyThree for having the boldness to remove distractions from their interface, and for allowing the user a blank canvas for doing just about anything, including making bulleted lists, taking notes, drawing original art, marking up photos, sketching ideas, or simply writing by hand.</p>
