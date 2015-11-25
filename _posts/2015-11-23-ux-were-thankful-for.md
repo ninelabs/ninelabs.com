@@ -2,20 +2,20 @@
 published: true
 layout: notes
 author: Jordan Watts
-title: "UX Experiences We're Thankful For"
+title: "UX We're Thankful For"
 category: "UX, Thanksgiving"
 ---
 
-It’s the time of year when we pause to consider all we’re thankful for (and to gorge ourselves on carbs and turkey, only to fall into a tryptophan-induced coma while we attempt to watch another football game). Gratitude is often so underemphasized, a mere afterthought as we rush through our fast-paced lives. Humankind has a tendency to focus on the negatives — the problems we face and the annoyances that plague us — while all around us we miss so many opportunities to simply be thankful.
+It’s the time of year when we pause to consider all we’re thankful for (and to gorge ourselves on carbs and turkey, only to fall into a tryptophan-induced coma while we attempt to watch another football game). Gratitude is often so underemphasized, a mere afterthought as we rush through our fast-paced lives. Humankind has a tendency to focus on the negatives &mdash; the problems we face and the annoyances that plague us &mdash; while all around us we miss so many opportunities to simply be thankful.
 
-This definitely holds true for designers. It’s easy to identify UI errors and design flaws, to look at everything with a critical eye. This isn’t necessarily a bad thing — after all, critical eyes make for great designers. However, it’s important that we notice design wins as well, and to find digital experiences worth celebrating.
+This definitely holds true for designers. It’s easy to identify UI errors and design flaws, to look at everything with a critical eye. This isn’t necessarily a bad thing &mdash; after all, critical eyes make for great designers. However, it’s important that we notice design wins as well, and to find digital experiences worth celebrating.
 
-In the spirit of Thanksgiving, our team at Nine Labs racked our brains to come up with a list of UX experiences we’re thankful for. We hope you enjoy them!
+In the spirit of Thanksgiving, our team at Nine Labs racked our brains to come up with a list of user experience designs we’re thankful for. We hope you enjoy them!
 
 <div class="segment">
 <h3>J CORNELIUS, PRESIDENT &amp; CEO</h3>
 <img src="/img/people/j-cornelius.jpg" class="left small">
-<p>My favorite UX experience has to be TouchID on iOS. It’s the first thing that actually solves username/password nonsense for apps and services. The problem is not enough apps are taking advantage of it. Case in point, all my financial apps (American Express, USAA, Simple, Coin) use it, but Wells Fargo doesn't. The Wells Fargo app is pretty bad in general, and the lack of TouchID is annoying enough that I've actually considered switching banks.</p>
+<p>My favorite new experience has to be TouchID on iOS. It’s the first thing that actually solves username/password nonsense for apps and services. The problem is not enough apps are taking advantage of it. Case in point, all my financial apps (American Express, USAA, Simple, Coin) use it, but Wells Fargo doesn't. The Wells Fargo app is pretty bad in general, and the lack of TouchID is annoying enough that I've actually considered switching banks.</p>
 <p>Tempo detection in <a href="https://runkeeper.com/">Runkeeper</a> and <a href="https://www.spotify.com/us/running/">Spotify Running</a> is pretty cool, too. It removes one of the little barriers to starting a run. Just start running and the app automatically selects music that fits your pace. Amazing.</p>
 <p>Both of these technologies are very easy to use and understand because of the simplicity of their execution. They <a href="/notes/reducing-friction.html">remove friction from the experience</a>, which is always a good thing.</p>
 </div>
