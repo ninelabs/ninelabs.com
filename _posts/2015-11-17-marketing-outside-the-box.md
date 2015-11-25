@@ -23,9 +23,7 @@ This leads me to a question, something I’ve been mulling over in my brain as I
 
 ### AM I CREATIVE AND PASSIONATE, READY AND WILLING TO CHANGE MY METHODOLOGY WHENEVER CHANGING TIMES REQUIRE?
 
-Are you?
-
-It’s easy to get stuck in routine. It’s easy to do things _“the way we’ve always done them.”_ But is it best? I’d say no.
+Are you? It’s easy to get stuck in routine. It’s easy to do things _“the way we’ve always done them.”_ But is it best? I’d say no.
 
 The way I see it, those of us in the design and marketing industry have two choices. We can step out and take risks in hopes that we stay ahead of the curve and pave the way for innovative thinking in our field (resulting ultimately in successful marketing strategies), or we can maintain the status quo, doing what we’ve always done in hopes that the well-oiled marketing machine that we’ve known for so long won’t get rusty and fall to pieces. The second option sounds like an _uncalculated_ risk, otherwise known as _foolishness_.
 
@@ -39,9 +37,7 @@ Another of the company’s executives supported this train of thought:
 
 > “We no longer have on a lot of our brands an AOR or lead creative agency. We’re pulling from a roster of agencies for different projects, as we look for the right creative ideas.”
 
-PepsiCo is not alone in its thinking. For the last several years there’s been more and more speculation about the future of marketing’s “Agency of Record” model. For as long as most of us can remember, the focus has been placed on the partnership between a marketer and its agency. More and more, though, this model is under major scrutiny, and AOR tenures are vanishing by the day. Marketers are exploring other agencies outside of their previous rosters, and long-term partnerships are becoming less and less common.
-
-Why?
+PepsiCo is not alone in its thinking. For the last several years there’s been more and more speculation about the future of marketing’s “Agency of Record” model. For as long as most of us can remember, the focus has been placed on the partnership between a marketer and its agency. More and more, though, this model is under major scrutiny, and AOR tenures are vanishing by the day. Marketers are exploring other agencies outside of their previous rosters, and long-term partnerships are becoming less and less common. Why?
 
 Marketers want the freedom to go where the best ideas are at any given time. They don’t want to be tied down, locked into long-term retainers and contracts.
 
