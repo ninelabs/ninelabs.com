@@ -10,7 +10,8 @@ section#landing {
 }
 
 .concierge {
-  h3 em {
+
+  h2, h3 em {
     color: $brand-primary;
     font-style: normal;
   }
@@ -21,7 +22,7 @@ section#landing {
         margin-top: 0;
       }
     }
-    ul {
+    p, ul {
       margin-top: 0.5em;
     }
   }
