@@ -7,12 +7,34 @@ pid: notes
     <a href="/notes/">&laquo; All Lab Notes</a></p>
     <div class="post-meta">
       {% if page.category == 'clientwork' %}
-      <p class="kv"><em>Client:</em> <span>{% if page.client.url %}<a href="{{ page.client.url }}">{{ page.client.name }}</a>{% else %}{{ page.client.name }}{% endif %}</span></p>
-      <p class="kv"><em>Services:</em> <span>{{ page.client.services }}</span></p>
+      <p class="kv">
+        <em>Client:</em>
+        <span>{% if page.client.url %}<a href="{{ page.client.url }}">{{ page.client.name }}</a>{% else %}{{ page.client.name }}{% endif %}</span>
+      </p>
+      <p class="kv">
+        <em>Services:</em>
+        <span>{{ page.client.services }}</span>
+      </p>
       {% endif %}
-      <p class="kv"><em>Posted:</em> <span>{{ page.date | date: "%b %-d, %Y" }}</span></p>
-      <p class="kv"><em>By:</em> <span>{{ page.author }}</span></p>
+      <p class="kv">
+        <em>Posted:</em>
+        <span>{{ page.date | date: "%b %-d, %Y" }}</span>
+      </p>
+      <p class="kv">
+        <em>By:</em>
+        <span>{{ page.author }}</span>
+      </p>
       <p class="readtime">It should take {{ page.content | reading_time }} to read.</p>
+    </div>
+    <div class="post-social">
+      <div class="ssk-group">
+        <a href="#" class="ssk ssk-facebook" data-proofer-ignore></a>
+        <a href="#" class="ssk ssk-twitter" data-proofer-ignore></a>
+        <a href="#" class="ssk ssk-linkedin" data-proofer-ignore></a>
+        <a href="#" class="ssk ssk-google-plus" data-proofer-ignore></a>
+        <a href="#" class="ssk ssk-tumblr" data-proofer-ignore></a>
+        <a href="#" class="ssk ssk-email" data-proofer-ignore></a>
+      </div>
     </div>
   </aside>
   <article class="post-content">
@@ -21,16 +43,12 @@ pid: notes
     </header>
     <div class="post">
       {% if page.image %}
-        <figure>
-          <img src="{{ page.image }}" alt="Header Image">
-          {% if page.image-caption %}
-          <figcaption>{{ page.image-caption }}</figcaption>
-          {% endif %}
-        </figure>
-      {% endif %}
-
-      {{ content }}
-      {% if page.category == 'clientwork' and page.client.quote != null %}
+      <figure>
+        <img src="{{ page.image }}" alt="Header Image"> {% if page.image-caption %}
+        <figcaption>{{ page.image-caption }}</figcaption>
+        {% endif %}
+      </figure>
+      {% endif %} {{ content }} {% if page.category == 'clientwork' and page.client.quote != null %}
       <div class="client-quote">
         <div class="client-photo">
           <img src="/img/people/{{ page.client.quote-person-photo }}" alt="{{ page.client.quote-person }}">
@@ -47,16 +65,18 @@ pid: notes
 
     <div class="posts-page-navigation">
       <div class="left">
-        {% if page.previous.url %}<em>Previously:</em><br>
+        {% if page.previous.url %}
+        <em>Previously:</em>
+        <br>
         <a href="{{page.previous.url}}" title="Previous Post:
-        {{page.previous.title}}">{{page.previous.title}}</a>
-        {% endif %}
+        {{page.previous.title}}">{{page.previous.title}}</a> {% endif %}
       </div>
       <div class="right">
-        {% if page.next.url %}<em>Next Up:</em><br>
+        {% if page.next.url %}
+        <em>Next Up:</em>
+        <br>
         <a href="{{page.next.url}}" title="next Post:
-        {{page.next.title}}">{{page.next.title}}</a>
-        {% endif %}
+        {{page.next.title}}">{{page.next.title}}</a> {% endif %}
       </div>
     </div>
   </article>
