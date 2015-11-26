@@ -4,6 +4,7 @@ layout: notes
 author: Jordan Watts
 title: "UX We're Thankful For"
 category: "UX, Thanksgiving"
+image: //s3.amazonaws.com/ninelabs.com/hands-on-iphone.jpg
 ---
 
 It’s the time of year when we pause to consider all we’re thankful for (and to gorge ourselves on carbs and turkey, only to fall into a tryptophan-induced coma while we attempt to watch another football game). Gratitude is often so underemphasized, a mere afterthought as we rush through our fast-paced lives. Humankind has a tendency to focus on the negatives &mdash; the problems we face and the annoyances that plague us &mdash; while all around us we miss so many opportunities to simply be thankful.
