@@ -220,10 +220,10 @@ figure {
 #home {
   border-bottom: 1px solid $brand-primary;
   h1 {
-    font-size: 3em;
+    font-size: 3.5em;
     line-height: 1em;
     margin-top: 0;
-    text-transform: uppercase;
+    text-transform: capitalize;
     @include breakpoint(xs) {
       font-size: 1.5em;
     }
@@ -240,8 +240,46 @@ figure {
   border-top: 5px solid $brand-primary;
   margin-top: 3em;
   padding-top: 2em;
+
   .segment {
     @extend %col-33;
+    .image {
+      margin-bottom: 1em;
+      position: relative;
+      img {
+        min-width: 100%;
+      }
+      h2 {
+        background-position: 0 0;
+        background-size: cover;
+        margin: 0;
+        padding: $gutter-width / 2;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: rgb(0, 0, 0); /* fallback color */
+        background: rgba(0, 0, 0, 0.7);
+      }
+      h2, p {
+        color: white;
+      }
+    }
+    .desc {
+      padding-left: $gutter-width / 2;
+      padding-right: $gutter-width / 2;
+      h5 {
+        margin-bottom: .5em;
+      }
+      p {
+        margin-top: 0;
+      }
+      .secondary-link {
+        color: $brand-primary;
+        font-size: .85em;
+        font-weight: bold;
+      }
+    }
   }
 }
 .pod {

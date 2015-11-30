@@ -1,6 +1,11 @@
 
 $(function() {
 
+  // segment boxes on home page
+  $("#home .segment h2").wrapInner("<span>")
+  $("#home .segment h2 br").before("<span class='spacer'>").after("<span class='spacer'>");
+
+
   // use image captions as figcaptions in blog posts
   $("img.caption").each(function() {
     var imageCaption = $(this).attr("alt");
