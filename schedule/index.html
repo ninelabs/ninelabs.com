@@ -1,0 +1,57 @@
+---
+layout: default
+title: Schedule
+---
+
+<section id="schedule">
+  <header>
+    <hgroup>
+      <h1>Schedule a Time</h1>
+    </hgroup>
+  </header>
+  <p class="lead">Schedule a time with one of our experts now.</p>
+
+  <!-- <iframe src="//www.appointmentcore.com/app/freeslots/pbzaZm?iframe-view=SlotsV2" width="400" height="900" style="border:none;" frameborder="0"></iframe> -->
+
+  <div id="bookingjs">
+    <script type="text/javascript" src="http://cdn.timekit.io/booking-js/v1/booking.min.js" defer></script>
+    <script type="text/javascript">
+      window.timekitBookingConfig = {
+        name: 'J Cornelius',
+        email: 'jc@ninelabs.com',
+        apiToken: 'y6OGTgzMysFScieCGS9xQKId15jh0k1P',
+        calendar: '9fd69a7a-d6c4-44e6-9abc-e9c5e65eaf1b',
+        avatar: 'https://lh6.googleusercontent.com/-_bsNOlJ8Jss/AAAAAAAAAAI/AAAAAAAAABk/YLG8ZrvsNaU/photo.jpg',
+        timekitFindTime: {
+          filters: {
+            and: [{
+              business_hours: {}
+            }, {
+              exclude_weekend: {}
+            }],
+            or: [{
+              specific_time: {
+                start: '00',
+                end: '12'
+              }
+            }, {
+              specific_time: {
+                start: '14',
+                end: '24'
+              }
+            }]
+          },
+          length: '30 minutes'
+        },
+        bookingFields: {
+          location: {
+            enabled: false,
+            placeholder: 'GoToMeeting',
+            prefilled: 'GoToMeeting',
+            required: false
+          }
+        }
+      }
+    </script>
+  </div>
+</section>
