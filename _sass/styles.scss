@@ -234,27 +234,15 @@ figure {
       font-size: 1em;
     }
   }
-  .skill {
-    &:nth-child(2n+1){
-      clear:left;
-    }
-    @include breakpoint(xs) {
-      h3 {
-        margin-bottom: 0;
-        padding-bottom: 0;
-      }
-      p {
-        margin-top: 0;
-        padding-top: 0;
-      }
-    }
-  }
 }
-.trio {
+.segments {
   @extend %row;
   border-top: 5px solid $brand-primary;
   margin-top: 3em;
   padding-top: 2em;
+  .segment {
+    @extend %col-33;
+  }
 }
 .pod {
   @extend %col-33;
