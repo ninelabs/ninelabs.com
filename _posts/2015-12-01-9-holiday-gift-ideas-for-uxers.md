@@ -16,14 +16,15 @@ We know how tough it can be to find the perfect gift for the UXer in your life, 
 
 ####1. [Slicky Notes](http://www.ecostaticinc.com/product-category/shop/)
 
-![Slicky Notes](//s3.amazonaws.com/ninelabs.com/slicky-notes.jpg)
+![Slicky Notes](//s3.amazonaws.com/ninelabs.com/ux-gift-slicky-notes.jpg)
 
 Sticky notes that stick to the wall without all the nasty residue because SCIENCE. If you visit the Nine Labs office space, you’ll see we’ve got tons of these guys stuck to the walls as well as to their Slickyboards. Both are great tools to have on hand, especially for those information-architecture projects that have you moving sticky notes around over long stretches of time. These sticky notes never lose their stick!
 
 ----
 
 ####2. [Moleskine](http://www.moleskine.com/us/)
-![Moleskin Notebooks](//s3.amazonaws.com/ninelabs.com/moleskin.jpg)
+
+![Moleskin Notebooks](//s3.amazonaws.com/ninelabs.com/ux-gift-moleskin.jpg)
 
 Also affectionately referred to as Old Faithful. Our entire company loves Moleskine notebooks - not just our designers. We live in these things. They come in all kinds of shapes, sizes, and colors, and you’re bound to find a style that fits your favorite UXer.
 
