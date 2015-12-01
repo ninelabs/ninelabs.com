@@ -2,7 +2,7 @@
 published: true
 layout: notes
 author: Jacklyn Burgan
-title: Nine Holiday Gift Ideas for UXers
+title: 9 Holiday Gift Ideas for UXers
 categories: null
 category: "UX, holidays"
 image: //hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2013/10/8/2/original_Sam-Henderson-Christmas-mod-gift-wrap-red-bag-and-text-box_4x3.jpg.rend.hgtvcom.1280.960.jpeg
