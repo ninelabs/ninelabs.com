@@ -5,7 +5,7 @@ author: Jacklyn Burgan
 title: 9 Holiday Gift Ideas for UXers
 categories: null
 category: "UX, holidays"
-image: //hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2013/10/8/2/original_Sam-Henderson-Christmas-mod-gift-wrap-red-bag-and-text-box_4x3.jpg.rend.hgtvcom.1280.960.jpeg
+image: //s3.amazonaws.com/ninelabs.com/ux-gift-packages.jpg
 ---
 
 We’re excited for the holidays here at Nine Labs! The weather has finally started to get chilly, people around town seem to be smiling more, and there’s nothing like walking out of the cold and into the warmth of the mall after you just cut off a little old lady in an Oldsmobile to get the best parking spot (hypothetically speaking, of course).
