@@ -8,7 +8,7 @@
   <title>{% if page.title or post.title %}{{ page.title }}{{ post.title }} // {{ site.name }}{% else %} {{ site.name }} // Strategic thinking to help your business{% endif %}</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=100">
-  <meta name="description" content="{% if page.meta-description %}{{ page.meta-description }}{% else %}Strategic Thinking To Help Your Business - Web, Mobile, Apps, and Ecommerce{% endif %}">
+  <meta name="description" content="{% if page.pid == 'notes' %}{{ page.excerpt | strip_html }}{% else if page.meta-description %}{{ page.meta-description }}{% else %}Strategic Thinking To Help Your Business - Web, Mobile, Apps, and Ecommerce{% endif %}">
   <meta name="keywords" content="{% if page.meta-keywords %}{{ page.meta-keywords }}{% else %}consulting, strategy, user experience, customer experience, branding, brand, digital strategy, experience design, digital, website, web, services{% endif %}">
   <meta name="author" content="Nine Labs">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,11 +17,8 @@
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.url }}/feed.xml">
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  {% if page.pid == 'styleguide' %}
-  <link rel="stylesheet" href="/css/styleguide.css?v=2">
-  <link rel="stylesheet" href="/css/pygments.css?v=2">
-  {% else if page.pid == 'notes' %}
-  <link rel="stylesheet" href="/css/pygments.css?v=2">
+  {% if page.pid == 'notes' %}
+  <link rel="stylesheet" href="/css/social-share-kit.css?v=2">
   {% endif %}
   <link rel="stylesheet" href="/css/styles.css?v=2">
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
@@ -47,16 +44,25 @@
   <meta property="og:site_name" content="Nine Labs" />
   <meta property="og:url" content="https://ninelabs.com{{ page.url }}" />
   <meta property="og:title" content="{% if page.title or post.title %}{{ page.title }}{{ post.title }}{% else %}Digital Strategy // Business Results{% endif %}" />
-  <meta property="og:description" content="{% if page.meta-description %}{{ page.meta-description }}{% else %}Strategic Thinking To Help Your Business - Web, Mobile, Apps, and Ecommerce{% endif %}" />
+  <meta property="og:description" content="{% if page.pid == 'notes' %}{{ page.excerpt | strip_html }}{% else if page.meta-description %}{{ page.meta-description }}{% else %}Strategic Thinking To Help Your Business - Web, Mobile, Apps, and Ecommerce{% endif %}" />
   <meta property="og:type" content="article" />
   <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}https://ninelabs.com/img/post-it-wall.jpg{% endif %}" />
 </head>
 <body id="lldfl"{% if page.pid %} class="{{ page.pid }}"{% endif %}>
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=521078101401631";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
   {% include global-navigation.html %}
 
   <main>
     <div>
+      {{ post.excerpt }}
       <div class="content">
         {{ content }}
       </div>
@@ -70,6 +76,21 @@
   <script>var nav = responsiveNav(".nav-collapse");</script>
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
   {% if page.pid == 'styleguide' %}<script src="/js/styleguide.js"></script>{% endif %}
+  {% if page.pid == 'notes' %}
+  <script type="text/javascript" src="/js/social-share-kit.min.js"></script>
+  <script type="text/javascript">
+    SocialShareKit.init({
+      selector: '.post-social .ssk',
+      url: 'https://ninelabs.com{{ page.url }}',
+      text: "{{ page.title }}",
+      twitter: {
+        url: 'https://ninelabs.com{{ page.url }}',
+
+        via: '@ninelabs',
+    }
+    });
+  </script>
+  {% endif %}
   {% if page.textrotate %}
   <script>
   var keywords = $(".rotate").data("words").split('|');
