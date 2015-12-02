@@ -38,7 +38,7 @@ Yes, it’s technically a game designed for children. However, it’s also one o
 ----
 
 ####4. [Whiskey Taxonomy Glasses](http://www.uncommongoods.com/product/whiskey-taxonomy-glass-set)
-![Whiskey Taxonomy Glasses](http://s3.amazonaws.com/ninelabs.com/ux-gift-whisky-glasses.jpg)
+![Whiskey Taxonomy Glasses](//s3.amazonaws.com/ninelabs.com/ux-gift-whisky-glasses.jpg)
 
 What goes better with taxonomies than whiskey? We love it so much, we even created [a weekend getaway](https://webwhiskyweekend.com/WebWhisky/whiskey) around it!
 
