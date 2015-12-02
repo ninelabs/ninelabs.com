@@ -25,8 +25,8 @@ Rest assured, Fortune 500 companies didn’t start out with the websites you see
 
 ###Change takes time, obviously!
 
-![Amazon.com in 1996](http://s3.amazonaws.com/ninelabs.com/amazon-1997.jpg){: .caption}
-![Amazon.com in 2015](http://s3.amazonaws.com/ninelabs.com/amazon-2015.jpg){: .caption}
+![Amazon.com in 1996](//s3.amazonaws.com/ninelabs.com/amazon-1997.jpg){: .caption}
+![Amazon.com in 2015](//s3.amazonaws.com/ninelabs.com/amazon-2015.jpg){: .caption}
 
 Great web designers are aware of this, and they push their clients toward online greatness while at the same time respecting a company’s current position in the marketplace. They understand that there’s value in investing in good design, even if it’s a small investment for a small startup, because small investments often lead to big returns. Trusted designers honor their clients’ budgets and the hard work it takes for startups to establish even a meager revenue stream. He or she will work to help you create a website that looks good, functions wells, and represents your company honestly;  AND help you to continue to refine and grow your website as your business grows.
 
