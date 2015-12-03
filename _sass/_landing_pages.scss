@@ -1,6 +1,6 @@
 
 
-section#landing {
+section.landing {
   &>article {
     @extend %col-60;
   }
@@ -9,7 +9,7 @@ section#landing {
   }
 }
 
-.concierge {
+.ux-on-demand {
 
   h2, h3 em {
     color: $brand-primary;
