@@ -4,7 +4,7 @@
   compensation: Salary
   meta-description: |
     We are constantly creating new interactive content and you’ll play a key role in creating, delivering, and maintaining it all.
-  image: http://s3.amazonaws.com/ninelabs.com/desk.jpg
+  image: //s3.amazonaws.com/ninelabs.com/desk.jpg
   responsibilities:
     - Collaborate with other developers to write maintainable code and solve problems effectively
     - Work with clients&rsquo; in-house development teams
@@ -52,7 +52,7 @@
   location: Atlanta
   status: Full-time
   compensation: Salary
-  image: http://s3.amazonaws.com/ninelabs.com/desk.jpg
+  image: //s3.amazonaws.com/ninelabs.com/desk.jpg
   meta-description: |
     Seeking a master communicator, planner, and organizer to help ensure project success.
   responsibilities:
@@ -83,7 +83,7 @@
   location: Atlanta prefered, remote okay
   status: Contract
   compensation: Project basis
-  image: http://s3.amazonaws.com/ninelabs.com/Code.jpg
+  image: //s3.amazonaws.com/ninelabs.com/Code.jpg
   meta-description: |
     Seeking talented front-end developer for short-term projects.
   responsibilities:
@@ -119,7 +119,7 @@
   location: Atlanta, GA
   compensation: Salary
   status: Full-time
-  image: http://s3.amazonaws.com/ninelabs.com/phonehands-1.jpg
+  image: //s3.amazonaws.com/ninelabs.com/phonehands-1.jpg
   meta-description: |
     We&rsquo;re looking for someone to spread the word about who we are and what we do.
   description: |
