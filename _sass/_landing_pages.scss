@@ -2,10 +2,7 @@
 
 section.landing {
   &>article {
-    @extend %col-60;
-  }
-  &>aside {
-    @extend %col-40;
+    @extend %col-100;
   }
 }
 
