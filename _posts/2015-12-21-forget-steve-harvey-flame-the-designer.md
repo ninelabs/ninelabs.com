@@ -11,7 +11,7 @@ Unless you live under a rock, by now you&rsquo;ve definitely seen and heard/read
 
 You see, Miss Colombia was actually 1st runner up; Miss Philippines won the pageant and _(ultimately)_ took the crown. The three-or-so minutes of live television following his snafu was awkward as hell. It was kind of like a bad accident &mdash; you _want_ to look away, you know you _should_ look away, but you _just can&rsquo;t_ look away.
 
-#### In case you missed it, take a few minutes and watch this. I promise, you won&rsquo;t be able to look away, either:
+#### In case you missed it, take a few minutes and watch this. I promise, you won&rsquo;t be able to look away either:
 
 <iframe width="875" height="492" src="https://www.youtube.com/embed/nmqAjr0xs04?rel=0&amp;showinfo=0" frameborder="0"></iframe>
 
@@ -31,7 +31,7 @@ People, let&rsquo;s get real for a second. There is no excuse -- _NO EXCUSE_ -- 
 
 It&rsquo;s pretty safe to say that user experience wasn&rsquo;t researched _(or even considered)_ in the Miss-Universe-2015-results-card design process. Nothing about this card screams “Pay attention! Important information lies ahead!” Headings aren&rsquo;t clear, symmetry is non-existent, and there&rsquo;s no information or design hierarchy in the general vicinity. It&rsquo;s atrocious.
 
-To make matters worse, the winner&rsquo;s information sits at the bottom right-hand corner of the card when everything else is left justified. Harvey was holding the mic in his left hand and the cue card in his right. _Let that sink in for a second._ If he was holding the card in his right hand, chances are good that his hand was covered up the information on the bottom right side of the card. _Where the winner&rsquo;s information was printed. _
+To make matters worse, the winner&rsquo;s information sits at the bottom right-hand corner of the card when everything else is left justified. Harvey was holding the mic in his left hand and the cue card in his right. _Let that sink in for a second._ If he was holding the card in his right hand, chances are good that his hand was covered up the information on the bottom right side of the card. _Where the winner&rsquo;s information was printed._
 
 Yes, they needed the template to be simple so it was ready to be filled in and printed at any given moment. Simple design is fine &mdash; as long as it&rsquo;s user-friendly and clear, too.
 
