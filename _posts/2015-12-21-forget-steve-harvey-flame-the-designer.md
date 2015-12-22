@@ -33,13 +33,13 @@ It&rsquo;s pretty safe to say that user experience wasn&rsquo;t researched _(or 
 
 To make matters worse, the winner&rsquo;s information sits at the bottom right-hand corner of the card when everything else is left justified. Harvey was holding the mic in his left hand and the cue card in his right. _Let that sink in for a second._ If he was holding the card in his right hand, chances are good that his hand was covered up the information on the bottom right side of the card. _Where the winner&rsquo;s information was printed. _
 
-Yes, they needed the template to be simple so it was ready to be filled in and printed at any given moment. Simple design is fine -- as long as it&rsquo;s user-friendly and clear, too.
+Yes, they needed the template to be simple so it was ready to be filled in and printed at any given moment. Simple design is fine &mdash; as long as it&rsquo;s user-friendly and clear, too.
 
 This is a perfect _(and, unfortunately, public)_ example of a UX fail. Anybody could have misread that card, because the information wasn&rsquo;t presented clearly. The user _(in this case, Steve)_ was borderline set up for failure, and fail he did.
 
 There&rsquo;s always a silver lining, though, right? In this case, it&rsquo;s that we all saw something awful yet hilarious go down on live TV, and it involved the world&rsquo;s _(I mean, the universe&rsquo;s)_ most famous beauty pageant, which, let&rsquo;s be honest, we all love to hate. There&rsquo;s something about that many genetically _(and artificially)_ flawless people being in one place at one time that is unsettling, am I right? And ultimately, it made for an uncomfortable few minutes, great water-cooler talk, and this unforgettable literary piece.
 
-So, unnamed designer...thank you, I guess? And Miss Universe people, just a word of advice:
+So, unnamed designer&hellip;thank you, I guess? And Miss Universe people, just a word of advice:
 
 #### Next time you need someone to design your cue cards, why don&rsquo;t you just hire us?
 
