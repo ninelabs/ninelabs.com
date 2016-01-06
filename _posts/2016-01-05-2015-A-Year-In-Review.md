@@ -18,7 +18,7 @@ To some, this was the travesty of all travesties. I think you know what I mean w
 
 Rdio focused heavily on design, and as a result people with an eye for well-designed interfaces fell in love with the application. It was built with true music purists in mind; it featured album-centric design and exploration rather than singles and track-drive exploration like you&rsquo;d find on Spotify.
 
-Our CXO, [/about/brad-weaver.html](Brad Weaver), took the news of Rdio&rsquo;s death especially hard. He had this to say about the subject:
+Our CXO, [Brad Weaver](/about/brad-weaver.html), took the news of Rdio&rsquo;s death especially hard. He had this to say about the subject:
 
 > I&rsquo;ll miss the beautiful minimalism of Rdio, and that oh-so-perfect shade of blue, but most of all I&rsquo;ll miss the community-driven discovery. While Spotify does a great job of pushing new singles out, it handles albums terribly. I get that millennials are only interested in tracks (and have the attention span of Dory), but there is still a large group of users who appreciate an artist&rsquo;s original vision for an entire album. Finding and discovering albums on Spotify is &mdash; how can I put this lightly &mdash; a trainwreck. Even if you do find an artist that you want to explore, telling the difference between albums, singles, EPs, and live sessions is nigh impossible. No weight shift, no separation, and no hierarchy is given other than plain headers with razor thin lines. It&rsquo;s minimalism done horribly wrong, wrapped in an expensive font and pretty pictures. Rdio, why did you leave me!?!? Why?!?!
 
