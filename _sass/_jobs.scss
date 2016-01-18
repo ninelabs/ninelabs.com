@@ -1,6 +1,13 @@
 // Jobs
 
 #jobs {
+  h1 {
+    font-size: 3em;
+    em {
+      font-style: normal;
+    }
+  }
+
   .job, .how-we-work, .get-in-touch {
     border-top: $container-border;
   }
