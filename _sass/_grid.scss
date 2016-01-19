@@ -19,7 +19,7 @@ $gutter-width: 30px;
   @include clearfix();
 }
 
-%row {
+%row, .row {
   margin-bottom:1em;
   margin-left:  ($gutter-width / -2);
   margin-right: ($gutter-width / -2);
@@ -34,7 +34,7 @@ $gutter-width: 30px;
     $row-full: $full - 1;
   }
 
-  %col-#{$i} {
+  %col-#{$i}, .col-#{$i} {
     float:left;
     min-height: 1px;
     padding-left:  ($gutter-width / 2);
@@ -45,7 +45,7 @@ $gutter-width: 30px;
       width: percentage($full / 100);
     }
   }
-  %offset-#{$i} {
+  %offset-#{$i}, .offset-#{$i} {
     margin-left: percentage($i / $row-full);
     @include breakpoint(xs){
       left: 0;

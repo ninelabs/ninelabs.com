@@ -16,7 +16,11 @@
 'notes',
 'jobs',
 'startups',
+<<<<<<< HEAD
 'landing',
+=======
+'landing_pages',
+>>>>>>> master
 'pygments';
 
 html {
@@ -575,7 +579,40 @@ figure {
 
 
 
+///
+// Landing Page
+body.landing {
+  section.navigation {
+    margin-bottom: 0 !important;
+  }
+  .videoWrapper {
+	  position: relative;
+	  padding-bottom: 54.1%;
+	  padding-top: 25px;
+	  height: 0;
+  }
+  .videoWrapper iframe {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+  }
+  .sub-video-cta {
+    h3 {
+      @include breakpoint(xs){
+        font-weight: normal;
+        font-size: .9em;
+        text-transform: none;
+      }
+    }
+    .btn {
+      margin-top: 1.15em;
+    }
+  }
 
+
+}
 
 
 //////
