@@ -11,6 +11,9 @@
     font-size: 3.5em;
     text-transform: none;
     margin-bottom: 1em;
+    @include breakpoint(xs) {
+      font-size: 2em;
+    }
   }
 
   .cta {
@@ -28,6 +31,10 @@
       em {
         color: $brand-primary;
         font-style: normal;
+      }
+      @include breakpoint(xs) {
+        font-size: 1em;
+        margin-bottom: 2em;
       }
     }
   }
@@ -114,6 +121,7 @@
   position: relative;
   z-index: 2;
   width: 600px;
+  max-width: 90%;
   background: #fff;
   padding: 15px 30px;
   -webkit-border-radius: 8px;
@@ -130,6 +138,10 @@
 
   h2 {
     margin-top: 0;
+    text-transform: none;
+    @include breakpoint(xs) {
+      font-size: 1em;
+    }
   }
   .progress {
     font-size: .8em;
