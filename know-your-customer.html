@@ -2,41 +2,103 @@
 layout: default
 title: Know Your Customer Workshop
 published: true
+pid: landing
+modal: true
 ---
 
-<section>
+<section class="landing-page">
 
   <header>
     <hgroup>
-      <h1>Who Are Your Customers?</h1>
+      <h1>Would you like to find your most valuable customers?</h1>
     </hgroup>
+    <div class="cta">
+      <div class="cta-text">
+        <h2>Get the <em>exact formula</em> for finding and reaching your <em>most valuable customers</em>.</h2>
+      </div>
+      <div class="cta-button">
+        <a href="#request-form" class="btn" rel="modal:open"><i class="fa fa-arrow-circle-right"></i> Send Me the Guide</a>
+      </div>
+    </div>
   </header>
 
-  <aside>
-    <img src="//s3.amazonaws.com/ninelabs.com/j-speaking.jpg" alt="J Cornelius speaking about incentives">
-  </aside>
 
-  <article>
-    <p class="lead">How well do you know your customer? Do you know what they think about your company and it&rsquo;s products or services?</p>
-    <p>Answering &ldquo;people who pay us money&rdquo; is a cop out. Describing your customers by demographics isn't good enough.</p>
-    <p>If you&rsquo;re going after &ldquo;25-35 year old women&rdquo;, your focus isn&rsquo;t, well, focused.</p>
+  <div>
+    <h2>Who is Your Target Customer?</h2>
+    <p>Answering &ldquo;people who pay us money&rdquo; is a cop out. Describing your customers by simple demographics isn&rsquo;t good enough. If you&rsquo;re going after &ldquo;25-35 year old women in New York City&rdquo;, your focus isn&rsquo;t, well, focused enough.</p>
+    <p>To understand why someone would want what you&rsquo;re selling, you need to understand who they are.</p>
+  </div>
 
-    <h4>What you need to know is:</h4>
+  <div class="list">
+    <h3>You need to know:</h3>
     <ol>
-      <li>What do they believe?</li>
-      <li>Who do they trust?</li>
-      <li>What are they afraid of and who do they love?</li>
+      <li>What are thier pains?</li>
+      <li>Who do they listen to?</li>
       <li>What are they seeking?</li>
-      <li>Who are their friends?</li>
-      <li>What do they talk about?</li>
+      <li>What will they pay for?</li>
+      <li>How do you get their attention?</li>
     </ol>
+  </div>
+  <div class="bio">
+    <h3>Meet the Expert</h3>
+    <img src="/img/people/jacklyn-burgan.jpg" class="inset">
+    <p>Jacklyn Burgan has over 10 years of experience helping companies like Turner Broadcasting, Coca-Cola, and companies of all sizes get to know and understand their customers.</p>
+    <p><a href="/about/jacklyn-burgan.html">More About Jacklyn</a></p>
+  </div>
 
-    <h3>This Workshop Includes:</h3>
-    <ul>
-      <li>Expert facilitation by one of our User Experience designers</li>
-      <li>Empathy Mapping Session</li>
-      <li>Journey Mapping Session</li>
-  </article>
+  <div class="values">
+    <h2>What You&rsquo;ll Get</h2>
+    <div class="v">
+      <h4><i class="fa fa-user"></i> Empathy Map</h4>
+      <p>This powerful tool helps you understand what your customers need most and how to give it to them.</p>
+    </div>
+    <div class="v">
+      <h4><i class="fa fa-map-signs"></i> User Journey Map</h4>
+      <p>See how customers move through your sales funnel. This will help you identify ways to improve the experience. </p>
+    </div>
+    <div class="v">
+      <h4><i class="fa fa-check-square-o"></i> Action Plan</h4>
+      <p>A step-by-step guide for what to do next and how to use your new-found knowledge to build your business.</p>
+    </div>
+  </div>
+
+  <div class="closer">
+    <h2>Discover Your Best Customers</h2>
+    <p>Get the guide to learning who your best customers are, how they think, and the best ways to win them over.</p>
+    <a href="#request-form" class="btn btn-lg" rel="modal:open">Get the Guide Now</a>
+  </div>
+
+
+
+  <div id="request-form" class="modal">
+    <h2>Download the &ldquo;Know Your Customer&rdquo; Guide Now</h2>
+    <div class="progress">
+      You're half-way there&hellip;
+      <img src="/img/cdn/loading-50.gif" alt="Loading" class="status">
+    </div>
+    <form class="simple-contact" accept-charset="UTF-8" action="https://il258.infusionsoft.com/app/form/process/e44238b96c09370560b347eb61e633f9" class="infusion-form" method="POST">
+      <input name="inf_form_xid" type="hidden" value="e44238b96c09370560b347eb61e633f9" />
+      <input name="inf_form_name" type="hidden" value="Indicate interest" />
+      <input name="infusionsoft_version" type="hidden" value="1.48.0.48" />
+      <div class="group-half">
+          <label for="inf_field_FirstName">First Name</label>
+          <input class="infusion-field-input-container" id="inf_field_FirstName" name="inf_field_FirstName" type="text" />
+      </div>
+      <div class="group-half">
+          <label for="inf_field_LastName">Last Name</label>
+          <input class="infusion-field-input-container" id="inf_field_LastName" name="inf_field_LastName" type="text" />
+      </div>
+      <div class="group-full">
+          <label for="inf_field_Email">Your Best Email Address</label>
+          <input class="infusion-field-input-container" id="inf_field_Email" name="inf_field_Email" type="text" />
+      </div>
+      <div class="group-full">
+          <button type="submit">Send My Guide Right Away <i class="fa fa-arrow-right"></i></button>
+      </div>
+    </form>
+    <p class="no-spam"><i class="fa fa-lock"></i> We hate spam and promise to keep your email address private and safe.</p>
+  </div>
+
 
 
 </section>
