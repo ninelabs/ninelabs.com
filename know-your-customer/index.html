@@ -76,24 +76,27 @@ modal: true
       You're half-way there&hellip;
       <img src="/img/cdn/loading-50.gif" alt="Loading" class="status">
     </div>
-    <form accept-charset="UTF-8" action="https://il258.infusionsoft.com/app/form/process/e44238b96c09370560b347eb61e633f9" class="infusion-form" method="POST">
-      <input name="inf_form_xid" type="hidden" value="e44238b96c09370560b347eb61e633f9" />
-      <input name="inf_form_name" type="hidden" value="Indicate interest" />
-      <input name="infusionsoft_version" type="hidden" value="1.48.0.48" />
+    <form action="//app.ninelabs.com/proc.php" method="post" id="_form_14" accept-charset="utf-8" enctype="multipart/form-data">
+      <input type="hidden" name="f" value="14">
+      <input type="hidden" name="s" value="">
+      <input type="hidden" name="c" value="0">
+      <input type="hidden" name="m" value="0">
+      <input type="hidden" name="act" value="sub">
+      <input type="hidden" name="nlbox[]" value="1">
       <div class="group-half">
-          <label for="inf_field_FirstName">First Name</label>
-          <input class="infusion-field-input-container" id="inf_field_FirstName" name="inf_field_FirstName" type="text" />
+        <label for="firstname">Your First Name</label>
+        <input type="text" name="firstname" >
       </div>
       <div class="group-half">
-          <label for="inf_field_LastName">Last Name</label>
-          <input class="infusion-field-input-container" id="inf_field_LastName" name="inf_field_LastName" type="text" />
+        <label for="lastname">Your Last Name</label>
+        <input type="text" name="lastname">
       </div>
       <div class="group-full">
-          <label for="inf_field_Email">Your Best Email Address</label>
-          <input class="infusion-field-input-container" id="inf_field_Email" name="inf_field_Email" type="text" />
+        <label for="email">Your Best Email Address</label>
+        <input type="email" name="email" >
       </div>
       <div class="group-full">
-          <button type="submit">Download Now <i class="fa fa-arrow-right"></i></button>
+        <input type="submit" value="Download Now">
       </div>
     </form>
     <p class="no-spam"><i class="fa fa-lock"></i> We hate spam and promise to keep your email address private and safe.</p>

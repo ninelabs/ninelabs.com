@@ -566,12 +566,14 @@ figure {
   padding: 0;
 }
 
-
-.error404-img {
-  @extend %col-40;
+#thanks h1 small {
+  color: $gray;
 }
-.error404-message {
-  @extend %col-60;
+.error404-img, .thanks-img {
+  @extend %col-30;
+}
+.error404-message, .thanks-message {
+  @extend %col-70;
 }
 
 
