@@ -5,18 +5,19 @@ $input-padding: 5px 15px 8px;
   margin-bottom: 1em;
   padding: 1em;
   @include clearfix();
-  .group-half, .group-full {
-    padding-bottom:1em;
-    input {
-      width:100%;
-    }
+}
+
+.group-half, .group-full {
+  padding-bottom:1em;
+  input {
+    width:100%;
   }
-  .group-half {
-    @extend %col-50;
-  }
-  .group-full {
-    @extend %col-100;
-  }
+}
+.group-half {
+  @extend %col-50;
+}
+.group-full {
+  @extend %col-100;
 }
 
 
@@ -137,6 +138,3 @@ input[type="color"] {
 
   // [converter] extracted textarea& to textarea.form-control
 }
-
-
-

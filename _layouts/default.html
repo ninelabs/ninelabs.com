@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="/css/social-share-kit.css?v=2">
   {% endif %}
   <link rel="stylesheet" href="/css/styles.css?v=2">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <script src="/js/nav.js"></script>
   <script type="text/javascript" src="//use.typekit.com/gdv6slf.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -90,6 +90,9 @@
     }
     });
   </script>
+  {% endif %}
+  {% if page.modal %}
+  <script src="/js/jquery.modal.min.js" type="text/javascript" charset="utf-8"></script>
   {% endif %}
   {% if page.textrotate %}
   <script>
