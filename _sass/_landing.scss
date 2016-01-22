@@ -1,6 +1,32 @@
 /////
 // Landing Pages
 
+section.landing {
+  &>article {
+    @extend %col-100;
+  }
+}
+
+.ux-on-demand {
+
+  h2, h3 em {
+    color: $brand-primary;
+    font-style: normal;
+  }
+  aside {
+    h5 {
+      margin-bottom: 0;
+      &:first-of-type {
+        margin-top: 0;
+      }
+    }
+    p, ul {
+      margin-top: 0.5em;
+    }
+  }
+}
+
+
 .landing-page {
 
   header {
