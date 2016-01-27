@@ -72,22 +72,28 @@ section.landing {
   }
 
   .list {
-    @extend %col-40;
+    @extend %col-50;
     margin-bottom: 3em;
   }
   .bio {
-    @extend %col-60;
-    background-color: $gray-lighter;
-    img {
-      float: left;
-      margin-right:1em;
-      width:180px;
+    @extend %col-50;
+    background: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url(/img/people/team.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    h3,p  {
+      color: #eee;
+      font-weight: normal;
     }
   }
 
   .values {
     @extend %row;
     margin-bottom: 2em;
+    h2 {
+      @extend %col-100;
+    }
     h4 i {
       color: $brand-primary;
     }
