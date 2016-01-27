@@ -67,7 +67,7 @@ section.landing {
   .cta-button {
     @extend %col-40;
     .btn {
-      font-size: 1.5em;
+      font-size: 1.2em;
     }
   }
 
@@ -88,9 +88,6 @@ section.landing {
   .values {
     @extend %row;
     margin-bottom: 2em;
-    h2,h4 {
-      text-align: center;
-    }
     h4 i {
       color: $brand-primary;
     }
@@ -99,7 +96,6 @@ section.landing {
       border-right: $default-border;
       border-top: $default-border;
       min-height: 250px;
-      text-align: center;
       &:last-of-type {
         border-right: none;
       }
@@ -112,6 +108,7 @@ section.landing {
   .closer {
     font-size: 1.5em;
     margin-bottom: 5em;
+    margin-top: 3em;
     text-align: center;
   }
 
