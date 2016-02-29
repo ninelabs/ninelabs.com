@@ -27,7 +27,6 @@ pid: branding
   <hgroup>
     <h5>Option 1:</h5>
     <h2>Basic Identity Package and Usage Guidelines</h2>
-    <h4>Starting at $3600</h4>
   </hgroup>
 
   <ul>
@@ -66,7 +65,6 @@ pid: branding
   <hgroup>
     <h5>Option 2:</h5>
     <h2>Standard Identity Package and Usage Guidelines</h2>
-    <h4>Starting at $5400</h4>
   </hgroup>
 
   <ul>
@@ -110,7 +108,6 @@ pid: branding
   <hgroup>
     <h5>Option 3:</h5>
     <h2>Enhanced Identity Package and Usage Guidelines</h2>
-    <h4>Starting at $12,000</h4>
   </hgroup>
   <ul>
     <li>Strategic Planning and Discovery session(s) with your key stakeholders.
