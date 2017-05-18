@@ -7,17 +7,17 @@ redcarpet:
 exclude: [vendor]
 highlighter: pygments
 permalink: /notes/:title.html
-paginate: 100
-paginate_path: "/notes/page:num/"
+#paginate: 100
+#paginate_path: "/notes/page:num/"
 gems:
   - jekyll-redirect-from
 
-page_gen:
-  - data: 'jobs'
-    template: 'job-posting'
-    name: 'title'
-    dir: 'jobs'
-  - data: 'team'
-    template: 'team-member-bio'
-    name: 'name'
-    dir: 'about'
+#page_gen:
+#  - data: 'jobs'
+#    template: 'job-posting'
+#    name: 'title'
+#    dir: 'jobs'
+#  - data: 'team'
+#    template: 'team-member-bio'
+#    name: 'name'
+#    dir: 'about'

@@ -17,14 +17,6 @@
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.url }}/feed.xml">
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  {% if page.pid == 'notes' %}
-  <link rel="stylesheet" href="/css/social-share-kit.css?v=2">
-  {% endif %}
-  <link rel="stylesheet" href="/css/styles.css?v=2">
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <script src="/js/nav.js"></script>
-  <script type="text/javascript" src="//use.typekit.com/gdv6slf.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <script type="application/ld+json">
   {
     "@context" : "http://schema.org",
@@ -47,31 +39,14 @@
   <meta property="og:description" content="{% if page.pid == 'notes' %}{{ page.excerpt | strip_html }}{% else if page.meta-description %}{{ page.meta-description }}{% else %}Strategic Thinking To Help Your Business - Web, Mobile, Apps, and Ecommerce{% endif %}" />
   <meta property="og:type" content="article" />
   <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}https://ninelabs.com/img/post-it-wall.jpg{% endif %}" />
-  <script>
-    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','//connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1693495827574759');
-    fbq('track', "PageView");
-  </script>
-  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1693495827574759&ev=PageView&noscript=1"/></noscript>
+
 </head>
 <body id="lldfl"{% if page.pid %} class="{{ page.pid }}"{% endif %}>
-  <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=521078101401631";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 
   {% include global-navigation.html %}
 
   <main>
     <div>
-      {{ post.excerpt }}
       <div class="content">
         {{ content }}
       </div>
@@ -80,65 +55,5 @@
 
   {% include global-footer.html %}
 
-  <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-  <script src="/js/behavior.js"></script>
-  <script>var nav = responsiveNav(".nav-collapse");</script>
-  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-  {% if page.pid == 'styleguide' %}<script src="/js/styleguide.js"></script>{% endif %}
-  {% if page.pid == 'notes' %}
-  <script type="text/javascript" src="/js/social-share-kit.min.js"></script>
-  <script type="text/javascript">
-    SocialShareKit.init({
-      selector: '.ssk',
-      url: 'https://ninelabs.com{{ page.url }}',
-      text: "{{ page.title }}",
-      twitter: {
-        url: 'https://ninelabs.com{{ page.url }}',
-
-        via: '@ninelabs',
-    }
-    });
-  </script>
-  {% endif %}
-  {% if page.modal %}
-  <script src="/js/jquery.modal.min.js" type="text/javascript" charset="utf-8"></script>
-  {% endif %}
-  {% if page.textrotate %}
-  <script>
-  var keywords = $(".rotate").data("words").split('|');
-  var count = 1;
-  setInterval(function(){
-    $(".rotate").fadeOut(400, function(){
-      $(this).html(keywords[count]);
-      count++;
-      if(count == keywords.length)
-        count = 0;
-      $(this).fadeIn(400);
-    });
-  }, 5000);
-  </script>
-  {% endif %}
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-48977047-1', 'ninelabs.com');
-ga('send', 'pageview');
-</script>
-<script type="text/javascript">
-	var trackcmp_email = '';
-	var trackcmp = document.createElement("script");
-	trackcmp.async = true;
-	trackcmp.type = 'text/javascript';
-	trackcmp.src = '//trackcmp.net/visit?actid=648976785&e='+encodeURIComponent(trackcmp_email)+'&r='+encodeURIComponent(document.referrer)+'&u='+encodeURIComponent(window.location.href);
-	var trackcmp_s = document.getElementsByTagName("script");
-	if (trackcmp_s.length) {
-		trackcmp_s[0].parentNode.appendChild(trackcmp);
-	} else {
-		var trackcmp_h = document.getElementsByTagName("head");
-		trackcmp_h.length && trackcmp_h[0].appendChild(trackcmp);
-	}
-</script>
 </body>
 </html>
