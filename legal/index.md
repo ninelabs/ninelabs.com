@@ -2,14 +2,8 @@
 layout: default
 title: Documents and Agreements
 ---
-{% assign docs = (site.pages | sort: "weight" | where: "layout" , "docs" ) %}
-<section id="docs">
-  <header>
-    <hgroup>
-      <h1>Mumbo Jumbo</h1>
-      <h4>Legal documents we use for our client and employee/contractor relationships. These documents are supplied as a reference only.</h4>
-    </hgroup>
-  </header>
+#Mumbo Jumbo
+Legal documents we use for our client and employee/contractor relationships. These documents are supplied as a reference only.
 
   {% for post in docs %}
   <div class="post-excerpt-container">
@@ -22,5 +16,3 @@ title: Documents and Agreements
     </div>
   </div>
   {% endfor %}
-
-</section>
