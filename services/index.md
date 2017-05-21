@@ -34,7 +34,7 @@ Is the app useful, allowing users to accomplish their goals swiftly and easily? 
 
 We believe that a well-designed interface has an extraordinary impact on a user’s overall experience, and we pledge to deliver such an interface on time, every time. You can trust us to create stunning, functional applications that are highly usable and personalized to your organization, because we know that no two companies are the same.
 
-[Paper Prototyping](/services/paper-prototyping/) //
+[Paper Prototyping](/services/prototyping/) //
 [User Interface Wireframing](/services/wireframes) //
 [Interactive Prototyping](/services/prototyping) //
 [Guerrilla User Testing](/services/user-testing)
@@ -49,7 +49,7 @@ That’s why so many great ideas are never brought to life. The best way to move
 
 If you have an application you’d like to take to the next level, we would love the opportunity to partner with you in bringing your idea to life. Our team of designers will work with you to build a prototype that’s user-friendly and functional, and it will look great, too!
 
-[Paper Prototyping](/services/paper-prototyping/) //
+[Paper Prototyping](/services/prototyping/) //
 [User Interface Wireframing](/services/wireframes) //
 [Interactive Prototyping](/services/prototyping) //
 [Guerrilla User Testing](/services/user-testing)
