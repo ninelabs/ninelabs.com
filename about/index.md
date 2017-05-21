@@ -14,9 +14,9 @@ InterContinental Hotels Group, The City of Atlanta, Committee to Protect Journal
 ## We’re Different By Design
 In addition to our full-time staff at Atlanta HQ and regular presence in New York City, we retain a deep network of consultants, researchers, designers, engineers, developers, and analysts. Our extended team includes some of the most talented people in the industry, and when needed, we bring them in to get your project done right the first time.
 
-> “The value they bring to a project is immeasurable. A very professional group, that is always focused on asking the right question, digging into the core of the problem, and coming up with excellent strategic solutions.” Matt Malament – City of Atlanta
+> “The value they bring to a project is immeasurable. A very professional group, that is always focused on asking the right question, digging into the core of the problem, and coming up with excellent strategic solutions.” _Matt Malament – City of Atlanta_
 
-> “It can be difficult for a small startup team to put together a cohesive strategy. We brought Nine Labs in for a project that had a big impact on our company. The team was great to work with—efficient, communicative, and invested in our success.” Everett Steele - CEO, Kanga
+> “It can be difficult for a small startup team to put together a cohesive strategy. We brought Nine Labs in for a project that had a big impact on our company. The team was great to work with—efficient, communicative, and invested in our success.” _Everett Steele - CEO, Kanga_
 
 # Our Team
 

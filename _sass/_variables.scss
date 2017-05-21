@@ -38,7 +38,7 @@ $headings-color:        #111 !default;
 $text-color:            #444 !default;
 $nav-color:             transparentize($text-color,.1) !default;
 $nav-hover-color:       lighten($nav-color, .3) !default;
-$link-color:            darken($text-color,.5) !default;
+$link-color:            blue !default;
 $link-hover-color:      $brand-primary !default;
 
 
@@ -46,8 +46,8 @@ $link-hover-color:      $brand-primary !default;
 ////////////////////////////////////////////
 // Typography
 
-$font-family-sans-serif:  "canada-type-gibson",'helvetica neue',helvetica,sans-serif;
-$font-family-serif:       "freight-text-pro","georgia",serif;
+$font-family-sans-serif:  helvetica,sans-serif;
+$font-family-serif:       "georgia",serif;
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
 $font-family-base:        $font-family-sans-serif !default;
 
